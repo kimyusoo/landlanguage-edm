@@ -1,7 +1,7 @@
 import Link from "next/link";
-import { Card, SectionTitle, PolicyStatusBadge, DemoTag, ScoreBar, Badge } from "@/components/ui";
+import { Card, SectionTitle, PolicyStatusBadge, DemoTag, ScoreBar } from "@/components/ui";
 import * as data from "@/lib/data";
-import { formatDate } from "@/lib/utils";
+import { formatDate, resolveSourceUrl } from "@/lib/utils";
 
 export default async function NewsPage() {
   const clusters = (await data.listClusters()).sort(
@@ -45,13 +45,14 @@ export default async function NewsPage() {
               <div className="shrink-0 text-right text-xs text-slate-400">
                 <div>{formatDate(c.issueDate, true)}</div>
                 <div className="mt-1">관련기사 {c.articleCount}건</div>
-                {c.primarySourceUrl ? (
-                  <a href={c.primarySourceUrl} target="_blank" rel="noreferrer" className="mt-1 inline-block text-navy-premium hover:underline">
-                    공식자료
-                  </a>
-                ) : (
-                  <Badge tone="slate">공식자료 없음</Badge>
-                )}
+                <a
+                  href={resolveSourceUrl(c.primarySourceUrl, c.headline, "all")}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="mt-1 inline-block text-navy-premium hover:underline"
+                >
+                  원문·관련보도
+                </a>
               </div>
             </div>
           </Card>

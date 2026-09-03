@@ -6,6 +6,7 @@ import type {
 } from "@/types";
 import { POLICY_STATUS_LABEL, type PolicyStatus } from "@/types";
 import type { ArticleRef } from "./build";
+import { resolveSourceUrl } from "@/lib/utils";
 
 // ─────────────────────────────────────────────────────────────────────────────
 // EDM 렌더러 — stitch_edm / DESIGN.md "Estate Letter Editorial" 디자인 시스템 적용.
@@ -127,15 +128,16 @@ function utm(url: string, nl: Newsletter, content: string): string {
 }
 
 // ── 기사 링크 리스트 (원문 요약 + 클릭 시 원문 이동) ────────────────────────
-function articleLinks(arts: ArticleRef[] | undefined, nl: Newsletter, withUtm: boolean): string {
-  const list = (arts ?? []).filter((a) => a.url);
+function articleLinks(arts: ArticleRef[] | undefined, _nl: Newsletter, _withUtm: boolean): string {
+  const list = arts ?? [];
   if (!list.length) return "";
   return `<div class="artlist">
     ${list
       .map((a) => {
-        const href = withUtm ? utm(a.url, nl, "article") : a.url;
+        // 실제 원문 URL(경로 포함)이면 그대로, 데모(홈페이지)면 제목 일치 기사 검색으로 이동
+        const href = resolveSourceUrl(a.url, a.title, "news");
         return `<a class="art" href="${esc(href)}" target="_blank" rel="noreferrer noopener">
-          <div class="art-meta">${esc(a.publisher)}${a.publishedAt ? ` · ${ymd(a.publishedAt)}` : ""}<span class="art-go">원문 ${ico.ext}</span></div>
+          <div class="art-meta">${esc(a.publisher)}${a.publishedAt ? ` · ${ymd(a.publishedAt)}` : ""}<span class="art-go">기사 보기 ${ico.ext}</span></div>
           <div class="art-title">${esc(a.title)}</div>
           <div class="art-ex">${esc(clampText(a.excerpt, 110))}</div>
         </a>`;
@@ -243,11 +245,13 @@ export function renderEmailHtml(
           <span class="val">${esc(clampText((m.impactLabel as string) || "", 64))}</span>
         </div>
         <div class="srcrow">
-          ${
-            official
-              ? `<a class="srcbtn" href="${esc(link(official, "policy_official"))}" target="_blank" rel="noreferrer noopener">공식 원문보기 ${ico.arrow}</a>`
-              : `<span class="srcbtn srcbtn-off">공식자료 링크 없음</span>`
-          }
+          <a class="srcbtn" href="${esc(
+            resolveSourceUrl(
+              official,
+              `${(m.agency as string) || ""} ${stripNo(it.headline)}`,
+              "all",
+            ),
+          )}" target="_blank" rel="noreferrer noopener">원문·관련보도 보기 ${ico.arrow}</a>
           ${
             m.officialDocUrl
               ? `<a class="srcbtn ghost" href="${esc(m.officialDocUrl as string)}" target="_blank" rel="noreferrer noopener">첨부문서</a>`
@@ -271,11 +275,9 @@ export function renderEmailHtml(
           ${statusPill(m.status as PolicyStatus)} ${verifyTag(it.verification)}
           <span class="ncard-cnt">관련기사 ${String((m.articleCount as number) ?? (arts?.length ?? 0))}건</span>
         </div>
-        ${
-          primary
-            ? `<a class="ncard-title" href="${esc(link(primary, "news_headline"))}" target="_blank" rel="noreferrer noopener">${esc(headline)} <span class="ncard-go">${ico.ext}</span></a>`
-            : `<div class="ncard-title">${esc(headline)}</div>`
-        }
+        <a class="ncard-title" href="${esc(
+          resolveSourceUrl(primary, headline, "news"),
+        )}" target="_blank" rel="noreferrer noopener">${esc(headline)} <span class="ncard-go">${ico.ext}</span></a>
         <p class="ncard-ex">${esc(clampText((m.whatHappened as string) || it.body, 150))}</p>
         ${articleLinks(arts, nl, withUtm)}
       </article>`;
@@ -298,11 +300,9 @@ export function renderEmailHtml(
       return `<div class="tile">
         <span class="tile-lbl">${esc(it.headline)}</span>
         <div class="tile-val"><b>${esc(valMain)}</b>${deltaTxt ? `<span style="color:${deltaColor}">${deltaTxt}</span>` : ""}</div>
-        <span class="tile-src">${esc(it.sourceLabel || "")}${
-          it.sourceUrl
-            ? ` · <a href="${esc(it.sourceUrl)}" target="_blank" rel="noreferrer noopener">출처</a>`
-            : ""
-        }</span>
+        <span class="tile-src">${esc(it.sourceLabel || "")} · <a href="${esc(
+          resolveSourceUrl(it.sourceUrl, it.headline, "all"),
+        )}" target="_blank" rel="noreferrer noopener">출처</a></span>
       </div>`;
     })
     .join("");

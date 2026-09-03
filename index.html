@@ -478,11 +478,17 @@ function statusPill(s){
 const needsCheckPill = `<span class="pill" style="background:#fff;color:#9b4500;border-color:#ffb68e">확인 필요</span>`;
 const dots = n => '●'.repeat(n)+'○'.repeat(5-n);
 
+// DEMO 링크: 데모 기사는 실제 URL 이 없으므로, 클릭 시 "그 제목·내용과 일치하는" 기사 목록으로
+// 이동하도록 네이버 뉴스 검색(정확 구문)으로 연결합니다. 실제 운영에서는 수집된 원문 URL 로 대체됩니다.
+const cleanForSearch = s => (s||'').replace(/\s*\(DEMO DATA\)\s*$/,'').replace(/["'“”…]/g,' ').replace(/\s+/g,' ').trim();
+const naverNews = q => 'https://search.naver.com/search.naver?where=news&sm=tab_jum&query=' + encodeURIComponent(cleanForSearch(q));
+const naverAll  = q => 'https://search.naver.com/search.naver?query=' + encodeURIComponent(cleanForSearch(q));
+
 function articleLinks(arts){
   if(!arts || !arts.length) return '';
   return `<div class="artlist">${arts.map(a=>`
-    <a class="art" href="${esc(a.url)}" target="_blank" rel="noreferrer noopener">
-      <div class="art-meta">${esc(a.publisher)} · ${esc(a.date.replace(/-/g,'.'))}<span class="art-go">원문 ${ICO.ext}</span></div>
+    <a class="art" href="${esc(naverNews(a.title))}" target="_blank" rel="noreferrer noopener">
+      <div class="art-meta">${esc(a.publisher)} · ${esc(a.date.replace(/-/g,'.'))}<span class="art-go">기사 보기 ${ICO.ext}</span></div>
       <div class="art-title">${esc(a.title)}</div>
       <div class="art-ex">${esc(clamp(a.excerpt,110))}</div>
     </a>`).join('')}</div>`;
@@ -517,9 +523,7 @@ function renderEDM(typeKey){
       <h4 class="pcard-title">${esc(it.oneLiner)}</h4>
       <div class="pcard-bullets">${it.bullets.map(b=>`<div class="bl"><span class="bl-ic" style="color:${ag.dot}">${ICO.check}</span><p>${esc(b)}</p></div>`).join('')}</div>
       <div class="pcard-impact"><span class="lbl">전문가 영향도 분석</span><span class="val">${esc(clamp(it.impact,64))}</span></div>
-      <div class="srcrow">${it.officialUrl
-        ? `<a class="srcbtn" href="${esc(it.officialUrl)}" target="_blank" rel="noreferrer noopener">공식 원문보기 ${ICO.arrow}</a>`
-        : `<span class="srcbtn" style="background:#eaedff;color:#757682">공식자료 링크 없음</span>`}</div>
+      <div class="srcrow"><a class="srcbtn" href="${esc(naverAll((it.agency?it.agency+' ':'')+cleanTitle(it.oneLiner)))}" target="_blank" rel="noreferrer noopener">원문·관련보도 보기 ${ICO.arrow}</a></div>
       ${articleLinks(it.articles.slice(0,3))}
     </article>`;
   }).join('');
@@ -527,7 +531,7 @@ function renderEDM(typeKey){
   const news = ISSUES.slice(0,K.news).map((it,idx)=>`
     <article class="ncard">
       <div class="ncard-head">${statusPill(it.status)} ${needsCheckPill}<span class="ncard-cnt">관련기사 ${it.articles.length}건</span></div>
-      <a class="ncard-title" href="${esc(it.officialUrl||it.articles[0].url)}" target="_blank" rel="noreferrer noopener">${esc(it.headline.replace(/\s*\(DEMO DATA\)$/,''))} <span class="go">${ICO.ext}</span></a>
+      <a class="ncard-title" href="${esc(naverNews(it.headline))}" target="_blank" rel="noreferrer noopener">${esc(cleanTitle(it.headline))} <span class="go">${ICO.ext}</span></a>
       <p class="ncard-ex">${esc(clamp(it.whatHappened,150))}</p>
       ${articleLinks(it.articles.slice(0,3))}
     </article>`).join('');
@@ -537,7 +541,7 @@ function renderEDM(typeKey){
     const dc = s.mom==null||s.mom===0?'#444651':(s.mom>0?'#dc2626':'#2563eb');
     return `<div class="tile"><span class="tile-lbl">${esc(s.label)}</span>
       <div class="tile-val"><b>${esc(s.main)}</b>${d?`<span style="color:${dc}">${d}</span>`:''}</div>
-      <span class="tile-src">기준일 ${esc(s.asOf)} · <a href="${esc(s.url)}" target="_blank" rel="noreferrer noopener">출처</a></span></div>`;
+      <span class="tile-src">기준일 ${esc(s.asOf)} · <a href="${esc(naverAll(s.label))}" target="_blank" rel="noreferrer noopener">출처</a></span></div>`;
   }).join('');
   const chartStat = STATS.find(s=>s.history);
   const chart = chartStat ? `<div class="chart"><div class="chart-head"><span>${esc(chartStat.label)} 추이</span><span class="chart-src">한국부동산원 · 서울부동산정보광장</span></div>${miniBars(chartStat.history)}</div>` : '';

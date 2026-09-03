@@ -2,6 +2,7 @@ import { Card, CardHeader, SectionTitle, VerificationBadge, DemoTag } from "@/co
 import { MiniLine, MiniBar } from "@/components/charts";
 import * as data from "@/lib/data";
 import { formatValue, fmtDelta } from "@/lib/edm/build";
+import { resolveSourceUrl } from "@/lib/utils";
 
 export default async function StatisticsPage() {
   const stats = await data.listStatistics();
@@ -43,7 +44,7 @@ export default async function StatisticsPage() {
                   <span>기준일 {s.asOfDate}</span>
                   <span className="flex items-center gap-1.5">
                     <DemoTag />
-                    <a href={s.sourceUrl} target="_blank" rel="noreferrer" className="text-navy-premium hover:underline">
+                    <a href={resolveSourceUrl(s.sourceUrl, s.label, "all")} target="_blank" rel="noreferrer" className="text-navy-premium hover:underline">
                       데이터 출처
                     </a>
                   </span>

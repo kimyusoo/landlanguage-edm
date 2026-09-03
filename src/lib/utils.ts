@@ -40,3 +40,36 @@ export function scoreColor(score: number): string {
   if (score >= 55) return "text-amber-600";
   return "text-slate-500";
 }
+
+/**
+ * DEMO 데이터는 실제 원문 URL 이 없으므로, "제목·내용이 일치하는" 기사/자료 목록으로
+ * 이동하도록 네이버 검색 링크를 만듭니다. 실제 운영에서는 수집된 원문 URL 을 그대로 사용합니다.
+ */
+export function sourceSearchUrl(query: string, kind: "news" | "all" = "news"): string {
+  const q = (query ?? "")
+    .replace(/\s*\(DEMO DATA\)\s*$/, "")
+    .replace(/["'“”…]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+  const base = "https://search.naver.com/search.naver";
+  return kind === "news"
+    ? `${base}?where=news&sm=tab_jum&query=${encodeURIComponent(q)}`
+    : `${base}?query=${encodeURIComponent(q)}`;
+}
+
+/** 실제 원문 URL(경로 포함)이면 그대로, 홈페이지/데모 URL 이면 검색 링크로 폴백 */
+export function resolveSourceUrl(
+  url: string | null | undefined,
+  fallbackQuery: string,
+  kind: "news" | "all" = "news",
+): string {
+  try {
+    const u = new URL(url ?? "");
+    if (u.pathname.replace(/\/+$/, "").length > 0 && !/example/.test(u.pathname)) {
+      return url as string;
+    }
+  } catch {
+    /* not a valid absolute URL */
+  }
+  return sourceSearchUrl(fallbackQuery, kind);
+}

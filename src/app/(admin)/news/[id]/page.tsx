@@ -11,7 +11,7 @@ import {
   Badge,
 } from "@/components/ui";
 import * as data from "@/lib/data";
-import { formatDate, dots } from "@/lib/utils";
+import { formatDate, dots, resolveSourceUrl } from "@/lib/utils";
 import { PERSONA_LABEL, type Persona } from "@/types";
 
 const PERSONA_ORDER: Persona[] = ["none", "onePlus", "multi", "buyer", "seller", "landlord", "tenant"];
@@ -150,7 +150,7 @@ export default async function ClusterDetail({ params }: { params: { id: string }
                 <div className="mt-2 text-xs text-slate-400">
                   {p.agency} · 발표 {formatDate(p.announcedAt)} · 시행 {p.effectiveAt ? formatDate(p.effectiveAt) : "미정"}
                   {" · "}
-                  <a href={p.officialUrl} target="_blank" rel="noreferrer" className="text-navy-premium hover:underline">원문보기</a>
+                  <a href={resolveSourceUrl(p.officialUrl, `${p.agency} ${p.title}`, "all")} target="_blank" rel="noreferrer" className="text-navy-premium hover:underline">원문·관련보도 보기</a>
                 </div>
               </li>
             ))}
@@ -166,7 +166,7 @@ export default async function ClusterDetail({ params }: { params: { id: string }
                   <Badge tone={a.tier === "A" ? "navy" : "gold"}>{a.tier}</Badge>
                   <span className="text-xs text-slate-400">{a.publisher} · {formatDate(a.publishedAt, true)}</span>
                 </div>
-                <a href={a.url} target="_blank" rel="noreferrer" className="mt-1 block text-sm font-medium text-navy hover:underline">
+                <a href={resolveSourceUrl(a.url, a.title, "news")} target="_blank" rel="noreferrer" className="mt-1 block text-sm font-medium text-navy hover:underline">
                   {a.title}
                 </a>
                 <p className="mt-1 text-sm text-slate-600">{a.summary}</p>

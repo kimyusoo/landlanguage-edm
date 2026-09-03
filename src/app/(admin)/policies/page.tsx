@@ -1,6 +1,6 @@
 import { Card, SectionTitle, PolicyStatusBadge, VerificationBadge, DemoTag } from "@/components/ui";
 import * as data from "@/lib/data";
-import { formatDate } from "@/lib/utils";
+import { formatDate, resolveSourceUrl } from "@/lib/utils";
 import { POLICY_STATUS_LABEL } from "@/types";
 
 export default async function PoliciesPage() {
@@ -51,17 +51,14 @@ export default async function PoliciesPage() {
                 <div>{p.agency}</div>
                 <div>발표일 {formatDate(p.announcedAt)}</div>
                 <div>시행일 {p.effectiveAt ? formatDate(p.effectiveAt) : "미정"}</div>
-                <a href={p.officialUrl} target="_blank" rel="noreferrer" className="inline-block text-navy-premium hover:underline">
-                  원문보기
+                <a
+                  href={resolveSourceUrl(p.officialUrl, `${p.agency} ${p.title}`, "all")}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-block text-navy-premium hover:underline"
+                >
+                  원문·관련보도 보기
                 </a>
-                {p.officialDocUrl && (
-                  <>
-                    {" · "}
-                    <a href={p.officialDocUrl} target="_blank" rel="noreferrer" className="text-navy-premium hover:underline">
-                      문서
-                    </a>
-                  </>
-                )}
               </div>
             </div>
           </Card>
