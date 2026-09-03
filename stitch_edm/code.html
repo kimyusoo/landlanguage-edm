@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+
+<html lang="ko"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><title>홍길동부동산 리포트</title><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=notoSans:wght@100..900&family=plusJakartaSans:wght@100..900&display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "secondary-container": "#fd8a42", "on-primary-container": "#90a8ff", "tertiary": "#00312d", "surface-tint": "#4059aa", "tertiary-container": "#004944", "outline-variant": "#c5c5d3", "surface-dim": "#d2d9f4", "inverse-surface": "#283044", "on-primary-fixed-variant": "#264191", "surface-container-highest": "#dae2fd", "on-surface-variant": "#444651", "on-tertiary": "#ffffff", "surface-container": "#eaedff", "surface-container-high": "#e2e7ff", "tertiary-fixed": "#9cf2e8", "surface-container-low": "#f2f3ff", "on-error": "#ffffff", "primary": "#00236f", "primary-fixed": "#dce1ff", "secondary-fixed-dim": "#ffb68e", "on-primary": "#ffffff", "outline": "#757682", "secondary": "#9b4500", "on-background": "#131b2e", "on-secondary": "#ffffff", "on-surface": "#131b2e", "inverse-primary": "#b6c4ff", "error": "#ba1a1a", "primary-fixed-dim": "#b6c4ff", "surface": "#faf8ff", "primary-container": "#1e3a8a", "error-container": "#ffdad6", "surface-variant": "#dae2fd", "inverse-on-surface": "#eef0ff", "on-error-container": "#93000a", "secondary-fixed": "#ffdbca", "tertiary-fixed-dim": "#80d5cb", "on-primary-fixed": "#00164e", "on-tertiary-fixed-variant": "#00504a", "surface-bright": "#faf8ff", "surface-container-lowest": "#ffffff", "on-secondary-container": "#682c00", "on-secondary-fixed-variant": "#763300", "background": "#faf8ff", "on-tertiary-fixed": "#00201d", "on-tertiary-container": "#65bbb1", "on-secondary-fixed": "#331200" }, borderRadius: { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" }, spacing: { "gutter-default": "1rem", "container-kakaotalk": "400px", "container-newsletter": "600px", "space-md": "1rem", "space-xxl": "3rem", "margin-mobile": "1rem", "space-sm": "0.75rem", "space-xl": "2rem", "space-lg": "1.5rem", "space-xs": "0.5rem", "margin-desktop": "1.5rem", "space-xxs": "0.25rem" }, fontFamily: { "stat-display": ["plusJakartaSans"], "body-lg": ["notoSans"], "label-md": ["notoSans"], "headline-lg-mobile": ["plusJakartaSans"], "headline-lg": ["plusJakartaSans"], "headline-md": ["plusJakartaSans"], "body-sm": ["notoSans"], "label-lg": ["notoSans"], "headline-xl-mobile": ["plusJakartaSans"], "headline-xl": ["plusJakartaSans"], "body-md": ["notoSans"] }, fontSize: { "stat-display": ["28px", { "lineHeight": "34px", "letterSpacing": "-0.02em", "fontWeight": "800" }], "body-lg": ["16px", { "lineHeight": "26px", "letterSpacing": "-0.005em", "fontWeight": "500" }], "label-md": ["11px", { "lineHeight": "16px", "letterSpacing": "0.04em", "fontWeight": "600" }], "headline-lg-mobile": ["20px", { "lineHeight": "28px", "letterSpacing": "-0.01em", "fontWeight": "700" }], "headline-lg": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.015em", "fontWeight": "700" }], "headline-md": ["18px", { "lineHeight": "26px", "letterSpacing": "-0.01em", "fontWeight": "700" }], "body-sm": ["12px", { "lineHeight": "18px", "fontWeight": "400" }], "label-lg": ["13px", { "lineHeight": "18px", "letterSpacing": "0.02em", "fontWeight": "700" }], "headline-xl-mobile": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.015em", "fontWeight": "800" }], "headline-xl": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "800" }], "body-md": ["14px", { "lineHeight": "22px", "letterSpacing": "-0.005em", "fontWeight": "400" }] } } } };</script></head><body class="bg-surface font-body-md text-on-surface flex flex-col min-h-screen"><header class="fixed top-0 w-full z-50 pt-safe bg-surface/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 px-gutter-default flex items-center justify-between"><div class="flex items-center gap-space-xs"><div class="flex flex-col"><div class="flex items-center gap-1.5"><span class="font-headline-md text-headline-md text-primary tracking-tight">홍길동부동산</span><span class="font-label-md text-label-md px-1.5 py-0.5 rounded bg-surface-container-highest text-primary font-bold">공인중개</span></div><span class="font-label-md text-label-md text-on-surface-variant leading-none">Newsletter Feed</span></div></div><div class="flex items-center gap-space-xs"><a aria-label="전화 문의" class="w-11 h-11 flex items-center justify-center rounded-full text-primary hover:bg-surface-container transition-colors" href="tel:02-1234-5678"><span class="material-symbols-outlined text-[20px]">call</span></a><button aria-label="카카오톡 공유" class="w-11 h-11 flex items-center justify-center rounded-full text-on-surface-variant hover:bg-surface-container transition-colors"><span class="material-symbols-outlined text-[20px]">share</span></button><img alt="Profile" class="w-8 h-8 rounded-full object-cover ml-1" src="https://lh3.googleusercontent.com/aida/AEtjO1V3ncHOvwVVYj5epFepg2GonoIHsPOk5d4m57PZX2RoBzR_oF_nVS0wLm_Aa36dOID8d3Td5G-A2bdupBMEJGReAaJnGi9Y1i5QZc2_ixKeB76kUucqCQpNIAmtvl6XlwAIiZfzTnMl6DPgKlVJEdptDePWg6qWqrLjP1Tv6_70w8CNLCz59y5CvewVUqfxhxKJRhhAW1RRBsXnwJ8gwQgfZcjEZOnX4Ju2hJTcflkF4q9dazlrgHoJKovE"/></div></div></header><main class="flex flex-col relative w-full pt-16 pb-32 bg-surface min-h-screen"><div class="flex flex-col w-full">
+<!-- Top Keynote Quote Card & Volume Indicator -->
+<section class="px-gutter-default pt-space-md pb-space-sm">
+<div class="flex items-center justify-between mb-space-xs">
+<div class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded bg-surface-container-highest text-primary">
+<span class="material-symbols-outlined text-[14px]">auto_awesome</span>
+<span class="font-label-md text-label-md tracking-wider">WEEKLY BRIEFING · 2025년 5월 1주차</span>
+</div>
+<span class="font-label-md text-label-md text-on-surface-variant font-medium">Vol. 42</span>
+</div>
+<div class="relative overflow-hidden rounded-xl bg-primary-container text-on-primary p-space-lg shadow-md">
+<div class="absolute -right-3 -top-3 w-28 h-28 rounded-full bg-surface-container-highest/10 pointer-events-none blur-xl"></div>
+<div class="flex items-start gap-space-xs mb-space-xs">
+<span class="font-headline-xl text-headline-xl leading-none text-secondary-container opacity-90 font-serif">“</span>
+<h2 class="font-headline-lg-mobile text-headline-lg-mobile text-on-primary tracking-tight leading-snug pt-1">
+          AI가 중개업자를 대체하지는 못합니다.<br/>
+<span class="text-secondary-fixed">AI를 잘 아는 중개사가</span><br/>
+          AI를 모르는 중개사를 대체합니다.
+        </h2>
+</div>
+<div class="mt-space-md pt-space-sm border-t-0 bg-primary/40 rounded-lg p-space-sm flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary-fixed text-[20px] shrink-0">insights</span>
+<p class="font-body-sm text-body-sm text-on-primary leading-tight font-medium">
+          빅데이터 & AI 기반 부동산 가치 분석 및 정밀 맞춤 중개 서비스
+        </p>
+</div>
+</div>
+</section>
+<!-- Editorial Hero Image with Insight Badge -->
+<section class="px-gutter-default py-space-xs">
+<div class="relative w-full h-44 rounded-xl overflow-hidden shadow-sm">
+<div class="w-full h-full bg-cover bg-center" data-alt="High-angle cinematic view of upscale modern Seoul high-rise residential district in Songpa with lush parklands, clean architectural lines, morning soft sunrays, warm editorial color grading, crisp professional financial magazine style" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCR3-V_eqA98FQQsE1SgzILCdEpowje8tpNvmuyg_Z6WHbeLfsz1yNlWIBR2C6uwOR5tV7ELozFgHWYdx_-qpbs5zyi-lQthY6zZ9rBa62vWqfWy-oJKzNbuCd6FwGu2VdLyqlFIfYPW0Xgh8O5vVtpFxPdaAnTwqdGtHwSFUq909PRCifECZ5s5IhVialjZY4zuZ80ELnTGz8NIiX5d_PiW2QXhQShtgt3cXh6Nkdq4IVURwdCo_ebhQ')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/20 to-transparent flex flex-col justify-end p-space-md">
+<span class="inline-flex items-center gap-1 w-max px-2 py-0.5 rounded bg-secondary text-on-secondary font-label-md text-label-md uppercase mb-1">Market Radar</span>
+<h3 class="font-headline-md text-headline-md text-on-primary font-bold">2025 상반기 부동산 정책 & 시장 격변기 대응 전략</h3>
+</div>
+</div>
+</section>
+<!-- Key Government Policy Briefings (3대 부처 핵심 리포트) -->
+<section class="px-gutter-default py-space-sm">
+<div class="flex items-center justify-between mb-space-sm">
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-primary text-[20px]">account_balance</span>
+<h3 class="font-headline-md text-headline-md text-on-surface">정부 3대 부처 핵심 브리핑</h3>
+</div>
+<span class="font-label-md text-label-md text-on-surface-variant">공식 고시 종합</span>
+</div>
+<!-- Policy Cards List -->
+<div class="flex flex-col gap-space-sm">
+<!-- 1. 국토교통부 -->
+<article class="rounded-xl bg-surface-container-lowest p-space-md shadow-sm">
+<div class="flex items-center justify-between mb-space-xs">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded bg-surface-container-high text-primary font-label-md text-label-md font-bold">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+            국토교통부 고시
+          </span>
+<span class="font-label-md text-label-md text-on-surface-variant">2025.04.28 시행</span>
+</div>
+<h4 class="font-headline-md text-headline-md text-on-surface font-bold mb-space-xs leading-snug">
+          수도권 신규 정비사업 패스트트랙 & 안전진단 기준 완화
+        </h4>
+<div class="rounded-lg bg-surface-container-low p-space-sm flex flex-col gap-1.5 mb-space-xs">
+<div class="flex items-start gap-1.5">
+<span class="material-symbols-outlined text-primary text-[15px] shrink-0 mt-0.5">check_circle</span>
+<p class="font-body-sm text-body-sm text-on-surface leading-tight">
+<strong>재건축 패스트트랙 도입:</strong> 안전진단 통과 전 정비구역 입안 동시 진행 가능
+            </p>
+</div>
+<div class="flex items-start gap-1.5">
+<span class="material-symbols-outlined text-primary text-[15px] shrink-0 mt-0.5">check_circle</span>
+<p class="font-body-sm text-body-sm text-on-surface leading-tight">
+<strong>구조안전성 비중 완화:</strong> 주거환경·설비노후도 가중치 대폭 상향(30%→45%)
+            </p>
+</div>
+<div class="flex items-start gap-1.5">
+<span class="material-symbols-outlined text-primary text-[15px] shrink-0 mt-0.5">check_circle</span>
+<p class="font-body-sm text-body-sm text-on-surface leading-tight">
+<strong>송파·강남권 영향:</strong> 준공 30년 초과 노후 단지 사업 기간 평균 2.5년 단축 예상
+            </p>
+</div>
+</div>
+<div class="flex items-center justify-between px-2 py-1 rounded bg-surface-container text-on-surface-variant">
+<span class="font-label-md text-label-md font-semibold text-primary">전문가 영향도 분석</span>
+<span class="font-label-md text-label-md font-bold text-secondary">사업 추진 가속화 (호재)</span>
+</div>
+</article>
+<!-- 2. 기획재정부 -->
+<article class="rounded-xl bg-surface-container-lowest p-space-md shadow-sm">
+<div class="flex items-center justify-between mb-space-xs">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded bg-secondary-fixed text-on-secondary-fixed font-label-md text-label-md font-bold">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+            기획재정부 발표
+          </span>
+<span class="font-label-md text-label-md text-on-surface-variant">금융위 합동 공표</span>
+</div>
+<h4 class="font-headline-md text-headline-md text-on-surface font-bold mb-space-xs leading-snug">
+          다주택자 양도세 중과 유예 연장 및 주담대 금리 추이
+        </h4>
+<div class="rounded-lg bg-surface-container-low p-space-sm flex flex-col gap-1.5 mb-space-xs">
+<div class="flex items-start gap-1.5">
+<span class="material-symbols-outlined text-secondary text-[15px] shrink-0 mt-0.5">trending_down</span>
+<p class="font-body-sm text-body-sm text-on-surface leading-tight">
+<strong>양도소득세 중과 유예:</strong> 실거주 1주택 갈아타기 및 임대사업자 퇴로 안정화 지속
+            </p>
+</div>
+<div class="flex items-start gap-1.5">
+<span class="material-symbols-outlined text-secondary text-[15px] shrink-0 mt-0.5">trending_down</span>
+<p class="font-body-sm text-body-sm text-on-surface leading-tight">
+<strong>스트레스 DSR 2단계:</strong> 수도권 주택담보대출 가산금리 적용에 따른 차입 한도 관리 필수
+            </p>
+</div>
+</div>
+<div class="flex items-center justify-between px-2 py-1 rounded bg-surface-container text-on-surface-variant">
+<span class="font-label-md text-label-md font-semibold text-primary">핵심 전략</span>
+<span class="font-label-md text-label-md font-bold text-primary">보유세 기산일 이전 포트폴리오 재편</span>
+</div>
+</article>
+<!-- 3. 국세청 -->
+<article class="rounded-xl bg-surface-container-lowest p-space-md shadow-sm">
+<div class="flex items-center justify-between mb-space-xs">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded bg-tertiary-fixed text-on-tertiary-fixed font-label-md text-label-md font-bold">
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary"></span>
+            국세청 세무 가이드
+          </span>
+<span class="font-label-md text-label-md text-on-surface-variant">실무 지침</span>
+</div>
+<h4 class="font-headline-md text-headline-md text-on-surface font-bold mb-space-xs leading-snug">
+          상속·증여세 절세 체크리스트 및 1세대 1주택 비과세
+        </h4>
+<div class="rounded-lg bg-surface-container-low p-space-sm flex flex-col gap-1.5 mb-space-xs">
+<div class="flex items-start gap-1.5">
+<span class="material-symbols-outlined text-tertiary text-[15px] shrink-0 mt-0.5">verified_user</span>
+<p class="font-body-sm text-body-sm text-on-surface leading-tight">
+<strong>혼인·출산 증여재산 공제:</strong> 직계존속 합산 최대 3억 원 비과세 한도 적극 활용법
+            </p>
+</div>
+<div class="flex items-start gap-1.5">
+<span class="material-symbols-outlined text-tertiary text-[15px] shrink-0 mt-0.5">verified_user</span>
+<p class="font-body-sm text-body-sm text-on-surface leading-tight">
+<strong>일시적 2주택 처분 기한:</strong> 신규 주택 취득일로부터 3년 내 종전주택 양도 엄격 확인
+            </p>
+</div>
+</div>
+<div class="flex items-center justify-between px-2 py-1 rounded bg-surface-container text-on-surface-variant">
+<span class="font-label-md text-label-md font-semibold text-primary">세무 지원</span>
+<span class="font-label-md text-label-md font-bold text-tertiary">홍길동 제휴 세무사 무료 상담 연계</span>
+</div>
+</article>
+</div>
+</section>
+<!-- Market Trend & Live Transaction Infographic (주간 실거래가 & 시세 동향) -->
+<section class="px-gutter-default py-space-sm">
+<div class="rounded-xl bg-surface-container-lowest p-space-md shadow-sm">
+<div class="flex items-center justify-between mb-space-sm">
+<div class="flex flex-col">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-secondary text-[18px]">query_stats</span>
+<h3 class="font-headline-md text-headline-md text-on-surface">송파·강남권 실거래 동향</h3>
+</div>
+<span class="font-label-md text-label-md text-on-surface-variant">최근 30일 국토부 신고가 기준 분석</span>
+</div>
+<span class="px-2 py-1 rounded bg-surface-container-high text-primary font-label-md text-label-md font-bold">빅데이터 요약</span>
+</div>
+<!-- Stat Tiles Grid -->
+<div class="grid grid-cols-2 gap-space-xs mb-space-sm">
+<div class="rounded-lg bg-surface-container-low p-space-sm">
+<span class="font-label-md text-label-md text-on-surface-variant">송파구 아파트 평균 매매가</span>
+<div class="flex items-baseline gap-1 mt-1">
+<span class="font-headline-lg-mobile text-headline-lg-mobile text-on-surface font-extrabold">21.8억</span>
+<span class="font-label-md text-label-md text-error font-bold">▲ 0.8%</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant text-[10px]">잠실·가락 대단지 주도</span>
+</div>
+<div class="rounded-lg bg-surface-container-low p-space-sm">
+<span class="font-label-md text-label-md text-on-surface-variant">전세가율 회복세</span>
+<div class="flex items-baseline gap-1 mt-1">
+<span class="font-headline-lg-mobile text-headline-lg-mobile text-on-surface font-extrabold">54.2%</span>
+<span class="font-label-md text-label-md text-error font-bold">▲ 1.4%p</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant text-[10px]">학군지 매물 귀임 현상</span>
+</div>
+</div>
+<!-- Mini Chart Visual -->
+<div class="rounded-lg bg-surface p-space-sm mb-space-sm">
+<div class="flex justify-between items-center mb-1">
+<span class="font-label-md text-label-md text-on-surface-variant font-medium">최근 4주 송파구 거래량 추이</span>
+<span class="font-label-md text-label-md text-primary font-bold">주간 +18.4%</span>
+</div>
+<div class="h-16 w-full flex items-end justify-between gap-2 pt-2 px-1">
+<div class="flex-1 flex flex-col items-center gap-1">
+<div class="w-full bg-surface-container-highest rounded-t h-7"></div>
+<span class="font-label-md text-label-md text-on-surface-variant text-[10px]">4월 2주</span>
+</div>
+<div class="flex-1 flex flex-col items-center gap-1">
+<div class="w-full bg-surface-container-highest rounded-t h-9"></div>
+<span class="font-label-md text-label-md text-on-surface-variant text-[10px]">4월 3주</span>
+</div>
+<div class="flex-1 flex flex-col items-center gap-1">
+<div class="w-full bg-surface-tint/60 rounded-t h-12"></div>
+<span class="font-label-md text-label-md text-on-surface-variant text-[10px]">4월 4주</span>
+</div>
+<div class="flex-1 flex flex-col items-center gap-1">
+<div class="w-full bg-primary rounded-t h-14 relative">
+<span class="absolute -top-3 left-1/2 -translate-x-1/2 font-label-md text-label-md text-primary font-extrabold text-[9px]">최고</span>
+</div>
+<span class="font-label-md text-label-md text-primary font-bold text-[10px]">5월 1주</span>
+</div>
+</div>
+</div>
+<!-- Expert Commentary Card -->
+<div class="rounded-lg bg-surface-container-high p-space-sm">
+<div class="flex items-center gap-2 mb-1.5">
+<div class="w-7 h-7 rounded-full bg-primary-container text-on-primary flex items-center justify-center font-bold text-[12px]">
+            홍
+          </div>
+<div>
+<span class="font-label-lg text-label-lg text-primary font-bold">홍길동 대표의 마켓 인사이트</span>
+<p class="font-label-md text-label-md text-on-surface-variant">"지금 매수 타이밍인가, 관망인가?"</p>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface leading-relaxed">
+          "금리 변동기에는 무조건적인 관망보다 <strong>급매물 소진 직후 실거래가 지지선</strong>을 모니터링해야 합니다. 
+          상급지 갈아타기를 고려 중이시라면 매도와 매수 타이밍의 갭을 최소화하는 <strong>정밀 안심 매칭</strong>이 무엇보다 중요합니다."
+        </p>
+</div>
+</div>
+</section>
+<!-- Value-Add Special Brokerage Services (홍길동부동산 3대 특별 서비스) -->
+<section class="px-gutter-default py-space-sm">
+<div class="mb-space-sm">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-primary text-[20px]">stars</span>
+<h3 class="font-headline-md text-headline-md text-on-surface">홍길동부동산 전담 케어 서비스</h3>
+</div>
+<p class="font-label-md text-label-md text-on-surface-variant">단순 매물 중개를 넘어 자산 가치를 극대화합니다</p>
+</div>
+<div class="grid grid-cols-1 gap-space-xs">
+<!-- Service 1 -->
+<div class="flex items-start gap-space-sm p-space-sm rounded-xl bg-surface-container-lowest shadow-sm">
+<div class="w-10 h-10 rounded-lg bg-surface-container-highest text-primary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[22px]">pie_chart</span>
+</div>
+<div class="flex-1 min-w-0">
+<div class="flex items-center justify-between">
+<h4 class="font-label-lg text-label-lg text-on-surface font-bold">1:1 맞춤 부동산 자산 진단</h4>
+<span class="font-label-md text-label-md text-primary font-bold">무료 제공</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5 leading-snug">
+            보유 주택, 분양권, 토지, 상가 종합 과세 및 처분 최적 시점 정밀 분석
+          </p>
+</div>
+</div>
+<!-- Service 2 -->
+<div class="flex items-start gap-space-sm p-space-sm rounded-xl bg-surface-container-lowest shadow-sm">
+<div class="w-10 h-10 rounded-lg bg-secondary-fixed text-on-secondary-fixed flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[22px]">analytics</span>
+</div>
+<div class="flex-1 min-w-0">
+<div class="flex items-center justify-between">
+<h4 class="font-label-lg text-label-lg text-on-surface font-bold">실거래 AI 빅데이터 심층 보고서</h4>
+<span class="font-label-md text-label-md text-secondary font-bold">리포트 발행</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5 leading-snug">
+            등기부등본 권리 분석, 인근 단지 적정 시세 산출 및 미래 개발 호재 분석집
+          </p>
+</div>
+</div>
+<!-- Service 3 -->
+<div class="flex items-start gap-space-sm p-space-sm rounded-xl bg-surface-container-lowest shadow-sm">
+<div class="w-10 h-10 rounded-lg bg-tertiary-fixed text-on-tertiary-fixed flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[22px]">handshake</span>
+</div>
+<div class="flex-1 min-w-0">
+<div class="flex items-center justify-between">
+<h4 class="font-label-lg text-label-lg text-on-surface font-bold">매도·매수·임대차 안심 책임 케어</h4>
+<span class="font-label-md text-label-md text-tertiary font-bold">100% 보증</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5 leading-snug">
+            공제증서 2억원 첨부, 법률·세무 협력단 계약서 정밀 검토 및 사후 관리
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- Office Photo & Location Map Preview -->
+<section class="px-gutter-default py-space-sm">
+<div class="rounded-xl bg-surface-container-lowest p-space-md shadow-sm">
+<div class="flex items-center justify-between mb-space-xs">
+<span class="font-label-lg text-label-lg text-on-surface font-bold">방문 상담 & 오시는 길</span>
+<span class="font-label-md text-label-md text-primary font-medium">송파구 방이동 본점</span>
+</div>
+<!-- Static Location Div -->
+<div class="w-full h-36 bg-cover bg-center rounded-lg relative overflow-hidden mb-space-xs" data-location="서울시 송파구 방이동 160-2" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDVPB3yPmC6be6TUWNsbvw1tuGZWnV4DYdX9fxcON6YPgW33aeP32rDijnYQLjWi47Y0tK2_Tou-KwlAoO0HNfmH4DJi13L_gHabi-wkoYF_tkiP3Om5wDwnYDKS0pHt-eizQca45Y3e-MYZAm63outvH_NBiVLB0dV_9Om1UANzU4H7lQ0tD4Yv51AQEE8c3ZvtAgrZKAn6Y9MOZTVlQDRc5lcb_jh_oChsis-8Sfz7pNDeNpXx1o5hA')">
+<div class="absolute inset-0 bg-primary/10"></div>
+<div class="absolute bottom-2 left-2 px-2.5 py-1 rounded bg-surface-container-lowest/90 backdrop-blur-sm flex items-center gap-1 shadow-sm">
+<span class="material-symbols-outlined text-primary text-[14px]">pin_drop</span>
+<span class="font-label-md text-label-md text-on-surface font-bold">랜드랭귀지 402호 (홍길동부동산)</span>
+</div>
+</div>
+<div class="flex items-center justify-between text-on-surface-variant font-body-sm text-body-sm pt-1">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">subway</span>
+          송파나루역 2번 출구 도보 3분
+        </span>
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">local_parking</span>
+          고객 전용 무료 주차 지원
+        </span>
+</div>
+</div>
+</section>
+<!-- Interactive Action CTAs Card News Section -->
+<section class="px-gutter-default py-space-sm">
+<div class="rounded-xl bg-gradient-to-br from-primary-container to-primary text-on-primary p-space-lg shadow-md flex flex-col items-center text-center">
+<span class="material-symbols-outlined text-secondary-fixed text-[36px] mb-1">support_agent</span>
+<h3 class="font-headline-lg-mobile text-headline-lg-mobile font-bold text-on-primary mb-1">
+        내 부동산 가치가 궁금하시다면?
+      </h3>
+<p class="font-body-sm text-body-sm text-surface-container-high mb-space-md max-w-[280px]">
+        전문 공인중개사가 AI 빅데이터 분석 솔루션으로 지금 즉시 정확한 시세를 진단해 드립니다.
+      </p>
+<div class="w-full flex flex-col gap-space-xs">
+<a class="w-full h-12 flex items-center justify-center gap-2 rounded bg-surface-container-lowest text-primary font-headline-md text-headline-md tracking-tight active:scale-[0.98] transition-transform shadow-sm" href="tel:010-9030-0157">
+<span class="material-symbols-outlined text-[20px]">call</span>
+<span>010-9030-0157 전화연결</span>
+</a>
+<button class="w-full h-10 flex items-center justify-center gap-1.5 rounded bg-white/10 hover:bg-white/20 text-on-primary font-label-lg text-label-lg transition-colors" onclick="navigator.clipboard?.writeText('010-9030-0157'); alert('대표 번호가 복사되었습니다 (010-9030-0157)');" type="button">
+<span class="material-symbols-outlined text-[16px]">content_copy</span>
+<span>전화번호 복사하기</span>
+</button>
+</div>
+</div>
+</section>
+<!-- Broker Business Identity & Legal Disclosure (공식 법정 중개사 정보) -->
+<footer class="px-gutter-default pt-space-md pb-space-lg">
+<div class="rounded-xl bg-surface-container-low p-space-md">
+<div class="flex items-center gap-1.5 mb-space-xs">
+<span class="material-symbols-outlined text-primary text-[18px]">verified</span>
+<span class="font-label-lg text-label-lg text-on-surface font-bold">홍길동부동산 중개사무소 정보</span>
+</div>
+<div class="flex flex-col gap-1 font-body-sm text-body-sm text-on-surface-variant text-[11px] leading-relaxed">
+<p><strong class="text-on-surface">상호:</strong> 홍길동공인중개사사무소 | <strong class="text-on-surface">대표 공인중개사:</strong> 홍길동</p>
+<p><strong class="text-on-surface">등록번호:</strong> 공인중개사 등록번호 제11710-2024-00123호</p>
+<p><strong class="text-on-surface">대표전화:</strong> 010-9030-0157 | <strong class="text-on-surface">유선상담:</strong> 02-1234-5678</p>
+<p><strong class="text-on-surface">사업장 소재지:</strong> 서울특별시 송파구 방이동 160-2 402호 (랜드랭귀지)</p>
+<p><strong class="text-on-surface">전문분야:</strong> 아파트 매매·전월세, 재건축·재개발 정비구역 입주권, 상가·빌딩 자산관리</p>
+</div>
+<div class="mt-space-sm pt-space-xs border-t-0 bg-surface-container rounded p-space-xs">
+<p class="font-body-sm text-body-sm text-outline text-[10px] leading-normal">
+          [수신 안내 및 법적 고지]<br/>
+          본 리포트는 공공 데이터 및 국토교통부 실거래가를 기반으로 작성된 주간 정보성 분석 자료입니다. 부동산 거래 결정 시 개별 단지의 세부 권리관계 및 최신 금융 조건을 반드시 전문가와 1:1 대면 검토하시기 바랍니다. 본 브리핑 수신을 원치 않으시면 카카오톡 채널 [수신거부]를 클릭하거나 유선으로 요청해 주시기 바랍니다.
+        </p>
+</div>
+</div>
+</footer>
+</div></main><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_-4px_16px_rgba(0,0,0,0.06)]" data-active-classes="text-primary font-bold"><div class="px-gutter-default pt-space-xs pb-space-xs flex items-center gap-space-xs"><a class="flex-1 h-11 flex items-center justify-center gap-1.5 bg-primary-container text-on-primary rounded font-label-lg text-label-lg transition-transform active:scale-[0.98]" href="tel:02-1234-5678"><span class="material-symbols-outlined text-[18px]">call</span><span>전화상담 바로연결</span></a><a class="flex-1 h-11 flex items-center justify-center gap-1.5 bg-[#FEE500] text-[#191919] rounded font-label-lg text-label-lg transition-transform active:scale-[0.98]" href="#"><span class="material-symbols-outlined text-[18px]">chat</span><span>카카오톡 1:1 상담</span></a></div><div class="h-12 px-gutter-default flex items-center justify-around border-t-0"><a aria-current="page" class="flex flex-col items-center justify-center w-16 h-11 transition-colors text-primary font-bold" data-path="newsletter-feed" href="#"><span class="material-symbols-outlined text-[20px]">newspaper</span><span class="font-label-md text-label-md">뉴스레터</span></a><a class="flex flex-col items-center justify-center w-16 h-11 text-on-surface-variant transition-colors" data-path="market-briefing" href="#"><span class="material-symbols-outlined text-[20px]">monitoring</span><span class="font-label-md text-label-md">시세동향</span></a><a class="flex flex-col items-center justify-center w-16 h-11 text-on-surface-variant transition-colors" data-path="exclusive-listings" href="#"><span class="material-symbols-outlined text-[20px]">real_estate_agent</span><span class="font-label-md text-label-md">추천매물</span></a><a class="flex flex-col items-center justify-center w-16 h-11 text-on-surface-variant transition-colors" data-path="broker-profile" href="#"><span class="material-symbols-outlined text-[20px]">badge</span><span class="font-label-md text-label-md">중개사소개</span></a></div></nav></body></html>

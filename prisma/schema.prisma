@@ -1,0 +1,495 @@
+// LAND LANGUAGE — AI REAL ESTATE BRIEF
+// 프로덕션 데이터 경로용 스키마. Mock Mode(DATA_BACKEND=mock)에서는 사용되지 않습니다.
+// 적용:  npx prisma migrate dev   /   npx prisma generate
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// 열거형
+// ─────────────────────────────────────────────────────────────────────────────
+
+enum SourceTier {
+  A // 정부·공공기관·법령·공식통계
+  B // 주요 언론사
+  C // 전문매체
+  D // 블로그·커뮤니티·SNS
+}
+
+enum SourceKind {
+  GOV_OFFICIAL
+  STATISTICS
+  LAW
+  PRESS
+  SPECIALIST
+  BLOG_COMMUNITY
+}
+
+enum PolicyStatus {
+  CONFIRMED        // 확정
+  SCHEDULED        // 시행 예정
+  LEGISLATIVE_NOTICE // 입법예고
+  IN_ASSEMBLY      // 국회 심의 중
+  UNDER_REVIEW     // 정부 검토
+  PRESS_REPORTED   // 언론 보도
+  OUTLOOK          // 전망/분석
+}
+
+enum NewsletterType {
+  DAILY
+  WEEKLY
+  MONTHLY
+}
+
+enum NewsletterStatus {
+  COLLECTED
+  ANALYZED
+  DRAFT
+  REVIEW
+  APPROVED
+  SCHEDULED
+  SENT
+  FAILED
+}
+
+enum DeliveryChannel {
+  EMAIL
+  KAKAO
+}
+
+enum DeliveryStatus {
+  QUEUED
+  SENT
+  DELIVERED
+  OPENED
+  CLICKED
+  BOUNCED
+  FAILED
+  SUPPRESSED
+}
+
+enum ConsentChannel {
+  EMAIL
+  KAKAO
+}
+
+enum SubscriberStatus {
+  ACTIVE
+  UNSUBSCRIBED
+  BOUNCED
+  PENDING
+}
+
+enum LeadType {
+  PHONE
+  KAKAO
+  SELL
+  BUY
+  SWITCH
+  POLICY
+  RESERVATION
+}
+
+enum VerificationState {
+  VERIFIED     // source URL + date 확인됨
+  NEEDS_CHECK  // 확인 필요
+  UNVERIFIED
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// 출처 / 수집
+// ─────────────────────────────────────────────────────────────────────────────
+
+model Source {
+  id          String     @id @default(cuid())
+  name        String
+  kind        SourceKind
+  tier        SourceTier
+  homepageUrl String?
+  feedUrl     String?
+  adapterKey  String     // 예: "molit", "yna", "hankyung"
+  enabled     Boolean    @default(true)
+  region      String?    // "national" | "seoul" | "gyeonggi" ...
+  notes       String?
+  createdAt   DateTime   @default(now())
+  updatedAt   DateTime   @updatedAt
+
+  articles          Article[]
+  governmentPolicies GovernmentPolicy[]
+  statistics        MarketStatistic[]
+}
+
+model Article {
+  id            String   @id @default(cuid())
+  sourceId     String
+  source       Source   @relation(fields: [sourceId], references: [id])
+  title        String
+  publisher    String
+  publishedAt  DateTime
+  url          String   @unique
+  imageUsable  Boolean  @default(false) // 대표 이미지 사용 가능 여부
+  summary      String   // 핵심 내용 요약 (AI가 새 문장으로 작성)
+  keywords     String[] // 주요 키워드
+  clusterId    String?
+  cluster      ArticleCluster? @relation(fields: [clusterId], references: [id])
+  createdAt    DateTime @default(now())
+
+  @@index([publishedAt])
+  @@index([clusterId])
+}
+
+// 동일 이슈를 하나로 묶는 단위
+model ArticleCluster {
+  id            String   @id @default(cuid())
+  headline     String    // "정부 주택공급 대책 발표"
+  issueDate    DateTime
+  primarySourceUrl String? // 공식자료 원문
+  status       PolicyStatus @default(PRESS_REPORTED)
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  articles     Article[]
+  policies     GovernmentPolicy[]
+  analysis     AiAnalysis?
+  items        NewsletterItem[]
+}
+
+model GovernmentPolicy {
+  id            String   @id @default(cuid())
+  sourceId     String
+  source       Source   @relation(fields: [sourceId], references: [id])
+  clusterId    String?
+  cluster      ArticleCluster? @relation(fields: [clusterId], references: [id])
+  title        String
+  agency       String   // 발표 기관
+  announcedAt  DateTime // 발표일
+  effectiveAt  DateTime? // 시행일 (발표일과 반드시 구분)
+  status       PolicyStatus
+  officialUrl  String
+  officialDocUrl String?
+  plainSummary String   // 일반인용 요약
+  rawExcerpt   String?  // 공식 원문 인용(사실 확인용, 최소한으로)
+  verification VerificationState @default(NEEDS_CHECK)
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  @@index([announcedAt])
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// 시장 통계 (출처·기준일 없으면 화면 게시 불가)
+// ─────────────────────────────────────────────────────────────────────────────
+
+model MarketStatistic {
+  id           String   @id @default(cuid())
+  sourceId    String
+  source      Source   @relation(fields: [sourceId], references: [id])
+  metricKey   String   // "seoul_apt_price_wow", "base_rate" ...
+  label       String
+  value       Float
+  unit        String   // "%", "건", "만원" ...
+  asOfDate    DateTime // 기준일
+  momChange   Float?   // 전월 대비
+  yoyChange   Float?   // 전년 대비
+  region      String?
+  sourceUrl   String   // 필수
+  verification VerificationState @default(NEEDS_CHECK)
+  createdAt   DateTime @default(now())
+
+  @@unique([metricKey, asOfDate, region])
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// AI 분석
+// ─────────────────────────────────────────────────────────────────────────────
+
+model AiAnalysis {
+  id          String   @id @default(cuid())
+  clusterId  String   @unique
+  cluster    ArticleCluster @relation(fields: [clusterId], references: [id])
+
+  // 중요도 점수 0~100
+  policyImportance   Int
+  marketImpact       Int
+  consumerInterest   Int
+  agentRelevance     Int
+  seoulMetroImpact   Int
+  taxImpact          Int
+  loanFinanceImpact  Int
+  investmentImpact   Int
+  enduserImpact      Int
+  urgency            Int
+  compositeScore     Float
+
+  // 요약 구조 (FACT / INTERPRETATION / ACTION 분리)
+  oneLiner        String
+  whatHappened    String   // 무슨 내용인가요
+  whyItMatters    String   // 왜 중요한가요
+  audienceTags    String[] // #무주택자 #1주택자 ...
+  agentPoints     String[] // 공인중개사 POINT
+  actionChecklist String[] // 지금 무엇을 확인해야 하나요
+
+  // "그래서 내 부동산에는?" — 대상별 영향도(0~5)와 설명
+  impactByPersona Json
+
+  model        String   // 사용한 AI 모델/프로바이더
+  verification VerificationState @default(NEEDS_CHECK)
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// 뉴스레터 / EDM
+// ─────────────────────────────────────────────────────────────────────────────
+
+model Newsletter {
+  id            String   @id @default(cuid())
+  type         NewsletterType
+  title        String
+  editionLabel String   // "2026.09.03 THU"
+  periodStart  DateTime
+  periodEnd    DateTime
+  status       NewsletterStatus @default(DRAFT)
+  headline     String   // 오늘의 한 줄
+  agentComment String   // 공인중개사의 한마디
+  previewText  String   // 이메일 프리뷰 텍스트
+  subjectLine  String
+  adPrefix     Boolean  @default(true) // 제목 앞 (광고) 표기
+  heroMainCopy String?  // 오버라이드(없으면 brand 설정값 사용)
+  heroSubCopy  String?
+  createdBy    String?
+  approvedBy   String?
+  approvedAt   DateTime?
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  items        NewsletterItem[]
+  campaigns    Campaign[]
+}
+
+model NewsletterItem {
+  id            String   @id @default(cuid())
+  newsletterId String
+  newsletter   Newsletter @relation(fields: [newsletterId], references: [id], onDelete: Cascade)
+  clusterId    String?
+  cluster      ArticleCluster? @relation(fields: [clusterId], references: [id])
+  section      String   // "policy_top" | "news_top" | "numbers" | "persona" | "comment"
+  position     Int
+  headline     String
+  body         String
+  sourceLabel  String?
+  sourceUrl    String?
+  sourceDate   DateTime?
+  verification VerificationState @default(NEEDS_CHECK)
+  meta         Json?
+
+  @@index([newsletterId, section, position])
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// 구독자 / 동의 / 수신거부
+// ─────────────────────────────────────────────────────────────────────────────
+
+model Subscriber {
+  id            String   @id @default(cuid())
+  email        String   @unique
+  phone        String?
+  name         String?
+  status       SubscriberStatus @default(ACTIVE)
+  consentEmail Boolean  @default(false)
+  consentKakao Boolean  @default(false)
+  consentDate  DateTime?
+  consentSource String?
+  consentIp    String?
+  withdrawalDate DateTime?
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  preferences  SubscriberPreference?
+  consentLogs  ConsentLog[]
+  deliveries   EmailDelivery[]
+  kakao        KakaoDelivery[]
+  clicks       ClickEvent[]
+  leads        ConsultationLead[]
+}
+
+model SubscriberPreference {
+  id            String   @id @default(cuid())
+  subscriberId String   @unique
+  subscriber   Subscriber @relation(fields: [subscriberId], references: [id], onDelete: Cascade)
+  regions      String[] // 관심지역 코드
+  topics       String[] // 관심분야
+  frequency    NewsletterType[] // 받고 싶은 발행 유형
+  updatedAt    DateTime @updatedAt
+}
+
+model ConsentLog {
+  id            String   @id @default(cuid())
+  subscriberId String
+  subscriber   Subscriber @relation(fields: [subscriberId], references: [id], onDelete: Cascade)
+  channel      ConsentChannel
+  action       String   // "grant" | "withdraw"
+  source       String   // "web_form" | "import" | "manual" ...
+  ip           String?
+  userAgent    String?
+  nightAd      Boolean  @default(false) // 야간 광고 별도 동의
+  createdAt    DateTime @default(now())
+}
+
+model SuppressionEntry {
+  id          String   @id @default(cuid())
+  email       String?  @unique
+  phone       String?  @unique
+  reason      String   // "unsubscribe" | "bounce" | "complaint" | "manual"
+  channel     DeliveryChannel?
+  createdAt   DateTime @default(now())
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// 캠페인 / 발송 / 클릭
+// ─────────────────────────────────────────────────────────────────────────────
+
+model Campaign {
+  id            String   @id @default(cuid())
+  newsletterId String
+  newsletter   Newsletter @relation(fields: [newsletterId], references: [id])
+  channel      DeliveryChannel
+  name         String
+  scheduledAt  DateTime?
+  sentAt       DateTime?
+  status       NewsletterStatus @default(SCHEDULED)
+  segment      Json?    // 대상 세그먼트 정의(지역/분야/유형)
+  utmSource    String   @default("edm")
+  utmMedium    String   @default("email")
+  utmCampaign  String
+  stats        Json?    // 집계 스냅샷
+  createdAt    DateTime @default(now())
+
+  emailDeliveries EmailDelivery[]
+  kakaoDeliveries KakaoDelivery[]
+  clicks          ClickEvent[]
+}
+
+model EmailDelivery {
+  id            String   @id @default(cuid())
+  campaignId   String
+  campaign     Campaign @relation(fields: [campaignId], references: [id])
+  subscriberId String
+  subscriber   Subscriber @relation(fields: [subscriberId], references: [id])
+  status       DeliveryStatus @default(QUEUED)
+  providerId   String?
+  errorMessage String?
+  sentAt       DateTime?
+  openedAt     DateTime?
+  firstClickAt DateTime?
+  bouncedAt    DateTime?
+
+  @@index([campaignId, status])
+}
+
+model KakaoDelivery {
+  id            String   @id @default(cuid())
+  campaignId   String
+  campaign     Campaign @relation(fields: [campaignId], references: [id])
+  subscriberId String
+  subscriber   Subscriber @relation(fields: [subscriberId], references: [id])
+  status       DeliveryStatus @default(QUEUED)
+  messageType  String   // "alimtalk" | "friendtalk"
+  providerId   String?
+  errorMessage String?
+  sentAt       DateTime?
+
+  @@index([campaignId, status])
+}
+
+model ClickEvent {
+  id            String   @id @default(cuid())
+  campaignId   String
+  campaign     Campaign @relation(fields: [campaignId], references: [id])
+  subscriberId String?
+  subscriber   Subscriber? @relation(fields: [subscriberId], references: [id])
+  url          String
+  linkLabel    String?  // "kakao" | "phone" | "reservation" | "blog" | "article"
+  createdAt    DateTime @default(now())
+
+  @@index([campaignId, linkLabel])
+}
+
+model ConsultationLead {
+  id            String   @id @default(cuid())
+  subscriberId String?
+  subscriber   Subscriber? @relation(fields: [subscriberId], references: [id])
+  campaignId   String?
+  type         LeadType
+  name         String?
+  phone        String?
+  memo         String?
+  status       String   @default("new") // new | contacted | converted | closed
+  createdAt    DateTime @default(now())
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// 설정 / 감사로그
+// ─────────────────────────────────────────────────────────────────────────────
+
+model BrandSetting {
+  id            String   @id @default("singleton")
+  officeName    String
+  brandName     String
+  repName       String?
+  registrationNo String?
+  phone         String?
+  mobile        String?
+  email         String?
+  homepage      String?
+  naverBlog     String?
+  naverPlace    String?
+  kakaoChannel  String?
+  address       String?
+  logoUrl       String?
+  heroPhotoUrl  String?
+  qrUrl         String?
+  reservationUrl String?
+  privacyUrl    String?
+  unsubscribeUrl String?
+  heroMainCopy  String
+  heroSubCopy   String
+  agentDisplayName String // "홍길동 공인중개사"
+  updatedAt     DateTime @updatedAt
+}
+
+model ComplianceSetting {
+  id            String   @id @default("singleton")
+  adPrefixText  String   @default("(광고)")
+  adPrefixEnabled Boolean @default(true)
+  requireExplicitConsent Boolean @default(true)
+  nightAdBlockEnabled Boolean @default(true)
+  nightAdStartHour Int    @default(21)
+  nightAdEndHour   Int    @default(8)
+  autoSend         Boolean @default(false)
+  requireApprovalBeforeSend Boolean @default(true)
+  mandatoryFooter  String
+  legalDisclaimer  String
+  propertyAdMode   Boolean @default(false)
+  rulesJson        Json?   // Configurable Compliance Rule 세트
+  updatedAt        DateTime @updatedAt
+}
+
+model AuditLog {
+  id          String   @id @default(cuid())
+  actor       String
+  action      String
+  entity      String
+  entityId    String?
+  before      Json?
+  after       Json?
+  createdAt   DateTime @default(now())
+
+  @@index([entity, entityId])
+}

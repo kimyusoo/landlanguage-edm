@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #f2f4f7;
+  color: #222222;
+  font-feature-settings: "tnum" 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 40~60대 가독성: 기본 본문 최소 크기 확보 */
+.prose-brief {
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.scrollbar-thin::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+
+@layer components {
+  .card {
+    @apply rounded-xl border border-[#E3E7EC] bg-white shadow-card;
+  }
+  .label-eyebrow {
+    @apply font-serif text-[11px] uppercase tracking-[0.2em] text-gold;
+  }
+  .btn {
+    @apply inline-flex items-center justify-center gap-1.5 rounded-lg border px-3.5 py-2 text-sm font-semibold transition-colors disabled:opacity-50;
+  }
+  .btn-primary {
+    @apply border-navy bg-navy text-white hover:bg-navy-premium;
+  }
+  .btn-gold {
+    @apply border-gold bg-gold text-navy hover:bg-gold-dark hover:text-white;
+  }
+  .btn-ghost {
+    @apply border-[#E3E7EC] bg-white text-navy hover:bg-cloud;
+  }
+  .chip {
+    @apply inline-flex items-center rounded-full border border-[#E3E7EC] bg-white px-2.5 py-1 text-xs text-ink;
+  }
+  .field {
+    @apply w-full rounded-lg border border-[#E3E7EC] bg-white px-3 py-2 text-sm outline-none focus:border-navy;
+  }
+}
