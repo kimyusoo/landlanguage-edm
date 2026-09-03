@@ -32,7 +32,7 @@ const issue1: Bundle = {
     id: "cl_supply",
     headline: "정부, 수도권 주택공급 확대 방안 검토" + DEMO,
     issueDate: "2026-09-03T08:10:00+09:00",
-    primarySourceUrl: "https://www.molit.go.kr/USR/NEWS/example/supply-2026",
+    primarySourceUrl: "https://www.molit.go.kr",
     status: "UNDER_REVIEW",
     articleIds: ["a_supply_1", "a_supply_2", "a_supply_3", "a_supply_4"],
     policyIds: ["pol_supply"],
@@ -49,8 +49,8 @@ const issue1: Bundle = {
       announcedAt: "2026-09-03T09:00:00+09:00",
       effectiveAt: undefined, // 시행일 미정 — 발표일과 구분
       status: "UNDER_REVIEW",
-      officialUrl: "https://www.molit.go.kr/USR/NEWS/example/supply-2026",
-      officialDocUrl: "https://www.molit.go.kr/USR/NEWS/example/supply-2026.pdf",
+      officialUrl: "https://www.molit.go.kr",
+      officialDocUrl: undefined,
       plainSummary:
         "정부가 수도권에서 주택을 더 지을 수 있는 방안을 여러 갈래로 살펴보고 있다는 내용입니다. 아직 확정된 계획이 아니라 검토 단계입니다.",
       rawExcerpt: "…공급 기반 확충을 위한 다양한 방안을 관계기관과 협의 중…",
@@ -64,7 +64,7 @@ const issue1: Bundle = {
       title: "정부, 수도권 공급 확대 카드 만지작…택지·정비사업 병행 검토" + DEMO,
       publisher: "연합뉴스",
       publishedAt: "2026-09-03T08:12:00+09:00",
-      url: "https://www.yna.co.kr/view/example-supply-1",
+      url: "https://www.yna.co.kr",
       imageUsable: false,
       summary:
         "정부가 수도권 주택 공급을 늘리기 위한 방안을 검토 중이라는 보도. 신규 택지와 정비사업 속도 조절이 함께 언급됨. 구체적 물량·일정은 미정.",
@@ -78,7 +78,7 @@ const issue1: Bundle = {
       title: "\"공급 시그널\" 주는 정부…시장은 일정·물량에 주목" + DEMO,
       publisher: "한국경제",
       publishedAt: "2026-09-03T08:40:00+09:00",
-      url: "https://www.hankyung.com/example-supply-2",
+      url: "https://www.hankyung.com",
       imageUsable: false,
       summary:
         "시장에서는 발표 시기와 실제 공급 물량이 관건이라는 분석. 검토 단계라 영향은 제한적이라는 전문가 의견 포함.",
@@ -92,7 +92,7 @@ const issue1: Bundle = {
       title: "수도권 공급 확대 검토…재건축 규제 완화 여부가 변수" + DEMO,
       publisher: "매일경제",
       publishedAt: "2026-09-03T09:05:00+09:00",
-      url: "https://www.mk.co.kr/example-supply-3",
+      url: "https://www.mk.co.kr",
       imageUsable: false,
       summary:
         "재건축 관련 규제 완화가 포함될지가 관심사. 관계부처 협의가 필요해 확정까지 시간이 걸릴 수 있다는 내용.",
@@ -106,7 +106,7 @@ const issue1: Bundle = {
       title: "정부 \"공급 방안 협의 중\"…확정된 것은 없다" + DEMO,
       publisher: "이데일리",
       publishedAt: "2026-09-03T09:30:00+09:00",
-      url: "https://www.edaily.co.kr/example-supply-4",
+      url: "https://www.edaily.co.kr",
       imageUsable: false,
       summary:
         "국토부는 아직 확정된 계획이 없다고 선을 그음. 언론 보도와 정부 공식 입장 사이에 온도차가 있다는 점을 강조.",
@@ -172,7 +172,7 @@ const issue2: Bundle = {
     id: "cl_rate",
     headline: "한국은행 기준금리 동결 결정" + DEMO,
     issueDate: "2026-09-02T10:00:00+09:00",
-    primarySourceUrl: "https://www.bok.or.kr/portal/example/mpb-2026-09",
+    primarySourceUrl: "https://www.bok.or.kr",
     status: "CONFIRMED",
     articleIds: ["a_rate_1", "a_rate_2", "a_rate_3"],
     policyIds: [],
@@ -187,7 +187,7 @@ const issue2: Bundle = {
       title: "한국은행, 기준금리 현 수준 동결…\"물가·경기 함께 고려\"" + DEMO,
       publisher: "연합뉴스",
       publishedAt: "2026-09-02T10:05:00+09:00",
-      url: "https://www.yna.co.kr/view/example-rate-1",
+      url: "https://www.yna.co.kr",
       imageUsable: false,
       summary:
         "금융통화위원회가 기준금리를 동결. 물가 흐름과 경기 상황을 함께 고려했다는 설명. 가계부채도 주요 변수로 언급.",
@@ -201,7 +201,7 @@ const issue2: Bundle = {
       title: "금리 동결에 대출자 '숨통'…변동금리 영향은 제한적" + DEMO,
       publisher: "머니투데이",
       publishedAt: "2026-09-02T11:20:00+09:00",
-      url: "https://www.mt.co.kr/example-rate-2",
+      url: "https://www.mt.co.kr",
       imageUsable: false,
       summary:
         "기준금리 동결로 급격한 이자 부담 증가는 피했다는 평가. 다만 시장금리는 별도로 움직일 수 있다는 점 강조.",
@@ -215,7 +215,7 @@ const issue2: Bundle = {
       title: "부동산 시장, 금리 방향 전환 신호 기다린다" + DEMO,
       publisher: "서울경제",
       publishedAt: "2026-09-02T13:00:00+09:00",
-      url: "https://www.sedaily.com/example-rate-3",
+      url: "https://www.sedaily.com",
       imageUsable: false,
       summary:
         "시장은 금리 인하 시점에 촉각. 거래량 회복 여부는 금융 여건과 함께 볼 필요가 있다는 분석.",
@@ -296,7 +296,7 @@ const issue3: Bundle = {
       title: "다주택자 보유세 손질 가능성 거론…정부 \"결정된 바 없다\"" + DEMO,
       publisher: "중앙일보",
       publishedAt: "2026-09-01T14:10:00+09:00",
-      url: "https://www.joongang.co.kr/example-tax-1",
+      url: "https://www.joongang.co.kr",
       imageUsable: false,
       summary:
         "보유세 제도 조정 가능성이 정치권에서 거론됨. 기획재정부는 결정된 바 없다는 입장. 구체안·일정 없음.",
@@ -310,7 +310,7 @@ const issue3: Bundle = {
       title: "\"세제 불확실성\"에 다주택자 관망…전문가 의견 갈려" + DEMO,
       publisher: "파이낸셜뉴스",
       publishedAt: "2026-09-01T16:30:00+09:00",
-      url: "https://www.fnnews.com/example-tax-2",
+      url: "https://www.fnnews.com",
       imageUsable: false,
       summary:
         "세제 변화 가능성에 다주택자들이 매도·보유 판단을 미루는 분위기. 전문가 전망이 엇갈린다는 내용.",
@@ -376,7 +376,7 @@ const issue4: Bundle = {
     id: "cl_sub",
     headline: "청약제도 일부 개선안 입법예고" + DEMO,
     issueDate: "2026-09-02T09:30:00+09:00",
-    primarySourceUrl: "https://www.molit.go.kr/USR/law/example/subscription-2026",
+    primarySourceUrl: "https://www.molit.go.kr",
     status: "LEGISLATIVE_NOTICE",
     articleIds: ["a_sub_1", "a_sub_2"],
     policyIds: ["pol_sub"],
@@ -393,8 +393,8 @@ const issue4: Bundle = {
       announcedAt: "2026-09-02T09:30:00+09:00",
       effectiveAt: undefined,
       status: "LEGISLATIVE_NOTICE",
-      officialUrl: "https://www.molit.go.kr/USR/law/example/subscription-2026",
-      officialDocUrl: "https://www.molit.go.kr/USR/law/example/subscription-2026.hwp",
+      officialUrl: "https://www.molit.go.kr",
+      officialDocUrl: undefined,
       plainSummary:
         "청약 관련 규칙을 일부 바꾸는 안이 입법예고되었습니다. 입법예고는 의견을 듣는 단계로, 아직 시행이 확정된 것은 아닙니다.",
       rawExcerpt: "…입법예고 기간 동안 국민 의견을 수렴하여…",
@@ -408,7 +408,7 @@ const issue4: Bundle = {
       title: "청약제도 손질 입법예고…실수요 요건 조정 담겨" + DEMO,
       publisher: "조선비즈",
       publishedAt: "2026-09-02T10:00:00+09:00",
-      url: "https://biz.chosun.com/example-sub-1",
+      url: "https://biz.chosun.com",
       imageUsable: false,
       summary:
         "청약 실수요 요건 일부 조정이 입법예고에 포함. 의견수렴 후 확정 예정. 시행일은 아직 정해지지 않음.",
@@ -422,7 +422,7 @@ const issue4: Bundle = {
       title: "\"청약 대기수요 영향\" 관심…확정까지 변수 남아" + DEMO,
       publisher: "아시아경제",
       publishedAt: "2026-09-02T11:10:00+09:00",
-      url: "https://www.asiae.co.kr/example-sub-2",
+      url: "https://www.asiae.co.kr",
       imageUsable: false,
       summary:
         "청약 대기수요에 영향이 있을 수 있다는 관측. 입법예고 내용이 확정 과정에서 바뀔 수 있다는 점도 지적.",
@@ -488,7 +488,7 @@ const issue5: Bundle = {
     id: "cl_seoul_stat",
     headline: "서울 아파트 거래량·가격 최신 통계 공개" + DEMO,
     issueDate: "2026-09-01T11:00:00+09:00",
-    primarySourceUrl: "https://www.reb.or.kr/statistics/example/weekly-2026-09-01",
+    primarySourceUrl: "https://www.reb.or.kr",
     status: "CONFIRMED",
     articleIds: ["a_stat_1", "a_stat_2"],
     policyIds: [],
@@ -503,7 +503,7 @@ const issue5: Bundle = {
       title: "한국부동산원, 주간 아파트가격 동향 발표" + DEMO,
       publisher: "한국부동산원",
       publishedAt: "2026-09-01T11:00:00+09:00",
-      url: "https://www.reb.or.kr/statistics/example/weekly-2026-09-01",
+      url: "https://www.reb.or.kr",
       imageUsable: false,
       summary:
         "주간 아파트 매매·전세 가격 동향 통계 공개. 지역별 편차가 있으며 구체 수치는 원자료 기준으로 확인 필요.",
@@ -517,7 +517,7 @@ const issue5: Bundle = {
       title: "서울부동산정보광장, 월간 아파트 매매 신고 건수 갱신" + DEMO,
       publisher: "서울부동산정보광장",
       publishedAt: "2026-09-01T12:00:00+09:00",
-      url: "https://land.seoul.go.kr/example-stat-2",
+      url: "https://land.seoul.go.kr",
       imageUsable: false,
       summary:
         "서울 아파트 매매 신고 건수가 갱신됨. 신고 기한 때문에 최근 월 수치는 이후 늘어날 수 있음.",

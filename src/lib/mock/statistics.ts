@@ -28,7 +28,7 @@ export const MOCK_STATISTICS: MarketStatistic[] = [
     momChange: 0.02,
     yoyChange: 1.4,
     region: "seoul",
-    sourceUrl: "https://www.reb.or.kr/statistics/example/weekly-2026-09-01",
+    sourceUrl: "https://www.reb.or.kr",
     verification: "NEEDS_CHECK",
     history: series(0.0, 0.004),
   },
@@ -43,7 +43,7 @@ export const MOCK_STATISTICS: MarketStatistic[] = [
     momChange: 0.01,
     yoyChange: 2.1,
     region: "seoul",
-    sourceUrl: "https://www.reb.or.kr/statistics/example/weekly-2026-09-01",
+    sourceUrl: "https://www.reb.or.kr",
     verification: "NEEDS_CHECK",
     history: series(0.02, 0.004),
   },
@@ -58,7 +58,7 @@ export const MOCK_STATISTICS: MarketStatistic[] = [
     momChange: -4.2,
     yoyChange: 12.5,
     region: "seoul",
-    sourceUrl: "https://land.seoul.go.kr/example-stat-2",
+    sourceUrl: "https://land.seoul.go.kr",
     verification: "NEEDS_CHECK",
     history: [
       { date: "2026-02", value: 2450 },
@@ -81,7 +81,7 @@ export const MOCK_STATISTICS: MarketStatistic[] = [
     momChange: -2.1,
     yoyChange: 6.0,
     region: "national",
-    sourceUrl: "https://rt.molit.go.kr/example/monthly-2026-07",
+    sourceUrl: "https://rt.molit.go.kr",
     verification: "NEEDS_CHECK",
     history: [
       { date: "2026-02", value: 43000 },
@@ -103,7 +103,7 @@ export const MOCK_STATISTICS: MarketStatistic[] = [
     momChange: 1.2,
     yoyChange: -8.4,
     region: "national",
-    sourceUrl: "https://www.molit.go.kr/statistics/example/unsold-2026-07",
+    sourceUrl: "https://www.molit.go.kr",
     verification: "NEEDS_CHECK",
     history: [
       { date: "2026-02", value: 64200 },
@@ -125,7 +125,7 @@ export const MOCK_STATISTICS: MarketStatistic[] = [
     momChange: 2.4,
     yoyChange: 15.1,
     region: "national",
-    sourceUrl: "https://www.molit.go.kr/statistics/example/unsold-2026-07",
+    sourceUrl: "https://www.molit.go.kr",
     verification: "NEEDS_CHECK",
     history: [
       { date: "2026-02", value: 13800 },
@@ -147,7 +147,7 @@ export const MOCK_STATISTICS: MarketStatistic[] = [
     momChange: 0,
     yoyChange: -0.5,
     region: "national",
-    sourceUrl: "https://www.bok.or.kr/portal/example/mpb-2026-09",
+    sourceUrl: "https://www.bok.or.kr",
     verification: "NEEDS_CHECK",
     history: [
       { date: "2026-01", value: 3.0 },
@@ -168,7 +168,7 @@ export const MOCK_STATISTICS: MarketStatistic[] = [
     momChange: -0.05,
     yoyChange: -0.42,
     region: "national",
-    sourceUrl: "https://www.bok.or.kr/portal/example/rate-2026-07",
+    sourceUrl: "https://www.bok.or.kr",
     verification: "NEEDS_CHECK",
     history: [
       { date: "2026-02", value: 4.35 },
@@ -190,7 +190,7 @@ export const MOCK_STATISTICS: MarketStatistic[] = [
     momChange: -0.03,
     yoyChange: -0.31,
     region: "national",
-    sourceUrl: "https://www.bok.or.kr/portal/example/rate-2026-07",
+    sourceUrl: "https://www.bok.or.kr",
     verification: "NEEDS_CHECK",
     history: [
       { date: "2026-02", value: 4.05 },
@@ -210,7 +210,7 @@ export const MOCK_STATISTICS: MarketStatistic[] = [
     momChange: 0.3,
     yoyChange: 2.8,
     region: "seoul",
-    sourceUrl: "https://www.reb.or.kr/statistics/example/avg-2026-08",
+    sourceUrl: "https://www.reb.or.kr",
     verification: "NEEDS_CHECK",
     history: [
       { date: "2026-03", value: 118900 },
