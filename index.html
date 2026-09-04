@@ -590,9 +590,32 @@ const esc = s => (s==null?'':String(s)).replace(/&/g,'&amp;').replace(/</g,'&lt;
 const clamp = (s,n) => { s=(s||'').trim(); return s.length>n ? s.slice(0,n-1)+'…' : s; };
 const ymd = d => d ? d.replace(/-/g,'.').replace(/^../,'20$&').replace(/^2020/,'20') : '';
 const STATUS_LABEL = {CONFIRMED:'확정',SCHEDULED:'시행 예정',LEGISLATIVE_NOTICE:'입법예고',IN_ASSEMBLY:'국회 심의 중',UNDER_REVIEW:'정부 검토',PRESS_REPORTED:'언론 보도',OUTLOOK:'전망/분석'};
-const KIND = {DAILY:{brief:'DAILY BRIEFING',eyebrow:"TODAY'S REAL ESTATE BRIEF",title:'오늘의 부동산 AI 브리핑',ed:'2026.09.03 THU',pol:4,news:8,psub:'공식 고시·발표 종합',nsub:'기사 제목을 누르면 원문으로 이동합니다',phead:'오늘 꼭 알아야 할 정책',nhead:'오늘의 주요 뉴스'},
-  WEEKLY:{brief:'WEEKLY BRIEFING',eyebrow:'WEEKLY REAL ESTATE BRIEF',title:'이번 주 부동산 AI 브리핑',ed:'2026.08.25 – 08.31',pol:6,news:12,psub:'정부정책 TOP',nsub:'이번 주 주요 이슈',phead:'정부정책 핵심 브리핑',nhead:'부동산 뉴스 브리핑'},
-  MONTHLY:{brief:'MONTHLY BRIEFING',eyebrow:'MONTHLY REAL ESTATE BRIEF',title:'한 달 부동산 시장 총정리',ed:'2026.08 총정리',pol:8,news:12,psub:'정부정책 총정리',nsub:'한 달 주요 이슈',phead:'정부정책 총정리',nhead:'부동산 뉴스 총정리'}};
+
+/* 발행 기준일(edition) — "오늘" 을 하드코딩하지 않고 실제 현재 날짜로 계산합니다.
+   news.json(실시간 뉴스)·블로그 작성일·기사 발행일은 모두 실제 날짜를 쓰는데,
+   여기 ed 값만 예전엔 '2026.09.03' 등으로 고정돼 있어 시간이 지날수록 서로
+   어긋나 보였습니다. DAILY=오늘, WEEKLY=이번 주(월~일), MONTHLY=지난 달. */
+const pad2 = n => String(n).padStart(2,'0');
+const ymdDot = d => `${d.getFullYear()}.${pad2(d.getMonth()+1)}.${pad2(d.getDate())}`;
+function dailyEd(d){
+  const dow = ['SUN','MON','TUE','WED','THU','FRI','SAT'][d.getDay()];
+  return `${ymdDot(d)} ${dow}`;
+}
+function weeklyEd(d){
+  const diffToMon = d.getDay()===0 ? -6 : 1-d.getDay();
+  const mon = new Date(d); mon.setDate(d.getDate()+diffToMon);
+  const sun = new Date(mon); sun.setDate(mon.getDate()+6);
+  return `${ymdDot(mon)} – ${pad2(sun.getMonth()+1)}.${pad2(sun.getDate())}`;
+}
+function monthlyEd(d){
+  const prev = new Date(d.getFullYear(), d.getMonth()-1, 1);
+  return `${prev.getFullYear()}.${pad2(prev.getMonth()+1)} 총정리`;
+}
+const TODAY = new Date();
+
+const KIND = {DAILY:{brief:'DAILY BRIEFING',eyebrow:"TODAY'S REAL ESTATE BRIEF",title:'오늘의 부동산 AI 브리핑',ed:dailyEd(TODAY),pol:4,news:8,psub:'공식 고시·발표 종합',nsub:'기사 제목을 누르면 원문으로 이동합니다',phead:'오늘 꼭 알아야 할 정책',nhead:'오늘의 주요 뉴스'},
+  WEEKLY:{brief:'WEEKLY BRIEFING',eyebrow:'WEEKLY REAL ESTATE BRIEF',title:'이번 주 부동산 AI 브리핑',ed:weeklyEd(TODAY),pol:6,news:12,psub:'정부정책 TOP',nsub:'이번 주 주요 이슈',phead:'정부정책 핵심 브리핑',nhead:'부동산 뉴스 브리핑'},
+  MONTHLY:{brief:'MONTHLY BRIEFING',eyebrow:'MONTHLY REAL ESTATE BRIEF',title:'한 달 부동산 시장 총정리',ed:monthlyEd(TODAY),pol:8,news:12,psub:'정부정책 총정리',nsub:'한 달 주요 이슈',phead:'정부정책 총정리',nhead:'부동산 뉴스 총정리'}};
 
 function agencyStyle(a){
   a = a || '';

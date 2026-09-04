@@ -1,44 +1,7 @@
 {
- "generatedAt": "2026-09-04T20:45:14.494Z",
+ "generatedAt": "2026-09-04T22:21:02.512Z",
  "source": "Google News RSS",
  "topics": {
-  "rate": [
-   {
-    "publisher": "더구루",
-    "title": "한은, 두 달 연속 기준금리 인상…부동산 시장 관망세 짙어지나",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBKd0x2bWp4MHlxc09DMFRwUFpuNDlscUNHQVVsN1FGS2JINGU5UDZoV0lzUUJPajh3V2JCSmFsd09yTUQweDZrT242TVZvbDZMUjVzUktTY0ZjMld1OXRhb0hCcw?oc=5",
-    "excerpt": "",
-    "date": "2026-08-27"
-   },
-   {
-    "publisher": "연합인포맥스",
-    "title": "부동산 전문가들 \"금리 인상에 15억 이하 집값 상승세 둔화할 것\"",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB0YkNZajBSMjE5clFpWmR1STZrNDhDMEhBOF9jcGRuczdkczZ2T2FaRmVyT3E0b2psWWRueC1kSnBIX3R0ZEdEbERuVl9TeFR3eE1DdU13RUlNVkJkX0FYeVpYWE91b3NtTUJWeDVXdkc?oc=5",
-    "excerpt": "",
-    "date": "2026-08-27"
-   },
-   {
-    "publisher": "조선일보",
-    "title": "한은, 기준금리 0.25%포인트 올려…코로나 후 첫 연속 인상",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPWmU2djBkLS0xX3VMcGNHX0p4SmZtQWVkSVhyMHJkMUxKSzEtNHVNZlhTV2hiX0J5X2FyVEtWQ1B1S1AtNThQX1I1Qzh6RFVwTWtrMTNuMERRc0ZnZkNQVVpFeEI0cFpDV182Sm5kWXpieExqa1JMdmZ0UXBtczlLSnVYZkIwQ2o0TldPRGdR?oc=5",
-    "excerpt": "",
-    "date": "2026-08-27"
-   },
-   {
-    "publisher": "중앙일보",
-    "title": "주담대 금리 연 8% 뚫릴 수도…영끌족, 이자폭탄 공포",
-    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9pbkc1UDBNUFVtbzFtWmRBTnNueDFxaVlJZ3lfQ1J3MG14US1LS1BNZEZHVFZDNVJzbXdrOTIyeGEwaF85SUpxLXJvOTNpRF9JRkt4eVJB?oc=5",
-    "excerpt": "",
-    "date": "2026-08-27"
-   },
-   {
-    "publisher": "연합뉴스",
-    "title": "기준금리 연속 인상에 주택 거래 더 위축…\"집값 하락은 제한적\"",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBKdFZCOFZYaFZZUkxjaXNZbzVMa2RPZDlGSF82MkdSM3FkZmdLRm9waUNMYXF1d2Nwb0Jra25MbTVjdnh6eTJoUU5HbXYtQm1DSUJsSmhFa2ROb2vSAWBBVV95cUxPaVh1eUI2RlpES1RQdU5EZjlqOWNDS2dIYmY2WW1GaGdZVFJFZGhnbjlXM01DeEY4YzhncjA2eW1DTjJqcklkQ2JQaUNqeFpFTVNZbnB4X1U2X1E5MEU5M3o?oc=5",
-    "excerpt": "",
-    "date": "2026-08-27"
-   }
-  ],
   "supply": [
    {
     "publisher": "대한민국 정책브리핑",
@@ -55,7 +18,7 @@
     "date": "2026-08-18"
    },
    {
-    "publisher": "한국주택경제신문",
+    "publisher": "arunews.com",
     "title": "국토부 ‘8·13 공급대책’ 공공·산업계 총력 지원 약속",
     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1PQTBwcXo4NDhEZE9QN21GVnN5X0ZxX0ptOG53cDdWMndkc1RoZk8wYi1raWtJS3JxaENkSlppSkxjalFXdTc1UEd4MjllTVFwSk9Dcjd2X3pqYlhWY2NYc3Vfd3JZWlNj?oc=5",
     "excerpt": "",
@@ -78,14 +41,14 @@
   ],
   "subs": [
    {
-    "publisher": "economicsignal.co.kr",
+    "publisher": "경제시그널",
     "title": "\"많이 넣을수록 유리한게 아니였네\"... 특별공급 개편 이후 달라진 당첨 '전략'",
     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBqOFhMSDdYc3dSR2xKb3ZkUDFCeWxpQ3hqcmw1V2dDTkR2MFgwM0FFUGtmM003SjZjSkh3TGd1UHNPaDZUY2o4YS1BTUxmVGowSzBDdEdyenhGRWQwSU50VDVNc1E4OGsyMDRPbUFKWEtqbXc?oc=5",
     "excerpt": "",
     "date": "2026-08-01"
    },
    {
-    "publisher": "newsspace.kr",
+    "publisher": "뉴스스페이스",
     "title": "[이슈&논란] 가점 10점·23살 안유진의 '20억 차익' 디에이치 방배 40평 당첨 전략?…기회평등(추첨)과 결과불평등(계약금·대출) 공존하는 구멍난 제도의 산물",
     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9EUExSNG1sVmVSTm5HVWxMN3U0dGhiTVpzNTV3cTktbkExMkR3RkU5TFpJMXFfTjBpZHN5cklNWWRrc2NGNTQ1Z2VTYlFGR3F4c3FwRGVZcTdJTnFISWtrTg?oc=5",
     "excerpt": "",
@@ -145,14 +108,14 @@
     "date": "2026-07-23"
    },
    {
-    "publisher": "biz.chosun.com",
+    "publisher": "Chosunbiz",
     "title": "[단독] 오세훈 “투기 심리 자극하는 주간 집값 통계 폐지해야” - 조선비즈",
     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdEhGS3dCR3RNa3NLcmdfTmRJcUV6RmU0RUYzMmZpTlVCUGV4VzByMEJRa1ZfWC1taU1CNGxxSElxR2JzUlR5X0FrUGtxVGloVktONTdkQ0NFZ0VYRGpUZmpGVThUcEV2NUtpZWxvbENZV1phUjgzUGg2UlBSWmhjaTdmQzJxWHl1UHFuMjRjVzZvaWRMWmRrSNIBrAFBVV95cUxOU09RWHQ4WFpHcEdwY3pXV2xsQUtnTzRqaHhFVG9rQmUtajdmNEQ1RDQxMzR6X2JxRl9CVi1QSnUzRkhDN2cyWmVLemZlWE9TaEpZWWk5eVpfRkpabVo1d3l6TVh4WENsOGpHZ2pGSWV0RTR3NldDZThQWEJfdjllRWFwTlpVUEc5d19UWWlhdDJOR1RmSVYtS2x1VGdWOFloeV9FamtoN2hzZzdF?oc=5",
     "excerpt": "",
     "date": "2026-07-22"
    },
    {
-    "publisher": "weekly.hankooki.com",
+    "publisher": "주간한국",
     "title": "살아나는 '빌라'…대출정책은 시장 못 따라가",
     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1RSnlWcTlZb1VhNExDTTd3ZzZ2cFhsZlJDSkF0WDRUZUVqRklBUGx5MmJyZ2treEtQRjl1Rk9tS2VGNldHTDlCVERzc0dYZGFRSjlJRlRGVXRlV21raVZfTk5hektOc29PMFkwbXVGZmHSAXRBVV95cUxPeUczZlpKUGdPdDlfUHJFSEVNMVRLbzZzdldjSGdvLUdUSWVpWno0VHNsNmUwWU95UXhFVmxhZXVwdldkRWNOdkM1aDVQT3owcmpxNVY0ZV9mR2EzblVwbEdHTzVkOXlubEluLVh0RWpaaUtpRQ?oc=5",
     "excerpt": "",
@@ -226,6 +189,13 @@
     "date": "2026-07-24"
    },
    {
+    "publisher": "v.daum.net",
+    "title": "계양 선우아파트 정비구역 지정…추정분담금 최대 5억500만 원",
+    "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFAzeXpLWUFTTlN6UFVMc01uNk10eTg5cnVNUGNWTlhCNFFiS19KVmlzVUVkaUt5LVU2bjM5d2lyTFpzZlVpaFE?oc=5",
+    "excerpt": "",
+    "date": "2026-08-31"
+   },
+   {
     "publisher": "디벨로퍼뉴스",
     "title": "반포미도2차, ‘분양가상한제 밖’ 반포 재건축 확정…분담금 부담 넘어 시세분양 기대감",
     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5Ic2d2eVBTWmJnbHNnUHZMMkk0c3FDSFBDYXAtS2I5UlJfcHBzb2VLQTJvUW9WbVdDOTM5djBJb1FpQ0dMeHRQcDMxR2E1WkM3aVdwU0JDZ2FoN3BoQzRrTnp2dk9kbjNM?oc=5",
@@ -238,13 +208,6 @@
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5LOWZwTnFzX191cjRzdnR2dmhPSGRNeUllZ3RrZlpPTGNxNGtlaEhhZ0tsT1R6LXBmZWJpY0lIcG1XbjZoZzhWSlJ1aDZfODVzcnB6eUx2VWpfWm8?oc=5",
     "excerpt": "",
     "date": "2026-07-25"
-   },
-   {
-    "publisher": "중부일보",
-    "title": "계양 선우아파트 정비구역 지정…추정분담금 최대 5억500만 원",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9RaFFxREJEUE9CZmY1eHBra1FrdXVFalAyU1BFd3hhbjNWY2txd1Bod0N6cUdpVWxIUDBGdHdWMFZNWkF5Qno3VkVoVnFkU29UNl9CNnB4R2R0Y1A2TDlveTlKWFFIaTR1N1RNRUtWTQ?oc=5",
-    "excerpt": "",
-    "date": "2026-08-31"
    }
   ],
   "loan": [
@@ -270,7 +233,7 @@
     "date": "2026-08-11"
    },
    {
-    "publisher": "창원특례신문",
+    "publisher": "cwtr.co.kr",
     "title": "가계대출 총량규제 1.5%, 주담대 신청 전 확인 할 10가지",
     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9laUE4eUVPVzJyc3psM2xzTkllUTg2Y09jOGdIV0VjTG5oWFpubWNDdUpPR3hRTWFfYTY0VWdhVGM1SnhEZnZFVHpNMDNNbnFma3EtYXBuNWU3azQwMEdBWlFmdi1qMGvSAWtBVV95cUxOaC13TGFjTTVBZ2UtT3VoZEljLXEtUnl5b0VpMWRnVmRCQTRnMkJOZ1NuTVFCcVZEWUdnNmV1MkhZb3l0bnV2cXZPRVh6S3RZeU1PQTZVQTRYem1lV2c0SlE0T2xiTHBrU1FWRQ?oc=5",
     "excerpt": "",
@@ -367,7 +330,7 @@
     "date": "2026-07-26"
    },
    {
-    "publisher": "economicsignal.co.kr",
+    "publisher": "경제시그널",
     "title": "\"준강남이라 불리던 곳 맞나\"… 올해 들어 전셋값까지 꺾여버린 '이 지역' 아파트",
     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5fb2tUZEZ5QVBLS1NZRFRkbFptMFdJdEg5b3VXdkFwLXkza3BrS3R1TXJnbkswMXE5RFh1b0x5b1Y4RUpGQXU1dWpwOVJ1aXpwdU1IQTlQRTNqMkNkM202Q0Yzc0FPUjRYOEFpZmZiNkl5cXc?oc=5",
     "excerpt": "",
@@ -390,7 +353,14 @@
     "date": "2026-07-30"
    },
    {
-    "publisher": "브릿지경제",
+    "publisher": "뉴스밸류",
+    "title": "[심층분석]3기 신도시 첫 입주 앞둔 계양, ‘공급 속도전’의 시험대…민간분양까지 주택 공급축 넓힌다",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBUVFBLa1dGRTJyeXU0eFk4QjFxdFNBd0lEWjI4UVA3aTkzYVVwV2hPd25RNDFiMmpTSFNDUkNiZGNkUjQteXpZel95S1ZOd0ZPNWF4YzVEc0xKdDJrSVBSdS1nbUtGZkFTcFE?oc=5",
+    "excerpt": "",
+    "date": "2026-08-26"
+   },
+   {
+    "publisher": "viva100.com",
     "title": "3기 신도시 계양, 10월 민간 분양 본격화",
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBlV1RpNlcwOUh5MkRGeTRtTldDa2FvdnBONTZXamprY2ZJOWJUdFlDU0hqeW5DQUFGREMxdHpaQW9rUTRMUVpTQVU5N2pzZ2I0Umowb0NNWTBDUQ?oc=5",
     "excerpt": "",
@@ -402,13 +372,6 @@
     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9GdlB6OGJRNzlkWHpuOEQ5aGdfZHpPeVQ2cnJ3UHppTnkxMkdKSDV3eERxQlQ0b25qYzF1NGIyNWdRMEVsX2JnQ1A4ejZJWjNSY2tr?oc=5",
     "excerpt": "",
     "date": "2026-08-18"
-   },
-   {
-    "publisher": "세계일보",
-    "title": "국토장관 “사전청약 제도 보완 검토…당첨자 의견 듣는다”",
-    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE05cjlTd3RabkFmQmRRY0dSaVk2S2xzRk1UMGhHWHN6dkVXeHowcVQ2OGxKN3ZvYTc1ZmdJcjVIWV9wX3JjTmsyWEtmbHp5ZHBMUVI1WGlXT2zSAVRBVV95cUxPZXRERWlCb2hucE1lNk9rU09jekpMa0RzX1lqSDcyU0RGWlRhY2tEUURScFkyZ0UyVkVsTHRoaUJ2Ul9wVTNPT3kxY21fZEJlQnk0dks?oc=5",
-    "excerpt": "",
-    "date": "2026-07-27"
    }
   ]
  }
