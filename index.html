@@ -56,7 +56,6 @@
   }
   .device.email{max-width:600px}
   .device.mobile{max-width:400px}
-  .device.kakao{max-width:420px;background:var(--primary-c)}
   .device.insta{max-width:480px;background:var(--surface)}
 
   /* ── EDM 본문 (render.ts와 동일 시스템) ── */
@@ -186,21 +185,6 @@
   .foot-links a{color:var(--primary);text-decoration:underline}
   .foot-links span{color:var(--outline-var);margin:0 6px}
 
-  /* ── 카카오 카드 미리보기(축소) ── */
-  .kakao-frame{display:flex;justify-content:center;padding:18px}
-  .kakao-scale{width:1080px;transform-origin:top center}
-  .kcard{width:1080px;min-height:1350px;padding:80px 72px;font-family:'Noto Sans KR',sans-serif;color:#fff;background:linear-gradient(165deg,var(--primary-c),var(--primary))}
-  .kcard .kbrand{font-family:'Plus Jakarta Sans',sans-serif;font-weight:800;font-size:34px}
-  .kcard .kbrand small{display:block;font-size:20px;font-weight:700;color:var(--secondary-c);letter-spacing:.06em;margin-top:8px}
-  .kcard .ked{margin-top:56px;font-size:30px;color:var(--secondary-fixed);font-weight:700}
-  .kcard h1{margin-top:18px;font-size:60px;font-weight:800;line-height:1.32;letter-spacing:-.02em}
-  .kcard .krule{margin-top:52px;width:120px;height:5px;background:var(--secondary-c);border-radius:3px}
-  .kcard ol{margin-top:44px;list-style:none;display:flex;flex-direction:column;gap:30px}
-  .kcard li{font-size:36px;line-height:1.45;display:flex;gap:20px}
-  .kcard li b{color:var(--secondary-c);font-family:'Plus Jakarta Sans',sans-serif}
-  .kcard .ktail{margin-top:64px;font-size:28px;color:#c7d0ec;line-height:1.6}
-  .kcard .kfoot{margin-top:52px;font-size:30px;font-weight:700}
-
   /* ── 인스타그램 카드뉴스 ── */
   .insta{padding:16px 16px 40px}
   .insta-titles .it-head{font-family:'Plus Jakarta Sans','Noto Sans KR',sans-serif;font-size:16px;font-weight:800;color:var(--primary);margin-bottom:4px}
@@ -270,7 +254,6 @@
   <div class="seg" id="viewSeg">
     <button data-v="email" class="on">이메일 640</button>
     <button data-v="mobile">모바일</button>
-    <button data-v="kakao">카카오 카드</button>
     <button data-v="insta">인스타 카드</button>
   </div>
   <div class="sendbar">
@@ -625,21 +608,6 @@ function renderEDM(typeKey){
   </div></div>`;
 }
 
-/* ───────────── 카카오 세로 카드 ───────────── */
-function renderKakao(typeKey){
-  const K = KIND[typeKey];
-  const top3 = ISSUES.slice(0,3).map((it,i)=>`<li><b>${String(i+1).padStart(2,'0')}</b><span>${esc(it.oneLiner)}</span></li>`).join('');
-  return `<div class="kakao-frame"><div class="kakao-scale" id="kscale"><div class="kcard">
-    <div class="kbrand">${esc(BRAND.officeName)}<small>${esc(BRAND.brandName)}</small></div>
-    <div class="ked">${esc(K.ed)}</div>
-    <h1>${esc(ISSUES[0].oneLiner)}</h1>
-    <div class="krule"></div>
-    <ol>${top3}</ol>
-    <p class="ktail">복잡한 부동산 정책을 일반인의 눈높이에서 쉽게 설명해드립니다.</p>
-    <div class="kfoot">${esc(BRAND.officeName)} · ${esc(BRAND.mobile)}</div>
-  </div></div></div>`;
-}
-
 /* ───────────── 인스타그램 카드뉴스 ───────────── */
 const PERIOD_KO = {DAILY:'일간', WEEKLY:'주간', MONTHLY:'월간'};
 const cleanTitle = s => (s||'').replace(/\s*\(DEMO DATA\)\s*$/,'').trim();
@@ -750,12 +718,6 @@ let curType='DAILY', curView='email';
 let instaIssue=null, instaCount=5;
 const device = document.getElementById('device');
 
-function fitKakao(){
-  const s = device.querySelector('#kscale'); if(!s) return;
-  const k = device.clientWidth / 1080;
-  s.style.transform = 'scale('+k+')';
-  s.style.height = (1350*k)+'px';
-}
 function fitInsta(){
   const w = device.clientWidth - 32;
   device.querySelectorAll('.icard-scale').forEach(wrap=>{
@@ -769,10 +731,7 @@ function fitInsta(){
 
 function paint(){
   device.className = 'device '+curView;
-  if(curView==='kakao'){
-    device.innerHTML = renderKakao(curType);
-    fitKakao();
-  } else if(curView==='insta'){
+  if(curView==='insta'){
     device.innerHTML = renderInsta(curType);
     if(instaIssue != null) fitInsta();
   } else {
@@ -798,7 +757,7 @@ device.addEventListener('click', e=>{
   if(e.target.closest('[data-insta-back]')){ instaIssue = null; paint(); return; }
 });
 
-window.addEventListener('resize', ()=>{ if(curView==='kakao' || curView==='insta') paint(); });
+window.addEventListener('resize', ()=>{ if(curView==='insta') paint(); });
 
 /* ───────────── 실시간 뉴스 (same-origin news.json) ───────────── */
 /* news.json 은 GitHub Actions 가 Google News RSS 를 수집해 주기적으로 커밋합니다.
