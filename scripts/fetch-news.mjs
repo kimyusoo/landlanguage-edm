@@ -5,11 +5,18 @@
 import { writeFileSync } from "node:fs";
 
 const TOPICS = [
-  { id: "rate",   query: "한국은행 기준금리 부동산 대출" },
-  { id: "supply", query: "수도권 주택 공급대책 국토교통부" },
-  { id: "subs",   query: "청약제도 개편 무순위 청약 특별공급" },
-  { id: "tax",    query: "다주택자 종합부동산세 양도소득세 보유세" },
-  { id: "stat",   query: "서울 아파트 매매가격 거래량 실거래가 통계" },
+  { id: "rate",    query: "한국은행 기준금리 부동산 대출" },
+  { id: "supply",  query: "수도권 주택 공급대책 국토교통부" },
+  { id: "subs",    query: "청약제도 개편 무순위 청약 특별공급" },
+  { id: "tax",     query: "다주택자 종합부동산세 양도소득세 보유세" },
+  { id: "stat",    query: "서울 아파트 매매가격 거래량 실거래가 통계" },
+  { id: "lease",   query: "전세 월세 임대차 전월세 계약갱신청구권" },
+  { id: "redev",   query: "재건축 재개발 정비사업 안전진단 분담금" },
+  { id: "loan",    query: "주택담보대출 DSR 디딤돌 보금자리론 대출규제" },
+  { id: "presale", query: "아파트 분양 청약 경쟁률 미분양" },
+  { id: "gtx",     query: "GTX 광역급행철도 역세권 개발 교통 호재" },
+  { id: "gap",     query: "전세가율 갭투자 역전세 전세보증금" },
+  { id: "newtown", query: "3기 신도시 공공택지 사전청약" },
 ];
 
 const rssUrl = (q) =>

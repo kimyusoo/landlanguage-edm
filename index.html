@@ -302,6 +302,22 @@
   .blog-doc strong{font-weight:700;color:var(--on)}
   .blog-editor{width:100%;min-height:62vh;border:1px solid var(--outline-var);border-radius:12px;padding:18px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Noto Sans KR',monospace;font-size:13px;line-height:1.75;color:var(--on);resize:vertical;background:#fff}
 
+  /* ── EDM 섹션 인라인 수정/삭제 ── */
+  .edm-tools{display:flex;gap:5px;justify-content:flex-end;margin-bottom:6px}
+  .edm-tools button{border:1px solid var(--outline-var);background:#fff;color:var(--on-var);font:inherit;font-size:10.5px;font-weight:700;padding:4px 9px;border-radius:6px;cursor:pointer}
+  .edm-tools button.danger{color:#b91c1c;border-color:#fecaca}
+  .edm-removed{background:#fff;border:1px dashed var(--outline-var);border-radius:10px;padding:12px 14px;font-size:12px;color:var(--outline);display:flex;align-items:center;justify-content:space-between;gap:10px}
+  .edm-removed button{border:1px solid var(--primary);background:var(--primary);color:#fff;font:inherit;font-size:11px;font-weight:700;padding:6px 11px;border-radius:6px;cursor:pointer;white-space:nowrap}
+  .edm-editwrap{background:#fff;border:1px solid var(--primary);border-radius:12px;padding:14px}
+  .edm-editrow{display:grid;grid-template-columns:76px 52px 1fr;gap:8px;align-items:start;margin-bottom:8px}
+  .edm-editrow .lbl{font-size:12px;font-weight:700;color:var(--on);padding-top:7px}
+  .edm-editrow input,.edm-editrow textarea{border:1px solid var(--outline-var);border-radius:7px;font:inherit;font-size:12px;padding:6px 8px;width:100%;color:var(--on);background:#fff}
+  .edm-editrow textarea{min-height:46px;line-height:1.5;resize:vertical}
+  .edm-c-editor{width:100%;min-height:120px;border:1px solid var(--primary);border-radius:10px;padding:12px;font:inherit;font-size:13px;line-height:1.7;resize:vertical;color:var(--on);background:#fff}
+  .edm-editactions{display:flex;gap:6px;margin-top:8px}
+  .edm-editactions button{border:1px solid var(--outline-var);background:#fff;font:inherit;font-size:11.5px;font-weight:700;padding:7px 13px;border-radius:7px;cursor:pointer;color:var(--on-var)}
+  .edm-editactions button.primary{background:var(--primary);color:#fff;border-color:var(--primary)}
+
   .sendbar{display:inline-flex;gap:6px}
   .sendbar button{border:1px solid rgba(255,255,255,.25);background:rgba(255,255,255,.06);color:#eef1f8;font:inherit;font-size:12px;font-weight:700;padding:6px 11px;border-radius:7px;cursor:pointer;transition:.15s}
   .sendbar button:hover{background:#c7a15a;color:#10243e;border-color:#c7a15a}
@@ -519,6 +535,44 @@ const ISSUES = [
   },
 ];
 
+/* 추가 주제 — 상세 해설은 실시간 뉴스(news.json)가 채우고, 오프라인에서는 방향-중립 가이드로 표시 */
+function genericPersona(){
+  return [
+    ['무주택자', 3, '매수 계획이 있다면 이 이슈가 대출 한도·자격·시점에 주는 영향을 다시 점검하세요.'],
+    ['1주택자', 2, '보유·갈아타기 판단에 앞서 본인 대출 조건과 세금 요건을 확인하세요.'],
+    ['다주택자', 3, '세제·대출 규제와 보유 비용 변화 가능성을 함께 점검하세요.'],
+    ['매수 예정자', 3, '자금 계획과 매수 시점을 이 이슈의 구체 조건에 맞춰 재검토하세요.'],
+    ['매도 예정자', 3, '거래량·가격 흐름과 세금 일정을 확인해 매도 전략을 조정하세요.'],
+    ['임대인', 2, '임대차 관련 제도 변화 여부를 별도로 확인하세요.'],
+    ['임차인', 2, '전월세·대출 조건 변화 가능성을 확인하세요.'],
+  ];
+}
+function mkIssue(topicId, agency, oneLiner, whatHappened, audience, status){
+  return {
+    status: status || 'PRESS_REPORTED', agency,
+    announced: new Date().toISOString().slice(0,10), effective: null,
+    topicId, officialUrl: '',
+    oneLiner, headline: oneLiner + ' (DEMO DATA)',
+    whatHappened,
+    bullets: [
+      '헤드라인보다 적용 대상·시행 시점·구체 수치를 원문에서 먼저 확인하세요.',
+      '고객 상황(주택 수·지역·보유기간·대출 유형)에 따라 영향이 달라짐을 안내하세요.',
+      '확정된 내용과 논의·전망 단계를 구분해 설명하세요.',
+    ],
+    impact: '기사 원문에서 적용 지역·시행일·대상 요건을 확인한 뒤 본인 상황에 맞춰 판단하세요.',
+    audience, articles: [], persona: genericPersona(),
+  };
+}
+ISSUES.push(
+  mkIssue('lease','국토교통부','전세·월세 시장과 임대차 제도','전세·월세 가격 흐름과 계약갱신·전월세 신고 등 임대차 제도 관련 이슈를 다룹니다.',['#임차인','#임대인','#무주택자']),
+  mkIssue('redev','국토교통부','재건축·재개발 규제와 정비사업 속도','안전진단·분담금·정비구역 지정 등 재건축·재개발 사업 속도에 영향을 주는 이슈를 다룹니다.',['#재건축','#재개발','#다주택자','#매수예정자']),
+  mkIssue('loan','금융위원회','주택담보대출·DSR·정책대출 동향','대출 한도·금리, DSR 규제, 디딤돌·보금자리론 등 정책대출 관련 변화를 다룹니다.',['#무주택자','#매수예정자','#1주택자']),
+  mkIssue('presale','국토교통부','분양·청약 경쟁률과 미분양','분양 물량, 청약 경쟁률, 미분양·준공후 미분양 흐름을 다룹니다.',['#청약','#분양','#무주택자','#매수예정자']),
+  mkIssue('gtx','국토교통부','GTX·광역교통 호재와 역세권','GTX 등 광역교통 사업 진척과 역세권 개발이 지역 시장에 주는 영향을 다룹니다.',['#매수예정자','#투자','#재개발']),
+  mkIssue('gap','한국부동산원','전세가율·갭투자·역전세','전세가율 변화와 갭투자·역전세 리스크 관련 시장 동향을 다룹니다.',['#임대인','#임차인','#투자','#1주택자']),
+  mkIssue('newtown','국토교통부','3기 신도시·공공택지·사전청약','3기 신도시 등 공공택지 공급과 사전청약 일정 관련 이슈를 다룹니다.',['#무주택자','#청약','#매수예정자']),
+);
+
 /* ───────────── DEMO DATA: 시장 통계 ───────────── */
 const STATS = [
   {label:'서울 아파트 매매가격 변동률 (주간)', main:'+0.03%', mom:0.02, asOf:'2026-09-01', url:'https://www.reb.or.kr'},
@@ -535,9 +589,9 @@ const esc = s => (s==null?'':String(s)).replace(/&/g,'&amp;').replace(/</g,'&lt;
 const clamp = (s,n) => { s=(s||'').trim(); return s.length>n ? s.slice(0,n-1)+'…' : s; };
 const ymd = d => d ? d.replace(/-/g,'.').replace(/^../,'20$&').replace(/^2020/,'20') : '';
 const STATUS_LABEL = {CONFIRMED:'확정',SCHEDULED:'시행 예정',LEGISLATIVE_NOTICE:'입법예고',IN_ASSEMBLY:'국회 심의 중',UNDER_REVIEW:'정부 검토',PRESS_REPORTED:'언론 보도',OUTLOOK:'전망/분석'};
-const KIND = {DAILY:{brief:'DAILY BRIEFING',eyebrow:"TODAY'S REAL ESTATE BRIEF",title:'오늘의 부동산 AI 브리핑',ed:'2026.09.03 THU',pol:3,news:5,psub:'공식 고시·발표 종합',nsub:'기사 제목을 누르면 원문으로 이동합니다',phead:'오늘 꼭 알아야 할 정책',nhead:'오늘의 주요 뉴스'},
-  WEEKLY:{brief:'WEEKLY BRIEFING',eyebrow:'WEEKLY REAL ESTATE BRIEF',title:'이번 주 부동산 AI 브리핑',ed:'2026.08.25 – 08.31',pol:5,news:5,psub:'정부정책 TOP 5',nsub:'이번 주 주요 이슈',phead:'정부정책 핵심 브리핑',nhead:'부동산 뉴스 브리핑'},
-  MONTHLY:{brief:'MONTHLY BRIEFING',eyebrow:'MONTHLY REAL ESTATE BRIEF',title:'한 달 부동산 시장 총정리',ed:'2026.08 총정리',pol:5,news:5,psub:'정부정책 총정리',nsub:'한 달 주요 이슈',phead:'정부정책 총정리',nhead:'부동산 뉴스 총정리'}};
+const KIND = {DAILY:{brief:'DAILY BRIEFING',eyebrow:"TODAY'S REAL ESTATE BRIEF",title:'오늘의 부동산 AI 브리핑',ed:'2026.09.03 THU',pol:4,news:8,psub:'공식 고시·발표 종합',nsub:'기사 제목을 누르면 원문으로 이동합니다',phead:'오늘 꼭 알아야 할 정책',nhead:'오늘의 주요 뉴스'},
+  WEEKLY:{brief:'WEEKLY BRIEFING',eyebrow:'WEEKLY REAL ESTATE BRIEF',title:'이번 주 부동산 AI 브리핑',ed:'2026.08.25 – 08.31',pol:6,news:12,psub:'정부정책 TOP',nsub:'이번 주 주요 이슈',phead:'정부정책 핵심 브리핑',nhead:'부동산 뉴스 브리핑'},
+  MONTHLY:{brief:'MONTHLY BRIEFING',eyebrow:'MONTHLY REAL ESTATE BRIEF',title:'한 달 부동산 시장 총정리',ed:'2026.08 총정리',pol:8,news:12,psub:'정부정책 총정리',nsub:'한 달 주요 이슈',phead:'정부정책 총정리',nhead:'부동산 뉴스 총정리'}};
 
 function agencyStyle(a){
   a = a || '';
@@ -623,12 +677,53 @@ function renderEDM(typeKey){
   const chartStat = STATS.find(s=>s.history);
   const chart = chartStat ? `<div class="chart"><div class="chart-head"><span>${esc(chartStat.label)} 추이</span><span class="chart-src">한국부동산원 · 서울부동산정보광장</span></div>${miniBars(chartStat.history)}</div>` : '';
 
-  const persona = ISSUES[0].persona.map(p=>`
-    <div class="prow"><div class="prow-head"><span class="prow-lbl">${esc(p[0])}</span><span class="prow-dots">${dots(p[1])}</span></div>
-    <p class="prow-note">${esc(p[2])}</p></div>`).join('');
-
-  const comment = `정책은 '발표'보다 '적용 대상'과 '시행 시점'을 확인하는 것이 중요합니다. 이번 회차는 검토·입법예고·언론 보도 단계의 사안이 많습니다. 확정된 내용과 논의 중인 내용을 구분해서 보시고, 개별 상황은 세무·법률 전문가와 함께 확인하시길 권합니다.`;
   const telHref = BRAND.mobile ? 'tel:'+BRAND.mobile.replace(/[^0-9+]/g,'') : '#';
+
+  // ── "그래서 내 부동산에는?" (수정/삭제 가능) ──
+  const personaRows = edmPersona || ISSUES[0].persona;
+  const personaHeadRef = esc(cleanTitle(ISSUES[0].headline));
+  let personaSection;
+  if(edmHide.persona){
+    personaSection = `<section class="sec"><div class="edm-removed"><span>‘그래서 내 부동산에는?’ 섹션이 삭제되었습니다.</span><button data-edm-restore="persona">복원</button></div></section>`;
+  } else if(edmEdit==='persona'){
+    personaSection = `<section class="sec editable">${secHead(ICO.sparkle,'그래서 내 부동산에는?  ·  수정','')}
+      <div class="edm-editwrap">
+        ${personaRows.map((p,i)=>`<div class="edm-editrow" data-prow="${i}">
+          <span class="lbl">${esc(p[0])}</span>
+          <input type="number" min="0" max="5" value="${p[1]}" data-prow-level aria-label="영향도 0~5">
+          <textarea data-prow-note>${esc(p[2])}</textarea>
+        </div>`).join('')}
+        <div class="edm-editactions"><button class="primary" data-edm-save="persona">저장</button><button data-edm-cancel>취소</button></div>
+      </div></section>`;
+  } else {
+    const rows = personaRows.map(p=>`<div class="prow"><div class="prow-head"><span class="prow-lbl">${esc(p[0])}</span><span class="prow-dots">${dots(p[1])}</span></div><p class="prow-note">${esc(p[2])}</p></div>`).join('');
+    personaSection = `<section class="sec editable">
+      <div class="edm-tools"><button data-edm-edit="persona">수정</button><button class="danger" data-edm-del="persona">삭제</button></div>
+      ${secHead(ICO.sparkle,'그래서 내 부동산에는?', personaHeadRef)}
+      <div class="card persona"><div class="prows">${rows}</div>
+        <p class="note">※ 매수·매도 판단을 단정적으로 권하지 않습니다. 적용 여부는 주택 수·취득시기·지역·보유기간 등에 따라 달라질 수 있습니다.</p></div></section>`;
+  }
+
+  // ── "공인중개사의 한마디" (수정/삭제 가능) ──
+  const defaultComment = `정책은 '발표'보다 '적용 대상'과 '시행 시점'을 확인하는 것이 중요합니다. 이번 회차는 검토·입법예고·언론 보도 단계의 사안이 많습니다. 확정된 내용과 논의 중인 내용을 구분해서 보시고, 개별 상황은 세무·법률 전문가와 함께 확인하시길 권합니다.`;
+  const commentText = (edmComment != null) ? edmComment : defaultComment;
+  let commentSection;
+  if(edmHide.comment){
+    commentSection = `<section class="sec"><div class="edm-removed"><span>‘${esc(BRAND.agentDisplayName)}의 한마디’ 섹션이 삭제되었습니다.</span><button data-edm-restore="comment">복원</button></div></section>`;
+  } else if(edmEdit==='comment'){
+    commentSection = `<section class="sec editable"><div class="edm-editwrap">
+      <div class="lbl" style="font-size:12px;font-weight:700;color:#131b2e;margin-bottom:6px">${esc(BRAND.agentDisplayName)}의 한마디  ·  수정</div>
+      <textarea class="edm-c-editor" data-comment-editor>${esc(commentText)}</textarea>
+      <div class="edm-editactions"><button class="primary" data-edm-save="comment">저장</button><button data-edm-cancel>취소</button></div>
+    </div></section>`;
+  } else {
+    commentSection = `<section class="sec editable">
+      <div class="edm-tools"><button data-edm-edit="comment">수정</button><button class="danger" data-edm-del="comment">삭제</button></div>
+      <div class="comment">
+        <div class="comment-head"><span class="avatar">${esc(BRAND.agentDisplayName.slice(0,1))}</span>
+          <div><span class="comment-name">${esc(BRAND.agentDisplayName)}의 한마디</span><span class="comment-tag">${ICO.agent} 전문가 코멘트</span></div></div>
+        <p class="comment-body">${esc(commentText).replace(/\n/g,'<br>')}</p></div></section>`;
+  }
 
   return `<div class="ll-edm"><div class="wrap">
     <header class="masthead">
@@ -652,14 +747,9 @@ function renderEDM(typeKey){
       <div class="card"><div class="tiles">${tiles}</div>${chart}
         <p class="note">※ 출처와 기준일이 확인되지 않은 수치는 표시하지 않습니다.</p></div></section>
 
-    <section class="sec">${secHead(ICO.sparkle,'그래서 내 부동산에는?', esc(ISSUES[0].headline.replace(/\s*\(DEMO DATA\)$/,'')))}
-      <div class="card persona"><div class="prows">${persona}</div>
-        <p class="note">※ 매수·매도 판단을 단정적으로 권하지 않습니다. 적용 여부는 주택 수·취득시기·지역·보유기간 등에 따라 달라질 수 있습니다.</p></div></section>
+    ${personaSection}
 
-    <section class="sec"><div class="comment">
-      <div class="comment-head"><span class="avatar">${esc(BRAND.agentDisplayName.slice(0,1))}</span>
-        <div><span class="comment-name">${esc(BRAND.agentDisplayName)}의 한마디</span><span class="comment-tag">${ICO.agent} 전문가 코멘트</span></div></div>
-      <p class="comment-body">${esc(comment)}</p></div></section>
+    ${commentSection}
 
     <section class="sec"><div class="cta">
       <span class="cta-ic">${ICO.chat}</span>
@@ -773,7 +863,7 @@ function icardHTML(slide, idx, total){
 
 function renderInsta(typeKey){
   const K = KIND[typeKey];
-  const list = ISSUES.slice(0, K.news);
+  const list = ISSUES;                 // EDM 에 담기는 모든 주제를 선택 가능
 
   if(instaIssue == null){
     const saves = instaSaves();
@@ -792,7 +882,7 @@ function renderInsta(typeKey){
           </div>`).join('') : `<div class="savelist-empty">저장된 구성이 없습니다. 주제·장수·테마를 고른 뒤 <b>현재 구성 저장</b>을 눌러보세요.</div>`}
         </div>
       ` : `
-        <div class="it-head">${PERIOD_KO[typeKey]} 카드뉴스<span>주제를 선택하면 카드 장수(1~10장)를 골라 카드뉴스를 만듭니다</span></div>
+        <div class="it-head">${PERIOD_KO[typeKey]} 카드뉴스 — 주제 (${list.length})<span>주제를 선택하면 카드 장수(1~10장)를 골라 카드뉴스를 만듭니다</span></div>
         <div class="it-list">
           ${list.map((it,i)=>`<button class="it-row" data-insta-issue="${i}">
             <span class="it-badge">${esc(it.agency || '이슈')}</span>
@@ -848,6 +938,19 @@ function instaSaves(){ return lsGet(INSTA_KEY,[]); }
 function saveInstaSaves(a){ lsSet(INSTA_KEY,a); }
 function newId(){ return 'p'+Date.now().toString(36)+Math.random().toString(36).slice(2,6); }
 function fmtDate(t){ const d=new Date(t); return isNaN(d)?'':d.toLocaleDateString('ko-KR',{year:'2-digit',month:'2-digit',day:'2-digit'}); }
+
+/* EDM 섹션(그래서 내 부동산에는 / 공인중개사 한마디) 인라인 편집 상태 */
+const EDM_KEY='LL_EDM_EDITS';
+let edmPersona=null, edmComment=null, edmHide={persona:false,comment:false}, edmEdit=null;
+(function loadEdm(){
+  const s=lsGet(EDM_KEY,null);
+  if(s){
+    edmPersona = Array.isArray(s.persona) ? s.persona : null;
+    edmComment = (typeof s.comment==='string') ? s.comment : null;
+    edmHide = { persona: !!(s.hide&&s.hide.persona), comment: !!(s.hide&&s.hide.comment) };
+  }
+})();
+function saveEdm(){ lsSet(EDM_KEY,{ persona:edmPersona, comment:edmComment, hide:edmHide }); }
 
 /* ───────────── 블로그 포스팅 ───────────── */
 let blogPost=null, blogEditing=false, blogListOpen=false, instaListOpen=false;
@@ -1047,13 +1150,13 @@ function renderBlog(){
   }
 
   if(!blogPost){
-    const list = ISSUES.slice(0, KIND[curType].news);
+    const list = ISSUES;               // EDM 에 담기는 모든 주제를 선택 가능
     return `<div class="blog-controls">
       <div class="blog-toprow">
         <button data-blog-list>저장목록 (${posts.length})</button>
         <span class="grow"></span>
       </div>
-      <div class="ctl-label" style="margin-top:12px">블로그 포스팅 — 주제를 선택하세요</div>
+      <div class="ctl-label" style="margin-top:12px">블로그 포스팅 — 주제를 선택하세요 (${list.length})</div>
       <div class="blog-hint">선택하면 '일반적인 포스팅' 가이드(SEO 제목 · 도입부 · 목차 · 소제목 3개 이상 · 실행 팁 · 결론 · CTA · 메타설명 160자)에 맞춘 초안을 만듭니다. ✍️ 표시 부분에 <b>직접 경험</b>을 채워 발행하세요.</div>
       <div class="it-list" style="margin-top:12px">
         ${list.map((it,i)=>`<button class="it-row" data-blog-topic="${i}">
@@ -1117,11 +1220,38 @@ function wire(id, cb){
     cb(b.dataset.v);
   });
 }
-wire('typeSeg', v=>{ curType=v; instaIssue=null; instaListOpen=false; paint(); });
-wire('viewSeg', v=>{ curView=v; instaIssue=null; instaListOpen=false; blogEditing=false; paint(); });
+wire('typeSeg', v=>{ curType=v; instaIssue=null; instaListOpen=false; edmEdit=null; paint(); });
+wire('viewSeg', v=>{ curView=v; instaIssue=null; instaListOpen=false; blogEditing=false; edmEdit=null; paint(); });
 
 device.addEventListener('click', e=>{
   const T = s => e.target.closest(s);
+
+  /* ── EDM 섹션 수정/삭제 ── */
+  const eEdit = T('[data-edm-edit]');
+  if(eEdit){ edmEdit = eEdit.dataset.edmEdit; paint(); return; }
+  if(T('[data-edm-cancel]')){ edmEdit = null; paint(); return; }
+  const eDel = T('[data-edm-del]');
+  if(eDel){ edmHide[eDel.dataset.edmDel] = true; edmEdit = null; saveEdm(); paint(); toast('섹션을 삭제했습니다. (복원 버튼으로 되돌릴 수 있습니다)'); return; }
+  const eRes = T('[data-edm-restore]');
+  if(eRes){ edmHide[eRes.dataset.edmRestore] = false; saveEdm(); paint(); toast('섹션을 복원했습니다.'); return; }
+  const eSave = T('[data-edm-save]');
+  if(eSave){
+    const which = eSave.dataset.edmSave;
+    if(which === 'persona'){
+      const rows = [...device.querySelectorAll('[data-prow]')].map(r=>{
+        const label = r.querySelector('.lbl').textContent;
+        const lvl = Math.max(0, Math.min(5, parseInt(r.querySelector('[data-prow-level]').value,10) || 0));
+        const note = r.querySelector('[data-prow-note]').value.trim();
+        return [label, lvl, note];
+      });
+      if(rows.length) edmPersona = rows;
+    } else if(which === 'comment'){
+      const ta = device.querySelector('[data-comment-editor]');
+      if(ta) edmComment = ta.value.trim();
+    }
+    edmEdit = null; saveEdm(); paint(); toast('저장되었습니다.');
+    return;
+  }
 
   /* ── 블로그 포스팅 ── */
   const bTopic = T('[data-blog-topic]');
