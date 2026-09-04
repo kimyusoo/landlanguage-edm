@@ -138,6 +138,37 @@ export async function sendTestEmail(newsletterId: string, to: string) {
   return res;
 }
 
+/** 지정한 수신자(들)에게 브리핑 메일을 발송. 쉼표/줄바꿈/공백으로 여러 명 지정 가능. */
+export async function sendBriefEmail(newsletterId: string, recipients: string) {
+  const nl = await data.getNewsletter(newsletterId);
+  if (!nl) return { ok: false, error: "뉴스레터를 찾을 수 없습니다." };
+  const list = recipients
+    .split(/[\s,;]+/)
+    .map((s) => s.trim())
+    .filter((s) => /^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(s));
+  if (!list.length) return { ok: false, error: "유효한 이메일 주소가 없습니다." };
+
+  const brand = await data.getBrand();
+  const compliance = await data.getCompliance();
+  const html = renderEmailHtml(nl, brand, compliance, { withUtm: true });
+  const subject =
+    (nl.adPrefix && compliance.adPrefixEnabled ? `${compliance.adPrefixText} ` : "") + nl.subjectLine;
+
+  const results = await getEmailAdapter().sendBatch(list.map((to) => ({ to, subject, html })));
+  const sent = results.filter((r) => r.ok).length;
+  audit({ actor: "admin", action: "send-brief", entity: "newsletter", entityId: newsletterId });
+  return { ok: sent > 0, sent, total: list.length, provider: getEmailAdapter().name };
+}
+
+/** 카카오톡 전송용 메시지 텍스트 (공식 API 미연동 시 복사해서 사용) */
+export async function getKakaoText(newsletterId: string) {
+  const nl = await data.getNewsletter(newsletterId);
+  if (!nl) return { text: "" };
+  const brand = await data.getBrand();
+  const { buildKakaoMessage } = await import("@/lib/kakao/message");
+  return { text: buildKakaoMessage(nl, brand) };
+}
+
 // ── 캠페인 발송 ───────────────────────────────────────────────────
 export async function sendCampaign(newsletterId: string, opts?: { ignoreNight?: boolean }) {
   const nl = await data.getNewsletter(newsletterId);

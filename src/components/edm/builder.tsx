@@ -15,6 +15,8 @@ import {
   setStatus,
   sendTestEmail,
   sendCampaign,
+  sendBriefEmail,
+  getKakaoText,
 } from "@/app/actions";
 import type { ComplianceIssue } from "@/lib/compliance/check";
 
@@ -45,18 +47,21 @@ export function EdmBuilder({
   mobileHtml,
   issues,
   autoSend,
+  emailProvider,
 }: {
   newsletter: Newsletter;
   emailHtml: string;
   mobileHtml: string;
   issues: ComplianceIssue[];
   autoSend: boolean;
+  emailProvider: string;
 }) {
   const router = useRouter();
   const [pending, start] = React.useTransition();
   const [msg, setMsg] = React.useState<string | null>(null);
   const [subjectOptions, setSubjectOptions] = React.useState<string[]>([]);
   const [testEmail, setTestEmail] = React.useState("");
+  const [recipients, setRecipients] = React.useState("");
 
   const nl = newsletter;
   const blockers = issues.filter((i) => i.severity === "block");
@@ -124,6 +129,61 @@ export function EdmBuilder({
       </div>
 
       {msg && <div className="rounded-lg border border-[#E3E7EC] bg-white px-4 py-2 text-sm text-navy">{msg}</div>}
+
+      {/* 다른 사람에게 보내기 */}
+      <div className="card p-4">
+        <div className="label-eyebrow mb-2">다른 사람에게 보내기</div>
+        <div className="flex flex-wrap items-end gap-2">
+          <div className="min-w-[240px] flex-1">
+            <label className="mb-1 block text-xs text-slate-500">받는사람 이메일 (쉼표·줄바꿈으로 여러 명)</label>
+            <input
+              className="field text-sm"
+              placeholder="hong@example.com, kim@example.com"
+              value={recipients}
+              onChange={(e) => setRecipients(e.target.value)}
+            />
+          </div>
+          <button
+            className="btn btn-primary text-xs"
+            disabled={pending || !recipients.trim()}
+            onClick={() => run(() => sendBriefEmail(nl.id, recipients))}
+          >
+            메일 보내기
+          </button>
+          <button
+            className="btn btn-ghost text-xs"
+            disabled={pending}
+            onClick={() =>
+              start(async () => {
+                const r = await getKakaoText(nl.id);
+                try {
+                  await navigator.clipboard.writeText(r.text);
+                  setMsg("카카오톡 메시지가 복사되었습니다. 카카오톡 채널/대화창에 붙여넣어 전송하세요.");
+                } catch {
+                  window.prompt("복사해서 카카오톡에 붙여넣으세요", r.text);
+                }
+              })
+            }
+          >
+            카카오톡 메시지 복사
+          </button>
+          <a
+            className="btn btn-ghost text-xs"
+            href={`/v/${nl.id}`}
+            target="_blank"
+            rel="noreferrer"
+          >
+            공개 링크 열기 ↗
+          </a>
+        </div>
+        <p className="mt-2 text-[11px] text-slate-400">
+          메일 어댑터가 <b>{emailProvider}</b> 입니다.
+          {emailProvider === "MOCK"
+            ? " 실제 발송 없이 발송관리 로그에만 기록됩니다. RESEND_API_KEY 등을 설정하면 실제 발송됩니다."
+            : " 실제 메일이 발송됩니다."}
+          {" "}카카오톡은 공식 API 연동 전에는 메시지를 복사해 채널에 붙여넣어 전송합니다.
+        </p>
+      </div>
 
       {/* 준법 검증 */}
       <div className="card p-4">

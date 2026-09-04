@@ -5,7 +5,7 @@ import { EdmBuilder } from "@/components/edm/builder";
 import * as data from "@/lib/data";
 import { renderEmailHtml } from "@/lib/edm/render";
 import { checkNewsletterCompliance } from "@/lib/compliance/check";
-import { env } from "@/config/env";
+import { env, providerStatus } from "@/config/env";
 
 export const dynamic = "force-dynamic";
 
@@ -30,6 +30,7 @@ export default async function EdmBuilderPage({ params }: { params: { id: string 
         mobileHtml={mobileHtml}
         issues={issues}
         autoSend={env.autoSend && compliance.autoSend}
+        emailProvider={providerStatus().email}
       />
     </div>
   );
