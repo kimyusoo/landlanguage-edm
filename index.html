@@ -263,6 +263,40 @@
   .icard.t-serif h1{font-weight:700;letter-spacing:-.01em}
   .icard.t-serif .ic-rule{width:96px}
 
+  /* ── 공통 저장목록 ── */
+  .savelist{margin-top:12px;border-top:1px solid var(--outline-var);padding-top:12px}
+  .savelist-row{display:flex;align-items:center;gap:8px;background:var(--card);border:1px solid var(--outline-var);border-radius:10px;padding:10px 12px;margin-bottom:7px}
+  .savelist-row .sl-main{flex:1;min-width:0}
+  .savelist-row .sl-title{font-size:12.5px;font-weight:700;color:var(--on);line-height:1.4;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .savelist-row .sl-meta{font-size:10px;color:var(--outline);margin-top:2px}
+  .savelist-row button{border:1px solid var(--outline-var);background:#fff;border-radius:6px;font:inherit;font-size:10.5px;font-weight:700;color:var(--on-var);padding:5px 9px;cursor:pointer}
+  .savelist-row button.danger{color:#b91c1c;border-color:#fecaca}
+  .savelist-empty{font-size:11px;color:var(--outline);padding:8px 2px}
+
+  /* ── 블로그 포스팅 ── */
+  .device.blog{max-width:780px;background:var(--surface)}
+  .blog{padding:16px 16px 40px}
+  .blog-controls{background:var(--card);border:1px solid var(--outline-var);border-radius:12px;padding:12px 13px;margin-bottom:14px}
+  .blog-toprow{display:flex;flex-wrap:wrap;gap:7px;align-items:center}
+  .blog-toprow button{border:1px solid var(--outline-var);background:#fff;border-radius:7px;font:inherit;font-size:12px;font-weight:700;color:var(--on-var);padding:8px 12px;cursor:pointer}
+  .blog-toprow button.primary{background:var(--primary);color:#fff;border-color:var(--primary)}
+  .blog-toprow button.danger{color:#b91c1c;border-color:#fecaca;background:#fff}
+  .blog-toprow .grow{flex:1}
+  .blog-hint{font-size:10px;color:var(--outline);margin-top:8px;line-height:1.6}
+  .blog-doc{background:#fff;border:1px solid var(--outline-var);border-radius:14px;padding:38px 40px 44px;box-shadow:0 12px 32px -14px rgba(15,23,42,.22)}
+  .blog-doc h1{font-size:26px;font-weight:800;color:var(--primary);line-height:1.35;letter-spacing:-.01em;margin:0 0 14px}
+  .blog-doc h2{font-size:19px;font-weight:800;color:var(--on);line-height:1.4;margin:26px 0 10px;padding-top:14px;border-top:1px solid var(--c-low)}
+  .blog-doc h3{font-size:15px;font-weight:700;color:var(--on);margin:18px 0 8px}
+  .blog-doc p{font-size:14px;line-height:1.85;color:var(--ink,#222);margin:0 0 10px}
+  .blog-doc p.num{font-size:13.5px;color:var(--on-var);margin:2px 0}
+  .blog-doc ul{margin:0 0 12px;padding-left:20px}
+  .blog-doc li{font-size:14px;line-height:1.8;color:var(--ink,#222);margin-bottom:4px}
+  .blog-doc blockquote{margin:12px 0;padding:12px 14px;background:var(--c-low);border-left:3px solid var(--secondary-c);border-radius:0 8px 8px 0;font-size:13px;color:var(--on-var);line-height:1.7}
+  .blog-doc a{color:var(--primary);text-decoration:underline;word-break:break-all}
+  .blog-doc hr{border:0;border-top:1px solid var(--outline-var);margin:22px 0}
+  .blog-doc strong{font-weight:700;color:var(--on)}
+  .blog-editor{width:100%;min-height:62vh;border:1px solid var(--outline-var);border-radius:12px;padding:18px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Noto Sans KR',monospace;font-size:13px;line-height:1.75;color:var(--on);resize:vertical;background:#fff}
+
   .sendbar{display:inline-flex;gap:6px}
   .sendbar button{border:1px solid rgba(255,255,255,.25);background:rgba(255,255,255,.06);color:#eef1f8;font:inherit;font-size:12px;font-weight:700;padding:6px 11px;border-radius:7px;cursor:pointer;transition:.15s}
   .sendbar button:hover{background:#c7a15a;color:#10243e;border-color:#c7a15a}
@@ -290,6 +324,7 @@
     <button data-v="email" class="on">이메일 640</button>
     <button data-v="mobile">모바일</button>
     <button data-v="insta">인스타 카드</button>
+    <button data-v="blog">블로그 포스팅</button>
   </div>
   <div class="sendbar">
     <button id="btnMail" title="이메일로 보내기">✉ 메일</button>
@@ -736,15 +771,31 @@ function renderInsta(typeKey){
   const list = ISSUES.slice(0, K.news);
 
   if(instaIssue == null){
+    const saves = instaSaves();
     return `<div class="insta-titles">
-      <div class="it-head">${PERIOD_KO[typeKey]} 카드뉴스<span>주제를 선택하면 카드 장수(1~10장)를 골라 카드뉴스를 만듭니다</span></div>
-      <div class="it-list">
-        ${list.map((it,i)=>`<button class="it-row" data-insta-issue="${i}">
-          <span class="it-badge">${esc(it.agency || '이슈')}</span>
-          <span class="it-title">${esc(cleanTitle(it.oneLiner))}</span>
-          <span class="it-go">→</span>
-        </button>`).join('')}
+      <div class="blog-toprow" style="margin-bottom:10px">
+        <button data-insta-listtoggle>${instaListOpen ? '← 주제 선택' : `저장목록 (${saves.length})`}</button>
       </div>
+      ${instaListOpen ? `
+        <div class="ctl-label">저장한 카드뉴스 구성 (${saves.length})</div>
+        <div class="savelist">
+          ${saves.length ? saves.map(s=>`<div class="savelist-row">
+            <div class="sl-main"><div class="sl-title">${esc(s.title)}</div>
+              <div class="sl-meta">${s.count}장 · ${(INSTA_THEMES[s.theme]||{}).label||s.theme} · ${INSTA_TEMPLATES[s.template]||s.template} · ${fmtDate(s.createdAt)}</div></div>
+            <button data-insta-open="${s.id}">열기</button>
+            <button data-insta-del="${s.id}" class="danger">삭제</button>
+          </div>`).join('') : `<div class="savelist-empty">저장된 구성이 없습니다. 주제·장수·테마를 고른 뒤 <b>현재 구성 저장</b>을 눌러보세요.</div>`}
+        </div>
+      ` : `
+        <div class="it-head">${PERIOD_KO[typeKey]} 카드뉴스<span>주제를 선택하면 카드 장수(1~10장)를 골라 카드뉴스를 만듭니다</span></div>
+        <div class="it-list">
+          ${list.map((it,i)=>`<button class="it-row" data-insta-issue="${i}">
+            <span class="it-badge">${esc(it.agency || '이슈')}</span>
+            <span class="it-title">${esc(cleanTitle(it.oneLiner))}</span>
+            <span class="it-go">→</span>
+          </button>`).join('')}
+        </div>
+      `}
     </div>`;
   }
 
@@ -772,13 +823,211 @@ function renderInsta(typeKey){
     </div>
 
     <div class="save-row">
-      <button data-save-all>카드뉴스 이미지 저장 (${slides.length}장)</button>
+      <button data-save-all>이미지 저장 (${slides.length}장)</button>
+      <button data-insta-savecfg class="ghost">현재 구성 저장</button>
     </div>
-    <div class="count-hint">선택 주제: ${esc(cleanTitle(it.oneLiner))} · 각 카드의 <b>저장</b> 버튼으로 개별 저장도 가능합니다.</div>
+    <div class="count-hint">선택 주제: ${esc(cleanTitle(it.oneLiner))} · 각 카드의 <b>저장</b> 버튼으로 개별 저장, 주제 선택 화면의 <b>저장목록</b>에서 구성을 다시 열 수 있습니다.</div>
   </div>
   <div class="insta-deck">
     ${slides.map((s,i)=>`<div class="icard-scale"><button class="card-save" data-save-card="${i}">저장</button>${icardHTML(s,i,slides.length)}</div>`).join('')}
   </div>`;
+}
+
+/* ───────────── 로컬 저장 (localStorage) ───────────── */
+const BLOG_KEY='LL_BLOG_POSTS', INSTA_KEY='LL_INSTA_SAVES';
+function lsGet(k,def){ try{ const v=localStorage.getItem(k); return v?JSON.parse(v):def; }catch(_){ return def; } }
+function lsSet(k,v){ try{ localStorage.setItem(k, JSON.stringify(v)); }catch(_){} }
+function blogPosts(){ return lsGet(BLOG_KEY,[]); }
+function saveBlogPosts(a){ lsSet(BLOG_KEY,a); }
+function instaSaves(){ return lsGet(INSTA_KEY,[]); }
+function saveInstaSaves(a){ lsSet(INSTA_KEY,a); }
+function newId(){ return 'p'+Date.now().toString(36)+Math.random().toString(36).slice(2,6); }
+function fmtDate(t){ const d=new Date(t); return isNaN(d)?'':d.toLocaleDateString('ko-KR',{year:'2-digit',month:'2-digit',day:'2-digit'}); }
+
+/* ───────────── 블로그 포스팅 ───────────── */
+let blogPost=null, blogEditing=false, blogListOpen=false, instaListOpen=false;
+
+function mdInline(s){
+  return esc(s)
+    .replace(/\[([^\]]+)\]\((https?:[^)]+)\)/g,'<a href="$2" target="_blank" rel="noreferrer noopener">$1</a>')
+    .replace(/\*\*([^*]+)\*\*/g,'<strong>$1</strong>');
+}
+function mdToHtml(md){
+  const lines=(md||'').split('\n'); let html=''; let inList=false;
+  const closeList=()=>{ if(inList){ html+='</ul>'; inList=false; } };
+  for(const raw of lines){
+    const l=raw.replace(/\s+$/,'');
+    if(/^#\s+/.test(l)){ closeList(); html+='<h1>'+mdInline(l.replace(/^#\s+/,''))+'</h1>'; }
+    else if(/^##\s+/.test(l)){ closeList(); html+='<h2>'+mdInline(l.replace(/^##\s+/,''))+'</h2>'; }
+    else if(/^###\s+/.test(l)){ closeList(); html+='<h3>'+mdInline(l.replace(/^###\s+/,''))+'</h3>'; }
+    else if(/^>\s?/.test(l)){ closeList(); html+='<blockquote>'+mdInline(l.replace(/^>\s?/,''))+'</blockquote>'; }
+    else if(/^\s*[-*]\s+/.test(l)){ if(!inList){ html+='<ul>'; inList=true; } html+='<li>'+mdInline(l.replace(/^\s*[-*]\s+/,''))+'</li>'; }
+    else if(/^\d+\.\s+/.test(l)){ closeList(); html+='<p class="num">'+mdInline(l)+'</p>'; }
+    else if(l.trim()==='---'){ closeList(); html+='<hr>'; }
+    else if(l.trim()===''){ closeList(); }
+    else { closeList(); html+='<p>'+mdInline(l)+'</p>'; }
+  }
+  closeList(); return html;
+}
+
+function generateBlogPost(it, topicIdx){
+  const P = obj => it.persona.find(x=>x[0]===obj)?.[2] || '';
+  const arts = (it.articles||[]).filter(a=>a.title && a.url).slice(0,4);
+  const artLines = arts.length
+    ? arts.map(a=>`- [${a.publisher} · ${cleanTitle(a.title)}](${a.url})`).join('\n')
+    : '- (참고 보도 링크를 추가하세요)';
+  const officialLink = it.liveUrl || it.officialUrl || '';
+  const topicLabel = `${it.agency||'이슈'} · ${cleanTitle(it.oneLiner)}`.slice(0,60);
+  const base = cleanTitle(it.oneLiner);
+  const title = `${base} — 무주택·1주택·다주택 영향과 상담 전 체크리스트`;
+  const meta = `${base}. 무주택자·1주택자·다주택자에게 각각 어떤 의미인지, 매수·매도 전 확인할 점을 송파 현직 공인중개사가 실무 관점에서 정리했습니다.`.slice(0,158);
+  const sub1='먼저, 무슨 내용인지 팩트만 정리';
+  const sub2='무주택·1주택·다주택 — 상황별로 뭐가 달라지나';
+  const sub3='공인중개사 시선 — 상담에서 꼭 확인하는 것';
+  const checklist = [ ...(it.bullets||[]).slice(0,2), it.impact,
+    '확정된 내용인지, 논의·전망 단계인지 먼저 구분하기',
+    '적용 지역·시행일·대상 요건을 공식 원문에서 직접 확인하기' ].filter(Boolean);
+
+  const body =
+`# ${title}
+
+> **메타 설명(160자 이내):** ${meta}
+
+## 이 글이 필요한 분
+- ${(it.audience||[]).map(t=>t.replace('#','')).join(' · ')} — 뉴스는 봤는데 "그래서 내 상황에선 뭐가 달라지나"가 궁금한 분
+- 매수·매도·갈아타기 시점을 고민 중이라 근거 있는 판단 기준이 필요한 분
+- 작성일 ${new Date().toLocaleDateString('ko-KR')} · 참고 출처는 글 맨 아래 링크로 정리했습니다.
+
+## 목차
+1. ${sub1}
+2. ${sub2}
+3. ${sub3}
+4. 상담 전 실무 체크리스트
+5. 마치며 — 제 생각
+
+## 들어가며
+${it.whatHappened || base} 헤드라인만 보면 막연히 불안하거나 반대로 무덤덤해지기 쉽지만, 상담 현장에서 정작 중요한 건 "내 조건에 실제로 적용되는지"입니다.
+
+> ✍️ [직접 경험 입력] 이 이슈가 나온 뒤 실제로 받은 문의(예: "지금 계약해도 되나요"), 상담하며 느낀 분위기 변화를 1~2문장 적어주세요. 직접 겪은 이야기가 상위노출·AI 브리핑 인용에서 가장 큰 힘이 됩니다.
+
+## 1. ${sub1}
+${it.fact || it.whatHappened || base}
+
+핵심만 추리면 이렇습니다.
+${(it.bullets||[]).slice(0,3).map(b=>'- '+b).join('\n') || '- (핵심 요약 3줄을 채워주세요)'}
+
+관련 보도 원문:
+${artLines}
+
+> 🖼️ 이미지 제안: 발표 자료나 보도 화면 캡처 1장. 캡처 속 숫자·일정은 본문에도 텍스트로 다시 적어 주세요(이미지만으로는 검색·AI 인용에 불리).
+
+## 2. ${sub2}
+같은 뉴스라도 보유 형태에 따라 의미가 완전히 다릅니다.
+
+- **무주택자:** ${P('무주택자')}
+- **1주택자:** ${P('1주택자')}
+- **다주택자:** ${P('다주택자')}
+- **매수 예정:** ${P('매수 예정자')}
+- **매도 예정:** ${P('매도 예정자')}
+- **임대인 / 임차인:** ${P('임대인')} / ${P('임차인')}
+
+> 🖼️ 이미지 제안: 위 항목을 인포그래픽 1장으로 정리(표의 내용은 본문 텍스트와 동일하게).
+
+## 3. ${sub3}
+${(it.bullets||[]).map((b,i)=>`${i+1}. ${b}`).join('\n') || '1. (상담에서 확인하는 포인트를 채워주세요)'}
+
+> ✍️ [직접 경험 입력] 실제 계약·상담에서 이 항목 때문에 문제가 됐던 사례, 예상과 달랐던 점, 초보자가 놓치기 쉬운 포인트를 2~3개 적어주세요.
+
+## 4. 상담 전 실무 체크리스트
+${checklist.map(c=>'- '+c).join('\n')}
+
+## 5. 마치며 — 제 생각
+정책·시장 뉴스는 '발표'보다 '내 조건에 적용되는지, 시점이 언제인지'가 훨씬 중요합니다. 숫자와 날짜는 반드시 공식 원문과 대조한 뒤 판단하시길 권합니다.
+
+> ✍️ [직접 경험 입력] 이 주제에 대한 본인의 관점, 고객에게 자주 하는 조언을 한 문단으로 마무리해 주세요.
+
+## 상담 안내
+궁금한 점은 편하게 문의 주세요.
+- 전화: ${BRAND.mobile}
+- ${BRAND.officeName} / ${BRAND.brandName} · ${BRAND.address}
+
+> ※ 본 글은 정보 제공 목적이며 특정 매물·상품을 광고하지 않습니다. 협찬·광고를 받은 경우 이 자리에 '업체 지원' 또는 '내돈내산'을 명확히 표기하세요.
+
+## 참고 자료
+${artLines}
+${officialLink ? `- ${it.agency||'공식자료'} 관련: ${officialLink}` : ''}
+
+---
+_이 글은 LAND LANGUAGE 자동 초안입니다. ✍️ 표시된 부분에 직접 경험을 채우고, 수치·날짜를 원문과 대조한 뒤 발행하세요._`;
+
+  return {
+    id: newId(),
+    title,
+    topicId: it.topicId || ('t'+topicIdx),
+    topicLabel,
+    createdAt: Date.now(),
+    updatedAt: Date.now(),
+    body,
+  };
+}
+
+function renderBlog(){
+  const posts = blogPosts();
+
+  if(blogListOpen){
+    return `<div class="blog-controls">
+      <div class="blog-toprow">
+        <button data-blog-new class="primary">+ 새 포스팅</button>
+        <span class="grow"></span>
+        <span class="blog-hint">저장은 이 브라우저에만 보관됩니다.</span>
+      </div>
+      <div class="ctl-label" style="margin-top:12px">저장한 포스팅 (${posts.length})</div>
+      <div class="savelist">
+        ${posts.length ? posts.map(p=>`<div class="savelist-row">
+          <div class="sl-main"><div class="sl-title">${esc(p.title)}</div>
+            <div class="sl-meta">${esc(p.topicLabel||'')} · ${fmtDate(p.updatedAt||p.createdAt)}</div></div>
+          <button data-blog-open="${p.id}">열기</button>
+          <button data-blog-copy="${p.id}">복사</button>
+          <button data-blog-del="${p.id}" class="danger">삭제</button>
+        </div>`).join('') : `<div class="savelist-empty">저장된 포스팅이 없습니다. 주제를 골라 새 포스팅을 만들어 보세요.</div>`}
+      </div>
+    </div>`;
+  }
+
+  if(!blogPost){
+    const list = ISSUES.slice(0, KIND[curType].news);
+    return `<div class="blog-controls">
+      <div class="blog-toprow">
+        <button data-blog-list>저장목록 (${posts.length})</button>
+        <span class="grow"></span>
+      </div>
+      <div class="ctl-label" style="margin-top:12px">블로그 포스팅 — 주제를 선택하세요</div>
+      <div class="blog-hint">선택하면 '일반적인 포스팅' 가이드(SEO 제목 · 도입부 · 목차 · 소제목 3개 이상 · 실행 팁 · 결론 · CTA · 메타설명 160자)에 맞춘 초안을 만듭니다. ✍️ 표시 부분에 <b>직접 경험</b>을 채워 발행하세요.</div>
+      <div class="it-list" style="margin-top:12px">
+        ${list.map((it,i)=>`<button class="it-row" data-blog-topic="${i}">
+          <span class="it-badge">${esc(it.agency||'이슈')}</span>
+          <span class="it-title">${esc(cleanTitle(it.oneLiner))}</span>
+          <span class="it-go">→</span></button>`).join('')}
+      </div>
+    </div>`;
+  }
+
+  return `<div class="blog-controls">
+    <div class="blog-toprow">
+      <button data-blog-new>← 주제 선택</button>
+      <button data-blog-list>저장목록 (${posts.length})</button>
+      <span class="grow"></span>
+      ${blogEditing
+        ? `<button data-blog-savedit class="primary">저장</button><button data-blog-canceledit>취소</button>`
+        : `<button data-blog-edit>수정</button>`}
+      <button data-blog-copy="${blogPost.id}">복사</button>
+      <button data-blog-del="${blogPost.id}" class="danger">삭제</button>
+    </div>
+    <div class="blog-hint">${esc(blogPost.topicLabel||'')} · 최종수정 ${fmtDate(blogPost.updatedAt||blogPost.createdAt)}</div>
+  </div>
+  ${blogEditing
+    ? `<textarea class="blog-editor" id="blogEditor" spellcheck="false">${esc(blogPost.body)}</textarea>`
+    : `<div class="blog-doc">${mdToHtml(blogPost.body)}</div>`}`;
 }
 
 /* ───────────── 컨트롤 ───────────── */
@@ -801,7 +1050,9 @@ function paint(){
   device.className = 'device '+curView;
   if(curView==='insta'){
     device.innerHTML = renderInsta(curType);
-    if(instaIssue != null) fitInsta();
+    if(instaIssue != null && !instaListOpen) fitInsta();
+  } else if(curView==='blog'){
+    device.innerHTML = renderBlog();
   } else {
     device.innerHTML = renderEDM(curType);
   }
@@ -814,22 +1065,101 @@ function wire(id, cb){
     cb(b.dataset.v);
   });
 }
-wire('typeSeg', v=>{ curType=v; instaIssue=null; paint(); });
-wire('viewSeg', v=>{ curView=v; instaIssue=null; paint(); });
+wire('typeSeg', v=>{ curType=v; instaIssue=null; instaListOpen=false; paint(); });
+wire('viewSeg', v=>{ curView=v; instaIssue=null; instaListOpen=false; blogEditing=false; paint(); });
 
 device.addEventListener('click', e=>{
-  const issueBtn = e.target.closest('[data-insta-issue]');
+  const T = s => e.target.closest(s);
+
+  /* ── 블로그 포스팅 ── */
+  const bTopic = T('[data-blog-topic]');
+  if(bTopic){
+    const i = +bTopic.dataset.blogTopic;
+    const post = generateBlogPost(ISSUES[i], i);
+    const arr = blogPosts(); arr.unshift(post); saveBlogPosts(arr);
+    blogPost = post; blogListOpen = false; blogEditing = false; paint();
+    toast('초안이 생성되어 저장목록에 추가되었습니다.');
+    return;
+  }
+  const bOpen = T('[data-blog-open]');
+  if(bOpen){ blogPost = blogPosts().find(p=>p.id===bOpen.dataset.blogOpen) || null; blogListOpen=false; blogEditing=false; paint(); return; }
+  const bCopy = T('[data-blog-copy]');
+  if(bCopy){
+    const p = blogPosts().find(x=>x.id===bCopy.dataset.blogCopy);
+    if(p){ navigator.clipboard.writeText(p.body).then(()=>toast('포스팅 전체가 복사되었습니다.')).catch(()=>window.prompt('복사', p.body)); }
+    return;
+  }
+  const bDel = T('[data-blog-del]');
+  if(bDel){
+    if(!confirm('이 포스팅을 삭제할까요?')) return;
+    const arr = blogPosts().filter(x=>x.id!==bDel.dataset.blogDel); saveBlogPosts(arr);
+    if(blogPost && blogPost.id===bDel.dataset.blogDel) blogPost = null;
+    blogListOpen = arr.length>0; blogEditing=false; paint(); toast('삭제되었습니다.');
+    return;
+  }
+  if(T('[data-blog-edit]')){ blogEditing = true; paint(); return; }
+  if(T('[data-blog-canceledit]')){ blogEditing = false; paint(); return; }
+  if(T('[data-blog-savedit]')){
+    const ta = device.querySelector('#blogEditor');
+    if(ta && blogPost){
+      const body = ta.value;
+      const m = body.match(/^#\s+(.+)$/m);
+      blogPost.body = body;
+      blogPost.title = (m ? m[1].trim() : blogPost.title).slice(0,120);
+      blogPost.updatedAt = Date.now();
+      const arr = blogPosts().map(p=>p.id===blogPost.id ? blogPost : p);
+      if(!arr.some(p=>p.id===blogPost.id)) arr.unshift(blogPost);
+      saveBlogPosts(arr);
+    }
+    blogEditing = false; paint(); toast('저장되었습니다.');
+    return;
+  }
+  if(T('[data-blog-list]')){ blogListOpen = true; blogEditing=false; paint(); return; }
+  if(T('[data-blog-new]')){ blogPost = null; blogListOpen = false; blogEditing = false; paint(); return; }
+
+  /* ── 인스타 저장목록 ── */
+  if(T('[data-insta-listtoggle]')){ instaListOpen = !instaListOpen; paint(); return; }
+  if(T('[data-insta-savecfg]')){
+    const it = ISSUES[instaIssue] || ISSUES[0];
+    const arr = instaSaves();
+    arr.unshift({ id:newId(), title: cleanTitle(it.oneLiner), topicId: it.topicId||('t'+instaIssue),
+      count: instaCount, theme: instaTheme, template: instaTemplate, createdAt: Date.now() });
+    saveInstaSaves(arr);
+    toast('현재 카드뉴스 구성이 저장되었습니다.');
+    return;
+  }
+  const iOpen = T('[data-insta-open]');
+  if(iOpen){
+    const s = instaSaves().find(x=>x.id===iOpen.dataset.instaOpen);
+    if(s){
+      let idx = ISSUES.findIndex(x=>x.topicId===s.topicId);
+      if(idx < 0) idx = 0;
+      instaIssue = idx; instaCount = s.count||5; instaTheme = s.theme||'navy'; instaTemplate = s.template||'editorial';
+      instaListOpen = false; paint();
+    }
+    return;
+  }
+  const iDel = T('[data-insta-del]');
+  if(iDel){
+    if(!confirm('이 구성을 삭제할까요?')) return;
+    saveInstaSaves(instaSaves().filter(x=>x.id!==iDel.dataset.instaDel));
+    paint(); toast('삭제되었습니다.');
+    return;
+  }
+
+  /* ── 인스타 카드 ── */
+  const issueBtn = T('[data-insta-issue]');
   if(issueBtn){ instaIssue = +issueBtn.dataset.instaIssue; paint(); return; }
-  const countBtn = e.target.closest('[data-insta-count]');
+  const countBtn = T('[data-insta-count]');
   if(countBtn){ instaCount = +countBtn.dataset.instaCount; paint(); return; }
-  const themeBtn = e.target.closest('[data-insta-theme]');
+  const themeBtn = T('[data-insta-theme]');
   if(themeBtn){ instaTheme = themeBtn.dataset.instaTheme; paint(); return; }
-  const tplBtn = e.target.closest('[data-insta-tpl]');
+  const tplBtn = T('[data-insta-tpl]');
   if(tplBtn){ instaTemplate = tplBtn.dataset.instaTpl; paint(); return; }
-  const saveCardBtn = e.target.closest('[data-save-card]');
+  const saveCardBtn = T('[data-save-card]');
   if(saveCardBtn){ saveCards([+saveCardBtn.dataset.saveCard]); return; }
-  if(e.target.closest('[data-save-all]')){ saveCards(null); return; }
-  if(e.target.closest('[data-insta-back]')){ instaIssue = null; paint(); return; }
+  if(T('[data-save-all]')){ saveCards(null); return; }
+  if(T('[data-insta-back]')){ instaIssue = null; paint(); return; }
 });
 
 /* ───────────── 카드뉴스 이미지 저장 (html-to-image) ───────────── */
