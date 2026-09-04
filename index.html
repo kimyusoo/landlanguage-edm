@@ -198,36 +198,70 @@
 
   .insta-controls{background:var(--card);border:1px solid var(--outline-var);border-radius:12px;padding:12px 13px;margin-bottom:14px}
   .ic-back{border:0;background:transparent;color:var(--primary);font:inherit;font-size:12px;font-weight:700;cursor:pointer;padding:0}
-  .count-label{font-size:11px;color:var(--on-var);font-weight:700;margin:10px 0 6px}
+  .ctl-label{font-size:11px;color:var(--on-var);font-weight:700;margin:12px 0 6px}
   .count-seg{display:flex;flex-wrap:wrap;gap:5px}
-  .count-seg button{width:34px;height:32px;border:1px solid var(--outline-var);background:#fff;border-radius:7px;font:inherit;font-size:12px;font-weight:700;color:var(--on-var);cursor:pointer;transition:.12s}
+  .count-seg button{width:32px;height:30px;border:1px solid var(--outline-var);background:#fff;border-radius:7px;font:inherit;font-size:12px;font-weight:700;color:var(--on-var);cursor:pointer;transition:.12s}
   .count-seg button.on{background:var(--primary);color:#fff;border-color:var(--primary)}
   .count-hint{font-size:10px;color:var(--outline);margin-top:8px;line-height:1.5}
+  .theme-seg{display:flex;flex-wrap:wrap;gap:8px}
+  .theme-seg button{width:30px;height:30px;border-radius:999px;border:2px solid #fff;box-shadow:0 0 0 1px var(--outline-var);cursor:pointer;padding:0;position:relative}
+  .theme-seg button.on{box-shadow:0 0 0 2px var(--primary)}
+  .theme-seg button i{position:absolute;right:-2px;bottom:-2px;width:11px;height:11px;border-radius:999px;border:2px solid #fff}
+  .tpl-seg{display:flex;flex-wrap:wrap;gap:6px}
+  .tpl-seg button{border:1px solid var(--outline-var);background:#fff;border-radius:7px;font:inherit;font-size:11px;font-weight:700;color:var(--on-var);padding:6px 10px;cursor:pointer}
+  .tpl-seg button.on{background:var(--primary);color:#fff;border-color:var(--primary)}
+  .save-row{display:flex;gap:7px;margin-top:14px;flex-wrap:wrap}
+  .save-row button{border:1px solid var(--primary);background:var(--primary);color:#fff;font:inherit;font-size:12px;font-weight:800;padding:9px 15px;border-radius:8px;cursor:pointer}
+  .save-row button.ghost{background:#fff;color:var(--primary)}
 
-  .insta-deck{display:flex;flex-direction:column;gap:14px}
-  .icard-scale{align-self:center;overflow:hidden;border-radius:16px;box-shadow:0 12px 32px -10px rgba(15,23,42,.32)}
-  .icard{width:1080px;height:1350px;padding:88px 84px;display:flex;flex-direction:column;font-family:'Noto Sans KR',sans-serif;color:#fff;background:linear-gradient(165deg,var(--primary-c),var(--primary));position:relative;overflow:hidden;transform-origin:top left}
+  .insta-deck{display:flex;flex-direction:column;gap:16px}
+  .icard-scale{align-self:center;overflow:hidden;border-radius:16px;box-shadow:0 12px 32px -10px rgba(15,23,42,.32);position:relative}
+  .card-save{position:absolute;right:10px;top:10px;z-index:3;border:0;border-radius:8px;background:rgba(16,36,62,.86);color:#fff;font:inherit;font-size:11px;font-weight:800;padding:7px 12px;cursor:pointer}
+  .icard{width:1080px;height:1350px;padding:88px 84px;display:flex;flex-direction:column;font-family:'Noto Sans KR',sans-serif;position:relative;overflow:hidden;transform-origin:top left;
+    color:var(--ic-fg,#fff);background:var(--ic-bg,linear-gradient(165deg,#1e3a8a,#00236f))}
   .icard .ic-top{display:flex;align-items:center;justify-content:space-between}
   .ic-brandname{font-family:'Plus Jakarta Sans',sans-serif;font-weight:800;font-size:30px;letter-spacing:.01em}
-  .ic-idx{font-family:'Plus Jakarta Sans',sans-serif;font-weight:800;font-size:26px;color:var(--secondary-c);letter-spacing:.08em}
-  .ic-kicker{margin-top:64px;font-size:28px;font-weight:700;color:var(--secondary-fixed)}
+  .ic-idx{font-family:'Plus Jakarta Sans',sans-serif;font-weight:800;font-size:26px;color:var(--ic-accent,#fd8a42);letter-spacing:.08em}
+  .ic-kicker{margin-top:64px;font-size:28px;font-weight:700;color:var(--ic-sub,#ffdbca)}
   .icard h1{margin-top:24px;font-size:76px;font-weight:800;line-height:1.28;letter-spacing:-.02em}
-  .ic-rule{margin-top:48px;width:130px;height:6px;background:var(--secondary-c);border-radius:3px}
+  .ic-rule{margin-top:48px;width:130px;height:6px;background:var(--ic-accent,#fd8a42);border-radius:3px}
   .ic-tags{margin-top:auto;display:flex;flex-wrap:wrap;gap:14px}
-  .ic-tag{font-size:26px;font-weight:700;color:#c7d0ec}
-  .ic-eyebrow{margin-top:60px;font-size:30px;font-weight:800;color:var(--secondary-c);letter-spacing:.02em}
-  .ic-eyebrow::before{content:"";display:block;width:64px;height:5px;background:var(--secondary-c);border-radius:3px;margin-bottom:22px}
-  .ic-bodytext{margin-top:34px;font-size:40px;line-height:1.55;font-weight:500;color:#eef1ff;flex:1}
-  .ic-foot{margin-top:40px;font-size:22px;color:#aab6d8;line-height:1.6;border-top:1px solid rgba(255,255,255,.14);padding-top:24px}
+  .ic-tag{font-size:26px;font-weight:700;color:var(--ic-tag,#c7d0ec)}
+  .ic-eyebrow{margin-top:60px;font-size:30px;font-weight:800;color:var(--ic-accent,#fd8a42);letter-spacing:.02em}
+  .ic-eyebrow::before{content:"";display:block;width:64px;height:5px;background:var(--ic-accent,#fd8a42);border-radius:3px;margin-bottom:22px}
+  .ic-bodytext{margin-top:34px;font-size:40px;line-height:1.55;font-weight:500;color:var(--ic-fg,#fff);opacity:.94;flex:1}
+  .ic-foot{margin-top:40px;font-size:22px;color:var(--ic-muted,#aab6d8);line-height:1.6;border-top:1px solid var(--ic-border,rgba(255,255,255,.16));padding-top:24px}
   .icard.cta{justify-content:center;text-align:left}
-  .ic-cta-ic{width:96px;height:96px;border-radius:24px;background:rgba(255,255,255,.12);color:var(--secondary-c);display:flex;align-items:center;justify-content:center;flex-shrink:0}
+  .ic-cta-ic{width:96px;height:96px;border-radius:24px;background:var(--ic-chip,rgba(255,255,255,.12));color:var(--ic-accent,#fd8a42);display:flex;align-items:center;justify-content:center;flex-shrink:0}
   .ic-cta-ic svg{width:52px;height:52px}
   .icard.cta h2{margin-top:44px;font-size:66px;font-weight:800;line-height:1.32;letter-spacing:-.02em}
-  .icard.cta p{margin-top:26px;font-size:34px;color:#dfe4ff;line-height:1.5;max-width:840px}
-  .ic-phone{margin-top:52px;align-self:flex-start;display:inline-flex;align-items:center;gap:18px;background:#fff;color:var(--primary);font-family:'Plus Jakarta Sans',sans-serif;font-weight:800;font-size:42px;padding:26px 40px;border-radius:16px}
+  .icard.cta p{margin-top:26px;font-size:34px;color:var(--ic-fg,#fff);opacity:.86;line-height:1.5;max-width:840px}
+  .ic-phone{margin-top:52px;align-self:flex-start;display:inline-flex;align-items:center;gap:18px;background:var(--ic-accent,#fff);color:#10243e;font-family:'Plus Jakarta Sans',sans-serif;font-weight:800;font-size:42px;padding:26px 40px;border-radius:16px}
   .ic-phone svg{width:40px;height:40px}
   .icard.solo h1{font-size:64px}
   .icard.solo .ic-bodytext{font-size:36px;margin-top:44px}
+
+  /* 템플릿 변형 */
+  .icard.t-centered{align-items:center;text-align:center}
+  .icard.t-centered .ic-top{width:100%}
+  .icard.t-centered .ic-rule{margin-left:auto;margin-right:auto}
+  .icard.t-centered .ic-tags{justify-content:center}
+  .icard.t-centered .ic-eyebrow{width:100%}
+  .icard.t-centered .ic-eyebrow::before{margin-left:auto;margin-right:auto}
+  .icard.t-centered.cta{align-items:center}
+  .icard.t-centered .ic-phone{align-self:center}
+  .icard.t-centered .ic-foot{width:100%}
+  .icard.t-minimal h1{font-weight:700;font-size:62px}
+  .icard.t-minimal.solo h1{font-size:56px}
+  .icard.t-minimal .ic-rule{width:52px;height:3px}
+  .icard.t-minimal .ic-kicker{font-size:22px;letter-spacing:.08em;text-transform:uppercase}
+  .icard.t-minimal .ic-top{opacity:.62}
+  .icard.t-minimal .ic-bodytext{font-weight:400;font-size:34px}
+  .icard.t-minimal .ic-eyebrow{font-size:24px}
+  .icard.t-minimal.cover .ic-kicker{margin-top:34%}
+  .icard.t-serif h1,.icard.t-serif h2,.icard.t-serif .ic-eyebrow{font-family:Georgia,'Times New Roman','Noto Serif KR',serif}
+  .icard.t-serif h1{font-weight:700;letter-spacing:-.01em}
+  .icard.t-serif .ic-rule{width:96px}
 
   .sendbar{display:inline-flex;gap:6px}
   .sendbar button{border:1px solid rgba(255,255,255,.25);background:rgba(255,255,255,.06);color:#eef1f8;font:inherit;font-size:12px;font-weight:700;padding:6px 11px;border-radius:7px;cursor:pointer;transition:.15s}
@@ -241,6 +275,7 @@
     .sendbar button{padding:6px 9px;font-size:11px}
   }
 </style>
+<script src="https://cdn.jsdelivr.net/npm/html-to-image@1.11.13/dist/html-to-image.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -633,14 +668,32 @@ function instaSlides(it, n){
   return slides;
 }
 
+/* 색상 테마 & 템플릿 */
+const INSTA_THEMES = {
+  navy:     {label:'네이비',   bg:'linear-gradient(165deg,#1e3a8a,#00236f)', fg:'#ffffff', accent:'#fd8a42', sub:'#ffdbca', muted:'#aab6d8', tag:'#c7d0ec', light:false},
+  royal:    {label:'로열블루', bg:'linear-gradient(165deg,#1d4ed8,#123a9e)', fg:'#ffffff', accent:'#ffd166', sub:'#dbe6ff', muted:'#a9bde8', tag:'#cdddff', light:false},
+  forest:   {label:'포레스트', bg:'linear-gradient(165deg,#14463f,#06231f)', fg:'#f2fbf8', accent:'#e7c37a', sub:'#bfe7db', muted:'#8fb8ae', tag:'#bfe7db', light:false},
+  charcoal: {label:'차콜',     bg:'linear-gradient(165deg,#2b2f36,#131519)', fg:'#f5f5f4', accent:'#e0a75e', sub:'#e8d3b5', muted:'#9aa0a6', tag:'#c7cbd1', light:false},
+  burgundy: {label:'버건디',   bg:'linear-gradient(165deg,#5b1f2b,#2c0e15)', fg:'#fdf3ee', accent:'#e6b980', sub:'#f0cdbd', muted:'#c199a0', tag:'#e8c9cd', light:false},
+  ivory:    {label:'아이보리', bg:'linear-gradient(165deg,#faf7f0,#efe7d7)', fg:'#1b2a44', accent:'#b8863b', sub:'#6f5f45', muted:'#8a8578', tag:'#5c5647', light:true},
+};
+const INSTA_TEMPLATES = { editorial:'에디토리얼', centered:'센터', minimal:'미니멀', serif:'세리프' };
+function themeVars(key){
+  const t = INSTA_THEMES[key] || INSTA_THEMES.navy;
+  const border = t.light ? 'rgba(0,0,0,.14)' : 'rgba(255,255,255,.16)';
+  const chip   = t.light ? 'rgba(0,0,0,.05)' : 'rgba(255,255,255,.12)';
+  return `--ic-bg:${t.bg};--ic-fg:${t.fg};--ic-accent:${t.accent};--ic-sub:${t.sub};--ic-muted:${t.muted};--ic-tag:${t.tag};--ic-border:${border};--ic-chip:${chip}`;
+}
+
 function icardHTML(slide, idx, total){
   const it = slide.it;
   const num = `${String(idx+1).padStart(2,'0')} / ${total}`;
   const brandTop = `<span class="ic-brandname">${esc(BRAND.officeName)}</span><span class="ic-idx">${num}</span>`;
   const foot = `${esc(BRAND.brandName)} · ${esc(BRAND.mobile)}`;
+  const open = k => `<div class="icard ${k} t-${instaTemplate}" style="${themeVars(instaTheme)}">`;
 
   if(slide.kind === 'solo'){
-    return `<div class="icard solo">
+    return `${open('solo')}
       <div class="ic-top">${brandTop}</div>
       <div class="ic-kicker">${esc(KIND[curType].brief)} · ${esc(KIND[curType].ed)}</div>
       <h1>${esc(cleanTitle(it.oneLiner))}</h1>
@@ -650,7 +703,7 @@ function icardHTML(slide, idx, total){
     </div>`;
   }
   if(slide.kind === 'cover'){
-    return `<div class="icard cover">
+    return `${open('cover')}
       <div class="ic-top">${brandTop}</div>
       <div class="ic-kicker">${esc(KIND[curType].brief)} · ${esc(KIND[curType].ed)}</div>
       <h1>${esc(cleanTitle(it.oneLiner))}</h1>
@@ -660,7 +713,7 @@ function icardHTML(slide, idx, total){
     </div>`;
   }
   if(slide.kind === 'cta'){
-    return `<div class="icard cta">
+    return `${open('cta')}
       <span class="ic-idx" style="position:absolute;top:88px;right:84px">${num}</span>
       <div class="ic-cta-ic">${ICO.chat}</div>
       <h2>이 정책이 내 집에는<br>어떤 영향을 줄까요?</h2>
@@ -670,7 +723,7 @@ function icardHTML(slide, idx, total){
     </div>`;
   }
   // body
-  return `<div class="icard body">
+  return `${open('body')}
     <div class="ic-top">${brandTop}</div>
     <div class="ic-eyebrow">${esc(slide.ey)}</div>
     <p class="ic-bodytext">${esc(slide.tx).replace(/\n/g,'<br>')}</p>
@@ -701,21 +754,36 @@ function renderInsta(typeKey){
 
   return `<div class="insta-controls">
     <button class="ic-back" data-insta-back>← 주제 다시 선택</button>
-    <div class="count-label">카드 장수 — <b>${slides.length}장</b> 생성됨</div>
+
+    <div class="ctl-label">카드 장수 — <b>${slides.length}장</b> 생성됨</div>
     <div class="count-seg">
       ${Array.from({length:10},(_,i)=>i+1).map(n=>`<button data-insta-count="${n}" class="${n===instaCount?'on':''}">${n}</button>`).join('')}
     </div>
     ${shortfall ? `<div class="count-hint">이 주제는 콘텐츠 기준 최대 ${slides.length}장까지 구성됩니다.</div>` : ''}
-    <div class="count-hint">선택 주제: ${esc(cleanTitle(it.oneLiner))}</div>
+
+    <div class="ctl-label">색상 테마</div>
+    <div class="theme-seg">
+      ${Object.entries(INSTA_THEMES).map(([k,t])=>`<button data-insta-theme="${k}" class="${k===instaTheme?'on':''}" title="${t.label}" style="background:${t.bg}"><i style="background:${t.accent}"></i></button>`).join('')}
+    </div>
+
+    <div class="ctl-label">템플릿</div>
+    <div class="tpl-seg">
+      ${Object.entries(INSTA_TEMPLATES).map(([k,label])=>`<button data-insta-tpl="${k}" class="${k===instaTemplate?'on':''}">${label}</button>`).join('')}
+    </div>
+
+    <div class="save-row">
+      <button data-save-all>카드뉴스 이미지 저장 (${slides.length}장)</button>
+    </div>
+    <div class="count-hint">선택 주제: ${esc(cleanTitle(it.oneLiner))} · 각 카드의 <b>저장</b> 버튼으로 개별 저장도 가능합니다.</div>
   </div>
   <div class="insta-deck">
-    ${slides.map((s,i)=>`<div class="icard-scale">${icardHTML(s,i,slides.length)}</div>`).join('')}
+    ${slides.map((s,i)=>`<div class="icard-scale"><button class="card-save" data-save-card="${i}">저장</button>${icardHTML(s,i,slides.length)}</div>`).join('')}
   </div>`;
 }
 
 /* ───────────── 컨트롤 ───────────── */
 let curType='DAILY', curView='email';
-let instaIssue=null, instaCount=5;
+let instaIssue=null, instaCount=5, instaTheme='navy', instaTemplate='editorial';
 const device = document.getElementById('device');
 
 function fitInsta(){
@@ -724,7 +792,7 @@ function fitInsta(){
     const k = w / 1080;
     wrap.style.width = w+'px';
     wrap.style.height = (1350*k)+'px';
-    const card = wrap.firstElementChild;
+    const card = wrap.querySelector('.icard');
     if(card) card.style.transform = 'scale('+k+')';
   });
 }
@@ -754,8 +822,55 @@ device.addEventListener('click', e=>{
   if(issueBtn){ instaIssue = +issueBtn.dataset.instaIssue; paint(); return; }
   const countBtn = e.target.closest('[data-insta-count]');
   if(countBtn){ instaCount = +countBtn.dataset.instaCount; paint(); return; }
+  const themeBtn = e.target.closest('[data-insta-theme]');
+  if(themeBtn){ instaTheme = themeBtn.dataset.instaTheme; paint(); return; }
+  const tplBtn = e.target.closest('[data-insta-tpl]');
+  if(tplBtn){ instaTemplate = tplBtn.dataset.instaTpl; paint(); return; }
+  const saveCardBtn = e.target.closest('[data-save-card]');
+  if(saveCardBtn){ saveCards([+saveCardBtn.dataset.saveCard]); return; }
+  if(e.target.closest('[data-save-all]')){ saveCards(null); return; }
   if(e.target.closest('[data-insta-back]')){ instaIssue = null; paint(); return; }
 });
+
+/* ───────────── 카드뉴스 이미지 저장 (html-to-image) ───────────── */
+async function iCardToPng(cardEl){
+  if(!window.htmlToImage) throw new Error('lib-missing');
+  const clone = cardEl.cloneNode(true);
+  clone.style.transform = 'none';
+  clone.style.margin = '0';
+  clone.style.borderRadius = '0';
+  const holder = document.createElement('div');
+  holder.style.cssText = 'position:fixed;left:-99999px;top:0;width:1080px;height:1350px;z-index:-1;pointer-events:none;';
+  holder.appendChild(clone);
+  document.body.appendChild(holder);
+  try{
+    return await window.htmlToImage.toPng(clone, { width:1080, height:1350, pixelRatio:1, cacheBust:true });
+  } finally { holder.remove(); }
+}
+function downloadUrl(url, name){
+  const a = document.createElement('a');
+  a.href = url; a.download = name;
+  document.body.appendChild(a); a.click(); a.remove();
+}
+async function saveCards(indexes){
+  const cards = [...device.querySelectorAll('.icard')];
+  if(!cards.length) return;
+  const list = indexes ?? cards.map((_,i)=>i);
+  try{
+    for(let n=0;n<list.length;n++){
+      const i = list[n];
+      toast(list.length>1 ? `이미지 저장 중… ${n+1}/${list.length}` : '이미지 생성 중…');
+      const png = await iCardToPng(cards[i]);
+      downloadUrl(png, `land-language-${curType.toLowerCase()}-${instaTheme}-${instaTemplate}-${String(i+1).padStart(2,'0')}.png`);
+      if(list.length>1) await new Promise(r=>setTimeout(r,500));
+    }
+    toast(list.length>1 ? `${list.length}장 저장 완료.` : '저장되었습니다.');
+  }catch(err){
+    toast(String(err).includes('lib-missing')
+      ? '이미지 저장 라이브러리를 불러오지 못했습니다. 온라인 상태에서 새로고침 후 다시 시도하세요.'
+      : '이미지 저장에 실패했습니다. 다시 시도해 주세요.');
+  }
+}
 
 window.addEventListener('resize', ()=>{ if(curView==='insta') paint(); });
 
