@@ -297,6 +297,19 @@
   .blog-doc blockquote .bq-li::before{content:"·";position:absolute;left:2px;color:var(--secondary-dark,#a9863f);font-weight:800}
   .blog-doc blockquote.img-slot{background:#fffdf8;border:1.5px dashed var(--secondary-c);border-left-width:3px;border-radius:10px;padding:14px 16px}
   .blog-doc blockquote.img-slot > div:first-child{font-weight:800;color:var(--secondary-dark,#a9863f);font-size:13.5px;margin-bottom:4px}
+  .blog-doc .tbl-wrap{overflow-x:auto;margin:14px 0;border:1px solid var(--outline-var);border-radius:10px}
+  .blog-doc table{width:100%;border-collapse:collapse;font-size:12.5px;min-width:420px}
+  .blog-doc th{background:var(--c-low);color:var(--on);font-weight:700;text-align:left;padding:9px 11px;border-bottom:2px solid var(--outline-var);white-space:nowrap}
+  .blog-doc td{padding:9px 11px;border-bottom:1px solid var(--c-low);vertical-align:top;line-height:1.6}
+  .blog-doc tr:last-child td{border-bottom:0}
+  .blog-doc .chart-block{background:var(--c-low);border-radius:12px;padding:16px 14px 12px;margin:14px 0}
+  .blog-doc .chart-block-title{font-size:12px;font-weight:700;color:var(--on-var);margin-bottom:10px}
+  .blog-doc .bc-row{display:flex;align-items:flex-end;gap:12px;height:150px;overflow-x:auto;padding-bottom:2px}
+  .blog-doc .bc-col{display:flex;flex-direction:column;align-items:center;justify-content:flex-end;gap:5px;min-width:42px}
+  .blog-doc .bc-val{font-size:10px;color:var(--on);font-weight:700;white-space:nowrap}
+  .blog-doc .bc-bar{width:24px;background:var(--outline-var);border-radius:5px 5px 0 0}
+  .blog-doc .bc-bar.last{background:var(--primary)}
+  .blog-doc .bc-x{font-size:9.5px;color:var(--outline);white-space:nowrap}
   .blog-doc a{color:var(--primary);text-decoration:underline;word-break:break-all}
   .blog-doc hr{border:0;border-top:1px solid var(--outline-var);margin:22px 0}
   .blog-doc strong{font-weight:700;color:var(--on)}
@@ -996,8 +1009,40 @@ function imgSlot(n, what, why, alt){
 > - **대체텍스트(alt) 예시:** ${alt}
 > - **주의:** 이미지 속 핵심 문구·숫자·일정은 본문에도 그대로 적어 주세요. 이미지만으로는 검색 노출·AI 브리핑 인용에 불리합니다.`;
 }
+/* 순수 CSS 막대그래프 — 이미 존재하는 실제 수치(페르소나 영향도 0~5, STATS 통계)만 그립니다 */
+function renderBarChart(title, unit, pts){
+  if(!pts || !pts.length) return '';
+  const vals = pts.map(p=>p[1]);
+  const max = Math.max.apply(null, vals.concat([0]));
+  const min = Math.min.apply(null, vals.concat([0]));
+  const span = (max-min) || 1;
+  const cols = pts.map((p,i)=>{
+    const h = 14 + Math.round(((p[1]-min)/span)*96);
+    const last = i===pts.length-1;
+    return `<div class="bc-col"><span class="bc-val">${esc(String(p[1]))}${esc(unit||'')}</span><div class="bc-bar${last?' last':''}" style="height:${h}px"></div><span class="bc-x">${esc(String(p[0]))}</span></div>`;
+  }).join('');
+  return `<div class="chart-block"><div class="chart-block-title">${esc(title)}</div><div class="bc-row">${cols}</div></div>`;
+}
+
 function mdToHtml(md){
-  const lines=(md||'').split('\n'); let html=''; let inList=false; let bq=[];
+  // [[CHART ... CHART]] 블록을 먼저 렌더링해 두고 자리표시자로 치환 (줄 단위 파서와 충돌 방지)
+  const charts = [];
+  const src = (md||'').replace(/\[\[CHART\n([\s\S]*?)\nCHART\]\]/g, (_, blockBody) => {
+    let title='', unit='';
+    const pts = [];
+    blockBody.split('\n').forEach(ln=>{
+      const l = ln.trim();
+      if(!l) return;
+      if(/^title:/i.test(l)) title = l.slice(6).trim();
+      else if(/^unit:/i.test(l)) unit = l.slice(5).trim();
+      else{ const idx=l.indexOf(':'); if(idx>0) pts.push([l.slice(0,idx).trim(), parseFloat(l.slice(idx+1))]); }
+    });
+    charts.push(renderBarChart(title, unit, pts));
+    return `\n@@CHART_${charts.length-1}@@\n`;
+  });
+
+  const lines = src.split('\n');
+  let html=''; let inList=false; let bq=[]; let tbl=[];
   const closeList=()=>{ if(inList){ html+='</ul>'; inList=false; } };
   const flushBq=()=>{
     if(!bq.length) return;
@@ -1008,8 +1053,21 @@ function mdToHtml(md){
     html += '<blockquote'+(isSlot?' class="img-slot"':'')+'>'+inner+'</blockquote>';
     bq=[];
   };
+  const flushTbl=()=>{
+    if(tbl.length<2){ tbl=[]; return; }
+    const rows = tbl.map(r=>r.trim().replace(/^\|/,'').replace(/\|$/,'').split('|').map(c=>c.trim()));
+    const header = rows[0];
+    const body = rows.slice(2); // 헤더 + 구분선(---) 제외
+    html += '<div class="tbl-wrap"><table><thead><tr>'+header.map(h=>'<th>'+mdInline(h)+'</th>').join('')+'</tr></thead><tbody>'+
+      body.map(r=>'<tr>'+r.map(c=>'<td>'+mdInline(c)+'</td>').join('')+'</tr>').join('')+'</tbody></table></div>';
+    tbl=[];
+  };
   for(const raw of lines){
     const l=raw.replace(/\s+$/,'');
+    const chartMatch = l.match(/^@@CHART_(\d+)@@$/);
+    if(chartMatch){ closeList(); flushBq(); flushTbl(); html += charts[+chartMatch[1]] || ''; continue; }
+    if(/^\s*\|.*\|\s*$/.test(l)){ closeList(); flushBq(); tbl.push(l); continue; }
+    flushTbl();
     if(/^>\s?/.test(l)){ closeList(); bq.push(l.replace(/^>\s?/,'')); continue; }
     flushBq();
     if(/^#\s+/.test(l)){ closeList(); html+='<h1>'+mdInline(l.replace(/^#\s+/,''))+'</h1>'; }
@@ -1021,8 +1079,53 @@ function mdToHtml(md){
     else if(l.trim()===''){ closeList(); }
     else { closeList(); html+='<p>'+mdInline(l)+'</p>'; }
   }
-  closeList(); flushBq();
+  closeList(); flushBq(); flushTbl();
   return html;
+}
+
+/* 부동산 용어 풀이 — 주제와 관련된 항목만 자동으로 골라 보여줍니다 */
+const GLOSSARY = [
+  { key:/DSR|총부채원리금|대출한도/, term:'DSR (총부채원리금상환비율)', def:'1년 동안 갚아야 하는 모든 대출의 원금과 이자를 연소득으로 나눈 비율입니다. 이 비율이 규제 한도를 넘으면 소득이 있어도 추가 대출이 막힐 수 있습니다.' },
+  { key:/기준금리|금통위/, term:'기준금리', def:'한국은행 금융통화위원회가 결정하는 정책금리입니다. 은행 대출·예금 금리 전반에 영향을 주지만, 실제 내가 받는 금리는 여기에 은행이 더하는 가산금리에 따라 달라집니다.' },
+  { key:/전세가율/, term:'전세가율', def:'매매가격 대비 전세보증금 비율입니다. 이 비율이 지나치게 높으면 집값이 내릴 때 보증금을 온전히 돌려받지 못하는 이른바 \'깡통전세\' 위험이 커집니다.' },
+  { key:/안전진단|재건축|재개발|정비사업|분담금/, term:'안전진단', def:'재건축을 추진하기 전 건물의 구조안전성·주거환경·설비노후도 등을 평가하는 절차입니다. 등급(A~E)에 따라 재건축 추진 가능 여부가 갈립니다.' },
+  { key:/디딤돌|보금자리론|정책대출/, term:'정책모기지(디딤돌·보금자리론)', def:'무주택 서민의 내 집 마련을 지원하기 위해 국가가 제공하는 저리 대출 상품입니다. 소득, 주택가격, 무주택 여부 등 조건을 충족해야 이용할 수 있습니다.' },
+  { key:/청약|가점제|특별공급|무순위/, term:'청약가점제', def:'무주택 기간, 부양가족 수, 청약통장 가입 기간을 점수화해 당첨자를 가리는 제도입니다. 점수가 높을수록 당첨 확률이 올라갑니다.' },
+  { key:/양도소득세|양도세/, term:'양도소득세', def:'부동산을 팔아 생긴 차익(양도차익)에 매기는 세금입니다. 보유기간·주택 수·거주 여부에 따라 세율과 비과세·감면 여부가 크게 달라집니다.' },
+  { key:/종합부동산세|보유세|공시가격/, term:'종합부동산세(종부세)', def:'일정 기준을 넘는 부동산 보유자에게 매년 부과되는 국세입니다. 재산세와 별도로, 사람별로 보유한 주택의 공시가격 합계를 기준으로 계산합니다.' },
+  { key:/GTX|광역급행철도|역세권/, term:'GTX(수도권광역급행철도)', def:'수도권 외곽과 서울 도심을 빠르게 연결하는 광역철도 사업입니다. 착공부터 개통까지 여러 단계가 남아 있어 실제 개통 시점은 계획보다 늦어지는 경우가 흔합니다.' },
+  { key:/미분양/, term:'미분양 · 준공 후 미분양', def:'분양했지만 팔리지 않은 주택을 미분양이라 하고, 건물이 다 지어진 뒤에도 팔리지 않은 물량을 \'준공 후 미분양\'이라 합니다. 준공 후 미분양이 늘면 그 지역 시장이 침체 국면일 가능성이 높습니다.' },
+  { key:/갭투자|역전세/, term:'갭투자 · 역전세', def:'매매가와 전세가 차이(갭)가 작을 때 그 차액만큼만 자기 돈을 들여 집을 사는 것을 갭투자라 합니다. 이후 전세가가 떨어지면 집주인이 세입자에게 보증금을 돌려주기 어려워지는 \'역전세\'가 발생할 수 있습니다.' },
+];
+function pickGlossary(it){
+  const text = [it.oneLiner, ...(it.bullets||[]), ...(it.audience||[])].join(' ');
+  const hit = GLOSSARY.filter(g=>g.key.test(text));
+  return (hit.length ? hit : GLOSSARY.slice(0,2)).slice(0,3);
+}
+const momText = s => s.mom==null ? '데이터 없음' : s.mom===0 ? '보합' : (s.mom>0?'▲ ':'▼ ')+Math.abs(s.mom)+'%';
+const urlHost = u => { try{ return new URL(u).hostname.replace(/^www\./,''); }catch(_){ return u; } };
+/* 관련 시장 지표 — 이미 화면에 쓰이는 실제 STATS 값만 사용하고, 이 함수가 새 수치를 만들지 않습니다 */
+/* 페르소나 영향도(0~5, 이미 계산된 값) 그래프 */
+function personaChartMd(it){
+  const pts = it.persona.map(p=>`${p[0]}:${p[1]}`).join('\n');
+  return `\n[[CHART\ntitle:보유 형태별 영향도 (0~5)\nunit:\n${pts}\nCHART]]\n`;
+}
+/* history 가 있는 실제 STATS 항목만 그래프로 (없으면 빈 문자열 — 수치를 새로 만들지 않음) */
+function statsChartFor(stat){
+  if(!stat || !stat.history || stat.history.length<2) return '';
+  const pts = stat.history.map(h=>`${h[0]}:${h[1]}`).join('\n');
+  return `\n[[CHART\ntitle:${stat.label} 추이\nunit:\n${pts}\nCHART]]\n`;
+}
+function pickStatsForBlog(it){
+  const text = ((it.topicId||'')+' '+it.oneLiner).toLowerCase();
+  const byLabel = k => STATS.find(s=>s.label.includes(k));
+  const picks = [];
+  if(/rate|대출|금리/.test(text)){ picks.push(byLabel('기준금리'), byLabel('주택담보대출')); }
+  if(/lease|gap|전세/.test(text)){ picks.push(byLabel('전세가격')); }
+  if(/presale|supply|newtown|청약|분양|공급/.test(text)){ picks.push(byLabel('신고 건수'), byLabel('거래량')); }
+  picks.push(byLabel('매매가격 변동률'), byLabel('기준금리'));
+  const seen = new Set();
+  return picks.filter(Boolean).filter(s=>!seen.has(s.label) && seen.add(s.label)).slice(0,3);
 }
 
 function generateBlogPost(it, topicIdx){
@@ -1035,15 +1138,29 @@ function generateBlogPost(it, topicIdx){
   const topicLabel = `${it.agency||'이슈'} · ${cleanTitle(it.oneLiner)}`.slice(0,60);
   const base = cleanTitle(it.oneLiner);
   const title = `${base} — 무주택·1주택·다주택 영향과 상담 전 체크리스트`;
-  const meta = `${base}. 무주택자·1주택자·다주택자에게 각각 어떤 의미인지, 매수·매도 전 확인할 점을 송파 현직 공인중개사가 실무 관점에서 정리했습니다.`.slice(0,158);
-  const sub1='먼저, 무슨 내용인지 팩트만 정리';
-  const sub2='무주택·1주택·다주택 — 상황별로 뭐가 달라지나';
-  const sub3='공인중개사 시선 — 상담에서 꼭 확인하는 것';
-  const checklist = [ ...(it.bullets||[]).slice(0,2), it.impact,
-    '확정된 내용인지, 논의·전망 단계인지 먼저 구분하기',
-    '적용 지역·시행일·대상 요건을 공식 원문에서 직접 확인하기' ].filter(Boolean);
-
+  const meta = `${base}. 무주택자·1주택자·다주택자에게 각각 어떤 의미인지, 매수·매도 전 확인할 점을 현직 공인중개사가 실무 관점에서 정리했습니다.`.slice(0,158);
+  const sub1='먼저, 무슨 내용인지 팩트로 정리';
+  const sub2='알아두면 좋은 용어';
+  const sub3='무주택·1주택·다주택 — 상황별로 뭐가 달라지나';
+  const sub4='공인중개사가 상담에서 실제로 보는 것';
+  const sub5='숫자로 보는 시장 흐름';
+  const sub6='상담 전 실무 체크리스트';
+  const sub7='자주 묻는 질문';
+  const sub8='마치며 — 제 생각';
   const kw = base.slice(0, 22);
+  const glossary = pickGlossary(it);
+  const stats = pickStatsForBlog(it);
+  const statsTableRows = stats.map(s=>`| ${s.label} | ${s.main} | ${momText(s)} | ${s.asOf} | [${urlHost(s.url)}](${s.url}) |`).join('\n');
+  const chartStat = stats.find(s=>s.history && s.history.length>1);
+  const checklist = [
+    ...(it.bullets||[]),
+    it.impact,
+    '확정된 내용인지, 논의·전망 단계인지 먼저 구분하기',
+    '적용 지역·시행 시점·대상 요건을 공식 원문에서 직접 확인하기',
+    '내 대출 유형(변동·고정)과 다음 금리 변경일 확인하기',
+    '세무·법률 판단이 필요하면 전문가와 별도로 상담하기',
+  ].filter(Boolean);
+
   const body =
 `# ${title}
 
@@ -1052,17 +1169,25 @@ function generateBlogPost(it, topicIdx){
 ## 이 글이 필요한 분
 - ${(it.audience||[]).map(t=>t.replace('#','')).join(' · ')} — 뉴스는 봤는데 "그래서 내 상황에선 뭐가 달라지나"가 궁금한 분
 - 매수·매도·갈아타기 시점을 고민 중이라 근거 있는 판단 기준이 필요한 분
+- 복잡한 정책 용어를 한 번에 이해하고 싶은 분
 - 작성일 ${new Date().toLocaleDateString('ko-KR')} · 참고 출처는 글 맨 아래 링크로 정리했습니다.
 
 ## 목차
 1. ${sub1}
 2. ${sub2}
 3. ${sub3}
-4. 상담 전 실무 체크리스트
-5. 마치며 — 제 생각
+4. ${sub4}
+5. ${sub5}
+6. ${sub6}
+7. ${sub7}
+8. ${sub8}
 
 ## 들어가며
-${it.whatHappened || base} 헤드라인만 보면 막연히 불안하거나 반대로 무덤덤해지기 쉽지만, 상담 현장에서 정작 중요한 건 "내 조건에 실제로 적용되는지"입니다.
+${it.whatHappened || base}
+
+뉴스 헤드라인만 보면 막연히 불안해지거나, 반대로 "나랑 상관없는 얘기겠지" 하고 무덤덤해지기 쉽습니다. 하지만 현장에서 매일 고객을 만나다 보면, 정작 중요한 건 발표 그 자체가 아니라 **"이게 내 조건에 실제로 적용되는지, 적용된다면 언제부터인지"** 라는 걸 절실히 느낍니다. 같은 뉴스를 보고도 어떤 분은 서둘러 계약을 진행하고, 어떤 분은 몇 달을 더 관망합니다. 그 차이는 정보를 얼마나 많이 아느냐가 아니라, 그 정보를 **본인 상황에 맞게 해석**했는지에서 갈립니다.
+
+이 글에서는 이번 이슈가 정확히 무엇인지 사실관계부터 정리하고, 무주택자·1주택자·다주택자 등 상황별로 어떤 의미가 있는지, 그리고 실제 상담에서 공인중개사가 어떤 부분을 확인하는지까지 순서대로 설명해 드리겠습니다. 어려운 용어는 풀어서 설명하고, 관련된 실제 통계도 표와 그래프로 함께 보여드리니 끝까지 천천히 읽어 보시길 권합니다.
 
 ${imgSlot(1,
   `이 글의 대표 이미지(썸네일). "${kw}"를 상징하는 실사 사진(아파트 단지·계약서·상담 장면 등) 또는 제목을 큼직하게 넣은 자체 제작 배너 1장. 권장 비율 1200×630.`,
@@ -1073,6 +1198,8 @@ ${imgSlot(1,
 
 ## 1. ${sub1}
 ${it.fact || it.whatHappened || base}
+
+조금 더 풀어서 설명하면, 이번 사안은 현재 **${STATUS_LABEL[it.status]||'확인 필요'}** 단계입니다. '확정'과 '검토·전망'은 전혀 다른 이야기입니다. 확정된 정책은 시행일과 적용 대상이 명확히 정해져 있어 그에 맞춰 계획을 세울 수 있지만, 검토 중이거나 언론에 보도만 된 단계라면 내용이 얼마든지 바뀔 수 있습니다. 그래서 뉴스 제목만 보고 성급하게 결정하기보다, 아래 핵심 요약과 원문을 함께 확인하시길 권합니다.
 
 핵심만 추리면 이렇습니다.
 ${(it.bullets||[]).slice(0,3).map(b=>'- '+b).join('\n') || '- (핵심 요약 3줄을 채워주세요)'}
@@ -1086,22 +1213,41 @@ ${imgSlot(2,
   `"${it.agency||'정부'} 발표 자료 캡처 – 발표일과 적용 시점 표시"`)}
 
 ## 2. ${sub2}
-같은 뉴스라도 보유 형태에 따라 의미가 완전히 다릅니다.
+이 주제를 이해하려면 몇 가지 용어를 먼저 짚고 넘어가는 게 좋습니다. 뉴스에서는 당연하다는 듯 쓰지만, 막상 찾아보면 헷갈리는 표현들이 많습니다.
 
-- **무주택자:** ${P('무주택자')}
-- **1주택자:** ${P('1주택자')}
-- **다주택자:** ${P('다주택자')}
-- **매수 예정:** ${P('매수 예정자')}
-- **매도 예정:** ${P('매도 예정자')}
-- **임대인 / 임차인:** ${P('임대인')} / ${P('임차인')}
+${glossary.map(g=>`**${g.term}**\n${g.def}`).join('\n\n')}
+
+용어를 정확히 알아야 뉴스에서 말하는 내용이 나에게 유리한지 불리한지도 정확히 판단할 수 있습니다. 다음 장에서는 이 개념들을 바탕으로 보유 형태별 영향을 구체적으로 살펴보겠습니다.
+
+## 3. ${sub3}
+같은 뉴스라도 무주택자인지, 1주택자인지, 다주택자인지, 지금 매수·매도를 준비 중인지에 따라 체감하는 무게가 완전히 다릅니다. 아래 표로 한눈에 정리했습니다.
+
+| 구분 | 영향도 | 확인할 점 |
+|---|---|---|
+| 무주택자 | ${dots(it.persona.find(p=>p[0]==='무주택자')?.[1]||0)} (${it.persona.find(p=>p[0]==='무주택자')?.[1]||0}/5) | ${P('무주택자')} |
+| 1주택자 | ${dots(it.persona.find(p=>p[0]==='1주택자')?.[1]||0)} (${it.persona.find(p=>p[0]==='1주택자')?.[1]||0}/5) | ${P('1주택자')} |
+| 다주택자 | ${dots(it.persona.find(p=>p[0]==='다주택자')?.[1]||0)} (${it.persona.find(p=>p[0]==='다주택자')?.[1]||0}/5) | ${P('다주택자')} |
+| 매수 예정자 | ${dots(it.persona.find(p=>p[0]==='매수 예정자')?.[1]||0)} (${it.persona.find(p=>p[0]==='매수 예정자')?.[1]||0}/5) | ${P('매수 예정자')} |
+| 매도 예정자 | ${dots(it.persona.find(p=>p[0]==='매도 예정자')?.[1]||0)} (${it.persona.find(p=>p[0]==='매도 예정자')?.[1]||0}/5) | ${P('매도 예정자')} |
+| 임대인 | ${dots(it.persona.find(p=>p[0]==='임대인')?.[1]||0)} (${it.persona.find(p=>p[0]==='임대인')?.[1]||0}/5) | ${P('임대인')} |
+| 임차인 | ${dots(it.persona.find(p=>p[0]==='임차인')?.[1]||0)} (${it.persona.find(p=>p[0]==='임차인')?.[1]||0}/5) | ${P('임차인')} |
+
+숫자로도 한눈에 비교할 수 있도록 그래프로 다시 그려봤습니다. 막대가 높을수록(5에 가까울수록) 이번 이슈를 더 눈여겨봐야 하는 대상이라는 뜻입니다.
+${personaChartMd(it)}
+
+표와 그래프에서 보시듯, 영향도가 높다고 무조건 '나쁜 소식'이라는 뜻은 아닙니다. 예를 들어 매수 예정자에게 영향도가 높게 나온다면, 그건 지금이 자금 계획을 다시 점검해 볼 좋은 타이밍이라는 신호일 수도 있습니다. 반대로 영향도가 낮게 나온 대상이라도, 향후 갈아타기나 임대차 계약 갱신 시점에는 다시 챙겨봐야 할 수 있으니 완전히 무관하다고 넘기지는 마시길 권합니다.
 
 ${imgSlot(3,
-  `무주택 / 1주택 / 다주택 / 매수·매도 예정자별 영향을 한 장에 정리한 비교 인포그래픽(표 형태). 항목별로 "영향 큼/보통/작음"을 아이콘이나 색으로 구분.`,
+  `위 표를 그대로 옮긴 비교 인포그래픽(카드뉴스형). 항목별로 "영향 큼/보통/작음"을 색으로 구분.`,
   `독자가 스크롤을 멈추고 자기 상황에 해당하는 줄을 바로 찾게 해 줍니다. 스캔이 쉬운 콘텐츠가 좋은 평가를 받습니다.`,
   `"보유 형태별 영향 비교표 – 무주택·1주택·다주택·매수·매도"`)}
 
-## 3. ${sub3}
+## 4. ${sub4}
+뉴스에는 나오지 않지만, 실제 상담 창구에서는 이런 부분을 먼저 확인합니다.
+
 ${(it.bullets||[]).map((b,i)=>`${i+1}. ${b}`).join('\n') || '1. (상담에서 확인하는 포인트를 채워주세요)'}
+
+예를 들어 상담을 오시는 분들께 저는 항상 "기사 제목이 아니라 원문 공고문의 시행일자부터 같이 찾아보자"고 말씀드립니다. 언론 보도는 압축되면서 뉘앙스가 강해지는 경우가 많고, 실제 적용 대상은 훨씬 좁거나 조건이 까다로운 경우가 흔하기 때문입니다. 상담 시에는 (1) 본인이 정확히 어떤 유형에 해당하는지, (2) 시행일이 확정인지 예정인지, (3) 경과규정(기존 계약자에 대한 예외)이 있는지, 이 세 가지를 항상 순서대로 짚어드립니다.
 
 ${imgSlot(4,
   `실제 상담에서 확인하는 서류(등기부·대출 상담 내역·시행일 안내문 등)나 사무소에서 고객과 상담하는 장면 사진. 개인정보는 반드시 가리고 촬영.`,
@@ -1110,21 +1256,51 @@ ${imgSlot(4,
 
 > ✍️ [직접 경험 입력] 실제 계약·상담에서 이 항목 때문에 문제가 됐던 사례, 예상과 달랐던 점, 초보자가 놓치기 쉬운 포인트를 2~3개 적어주세요.
 
-## 4. 상담 전 실무 체크리스트
-${checklist.map(c=>'- '+c).join('\n')}
+## 5. ${sub5}
+말로만 설명하면 막연할 수 있어, 관련된 실제 시장 지표를 함께 정리했습니다. 아래 수치는 모두 출처와 기준일이 명시된 공개 자료를 근거로 하며, 시간이 지나면 값이 바뀔 수 있으니 클릭해서 최신 수치를 다시 확인해 보시길 권합니다.
+
+| 지표 | 현재 값 | 전월 대비 | 기준일 | 출처 |
+|---|---|---|---|---|
+${statsTableRows}
+${chartStat ? statsChartFor(chartStat) : ''}
+숫자를 볼 때 한 가지만 기억해 두시면 좋습니다. 통계는 '전체 평균'이고, 실제 개별 단지·물건은 편차가 매우 큽니다. 위 지표는 시장의 큰 흐름을 파악하는 참고 자료로 활용하시고, 실제 매수·매도 의사결정은 관심 지역의 최근 3~6개월 실거래가를 별도로 확인한 뒤 내리시길 권합니다.
+
+## 6. ${sub6}
+아래 체크리스트를 표로 정리했습니다. 캡처해 두었다가 상담 전에 하나씩 확인해 보시면 좋습니다.
+
+| 확인 | 체크 항목 |
+|---|---|
+${checklist.map(c=>`| ☐ | ${c} |`).join('\n')}
 
 ${imgSlot(5,
   `위 체크리스트를 체크박스(☑) 형태의 카드 이미지 1장으로 재구성. 저장·캡처해서 쓰기 좋게 여백을 넉넉히.`,
   `독자가 "저장"해 두고 실제로 활용하게 만들어 체류·재방문을 늘립니다.`,
-  `"상담 전 체크리스트 카드 – 확인 항목 5가지"`)}
+  `"상담 전 체크리스트 카드 – 확인 항목 ${checklist.length}가지"`)}
 
-## 5. 마치며 — 제 생각
-정책·시장 뉴스는 '발표'보다 '내 조건에 적용되는지, 시점이 언제인지'가 훨씬 중요합니다. 숫자와 날짜는 반드시 공식 원문과 대조한 뒤 판단하시길 권합니다.
+## 7. ${sub7}
+**Q. "${base}", 이거 확정된 건가요?**
+
+A. 현재는 **${STATUS_LABEL[it.status]||'확인 필요'}** 단계입니다. ${it.status==='CONFIRMED'?'확정된 사안이지만 세부 시행 조건은 원문에서 다시 확인하시는 게 안전합니다.':'아직 확정 전이므로 이 정보만으로 매수·매도 시점을 서두르지 마시고, 공식 발표를 기다리며 자금 계획을 미리 점검해 두시길 권합니다.'}
+
+**Q. 저는 무주택자인데 지금 당장 뭘 해야 하나요?**
+
+A. ${P('무주택자')} 지금 당장 무언가를 바꾸기보다, 이번 이슈가 본인의 자격 요건·대출 한도에 어떤 영향을 주는지부터 차분히 점검해 보시길 권합니다.
+
+**Q. 다주택자에게는 불리한 소식인가요?**
+
+A. ${P('다주택자')} 유불리를 섣불리 단정하기보다, 세제·대출 조건이 실제로 바뀌는 시점을 원문에서 확인한 뒤 보유·매도 전략을 정하시는 것이 안전합니다.
+
+**Q. 이 글의 정보, 어디까지 믿어도 되나요?**
+
+A. 이 글은 ${arts.length ? arts.map(a=>a.publisher).join('·')+' 등 언론 보도' : '공개된 자료'}를 바탕으로 정리했습니다. 다만 세부 수치·시행일은 시간이 지나며 바뀔 수 있으니, 실제 판단은 반드시 정부 공식 발표 원문을 재확인한 뒤 내리시길 권합니다.
+
+## 8. ${sub8}
+정책·시장 뉴스는 '발표'보다 '내 조건에 적용되는지, 시점이 언제인지'가 훨씬 중요합니다. 숫자와 날짜는 반드시 공식 원문과 대조한 뒤 판단하시길 권합니다. 오늘 정리해 드린 표와 체크리스트를 참고해, 조급하게 결정하기보다 본인의 자금 계획과 일정에 맞춰 차근차근 준비하시길 바랍니다.
 
 > ✍️ [직접 경험 입력] 이 주제에 대한 본인의 관점, 고객에게 자주 하는 조언을 한 문단으로 마무리해 주세요.
 
 ## 상담 안내
-궁금한 점은 편하게 문의 주세요.
+글로 다 담지 못한 세부 사항이나 본인 상황에 맞춘 판단이 필요하시면 편하게 문의 주세요.
 - 전화: ${BRAND.mobile}
 - ${BRAND.officeName} / ${BRAND.brandName} · ${BRAND.address}
 
@@ -1138,6 +1314,7 @@ ${imgSlot(6,
 ## 참고 자료
 ${artLines}
 ${officialLink ? `- ${it.agency||'공식자료'} 관련: ${officialLink}` : ''}
+${stats.map(s=>`- ${s.label} (기준일 ${s.asOf}): [${urlHost(s.url)}](${s.url})`).join('\n')}
 
 ---
 _이 글은 LAND LANGUAGE 자동 초안입니다. 🖼️ [이미지 추가위치] 안내에 맞춰 이미지를 넣고, ✍️ 표시된 부분에 직접 경험을 채우고, 수치·날짜를 원문과 대조한 뒤 발행하세요._`;
