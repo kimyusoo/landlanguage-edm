@@ -319,7 +319,7 @@ const D = ' (DEMO DATA)';
 const ISSUES = [
   {
     status:'CONFIRMED', agency:'한국은행', announced:'2026-09-02', effective:null,
-    topic:'한국은행 기준금리 부동산 대출',
+    topicId:'rate',
     officialUrl:'https://www.bok.or.kr',
     oneLiner:'기준금리 동결, 대출 이자 급증은 일단 피했습니다',
     headline:'한국은행 기준금리 동결 결정'+D,
@@ -348,7 +348,7 @@ const ISSUES = [
   },
   {
     status:'UNDER_REVIEW', agency:'국토교통부', announced:'2026-09-03', effective:null,
-    topic:'수도권 주택 공급대책 국토교통부',
+    topicId:'supply',
     officialUrl:'https://www.molit.go.kr',
     oneLiner:"수도권 공급 확대, 아직 '검토 단계'입니다",
     headline:'정부, 수도권 주택공급 확대 방안 검토'+D,
@@ -377,7 +377,7 @@ const ISSUES = [
   },
   {
     status:'LEGISLATIVE_NOTICE', agency:'국토교통부', announced:'2026-09-02', effective:null,
-    topic:'청약제도 개편 입법예고 주택공급규칙',
+    topicId:'subs',
     officialUrl:'https://www.molit.go.kr',
     oneLiner:"청약제도 개선안 '입법예고' — 의견수렴 단계입니다",
     headline:'청약제도 일부 개선안 입법예고'+D,
@@ -405,7 +405,7 @@ const ISSUES = [
   },
   {
     status:'PRESS_REPORTED', agency:'', announced:'2026-09-01', effective:null,
-    topic:'다주택자 종합부동산세 양도소득세 보유세',
+    topicId:'tax',
     officialUrl:'',
     oneLiner:"다주택자 세금 '논의' 단계 — 확정된 변경은 없습니다",
     headline:'다주택자 보유세 관련 논의 보도'+D,
@@ -433,7 +433,7 @@ const ISSUES = [
   },
   {
     status:'CONFIRMED', agency:'한국부동산원', announced:'2026-09-01', effective:null,
-    topic:'서울 아파트 매매가격 거래량 실거래가 통계',
+    topicId:'stat',
     officialUrl:'https://www.reb.or.kr',
     oneLiner:'서울 아파트 최신 통계 공개 — 숫자는 원자료 기준으로 확인',
     headline:'서울 아파트 거래량·가격 최신 통계 공개'+D,
@@ -800,66 +800,56 @@ device.addEventListener('click', e=>{
 
 window.addEventListener('resize', ()=>{ if(curView==='kakao' || curView==='insta') paint(); });
 
-/* ───────────── 실시간 뉴스 수집 (Google News RSS + CORS 프록시) ───────────── */
-/* 성공하면 각 이슈의 기사·헤드라인 링크가 실제(직접) 기사 URL 로 교체됩니다. 실패 시 내장 데모로 폴백. */
-const CORS_PROXIES = [
-  u => 'https://api.allorigins.win/get?url=' + encodeURIComponent(u),
-  u => 'https://api.codetabs.com/v1/proxy/?quest=' + encodeURIComponent(u),
-];
-const gnewsRss = q => `https://news.google.com/rss/search?q=${encodeURIComponent(q + ' when:30d')}&hl=ko&gl=KR&ceid=KR:ko`;
-
-async function proxyText(url){
-  for(const wrap of CORS_PROXIES){
-    try{
-      const r = await fetch(wrap(url), { cache:'no-store' });
-      if(!r.ok) continue;
-      const ct = r.headers.get('content-type') || '';
-      const raw = await r.text();
-      if(ct.includes('application/json') || raw.trim().startsWith('{')){
-        try{ const j = JSON.parse(raw); if(j && j.contents) return j.contents; }catch(_){}
-      }
-      if(raw.includes('<rss') || raw.includes('<feed') || raw.includes('<item')) return raw;
-    }catch(_){}
-  }
-  return null;
-}
-
-function parseRss(xmlText, max){
-  const doc = new DOMParser().parseFromString(xmlText, 'text/xml');
-  return [...doc.querySelectorAll('item')].slice(0, max).map(it => {
-    const rawTitle = (it.querySelector('title')?.textContent || '').trim();
-    const src = (it.querySelector('source')?.textContent || rawTitle.split(' - ').slice(-1)[0] || '뉴스').trim();
-    const title = rawTitle.replace(new RegExp('\\s*-\\s*' + src.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + '\\s*$'), '').trim();
-    const desc = (it.querySelector('description')?.textContent || '')
-      .replace(/<[^>]+>/g,' ').replace(/&nbsp;|&#160;/g,' ').replace(/&amp;/g,'&').replace(/&[a-z]+;/g,' ').replace(/\s+/g,' ').trim();
-    const link = it.querySelector('link')?.textContent?.trim() || '';
-    const dt = new Date(it.querySelector('pubDate')?.textContent || Date.now());
-    return { publisher: src, title, excerpt: desc, url: link,
-             date: isNaN(dt) ? new Date().toISOString().slice(0,10) : dt.toISOString().slice(0,10) };
-  }).filter(a => a.url && a.title);
-}
-
+/* ───────────── 실시간 뉴스 (same-origin news.json) ───────────── */
+/* news.json 은 GitHub Actions 가 Google News RSS 를 수집해 주기적으로 커밋합니다.
+   있으면 각 이슈의 기사·헤드라인·원문 링크가 실제(직접) 기사 URL 로 교체되고,
+   없으면(로컬 파일 직접 열기 등) 내장 데모 + 제목 검색 링크로 폴백합니다. */
 let FEED_LIVE = false;
 async function hydrateNews(){
-  const jobs = ISSUES.map(async (it) => {
-    if(!it.topic) return;
-    const xml = await proxyText(gnewsRss(it.topic));
-    if(!xml) return;
-    const arts = parseRss(xml, 4);
-    if(arts.length){
-      it.articles = arts;
-      it.liveUrl = arts[0].url;         // 헤드라인/원문 버튼이 향할 실제 기사
-      it.announced = arts[0].date;
-      FEED_LIVE = true;
-    }
-  });
-  await Promise.race([ Promise.allSettled(jobs), new Promise(r => setTimeout(r, 9000)) ]);
+  let feed = null;
+  try{
+    const r = await fetch('news.json?ts=' + Date.now(), { cache:'no-store' });
+    if(r.ok) feed = await r.json();
+  }catch(_){ /* file:// 등에서는 무시 */ }
+
   const st = document.getElementById('feedStatus');
+  if(feed && feed.topics){
+    ISSUES.forEach(it => {
+      const arts = it.topicId && feed.topics[it.topicId];
+      if(arts && arts.length){
+        it.articles = arts.slice(0, 4);
+        it.liveUrl = arts[0].url;        // 헤드라인 / 원문 버튼이 향할 실제 기사
+        it.announced = arts[0].date || it.announced;
+        // 제목·내용을 실제 기사에 맞추고, 해설은 방향(인상/인하/확정/검토)에 좌우되지 않는 가이드로 교체
+        it.oneLiner = cleanTitle(arts[0].title);
+        it.headline = arts[0].title;
+        it.whatHappened = (arts.find(a => a.excerpt && a.excerpt.length > 20)?.excerpt)
+          || '주요 언론이 비중 있게 다룬 이슈입니다. 아래 기사 원문에서 구체적인 수치·일정·대상을 확인하세요.';
+        it.bullets = [
+          '헤드라인보다 적용 대상·시행 시점·구체 수치를 원문에서 먼저 확인하세요.',
+          '고객 상황(주택 수·지역·보유기간·대출 유형)에 따라 영향이 달라짐을 안내하세요.',
+          '확정된 내용과 논의·전망 단계를 구분해 설명하세요.',
+        ];
+        it.impact = '기사 원문에서 적용 지역·시행일·대상 요건을 확인한 뒤 본인 상황에 맞춰 판단하세요.';
+        it.persona = [
+          ['무주택자', 3, '매수 계획이 있다면 대출 한도·금리 시나리오를 다시 점검하세요.'],
+          ['1주택자', 3, '보유·갈아타기 판단에 앞서 본인 대출 조건과 세금 요건을 확인하세요.'],
+          ['다주택자', 3, '세제·대출 규제와 보유 비용 변화 가능성을 함께 점검하세요.'],
+          ['매수 예정자', 3, '자금 계획과 매수 시점을 기사 원문의 구체 조건에 맞춰 재검토하세요.'],
+          ['매도 예정자', 3, '거래량·가격 흐름과 세금 일정을 확인해 매도 전략을 조정하세요.'],
+          ['임대인', 2, '임대차 관련 제도 변화 여부를 별도로 확인하세요.'],
+          ['임차인', 2, '전월세·대출 조건 변화 가능성을 확인하세요.'],
+        ];
+        FEED_LIVE = true;
+      }
+    });
+  }
   if(FEED_LIVE){
-    st.textContent = '실시간 뉴스 · ' + new Date().toLocaleString('ko-KR',{month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit'}) + ' 수집';
+    const when = feed.generatedAt ? new Date(feed.generatedAt) : new Date();
+    st.textContent = '실시간 뉴스 · ' + when.toLocaleString('ko-KR',{month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit'}) + ' 수집';
     st.classList.add('live');
   }else{
-    st.textContent = 'DEMO DATA (오프라인)';
+    st.textContent = 'DEMO DATA';
   }
 }
 
