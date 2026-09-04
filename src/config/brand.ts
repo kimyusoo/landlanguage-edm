@@ -21,8 +21,7 @@ export const DEFAULT_BRAND: BrandSetting = {
   reservationUrl: "",
   privacyUrl: "",
   unsubscribeUrl: "",
-  heroMainCopy:
-    "AI가 중개업자를 대체하지는 못합니다.\nAI를 잘 아는 중개사가 AI를 잘 모르는 중개사를 대체합니다.",
+  heroMainCopy: "AI는 중개사를 대체하지 못합니다.\nAI를 아는 중개사가 대체합니다.",
   heroSubCopy:
     "복잡한 부동산 정책과 시장뉴스, AI와 공인중개사의 시선으로 쉽고 빠르게 정리해드립니다.",
   heroSubCopyAlt: "뉴스는 많지만, 내 부동산에 필요한 뉴스는 따로 있습니다.",
