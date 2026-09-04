@@ -342,13 +342,14 @@
     <button data-v="MONTHLY">MONTHLY</button>
   </div>
   <div class="seg" id="viewSeg">
-    <button data-v="email" class="on">이메일 640</button>
+    <button data-v="email" class="on">이메일</button>
     <button data-v="mobile">모바일</button>
     <button data-v="insta">인스타 카드</button>
     <button data-v="blog">블로그 포스팅</button>
   </div>
   <div class="sendbar">
-    <button id="btnMail" title="이메일로 보내기">✉ 메일</button>
+    <button id="btnMail" title="요약+링크가 담긴 메일 초안 열기 (기본 메일앱/Gmail)">✉ 메일</button>
+    <button id="btnEdmPrint" title="지금 보이는 이메일/모바일 화면을 새 창에서 열어 PDF로 저장·인쇄 (메일 첨부용)">🖨 PDF·인쇄</button>
     <button id="btnKakao" title="카카오톡으로 보내기">💬 카카오톡</button>
     <button id="btnCopy" title="링크 복사">🔗 링크</button>
   </div>
@@ -1486,7 +1487,7 @@ function sendMail(){
   const before = Date.now();
   location.href = mailto;
   setTimeout(()=>{ if(document.hasFocus() && Date.now()-before < 1500) window.open(gmail, '_blank', 'noopener'); }, 700);
-  toast('메일 작성 창을 엽니다. (기본 메일 앱 또는 Gmail)');
+  toast('메일 초안(요약+링크)을 엽니다. 화면 그대로 보내려면 "🖼 화면저장" 이미지를 첨부하세요.');
 }
 async function sendKakao(){
   const { subject, body } = briefPayload();
@@ -1512,7 +1513,35 @@ function copyLink(){
     .then(()=>toast('링크가 복사되었습니다.'))
     .catch(()=>window.prompt('링크 복사', pageUrl()));
 }
+/* 지금 보이는 이메일/모바일 EDM 화면을 새 창에서 열어 PDF 저장·인쇄 (서버 없이 메일에 첨부해 보내는 용도) */
+function openEdmPrint(){
+  if(curView!=='email' && curView!=='mobile'){
+    toast('상단에서 "이메일" 또는 "모바일" 화면을 먼저 선택하세요.');
+    return;
+  }
+  const el = device.querySelector('.ll-edm');
+  if(!el){ toast('열 화면이 없습니다.'); return; }
+  const css = [...document.querySelectorAll('style')].map(s=>s.textContent).join('\n');
+  const w = window.open('', '_blank');
+  if(!w){ toast('팝업이 차단되었습니다. 브라우저에서 이 사이트의 팝업을 허용해 주세요.'); return; }
+  w.document.write(
+    '<!doctype html><html lang="ko"><head><meta charset="utf-8">'+
+    '<title>'+document.title+' — '+curType+'</title>'+
+    '<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">'+
+    '<style>'+css+
+    ' body{margin:0;background:#faf8ff} .ll-edm{padding-top:8px}'+
+    ' @media print{ @page{ margin:8mm } body{background:#fff} }'+
+    ' @media screen{ body::before{content:"이 창에서 Ctrl/⌘+P → \\"PDF로 저장\\" 하면 메일에 첨부할 수 있습니다.";display:block;background:#10243e;color:#fff;font:600 12px/1.6 system-ui,sans-serif;padding:8px 14px} }'+
+    '</style></head><body>'+el.outerHTML+'</body></html>'
+  );
+  w.document.close();
+  w.focus();
+  setTimeout(()=>{ try{ w.print(); }catch(_){} }, 500);
+  toast('새 창을 열었습니다. Ctrl/⌘+P → "PDF로 저장" 후 메일에 첨부하세요.');
+}
+
 document.getElementById('btnMail').addEventListener('click', sendMail);
+document.getElementById('btnEdmPrint').addEventListener('click', openEdmPrint);
 document.getElementById('btnKakao').addEventListener('click', sendKakao);
 document.getElementById('btnCopy').addEventListener('click', copyLink);
 
