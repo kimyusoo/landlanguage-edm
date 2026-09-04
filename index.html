@@ -292,6 +292,11 @@
   .blog-doc ul{margin:0 0 12px;padding-left:20px}
   .blog-doc li{font-size:14px;line-height:1.8;color:var(--ink,#222);margin-bottom:4px}
   .blog-doc blockquote{margin:12px 0;padding:12px 14px;background:var(--c-low);border-left:3px solid var(--secondary-c);border-radius:0 8px 8px 0;font-size:13px;color:var(--on-var);line-height:1.7}
+  .blog-doc blockquote > div{margin:2px 0}
+  .blog-doc blockquote .bq-li{padding-left:12px;position:relative}
+  .blog-doc blockquote .bq-li::before{content:"·";position:absolute;left:2px;color:var(--secondary-dark,#a9863f);font-weight:800}
+  .blog-doc blockquote.img-slot{background:#fffdf8;border:1.5px dashed var(--secondary-c);border-left-width:3px;border-radius:10px;padding:14px 16px}
+  .blog-doc blockquote.img-slot > div:first-child{font-weight:800;color:var(--secondary-dark,#a9863f);font-size:13.5px;margin-bottom:4px}
   .blog-doc a{color:var(--primary);text-decoration:underline;word-break:break-all}
   .blog-doc hr{border:0;border-top:1px solid var(--outline-var);margin:22px 0}
   .blog-doc strong{font-weight:700;color:var(--on)}
@@ -852,22 +857,42 @@ function mdInline(s){
     .replace(/\[([^\]]+)\]\((https?:[^)]+)\)/g,'<a href="$2" target="_blank" rel="noreferrer noopener">$1</a>')
     .replace(/\*\*([^*]+)\*\*/g,'<strong>$1</strong>');
 }
+/* 본문에 삽입할 "이미지 추가위치" 안내 블록 */
+function imgSlot(n, what, why, alt){
+  const cir = ['①','②','③','④','⑤','⑥','⑦','⑧','⑨','⑩'][n-1] || ('#'+n);
+  return `> 🖼️ **[이미지 추가위치 ${cir}]**
+> - **어떤 이미지:** ${what}
+> - **넣는 이유:** ${why}
+> - **대체텍스트(alt) 예시:** ${alt}
+> - **주의:** 이미지 속 핵심 문구·숫자·일정은 본문에도 그대로 적어 주세요. 이미지만으로는 검색 노출·AI 브리핑 인용에 불리합니다.`;
+}
 function mdToHtml(md){
-  const lines=(md||'').split('\n'); let html=''; let inList=false;
+  const lines=(md||'').split('\n'); let html=''; let inList=false; let bq=[];
   const closeList=()=>{ if(inList){ html+='</ul>'; inList=false; } };
+  const flushBq=()=>{
+    if(!bq.length) return;
+    const isSlot = bq.some(t=>t.includes('이미지 추가위치'));
+    const inner = bq.map(t=>/^\s*[-*]\s+/.test(t)
+      ? '<div class="bq-li">'+mdInline(t.replace(/^\s*[-*]\s+/,''))+'</div>'
+      : '<div>'+mdInline(t)+'</div>').join('');
+    html += '<blockquote'+(isSlot?' class="img-slot"':'')+'>'+inner+'</blockquote>';
+    bq=[];
+  };
   for(const raw of lines){
     const l=raw.replace(/\s+$/,'');
+    if(/^>\s?/.test(l)){ closeList(); bq.push(l.replace(/^>\s?/,'')); continue; }
+    flushBq();
     if(/^#\s+/.test(l)){ closeList(); html+='<h1>'+mdInline(l.replace(/^#\s+/,''))+'</h1>'; }
     else if(/^##\s+/.test(l)){ closeList(); html+='<h2>'+mdInline(l.replace(/^##\s+/,''))+'</h2>'; }
     else if(/^###\s+/.test(l)){ closeList(); html+='<h3>'+mdInline(l.replace(/^###\s+/,''))+'</h3>'; }
-    else if(/^>\s?/.test(l)){ closeList(); html+='<blockquote>'+mdInline(l.replace(/^>\s?/,''))+'</blockquote>'; }
     else if(/^\s*[-*]\s+/.test(l)){ if(!inList){ html+='<ul>'; inList=true; } html+='<li>'+mdInline(l.replace(/^\s*[-*]\s+/,''))+'</li>'; }
     else if(/^\d+\.\s+/.test(l)){ closeList(); html+='<p class="num">'+mdInline(l)+'</p>'; }
     else if(l.trim()==='---'){ closeList(); html+='<hr>'; }
     else if(l.trim()===''){ closeList(); }
     else { closeList(); html+='<p>'+mdInline(l)+'</p>'; }
   }
-  closeList(); return html;
+  closeList(); flushBq();
+  return html;
 }
 
 function generateBlogPost(it, topicIdx){
@@ -888,6 +913,7 @@ function generateBlogPost(it, topicIdx){
     '확정된 내용인지, 논의·전망 단계인지 먼저 구분하기',
     '적용 지역·시행일·대상 요건을 공식 원문에서 직접 확인하기' ].filter(Boolean);
 
+  const kw = base.slice(0, 22);
   const body =
 `# ${title}
 
@@ -908,6 +934,11 @@ function generateBlogPost(it, topicIdx){
 ## 들어가며
 ${it.whatHappened || base} 헤드라인만 보면 막연히 불안하거나 반대로 무덤덤해지기 쉽지만, 상담 현장에서 정작 중요한 건 "내 조건에 실제로 적용되는지"입니다.
 
+${imgSlot(1,
+  `이 글의 대표 이미지(썸네일). "${kw}"를 상징하는 실사 사진(아파트 단지·계약서·상담 장면 등) 또는 제목을 큼직하게 넣은 자체 제작 배너 1장. 권장 비율 1200×630.`,
+  `목록·검색 결과·SNS 공유 시 클릭을 유도하고, 글 주제를 한눈에 전달합니다.`,
+  `"${kw} 관련 안내 이미지 – 무주택·1주택·다주택 영향 정리"`)}
+
 > ✍️ [직접 경험 입력] 이 이슈가 나온 뒤 실제로 받은 문의(예: "지금 계약해도 되나요"), 상담하며 느낀 분위기 변화를 1~2문장 적어주세요. 직접 겪은 이야기가 상위노출·AI 브리핑 인용에서 가장 큰 힘이 됩니다.
 
 ## 1. ${sub1}
@@ -919,7 +950,10 @@ ${(it.bullets||[]).slice(0,3).map(b=>'- '+b).join('\n') || '- (핵심 요약 3�
 관련 보도 원문:
 ${artLines}
 
-> 🖼️ 이미지 제안: 발표 자료나 보도 화면 캡처 1장. 캡처 속 숫자·일정은 본문에도 텍스트로 다시 적어 주세요(이미지만으로는 검색·AI 인용에 불리).
+${imgSlot(2,
+  `${it.agency||'발표 기관'}의 공식 보도자료 화면 또는 관련 기사 캡처 1장. 발표일·적용 시점·핵심 수치에 빨간 밑줄/박스로 표시.`,
+  `"어디서 나온 이야기인지" 출처를 시각적으로 보여 주면 글의 신뢰도가 올라갑니다.`,
+  `"${it.agency||'정부'} 발표 자료 캡처 – 발표일과 적용 시점 표시"`)}
 
 ## 2. ${sub2}
 같은 뉴스라도 보유 형태에 따라 의미가 완전히 다릅니다.
@@ -931,15 +965,28 @@ ${artLines}
 - **매도 예정:** ${P('매도 예정자')}
 - **임대인 / 임차인:** ${P('임대인')} / ${P('임차인')}
 
-> 🖼️ 이미지 제안: 위 항목을 인포그래픽 1장으로 정리(표의 내용은 본문 텍스트와 동일하게).
+${imgSlot(3,
+  `무주택 / 1주택 / 다주택 / 매수·매도 예정자별 영향을 한 장에 정리한 비교 인포그래픽(표 형태). 항목별로 "영향 큼/보통/작음"을 아이콘이나 색으로 구분.`,
+  `독자가 스크롤을 멈추고 자기 상황에 해당하는 줄을 바로 찾게 해 줍니다. 스캔이 쉬운 콘텐츠가 좋은 평가를 받습니다.`,
+  `"보유 형태별 영향 비교표 – 무주택·1주택·다주택·매수·매도"`)}
 
 ## 3. ${sub3}
 ${(it.bullets||[]).map((b,i)=>`${i+1}. ${b}`).join('\n') || '1. (상담에서 확인하는 포인트를 채워주세요)'}
+
+${imgSlot(4,
+  `실제 상담에서 확인하는 서류(등기부·대출 상담 내역·시행일 안내문 등)나 사무소에서 고객과 상담하는 장면 사진. 개인정보는 반드시 가리고 촬영.`,
+  `"직접 해 본 사람"이라는 신호를 줍니다. 경험이 담긴 실사진은 AI 브리핑 인용에 유리합니다.`,
+  `"상담 시 확인하는 서류 예시 – 개인정보는 가림 처리"`)}
 
 > ✍️ [직접 경험 입력] 실제 계약·상담에서 이 항목 때문에 문제가 됐던 사례, 예상과 달랐던 점, 초보자가 놓치기 쉬운 포인트를 2~3개 적어주세요.
 
 ## 4. 상담 전 실무 체크리스트
 ${checklist.map(c=>'- '+c).join('\n')}
+
+${imgSlot(5,
+  `위 체크리스트를 체크박스(☑) 형태의 카드 이미지 1장으로 재구성. 저장·캡처해서 쓰기 좋게 여백을 넉넉히.`,
+  `독자가 "저장"해 두고 실제로 활용하게 만들어 체류·재방문을 늘립니다.`,
+  `"상담 전 체크리스트 카드 – 확인 항목 5가지"`)}
 
 ## 5. 마치며 — 제 생각
 정책·시장 뉴스는 '발표'보다 '내 조건에 적용되는지, 시점이 언제인지'가 훨씬 중요합니다. 숫자와 날짜는 반드시 공식 원문과 대조한 뒤 판단하시길 권합니다.
@@ -951,6 +998,11 @@ ${checklist.map(c=>'- '+c).join('\n')}
 - 전화: ${BRAND.mobile}
 - ${BRAND.officeName} / ${BRAND.brandName} · ${BRAND.address}
 
+${imgSlot(6,
+  `사무소 전경 사진 + "오시는 길" 지도 캡처, 또는 상담 예약 화면/카카오톡 채널 QR코드. 대표자·중개사무소 등록번호가 보이면 신뢰도에 도움.`,
+  `전화·방문·예약으로 이어지는 마지막 전환 지점입니다. 위치와 연락 방법을 시각적으로 명확히.`,
+  `"${BRAND.officeName} 사무소 위치 및 상담 예약 안내"`)}
+
 > ※ 본 글은 정보 제공 목적이며 특정 매물·상품을 광고하지 않습니다. 협찬·광고를 받은 경우 이 자리에 '업체 지원' 또는 '내돈내산'을 명확히 표기하세요.
 
 ## 참고 자료
@@ -958,7 +1010,7 @@ ${artLines}
 ${officialLink ? `- ${it.agency||'공식자료'} 관련: ${officialLink}` : ''}
 
 ---
-_이 글은 LAND LANGUAGE 자동 초안입니다. ✍️ 표시된 부분에 직접 경험을 채우고, 수치·날짜를 원문과 대조한 뒤 발행하세요._`;
+_이 글은 LAND LANGUAGE 자동 초안입니다. 🖼️ [이미지 추가위치] 안내에 맞춰 이미지를 넣고, ✍️ 표시된 부분에 직접 경험을 채우고, 수치·날짜를 원문과 대조한 뒤 발행하세요._`;
 
   return {
     id: newId(),
