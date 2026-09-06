@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-09-06T04:38:22.706Z",
+ "generatedAt": "2026-09-06T10:55:53.914Z",
  "source": "Google News RSS",
  "topics": {
   "rate": [
    {
-    "publisher": "더구루",
+    "publisher": "theguru.co.kr",
     "title": "한은, 두 달 연속 기준금리 인상…부동산 시장 관망세 짙어지나",
     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBKd0x2bWp4MHlxc09DMFRwUFpuNDlscUNHQVVsN1FGS2JINGU5UDZoV0lzUUJPajh3V2JCSmFsd09yTUQweDZrT242TVZvbDZMUjVzUktTY0ZjMld1OXRhb0hCcw?oc=5",
     "excerpt": "",
@@ -25,18 +25,18 @@
     "date": "2026-08-27"
    },
    {
+    "publisher": "조선일보",
+    "title": "한은, 기준금리 0.25%포인트 올려…코로나 후 첫 연속 인상",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPWmU2djBkLS0xX3VMcGNHX0p4SmZtQWVkSVhyMHJkMUxKSzEtNHVNZlhTV2hiX0J5X2FyVEtWQ1B1S1AtNThQX1I1Qzh6RFVwTWtrMTNuMERRc0ZnZkNQVVpFeEI0cFpDV182Sm5kWXpieExqa1JMdmZ0UXBtczlLSnVYZkIwQ2o0TldPRGdR?oc=5",
+    "excerpt": "",
+    "date": "2026-08-27"
+   },
+   {
     "publisher": "v.daum.net",
     "title": "3%까지 오른 기준금리…집값 영향 제한적, 건설·PF 부담은 커진다",
     "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5DSzlaOU5IUmFid2J3dC01Yi03RUFoNEtuYkxqcHR1X3BMRlJkaTRkcTdhMUFrYTNmNXY0VGtUX21BLVY5QUlaY1pOZ0hkRTg?oc=5",
     "excerpt": "",
     "date": "2026-08-28"
-   },
-   {
-    "publisher": "연합뉴스",
-    "title": "기준금리 연속 인상에 주택 거래 더 위축…\"집값 하락은 제한적\"",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBKdFZCOFZYaFZZUkxjaXNZbzVMa2RPZDlGSF82MkdSM3FkZmdLRm9waUNMYXF1d2Nwb0Jra25MbTVjdnh6eTJoUU5HbXYtQm1DSUJsSmhFa2ROb2vSAWBBVV95cUxPaVh1eUI2RlpES1RQdU5EZjlqOWNDS2dIYmY2WW1GaGdZVFJFZGhnbjlXM01DeEY4YzhncjA2eW1DTjJqcklkQ2JQaUNqeFpFTVNZbnB4X1U2X1E5MEU5M3o?oc=5",
-    "excerpt": "",
-    "date": "2026-08-27"
    }
   ],
   "supply": [
@@ -48,7 +48,7 @@
     "date": "2026-09-01"
    },
    {
-    "publisher": "전기신문",
+    "publisher": "electimes.com",
     "title": "국토부, 공공·민간 총동원해 주택 공급 속도전 나선다",
     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE04cGY3RFJBWTY2QUhSZTA3MTNXVWVydU5aY1ZYWS1KOUtxSzJfekZlZzZ0RkxQTkw2aVlERFFwYjJYeFF5VVp1QkdId0dYNFlvSHlJNUNTWXNObFpjSGRIZ1FxWHVTc2ZlandiTNIBcEFVX3lxTFB2ZjVpbDQ1MGRpaGljMnA4OWxMVXJHcXJIUTVPRFhpbEt2emNFNzVRV2Zyd3Vya2dKY2cyVUcwR3NKV1Zaa0FNZUhLYTdRSFE2cFEwRHBUeXdjTFd4ZTN4d0ZZOUtYaENwdFdyeXducU4?oc=5",
     "excerpt": "",
@@ -122,18 +122,18 @@
     "date": "2026-08-03"
    },
    {
-    "publisher": "머니투데이",
-    "title": "\"집, 사는 것 아닌 사는 곳\" 거주에 방점...'비거주' 1주택도 종부세 폭탄 - 머니투데이",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9lYndEVkFMdWJqR2dMTV94NVpJWWN2RC1VV0NRS1ZRd3RSQUJ6cUlJV2lJQWROdUFrNTVscDlHZWtlcC15Z1BLY3FsSFlpNFFEcVdqUWpWSWppVHd6QVJBVDNFN2poTTd1SGfSAW9BVV95cUxPZFd3Vk5uUlRtTmZYVXdKXy1WbS1ySGJaS2tBLXJuYlhRVk9DYlZtNHlsa2Y4ajBlM1YwcDFzQm90azhzNXN0d2dxWFpnUXRHR3NSWnJTZFh4RG9fUU0ySlZIaEhsWjdsRHdiSTRWZVE?oc=5",
-    "excerpt": "",
-    "date": "2026-08-04"
-   },
-   {
     "publisher": "한국세정신문",
     "title": "[세제개편]종합부동산세율, 주택 수 아닌 주택가액 기준으로 매긴다",
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1tZ3BYb1Zwa1A3NDVtaDZUR3F6bXdnb1dGelNHZ1Q0X1FxRlBSamJaT2NzNlg1VVFDVnROR0E1OHF0Mm5Fd0x2eUxULUNsYlRGMHlCQXRYZFgwVFNfY1VuY1FR?oc=5",
     "excerpt": "",
     "date": "2026-08-03"
+   },
+   {
+    "publisher": "머니투데이",
+    "title": "\"집, 사는 것 아닌 사는 곳\" 거주에 방점...'비거주' 1주택도 종부세 폭탄 - 머니투데이",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9lYndEVkFMdWJqR2dMTV94NVpJWWN2RC1VV0NRS1ZRd3RSQUJ6cUlJV2lJQWROdUFrNTVscDlHZWtlcC15Z1BLY3FsSFlpNFFEcVdqUWpWSWppVHd6QVJBVDNFN2poTTd1SGfSAW9BVV95cUxPZFd3Vk5uUlRtTmZYVXdKXy1WbS1ySGJaS2tBLXJuYlhRVk9DYlZtNHlsa2Y4ajBlM1YwcDFzQm90azhzNXN0d2dxWFpnUXRHR3NSWnJTZFh4RG9fUU0ySlZIaEhsWjdsRHdiSTRWZVE?oc=5",
+    "excerpt": "",
+    "date": "2026-08-04"
    }
   ],
   "stat": [
@@ -145,18 +145,11 @@
     "date": "2026-08-21"
    },
    {
-    "publisher": "자본시장뉴스",
-    "title": "서울 아파트값 1.33%↑인데 거래는 48% 급감",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9ZNnpXb2xhcHAwT1hNNGxsWVlwb1dBdnBCUW5haG9WaldWXzNEdk1KVnZ4QldHNDZ4TkYzR1pQSUs4N2w3bmdkcnFtMWFYV1U5RGhWX1o1cWxRMkl1QjlfSUJJbFl5X28?oc=5",
+    "publisher": "remagazine.co.kr",
+    "title": "서울 아파트 매매 실거래가, 5년 만에 최고치 갱신",
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1ROEFnblJDNm9ZY2QxVWxzRW9rS25TRjNKemxwUXB6WDhlcWtXODRzYndYSVVlQ0hsNWhWTVpvX2xpSzNOSU8zcVVpR0ZXZ0pOREJuaWFoQlU2cUhnQngtUy1GcURvQ3BVLVYwalVFUmNxZ9IBckFVX3lxTE1ROEFnblJDNm9ZY2QxVWxzRW9rS25TRjNKemxwUXB6WDhlcWtXODRzYndYSVVlQ0hsNWhWTVpvX2xpSzNOSU8zcVVpR0ZXZ0pOREJuaWFoQlU2cUhnQngtUy1GcURvQ3BVLVYwalVFUmNxZw?oc=5",
     "excerpt": "",
-    "date": "2026-07-23"
-   },
-   {
-    "publisher": "연합뉴스",
-    "title": "6월 서울 아파트값 한달새 2.5%↑…5년 만에 최대폭 상승",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBTblJtVXhBNG0wZGtuVEpadko3RnhobS0ydHR4aTlXT25oMFE2TnZWZnhuU19nM1dPQVR1REE2ejNwanFzTkxhaFNzUDVNWXhia01hYUcxSWRQdEXSAWBBVV95cUxPdzQ4dHRxV01UZzZ3azRsWHNVRngtNVl4NGNhM3ZzZjByR2hzODY2Q09BRU9IM3NlU2dYR29fMVUwYkFCYmppU3JaVDZFNHBqNkJ0Nm1JTF9hZnZfSUU0Mkw?oc=5",
-    "excerpt": "",
-    "date": "2026-08-21"
+    "date": "2026-08-31"
    },
    {
     "publisher": "뉴데일리",
@@ -169,6 +162,13 @@
     "publisher": "Chosunbiz",
     "title": "6월 서울 아파트값, 한 달 만에 2.5% 올랐다… 5년來 최고 상승 - 조선비즈",
     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNN01DelBqcEZOWDA4M091RUtYTzVnc1dmMzhKaWFXN280d2Jfb1FkbW0ydUVFQjRtOTZ1R2FBckhaNHpTZDZRaTJKS3RHQ01xUDh3Y3dYYmp0S1ZQWTVOM2cwNkxfUldqYm9ZMU5tT2RiTldqcVBRM1ZOeFVaXzNQUjk5SExZenlldDJIY2tTb2NGNHdEeVptMNIBrAFBVV95cUxPekNlMy1MaklyNDFxRkk5TXF3X3Vya2tqbWQ0eklWcTFDZzZtM1lqWjRxRlZqTmI0TjNjSkpZZ1VDY2FtV2JlZ0NtOEd2c2xfWExpTjZGaHRjOFc0VnpYSHNIb1lKbEpvUDRlRG5iRjJ0YXdEM25zMDNuOFJpNzBEQ3ItOGxiVTBGRzdGV0FjRFhla1VKWkE5Y2NycDA4dVZkcUNoZUFfamdkNWdZ?oc=5",
+    "excerpt": "",
+    "date": "2026-08-21"
+   },
+   {
+    "publisher": "한국건설신문",
+    "title": "6월 아파트 매매 실거래가격 상승폭, 5년 새 '최고' 수준",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB4QWZyYmhMenpDOFFpdHZTbWlmeUJUZzRHdHBtRGZiNXZ0bU85eWE0RE44M2FRZnVoWkE0aVVCS25Hcy1MaUg3RE9KemhDU3puTXA2THpybVduZHRQT19VeWptTENpUXJtUFh3?oc=5",
     "excerpt": "",
     "date": "2026-08-21"
    }
@@ -212,6 +212,13 @@
   ],
   "redev": [
    {
+    "publisher": "굿모닝충청",
+    "title": "대전시의회, \"둔산지구 재건축, 주민 분담금 부담 완화해야\"",
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1DTVloOEtJd1lGS0dSV19hZE02dnlvb2lDMHUtckZjUU1ZN0lHd1FnUGNWSHFYLTdBMUZHbzVMQjdTTEVDaXZUeFFjUE9wMHZSNF9sdEFkZXI3am9MVTI4UXdUT3JOel9RS29MXzF6MXNRZw?oc=5",
+    "excerpt": "",
+    "date": "2026-07-30"
+   },
+   {
     "publisher": "경인일보",
     "title": "광명시 ‘철산·하안 재건축’ 공공임대 확대 요구… 조합 “분담금 증가” 반발",
     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4tcDBPOWEtN2dOdEc5WUoyejlWcDBJT2lHU1NPU2RmRXJFUVZSTXVDZW5aVzNEV0pLRVI4UDltbUowNnFuZ3ByS2EtNjI1SkN4dmc?oc=5",
@@ -228,7 +235,7 @@
    {
     "publisher": "v.daum.net",
     "title": "계양 선우아파트 정비구역 지정…추정분담금 최대 5억500만 원",
-    "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFAzeXpLWUFTTlN6UFVMc01uNk10eTg5cnVNUGNWTlhCNFFiS19KVmlzVUVkaUt5LVU2bjM5d2lyTFpzZlVpaFE?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9IV2NFbU85aGFhX2JoWHZHYS11V2JHWkJMTnY2emF2TVVNNGlqcGhxd2Y3dENFZFJHblpSYWxuakVrMlNlWDVHVnhNSmduR1k?oc=5",
     "excerpt": "",
     "date": "2026-08-31"
    },
@@ -238,13 +245,6 @@
     "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5YS2FFVVFqeHpkUWltbWVVeGZINk4tQ1M3VHIzc00xaDd1ck4zSE4zRUF4Wi03RkRVV0RDVkFrd1o5a1BIRnpvZHFVMkM?oc=5",
     "excerpt": "",
     "date": "2026-07-31"
-   },
-   {
-    "publisher": "뉴시스",
-    "title": "재건축 규제 완화 놓고 논쟁…공급 확대냐, 집값 자극이냐",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAtSHRPZ3NUbHpxZi12ZEYxSW9NUFE5WlhvN0xVRlpCWFM0dkxrN2ZaVmhBcFBqT2hHeUhKYXZuU3hFX0xrUmVlSDhrOXBaOXdJOGJQbTJtaG5ETk5ld3VlbdIBeEFVX3lxTE5hNGJrN2p4OEJ6R3ljNjNhaEJ1TzRhYXFDSkU1ZmdpSmpGa3BmMFZLcHpQTEgtTXplZS1qamhnYnNxQ2xXd1R1V29ZN3AwZDQwRmdhVW9uRXlPVzZxMGF5NmxDWi1CclJ6NTZSc2J3RnFnRWh3VmZWNA?oc=5",
-    "excerpt": "",
-    "date": "2026-07-24"
    }
   ],
   "loan": [
@@ -307,7 +307,7 @@
     "date": "2026-08-19"
    },
    {
-    "publisher": "한라일보",
+    "publisher": "ihalla.com",
     "title": "제주 미분양주택 3000호 육박 역대 최고",
     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5rM0EweTZsZ0pFSGVuNUlJRi1KNEQ5SG95Z0pPZnJ0UkJQOWRQVUl4TDNqZzFfZ1ZNNFVrNXZQZENzQ25FSEVKN2xRY01RcElQaFQ2R0R5alAtZlhxdHBnV2ZrLWJydFk1?oc=5",
     "excerpt": "",
@@ -323,7 +323,7 @@
   ],
   "gtx": [
    {
-    "publisher": "녹색경제신문",
+    "publisher": "greened.kr",
     "title": "GTX-C 다시 달린다…창동·광운대·인덕원 등 '수혜지역' 주목",
     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1RaTBCdERvam5uS2dGM19mVTZYOV9XMzhIWVVHTDVFV1VBTmdOYWFPY2hMWlVGdlc0TzNEdWtwb2l6aEtrQy11dFdLMjVJQk84aHFCb250QnBBYXM1bHk5Wk90TVV1UHRi?oc=5",
     "excerpt": "",
