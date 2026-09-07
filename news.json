@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-07T12:31:48.353Z",
+ "generatedAt": "2026-09-07T21:31:04.142Z",
  "source": "Google News RSS",
  "topics": {
   "rate": [
@@ -122,7 +122,14 @@
     "date": "2026-08-18"
    },
    {
-    "publisher": "경향신문",
+    "publisher": "머니투데이",
+    "title": "\"집, 사는 것 아닌 사는 곳\" 거주에 방점...'비거주' 1주택도 종부세 폭탄 - 머니투데이",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9lYndEVkFMdWJqR2dMTV94NVpJWWN2RC1VV0NRS1ZRd3RSQUJ6cUlJV2lJQWROdUFrNTVscDlHZWtlcC15Z1BLY3FsSFlpNFFEcVdqUWpWSWppVHd6QVJBVDNFN2poTTd1SGfSAW9BVV95cUxPZFd3Vk5uUlRtTmZYVXdKXy1WbS1ySGJaS2tBLXJuYlhRVk9DYlZtNHlsa2Y4ajBlM1YwcDFzQm90azhzNXN0d2dxWFpnUXRHR3NSWnJTZFh4RG9fUU0ySlZIaEhsWjdsRHdiSTRWZVE?oc=5",
+    "excerpt": "",
+    "date": "2026-08-04"
+   },
+   {
+    "publisher": "khan.co.kr",
     "title": "[2026 세제개편안]32억 이상 고가·비거주·다주택자 종부세 강화한다",
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBVVTlXQTVkWTE4Rjh3WFBXU0F0RWptWmhJUUlIX3ZQeUdMNWhSc0dSampTUjdtZERmY1FCcDhkOU05YjZoM3Z3LUNiT1JMMGo1eHVQbFVOWU5nd9IBX0FVX3lxTE9pbVlPcmdqT2dHWnkyMVQ5MVUyeHNQV05JbEtBNWFfSWZlOUQyaWFGTzZGLWV3bHE5YjhaaS13TG5tRUUyNl9YOXAtTERzYjBKUFNnS2oxZnZ6VUY5UGx3?oc=5",
     "excerpt": "",
@@ -134,29 +141,22 @@
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1tZ3BYb1Zwa1A3NDVtaDZUR3F6bXdnb1dGelNHZ1Q0X1FxRlBSamJaT2NzNlg1VVFDVnROR0E1OHF0Mm5Fd0x2eUxULUNsYlRGMHlCQXRYZFgwVFNfY1VuY1FR?oc=5",
     "excerpt": "",
     "date": "2026-08-03"
-   },
-   {
-    "publisher": "머니투데이",
-    "title": "\"집, 사는 것 아닌 사는 곳\" 거주에 방점...'비거주' 1주택도 종부세 폭탄 - 머니투데이",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9lYndEVkFMdWJqR2dMTV94NVpJWWN2RC1VV0NRS1ZRd3RSQUJ6cUlJV2lJQWROdUFrNTVscDlHZWtlcC15Z1BLY3FsSFlpNFFEcVdqUWpWSWppVHd6QVJBVDNFN2poTTd1SGfSAW9BVV95cUxPZFd3Vk5uUlRtTmZYVXdKXy1WbS1ySGJaS2tBLXJuYlhRVk9DYlZtNHlsa2Y4ajBlM1YwcDFzQm90azhzNXN0d2dxWFpnUXRHR3NSWnJTZFh4RG9fUU0ySlZIaEhsWjdsRHdiSTRWZVE?oc=5",
-    "excerpt": "",
-    "date": "2026-08-04"
    }
   ],
   "stat": [
-   {
-    "publisher": "키즈맘",
-    "title": "서울 아파트값 심상찮다…6월 실거래가 2.50%↑ ‘5년 만에 최대’",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5XUWlZYmZWam05eFR2X0lULTlYQWxEdkE2SnZhR2xIOVNlVmx4OWd0Q19lMUxraHVmZGl3QVlzZ254M3J4Y1pXeElSQVB4STd5UDlNY2stWG5lSG1id2ZnRXZrT2t3SlVM?oc=5",
-    "excerpt": "",
-    "date": "2026-08-21"
-   },
    {
     "publisher": "remagazine.co.kr",
     "title": "서울 아파트 매매 실거래가, 5년 만에 최고치 갱신",
     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1ROEFnblJDNm9ZY2QxVWxzRW9rS25TRjNKemxwUXB6WDhlcWtXODRzYndYSVVlQ0hsNWhWTVpvX2xpSzNOSU8zcVVpR0ZXZ0pOREJuaWFoQlU2cUhnQngtUy1GcURvQ3BVLVYwalVFUmNxZ9IBckFVX3lxTE1ROEFnblJDNm9ZY2QxVWxzRW9rS25TRjNKemxwUXB6WDhlcWtXODRzYndYSVVlQ0hsNWhWTVpvX2xpSzNOSU8zcVVpR0ZXZ0pOREJuaWFoQlU2cUhnQngtUy1GcURvQ3BVLVYwalVFUmNxZw?oc=5",
     "excerpt": "",
     "date": "2026-08-31"
+   },
+   {
+    "publisher": "키즈맘",
+    "title": "서울 아파트값 심상찮다…6월 실거래가 2.50%↑ ‘5년 만에 최대’",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5XUWlZYmZWam05eFR2X0lULTlYQWxEdkE2SnZhR2xIOVNlVmx4OWd0Q19lMUxraHVmZGl3QVlzZ254M3J4Y1pXeElSQVB4STd5UDlNY2stWG5lSG1id2ZnRXZrT2t3SlVM?oc=5",
+    "excerpt": "",
+    "date": "2026-08-21"
    },
    {
     "publisher": "연합뉴스",
@@ -203,7 +203,7 @@
     "date": "2026-08-07"
    },
    {
-    "publisher": "마켓인",
+    "publisher": "marketin.edaily.co.kr",
     "title": "세입자 53만원 냈는데 집주인 73만원 받는다…전세신탁이 뭐길래",
     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9tTUFxRTNuNmJyZnRIUjlYNktHWjZfUnBCR0ZRU1FNZmx3Z1lCY3I1SHZlaG1QWUlSRWp6QkM1NGsyT2RidGhFZ1dJS21hQnJJN29VUVlsMHllX1dIdlRaM3NJVzA1Y3VZbkJpVWszSGdHX2s?oc=5",
     "excerpt": "",
@@ -300,13 +300,6 @@
     "date": "2026-08-19"
    },
    {
-    "publisher": "매일경제",
-    "title": "“청약 당첨돼도 그림의 떡”…분양가 치솟자 1순위 경쟁률 13개월째 한 자릿수",
-    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBwWnZRTG91U2JSS1dyZld0cXp2MUZOSVlvbld4YjBrSWRfbjY5NUZzZWQzYkhpd0lNdlozZGZmUldYaXdIMXFsN1g3ZnR2Y04tRGhVRk9WY1c?oc=5",
-    "excerpt": "",
-    "date": "2026-08-24"
-   },
-   {
     "publisher": "연합인포맥스",
     "title": "올해 청약통장 35만개 사라져…고분양가에 경쟁률도 '헐렁'",
     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA4U1FuWnpPV01MN0g0bW0zRDVwaXNuTzNFODlYdUdUa1JsdUNlSHQtRmNPeFAxcEZ5c1MwWlNQUllPQzEzX1hkckR4akhwSy1ieTNaOHktTEhfYWtpNmxhbGY0cm04WnR1alMwZHhYWDc?oc=5",
@@ -314,11 +307,11 @@
     "date": "2026-07-27"
    },
    {
-    "publisher": "v.daum.net",
-    "title": "분양시장 양극화 심화…수도권서도 성패 갈려",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1CLWdMcGZHZnlackF5QWdJT0pJSVJNWURrQUNBS09ObllVOGRkM0w1Zl94TXdqTnJOMWMzdFc1RFhZUjhWZmlWYVRkSFVmUXNSeHVZMA?oc=5",
+    "publisher": "매일경제",
+    "title": "“청약 당첨돼도 그림의 떡”…분양가 치솟자 1순위 경쟁률 13개월째 한 자릿수",
+    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBwWnZRTG91U2JSS1dyZld0cXp2MUZOSVlvbld4YjBrSWRfbjY5NUZzZWQzYkhpd0lNdlozZGZmUldYaXdIMXFsN1g3ZnR2Y04tRGhVRk9WY1c?oc=5",
     "excerpt": "",
-    "date": "2026-08-19"
+    "date": "2026-08-24"
    },
    {
     "publisher": "한라일보",
@@ -326,6 +319,13 @@
     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5rM0EweTZsZ0pFSGVuNUlJRi1KNEQ5SG95Z0pPZnJ0UkJQOWRQVUl4TDNqZzFfZ1ZNNFVrNXZQZENzQ25FSEVKN2xRY01RcElQaFQ2R0R5alAtZlhxdHBnV2ZrLWJydFk1?oc=5",
     "excerpt": "",
     "date": "2026-08-02"
+   },
+   {
+    "publisher": "v.daum.net",
+    "title": "분양시장 양극화 심화…수도권서도 성패 갈려",
+    "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9pRmJlMG5nWnRyUkt5Vk5jZDdySkZzV2xYcl9pc0FnUmNTSzhqUVY2RmFyU2llTXRFN0NKVnFpZy1vYS1mNHc?oc=5",
+    "excerpt": "",
+    "date": "2026-08-19"
    }
   ],
   "gtx": [
@@ -351,7 +351,7 @@
     "date": "2026-07-29"
    },
    {
-    "publisher": "땅집고",
+    "publisher": "realty.chosun.com",
     "title": "\"정차역만 보지 마세요\" GTX-C 최대 수혜지는 '이곳'",
     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBlZFYxbFJfdi11WlBCOEpVUlRmQkl6UXU0UlJqZXdKMHZ4cEp0c0lMYmU4ZWhOa29kdkc1cnl3TExxNk5vaVM4Tm9LbUhKbDViZXBFVGc4QXBwVk56ZnByS09iRzNEWU9GMU9hcC1acEcyWFJwaDN5cjVuRzdDanfSAXNBVV95cUxOQndaTlZrbHVZVG9QZUNOZWN5QVJKaVYxUG9jcjRLN2JNUGxDTThiM0FWLVlVU2RjZ0F6QmlDbnhrNDVsVjBQZ1VWVTFLNmZLa0d5YmJTT3ZtZVpqcWNnb0xuZlhFNlFRdVlFNFY2OVZOaG5r?oc=5",
     "excerpt": "",
