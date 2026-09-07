@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-07T04:40:41.792Z",
+ "generatedAt": "2026-09-07T12:31:48.353Z",
  "source": "Google News RSS",
  "topics": {
   "rate": [
@@ -97,6 +97,13 @@
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBSYXRMcFB6VEtBSHhFMktWWFZ3eDVpMDZLU0x5UnNJdjNiZGNtYWZ2WlNvd2UtX1VESWtGU1lPWTE1V0dYUUtWUVJOYlF0RlJBa0JOdVNkSTJLUQ?oc=5",
     "excerpt": "",
     "date": "2026-08-14"
+   },
+   {
+    "publisher": "뉴스핌",
+    "title": "서울 전월세 품귀에 임대주택도 '오픈런'…평균 경쟁률 130대 1",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE95a2N2ZGJtTFRQUWVnSlRIMFc4bl80Q0psR3RISjFhbjNabzFvOGxlSGZ5bC0wS0JzUzd3ZjBMNEpvMTJrUUt1OVZIM0dveTZzQnE5c0NaTUZydjVp?oc=5",
+    "excerpt": "",
+    "date": "2026-08-25"
    }
   ],
   "tax": [
@@ -108,7 +115,7 @@
     "date": "2026-08-03"
    },
    {
-    "publisher": "kbthink.com",
+    "publisher": "KB Think",
     "title": "꼭 알아야 할 2026년 주택 세제개편(안)",
     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE40ejdlUWNxZjZLSGFjazBSZHRDR09qdGFjdTluejdScnQ0ZHh2NDdwaWFucXZLS0lESjM0cGZtYTBQVnhSRjc1STdaUWFPZWZMZ1R5MVI4NUJJUFhVRE9BOVJKVVh6c1YzTEFNRTk1ZUU2RkVKR2l0SXNvU20?oc=5",
     "excerpt": "",
@@ -226,25 +233,25 @@
     "date": "2026-08-24"
    },
    {
-    "publisher": "sedaily.com",
-    "title": "정비사업 6년간 5.5만가구 늘렸지만…준공까지 8.7년, 더딘 속도가 걸림돌",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9Ma1ZXMnZMZWV4VFRtRXMwbVpOMjZ5ZHZGc29hTXpPeVVyWnM0QzRNcHY3ZXI1Mk5JTGpsVVphLU5lcnh6a2xXNDVhYXFfcjBCd1HSAVNBVV95cUxPZVRBY25ZUXRHei1fMGxqNExzWjFBUFVRYXZabUlDRjUyUEJkZ01jYWxYVk1YdVVzbGk4dmxvUU52REF5M2FET2ZYamVwRFVVbUY4Yw?oc=5",
-    "excerpt": "",
-    "date": "2026-07-24"
-   },
-   {
     "publisher": "v.daum.net",
     "title": "계양 선우아파트 정비구역 지정…추정분담금 최대 5억500만 원",
-    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9IV2NFbU85aGFhX2JoWHZHYS11V2JHWkJMTnY2emF2TVVNNGlqcGhxd2Y3dENFZFJHblpSYWxuakVrMlNlWDVHVnhNSmduR1k?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFAzeXpLWUFTTlN6UFVMc01uNk10eTg5cnVNUGNWTlhCNFFiS19KVmlzVUVkaUt5LVU2bjM5d2lyTFpzZlVpaFE?oc=5",
     "excerpt": "",
     "date": "2026-08-31"
    },
    {
-    "publisher": "kairnews.com",
+    "publisher": "한국AI부동산신문",
     "title": "2026 재개발·재건축 시장, 규제 빗장 풀렸다",
     "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5YS2FFVVFqeHpkUWltbWVVeGZINk4tQ1M3VHIzc00xaDd1ck4zSE4zRUF4Wi03RkRVV0RDVkFrd1o5a1BIRnpvZHFVMkM?oc=5",
     "excerpt": "",
     "date": "2026-07-31"
+   },
+   {
+    "publisher": "한국주택경제신문",
+    "title": "서초구 재건축 신속 지원단, 리모델링까지 살핀다",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE85Yzg3Y2JjV1hnWTVjZ1k3TmFFc0VMR280YWV6LVZKWDRlaU8tLWd0N29nbENqTlZGVTNxcFM3ejBLcmJLZS16R1RYb1ZqRjVyWVpLOWRza3BmRWdoRnZQcEdLenQ0UFNq?oc=5",
+    "excerpt": "",
+    "date": "2026-09-07"
    }
   ],
   "loan": [
@@ -270,11 +277,11 @@
     "date": "2026-07-27"
    },
    {
-    "publisher": "창원특례신문",
-    "title": "가계대출 총량규제 1.5%, 주담대 신청 전 확인 할 10가지",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9laUE4eUVPVzJyc3psM2xzTkllUTg2Y09jOGdIV0VjTG5oWFpubWNDdUpPR3hRTWFfYTY0VWdhVGM1SnhEZnZFVHpNMDNNbnFma3EtYXBuNWU3azQwMEdBWlFmdi1qMGvSAWtBVV95cUxOaC13TGFjTTVBZ2UtT3VoZEljLXEtUnl5b0VpMWRnVmRCQTRnMkJOZ1NuTVFCcVZEWUdnNmV1MkhZb3l0bnV2cXZPRVh6S3RZeU1PQTZVQTRYem1lV2c0SlE0T2xiTHBrU1FWRQ?oc=5",
+    "publisher": "뉴스1",
+    "title": "규제 위에 규제, 부작용엔 또 예외…대출정책 '누더기' 됐다",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBvMjhIZkdKRkZ1ZC1wNFVJUVBYUUh4WHVDb0NoVU0zZzFER1BHdTA4WmJUaHR4blZfVzFBWXNlN2ljZjFsNXMzSDByVDR6akM0eUxjbkZseDFNUHlBVm9wLUtR0gFnQVVfeXFMTjU3Z0tKOVNpZGFROGRMbHVVQ1U2ZUZ0akhVNFNqaHpDOVdjd0tFSmNFN3ByMnNHYlZ2eUhveHk5LUtjNzN2ZlB3U0lLZ0owY0piTThBUzNiWG9OV1pDTzl6a1FGVDk4Zw?oc=5",
     "excerpt": "",
-    "date": "2026-07-24"
+    "date": "2026-08-11"
    },
    {
     "publisher": "파이낸셜투데이",
@@ -286,18 +293,11 @@
   ],
   "presale": [
    {
-    "publisher": "kbthink.com",
+    "publisher": "KB Think",
     "title": "KB주택시장 리뷰 2026년 8월호 - 주택 분양",
     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9tNm9nUFR6Ni1nV0drX2tzdjIwOXAybFFwQ2FLMHBCTE8xVi0xOVZpY3ptVXNOTzVDdlcyMEI3bDRtQXp6MzFnT0xpTUIxSWhGRjBBUmlieUdvZm9JZUZDZ0FRU1NabUo1dEFkWFE5WQ?oc=5",
     "excerpt": "",
     "date": "2026-08-19"
-   },
-   {
-    "publisher": "연합인포맥스",
-    "title": "올해 청약통장 35만개 사라져…고분양가에 경쟁률도 '헐렁'",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA4U1FuWnpPV01MN0g0bW0zRDVwaXNuTzNFODlYdUdUa1JsdUNlSHQtRmNPeFAxcEZ5c1MwWlNQUllPQzEzX1hkckR4akhwSy1ieTNaOHktTEhfYWtpNmxhbGY0cm04WnR1alMwZHhYWDc?oc=5",
-    "excerpt": "",
-    "date": "2026-07-27"
    },
    {
     "publisher": "매일경제",
@@ -305,6 +305,13 @@
     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBwWnZRTG91U2JSS1dyZld0cXp2MUZOSVlvbld4YjBrSWRfbjY5NUZzZWQzYkhpd0lNdlozZGZmUldYaXdIMXFsN1g3ZnR2Y04tRGhVRk9WY1c?oc=5",
     "excerpt": "",
     "date": "2026-08-24"
+   },
+   {
+    "publisher": "연합인포맥스",
+    "title": "올해 청약통장 35만개 사라져…고분양가에 경쟁률도 '헐렁'",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA4U1FuWnpPV01MN0g0bW0zRDVwaXNuTzNFODlYdUdUa1JsdUNlSHQtRmNPeFAxcEZ5c1MwWlNQUllPQzEzX1hkckR4akhwSy1ieTNaOHktTEhfYWtpNmxhbGY0cm04WnR1alMwZHhYWDc?oc=5",
+    "excerpt": "",
+    "date": "2026-07-27"
    },
    {
     "publisher": "v.daum.net",
@@ -323,7 +330,7 @@
   ],
   "gtx": [
    {
-    "publisher": "greened.kr",
+    "publisher": "녹색경제신문",
     "title": "GTX-C 다시 달린다…창동·광운대·인덕원 등 '수혜지역' 주목",
     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1RaTBCdERvam5uS2dGM19mVTZYOV9XMzhIWVVHTDVFV1VBTmdOYWFPY2hMWlVGdlc0TzNEdWtwb2l6aEtrQy11dFdLMjVJQk84aHFCb250QnBBYXM1bHk5Wk90TVV1UHRi?oc=5",
     "excerpt": "",
@@ -335,6 +342,13 @@
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5NS0xCTjdrdXZFMXd2SzhDRUFhNzRrR1ltUVlzUl9kVHQ5Y3RfZ0xNNmJYeldQcXk1bDNoWjRfS0pJTUo4Vi05U3JUc1BEWG1tZjNEOUNwU0cyZw?oc=5",
     "excerpt": "",
     "date": "2026-08-16"
+   },
+   {
+    "publisher": "국토일보",
+    "title": "GTX 착공·개통호재… 수혜지역 부동산 상승세",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9PTXlFVHIwVi1SODRQdngxUlVCV3d0b1I3MHZtTHNacVYzTkpKYU9wQmZOQ3VuamJtZXh5cllqUDIwWHJDc0ZwZHkzYVNKTHVOUnBQTF9hdVBQUFRHeFdHNXRScw?oc=5",
+    "excerpt": "",
+    "date": "2026-07-29"
    },
    {
     "publisher": "땅집고",
@@ -349,13 +363,6 @@
     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA5b2kxUkpEVnJPOE5wUUVkamlWTktObjM4cnpGMS1fOTRkNzVJdEE1Z1Z5WnVETzI2ZERCVVhCOFAwR00zMER5bjVhU2J1QTdjdzRGMw?oc=5",
     "excerpt": "",
     "date": "2026-08-14"
-   },
-   {
-    "publisher": "한국경제",
-    "title": "시멘트 공장 사라지고 GTX 품자…1년 만에 집값 4억 뛴 동네 [철길옆집]",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5SM0RyTzRGcTJWWFRSWkVWMkxXZmtFOUtrSTRFQm5YdVlwUU9nYW5LdVpZRllRT3lGdnBfeVZfbC1kS0JldV9OUW14S0NHa08xWGVlNlg5Q2ItUQ?oc=5",
-    "excerpt": "",
-    "date": "2026-07-26"
    }
   ],
   "gap": [
