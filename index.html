@@ -339,8 +339,10 @@
   .toast{position:fixed;left:50%;bottom:28px;transform:translateX(-50%);background:#10243e;color:#fff;font-size:13px;font-weight:600;padding:12px 20px;border-radius:10px;box-shadow:0 10px 30px rgba(0,0,0,.28);z-index:50;max-width:90vw;text-align:center}
 
   /* ── 중개사무소 정보 입력 모달 ── */
-  .modal{position:fixed;inset:0;z-index:60;display:flex;align-items:center;justify-content:center;background:rgba(15,23,42,.55);padding:18px}
-  .modal-card{background:#fff;border-radius:16px;max-width:420px;width:100%;padding:24px 22px;box-shadow:0 24px 60px -12px rgba(15,23,42,.4)}
+  .modal{position:fixed;inset:0;z-index:60;display:flex;align-items:flex-start;justify-content:center;background:rgba(15,23,42,.55);padding:18px;overflow-y:auto;-webkit-overflow-scrolling:touch}
+  .modal[hidden]{display:none}
+  .modal-card{background:#fff;border-radius:16px;max-width:420px;width:100%;padding:24px 22px;box-shadow:0 24px 60px -12px rgba(15,23,42,.4);margin:auto;position:relative}
+  .modal-x{position:absolute;top:10px;right:12px;border:0;background:transparent;font-size:20px;line-height:1;color:var(--on-var);cursor:pointer;padding:4px}
   .modal-card h2{font-family:'Plus Jakarta Sans','Noto Sans KR',sans-serif;font-size:17px;font-weight:800;color:var(--primary);margin:0 0 6px}
   .modal-sub{font-size:11.5px;line-height:1.6;color:var(--on-var);margin:0 0 16px}
   .modal-card label{display:block;font-size:12px;font-weight:700;color:var(--on);margin-bottom:12px}
@@ -355,8 +357,8 @@
     .sendbar button{padding:6px 9px;font-size:11px}
   }
 </style>
-<script src="https://cdn.jsdelivr.net/npm/html-to-image@1.11.13/dist/html-to-image.js" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/html-to-image@1.11.13/dist/html-to-image.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js"></script>
 </head>
 <body>
 
@@ -390,7 +392,8 @@
 <div id="toast" class="toast" hidden></div>
 
 <div id="brandModal" class="modal" hidden>
-  <div class="modal-card">
+  <form class="modal-card" id="brandForm" onsubmit="return brandDlgSave()" autocomplete="on">
+    <button type="button" class="modal-x" id="bmClose" onclick="brandDlgSkip()" aria-label="닫기">&times;</button>
     <h2>중개사무소 정보 입력</h2>
     <p class="modal-sub">입력하신 상호·연락처·대표자명이 브리핑·인스타 카드·블로그 전체에 자동으로 반영됩니다. (이 브라우저에만 저장되며, 서버로 전송되지 않습니다.)</p>
     <label>중개사무소 상호
@@ -403,10 +406,10 @@
       <input id="bmMobile" type="tel" inputmode="tel" placeholder="예: 010-1234-5678" autocomplete="tel">
     </label>
     <div class="modal-actions">
-      <button id="bmSkip" class="ghost" type="button">건너뛰기</button>
-      <button id="bmSave" class="primary" type="button">저장하고 적용</button>
+      <button id="bmSkip" class="ghost" type="button" onclick="brandDlgSkip()">건너뛰기</button>
+      <button id="bmSave" class="primary" type="submit" onclick="return brandDlgSave()">저장하고 적용</button>
     </div>
-  </div>
+  </form>
 </div>
 
 <script>
@@ -1825,28 +1828,44 @@ function openBrandDialog(firstRun){
   m.hidden = false;
   setTimeout(()=>document.getElementById('bmOffice').focus(), 30);
 }
-function closeBrandDialog(){ document.getElementById('brandModal').hidden = true; }
-document.getElementById('bmSave').addEventListener('click', ()=>{
-  const data = {};
-  const office = document.getElementById('bmOffice').value.trim();
-  const rep    = document.getElementById('bmRep').value.trim();
-  const mobile = document.getElementById('bmMobile').value.trim();
-  if(office) data.officeName = office;
-  if(rep)    data.repName = rep;
-  if(mobile) data.mobile = mobile;
-  lsSet(BRAND_KEY, data);
-  applyBrandOverride(data);
+function closeBrandDialog(){ const m = document.getElementById('brandModal'); if(m) m.hidden = true; }
+// 인라인 onclick/onsubmit 에서도 부르므로 전역 함수로 노출 — 스크립트 로딩·바인딩 실패와 무관하게 동작
+function brandDlgSave(){
+  var data = {};
+  try{
+    var g = function(id){ var el = document.getElementById(id); return el ? el.value.trim() : ''; };
+    var office = g('bmOffice'), rep = g('bmRep'), mobile = g('bmMobile');
+    if(office) data.officeName = office;
+    if(rep)    data.repName = rep;
+    if(mobile) data.mobile = mobile;
+    lsSet(BRAND_KEY, data);
+    applyBrandOverride(data);
+  }catch(_){}
+  closeBrandDialog();                       // 먼저 닫아 즉시 반응
+  setTimeout(function(){                    // 무거운 렌더는 다음 프레임으로
+    try{ paint(); }catch(_){}
+    try{ toast('중개사무소 정보가 적용되었습니다.'); }catch(_){}
+  }, 0);
+  return false;                            // form submit 기본동작(페이지 이동) 차단
+}
+function brandDlgSkip(){
+  try{
+    var m = document.getElementById('brandModal');
+    // 첫 방문에서 건너뛰면 빈 값으로 기록해 다음부터 묻지 않음 (기존 저장값은 유지)
+    if(m && m.dataset.first === '1' && !lsGet(BRAND_KEY, null)) lsSet(BRAND_KEY, {});
+  }catch(_){}
   closeBrandDialog();
-  paint();
-  toast('중개사무소 정보가 적용되었습니다.');
-});
-document.getElementById('bmSkip').addEventListener('click', ()=>{
-  // 첫 방문에서 건너뛰면 빈 값으로 기록해 다음부터 묻지 않음 (기존 저장값은 유지)
-  if(document.getElementById('brandModal').dataset.first === '1' && !lsGet(BRAND_KEY, null)) lsSet(BRAND_KEY, {});
-  closeBrandDialog();
-});
+  return false;
+}
+window.brandDlgSave = brandDlgSave;
+window.brandDlgSkip = brandDlgSkip;
 document.getElementById('brandModal').addEventListener('click', e=>{
-  if(e.target.id === 'brandModal' && document.getElementById('brandModal').dataset.first !== '1'){ closeBrandDialog(); }
+  if(e.target.id === 'brandModal' && document.getElementById('brandModal').dataset.first !== '1'){ brandDlgSkip(); }
+});
+document.addEventListener('keydown', e=>{
+  const m = document.getElementById('brandModal');
+  if(!m || m.hidden) return;
+  if(e.key === 'Escape' && m.dataset.first !== '1') brandDlgSkip();
 });
 document.getElementById('btnBrand').addEventListener('click', ()=>openBrandDialog(false));
 
