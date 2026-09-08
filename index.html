@@ -338,12 +338,25 @@
   #feedStatus.live{border-color:#3fbf7f;color:#8fe3b6}
   .toast{position:fixed;left:50%;bottom:28px;transform:translateX(-50%);background:#10243e;color:#fff;font-size:13px;font-weight:600;padding:12px 20px;border-radius:10px;box-shadow:0 10px 30px rgba(0,0,0,.28);z-index:50;max-width:90vw;text-align:center}
 
+  /* ── 중개사무소 정보 입력 모달 ── */
+  .modal{position:fixed;inset:0;z-index:60;display:flex;align-items:center;justify-content:center;background:rgba(15,23,42,.55);padding:18px}
+  .modal-card{background:#fff;border-radius:16px;max-width:420px;width:100%;padding:24px 22px;box-shadow:0 24px 60px -12px rgba(15,23,42,.4)}
+  .modal-card h2{font-family:'Plus Jakarta Sans','Noto Sans KR',sans-serif;font-size:17px;font-weight:800;color:var(--primary);margin:0 0 6px}
+  .modal-sub{font-size:11.5px;line-height:1.6;color:var(--on-var);margin:0 0 16px}
+  .modal-card label{display:block;font-size:12px;font-weight:700;color:var(--on);margin-bottom:12px}
+  .modal-card label input{display:block;width:100%;margin-top:5px;border:1px solid var(--outline-var);border-radius:9px;padding:10px 12px;font:inherit;font-size:14px;font-weight:400;color:var(--on);background:#fff}
+  .modal-card label input:focus{outline:2px solid var(--c-highest);border-color:var(--primary)}
+  .modal-actions{display:flex;gap:8px;justify-content:flex-end;margin-top:6px}
+  .modal-actions button{border:1px solid var(--outline-var);background:#fff;color:var(--on-var);font:inherit;font-size:13px;font-weight:700;padding:9px 16px;border-radius:9px;cursor:pointer}
+  .modal-actions button.primary{background:var(--primary);color:#fff;border-color:var(--primary)}
+
   @media(max-width:820px){
     .toolbar{gap:8px;padding:10px 12px}
     .sendbar button{padding:6px 9px;font-size:11px}
   }
 </style>
 <script src="https://cdn.jsdelivr.net/npm/html-to-image@1.11.13/dist/html-to-image.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -361,6 +374,7 @@
     <button data-v="blog">블로그 포스팅</button>
   </div>
   <div class="sendbar">
+    <button id="btnBrand" title="중개사무소 상호·연락처·대표자명 입력/수정">🏢 사무소</button>
     <button id="btnMail" title="요약+링크가 담긴 메일 초안 열기 (기본 메일앱/Gmail)">✉ 메일</button>
     <button id="btnEdmPrint" title="지금 보이는 이메일/모바일 화면을 새 창에서 열어 PDF로 저장·인쇄 (메일 첨부용)">🖨 PDF·인쇄</button>
     <button id="btnKakao" title="카카오톡으로 보내기">💬 카카오톡</button>
@@ -374,6 +388,26 @@
   <div class="device email" id="device"></div>
 </div>
 <div id="toast" class="toast" hidden></div>
+
+<div id="brandModal" class="modal" hidden>
+  <div class="modal-card">
+    <h2>중개사무소 정보 입력</h2>
+    <p class="modal-sub">입력하신 상호·연락처·대표자명이 브리핑·인스타 카드·블로그 전체에 자동으로 반영됩니다. (이 브라우저에만 저장되며, 서버로 전송되지 않습니다.)</p>
+    <label>중개사무소 상호
+      <input id="bmOffice" type="text" placeholder="예: 홍길동공인중개사사무소" autocomplete="organization">
+    </label>
+    <label>대표자(개업공인중개사) 성명
+      <input id="bmRep" type="text" placeholder="예: 홍길동" autocomplete="name">
+    </label>
+    <label>연락처(휴대전화)
+      <input id="bmMobile" type="tel" inputmode="tel" placeholder="예: 010-1234-5678" autocomplete="tel">
+    </label>
+    <div class="modal-actions">
+      <button id="bmSkip" class="ghost" type="button">건너뛰기</button>
+      <button id="bmSave" class="primary" type="button">저장하고 적용</button>
+    </div>
+  </div>
+</div>
 
 <script>
 /* ───────────── 아이콘 ───────────── */
@@ -803,9 +837,10 @@ function renderEDM(typeKey){
     <footer class="foot">
       <div class="foot-id"><div class="foot-id-head">${esc(BRAND.officeName)} · ${esc(BRAND.brandName)} 중개사무소 정보</div>
         <div class="foot-grid">
+          <p><b>대표 공인중개사</b> ${esc(BRAND.repName || '입력해 주세요')}</p>
           <p><b>연락처</b> ${esc(BRAND.mobile)}</p>
           <p><b>소재지</b> ${esc(BRAND.address)}</p>
-          <p><b>대표 공인중개사 · 등록번호</b> 브랜드설정에서 입력</p>
+          <p><b>등록번호</b> 브랜드설정에서 입력</p>
         </div></div>
       <div class="foot-legal"><p>${esc(DISCLAIMER)}</p><p>${esc(AD_FOOTER)}</p></div>
       <div class="foot-links"><a href="${esc(BRAND.unsubscribeUrl)}">수신거부</a><span>·</span><a href="${esc(BRAND.privacyUrl)}">개인정보처리방침</a></div>
@@ -958,10 +993,11 @@ function renderInsta(typeKey){
     </div>
 
     <div class="save-row">
-      <button data-save-all>이미지 저장 (${slides.length}장)</button>
+      <button data-save-zip>전체 이미지 한번에 저장 (ZIP · ${slides.length}장)</button>
+      <button data-save-all class="ghost">개별 저장</button>
       <button data-insta-savecfg class="ghost">현재 구성 저장</button>
     </div>
-    <div class="count-hint">선택 주제: ${esc(cleanTitle(it.oneLiner))} · 각 카드의 <b>저장</b> 버튼으로 개별 저장, 주제 선택 화면의 <b>저장목록</b>에서 구성을 다시 열 수 있습니다.</div>
+    <div class="count-hint">선택 주제: ${esc(cleanTitle(it.oneLiner))} · <b>전체 저장(ZIP)</b>은 완성된 카드 ${slides.length}장을 하나의 압축 파일로 내려받습니다. 각 카드의 <b>저장</b> 버튼으로 개별 저장도 가능합니다.</div>
   </div>
   <div class="insta-deck">
     ${slides.map((s,i)=>`<div class="icard-scale"><button class="card-save" data-save-card="${i}">저장</button>${icardHTML(s,i,slides.length)}</div>`).join('')}
@@ -1544,6 +1580,7 @@ device.addEventListener('click', e=>{
   if(tplBtn){ instaTemplate = tplBtn.dataset.instaTpl; paint(); return; }
   const saveCardBtn = T('[data-save-card]');
   if(saveCardBtn){ saveCards([+saveCardBtn.dataset.saveCard]); return; }
+  if(T('[data-save-zip]')){ saveCardsZip(); return; }
   if(T('[data-save-all]')){ saveCards(null); return; }
   if(T('[data-insta-back]')){ instaIssue = null; paint(); return; }
 });
@@ -1585,6 +1622,29 @@ async function saveCards(indexes){
     toast(String(err).includes('lib-missing')
       ? '이미지 저장 라이브러리를 불러오지 못했습니다. 온라인 상태에서 새로고침 후 다시 시도하세요.'
       : '이미지 저장에 실패했습니다. 다시 시도해 주세요.');
+  }
+}
+/* 완성된 카드 전체를 하나의 ZIP 파일로 한번에 저장 */
+async function saveCardsZip(){
+  const cards = [...device.querySelectorAll('.icard')];
+  if(!cards.length) return;
+  if(!window.htmlToImage){ toast('이미지 저장 라이브러리를 불러오지 못했습니다. 온라인 상태에서 새로고침 후 다시 시도하세요.'); return; }
+  if(!window.JSZip){ toast('ZIP 라이브러리를 불러오지 못했습니다. "개별 저장"을 이용하거나 온라인에서 새로고침 해 주세요.'); return; }
+  try{
+    const zip = new window.JSZip();
+    for(let i=0;i<cards.length;i++){
+      toast(`이미지 만드는 중… ${i+1}/${cards.length}`);
+      const dataUrl = await iCardToPng(cards[i]);
+      zip.file(`${String(i+1).padStart(2,'0')}.png`, dataUrl.split(',')[1], { base64:true });
+    }
+    toast('ZIP 파일로 묶는 중…');
+    const blob = await zip.generateAsync({ type:'blob' });
+    const url = URL.createObjectURL(blob);
+    downloadUrl(url, `land-language-${curType.toLowerCase()}-${instaTheme}-${instaTemplate}-cards.zip`);
+    setTimeout(()=>URL.revokeObjectURL(url), 5000);
+    toast(`${cards.length}장을 ZIP 한 파일로 저장했습니다.`);
+  }catch(err){
+    toast('ZIP 저장에 실패했습니다. "개별 저장"을 이용해 주세요.');
   }
 }
 
@@ -1745,6 +1805,51 @@ document.getElementById('btnEdmPrint').addEventListener('click', openEdmPrint);
 document.getElementById('btnKakao').addEventListener('click', sendKakao);
 document.getElementById('btnCopy').addEventListener('click', copyLink);
 
+/* ───────────── 중개사무소 정보 (상호·연락처·대표자명) ───────────── */
+const BRAND_KEY = 'LL_BRAND';
+function applyBrandOverride(s){
+  if(!s) return;
+  if(s.officeName) BRAND.officeName = s.officeName;
+  if(s.mobile)     BRAND.mobile = s.mobile;
+  if(s.repName){ BRAND.repName = s.repName; BRAND.agentDisplayName = s.repName + ' 공인중개사'; }
+}
+function loadBrand(){ const s = lsGet(BRAND_KEY, null); applyBrandOverride(s); return !!s; }
+function openBrandDialog(firstRun){
+  const m = document.getElementById('brandModal');
+  const saved = lsGet(BRAND_KEY, null) || {};
+  document.getElementById('bmOffice').value = saved.officeName || '';
+  document.getElementById('bmRep').value    = saved.repName || '';
+  document.getElementById('bmMobile').value = saved.mobile || '';
+  document.getElementById('bmSkip').textContent = firstRun ? '건너뛰기' : '취소';
+  m.dataset.first = firstRun ? '1' : '';
+  m.hidden = false;
+  setTimeout(()=>document.getElementById('bmOffice').focus(), 30);
+}
+function closeBrandDialog(){ document.getElementById('brandModal').hidden = true; }
+document.getElementById('bmSave').addEventListener('click', ()=>{
+  const data = {};
+  const office = document.getElementById('bmOffice').value.trim();
+  const rep    = document.getElementById('bmRep').value.trim();
+  const mobile = document.getElementById('bmMobile').value.trim();
+  if(office) data.officeName = office;
+  if(rep)    data.repName = rep;
+  if(mobile) data.mobile = mobile;
+  lsSet(BRAND_KEY, data);
+  applyBrandOverride(data);
+  closeBrandDialog();
+  paint();
+  toast('중개사무소 정보가 적용되었습니다.');
+});
+document.getElementById('bmSkip').addEventListener('click', ()=>{
+  // 첫 방문에서 건너뛰면 빈 값으로 기록해 다음부터 묻지 않음 (기존 저장값은 유지)
+  if(document.getElementById('brandModal').dataset.first === '1' && !lsGet(BRAND_KEY, null)) lsSet(BRAND_KEY, {});
+  closeBrandDialog();
+});
+document.getElementById('brandModal').addEventListener('click', e=>{
+  if(e.target.id === 'brandModal' && document.getElementById('brandModal').dataset.first !== '1'){ closeBrandDialog(); }
+});
+document.getElementById('btnBrand').addEventListener('click', ()=>openBrandDialog(false));
+
 if(KAKAO_JS_KEY){
   const s = document.createElement('script');
   s.src = 'https://t1.kakaocdn.net/kakao_js_sdk/2.7.2/kakao.min.js';
@@ -1760,8 +1865,10 @@ if(KAKAO_JS_KEY){
     document.querySelectorAll('#typeSeg button').forEach(b=>b.classList.toggle('on', b.dataset.v===curType));
   }
 })();
-paint();                 // 즉시 내장 데이터로 렌더
-hydrateNews().then(()=>{  // 실시간 뉴스로 업그레이드
+const hadBrand = loadBrand();       // 저장된 중개사무소 정보가 있으면 먼저 적용
+paint();                            // 즉시 렌더
+if(!hadBrand) openBrandDialog(true); // 첫 방문이면 상호·연락처·대표자명 입력받기
+hydrateNews().then(()=>{            // 실시간 뉴스로 업그레이드
   if(curView !== 'insta' || instaIssue == null) paint();
 });
 </script>
