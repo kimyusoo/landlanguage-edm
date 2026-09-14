@@ -39,6 +39,12 @@ const tag = (block, name) => {
   return m ? m[1] : "";
 };
 
+// <source url="https://퍼블리셔.co.kr">언론사명</source> 의 url 속성 — 언론사 파비콘 썸네일에 사용
+const tagAttr = (block, name, attr) => {
+  const m = block.match(new RegExp(`<${name}\\s+[^>]*\\b${attr}=["']([^"']+)["'][^>]*>`, "i"));
+  return m ? decode(m[1]) : "";
+};
+
 async function fetchTopic(t) {
   const res = await fetch(rssUrl(t.query), {
     headers: { "user-agent": "Mozilla/5.0 (compatible; LandLanguageBot/1.0)" },
@@ -52,6 +58,7 @@ async function fetchTopic(t) {
       const source = decode(tag(block, "source")) || rawTitle.split(" - ").slice(-1)[0] || "뉴스";
       const title = rawTitle.replace(new RegExp(`\\s*-\\s*${source.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\s*$`), "").trim();
       const link = decode(tag(block, "link"));
+      const sourceUrl = tagAttr(block, "source", "url");
       const pub = tag(block, "pubDate");
       const d = new Date(pub || Date.now());
       let excerpt = decode(tag(block, "description"));
@@ -61,6 +68,7 @@ async function fetchTopic(t) {
         publisher: source,
         title,
         url: link,
+        sourceUrl, // 언론사 홈페이지 도메인 (없으면 빈 문자열) — 썸네일에 파비콘으로 사용, 기사 본문은 저장하지 않음
         excerpt: excerpt.slice(0, 240),
         date: isNaN(d) ? new Date().toISOString().slice(0, 10) : d.toISOString().slice(0, 10),
       };

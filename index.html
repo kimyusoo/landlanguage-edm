@@ -326,8 +326,9 @@
   .newsrow{display:flex;align-items:center;gap:13px;padding:13px 4px;text-decoration:none;color:inherit;border-bottom:1px solid var(--c-high);transition:.15s}
   .newsrow:hover{background:var(--c-low)}
   .newsrow:last-child{border-bottom:0}
-  .news-thumb{flex:0 0 auto;width:64px;height:64px;border-radius:10px;display:flex;align-items:center;justify-content:center;color:#fff}
+  .news-thumb{position:relative;flex:0 0 auto;width:64px;height:64px;border-radius:10px;display:flex;align-items:center;justify-content:center;color:#fff}
   .news-thumb svg{width:26px;height:26px}
+  .news-favicon{position:absolute;inset:0;margin:auto;width:36px;height:36px;border-radius:9px;background:#fff;padding:7px;object-fit:contain;box-shadow:0 3px 8px rgba(0,0,0,.28)}
   .news-body{flex:1;min-width:0;display:flex;flex-direction:column;gap:6px}
   .news-title{font-size:14.5px;font-weight:700;color:var(--on);line-height:1.42;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
   .news-meta{display:flex;align-items:center;flex-wrap:wrap;gap:8px;font-size:11.5px;color:var(--on-var)}
@@ -1463,20 +1464,24 @@ function renderNews(){
       it.articles.forEach(a=>{
         if(!a.url || seen.has(a.url)) return;
         seen.add(a.url);
-        items.push({ title: cleanTitle(a.title), publisher: a.publisher || it.agency || '', url: a.url, date: a.date, demo:false });
+        items.push({ title: cleanTitle(a.title), publisher: a.publisher || it.agency || '', url: a.url, sourceUrl: a.sourceUrl || '', date: a.date, demo:false });
       });
     } else {
       const url = it.officialUrl || '#';
       if(seen.has(url) && url!=='#') return;
       seen.add(url);
-      items.push({ title: cleanTitle(it.oneLiner), publisher: it.agency || '언론 종합', url, date: it.announced, demo:true });
+      items.push({ title: cleanTitle(it.oneLiner), publisher: it.agency || '언론 종합', url, sourceUrl: it.officialUrl || '', date: it.announced, demo:true });
     }
   });
   const list = items.slice(0, 20);
   const rows = list.map((n,i)=>{
     const hue = (i*47)%360;
+    const favicon = n.sourceUrl ? `https://www.google.com/s2/favicons?sz=128&domain_url=${encodeURIComponent(n.sourceUrl)}` : '';
     return `<a class="newsrow" href="${esc(n.url)}" target="_blank" rel="noopener">
-      <span class="news-thumb" style="background:linear-gradient(135deg,hsl(${hue} 55% 26%),hsl(${(hue+40)%360} 55% 42%))">${ICO.chart}</span>
+      <span class="news-thumb" style="background:linear-gradient(135deg,hsl(${hue} 55% 26%),hsl(${(hue+40)%360} 55% 42%))">
+        ${ICO.chart}
+        ${favicon ? `<img class="news-favicon" src="${esc(favicon)}" alt="" loading="lazy" onerror="this.remove()">` : ''}
+      </span>
       <span class="news-body">
         <span class="news-title">${esc(n.title)}</span>
         <span class="news-meta">
