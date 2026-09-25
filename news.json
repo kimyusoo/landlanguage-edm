@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-25T17:10:42.496Z",
+ "generatedAt": "2026-09-25T21:34:48.860Z",
  "source": "Google News RSS",
  "topics": {
   "rate": [
@@ -122,7 +122,7 @@
     "date": "2026-08-27"
    },
    {
-    "publisher": "mk.co.kr",
+    "publisher": "매일경제",
     "title": "부동산 세제 개편 ‘카오스’",
     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBtWUNaTnNBQ2pNNEhubmZEeVRuUVNiaEtCanlGT2JRWnZXVVJBVFFDSTVrcHVHZXBVNU1jNmg2aGNFX3FEeVpnbWgzS29jd3R3UVJBbg?oc=5",
     "sourceUrl": "https://www.mk.co.kr",
@@ -138,7 +138,7 @@
     "date": "2026-08-31"
    },
    {
-    "publisher": "housingherald.co.kr",
+    "publisher": "하우징헤럴드",
     "title": "2026년 부동산 세제개편 주요 내용 및 대처방안",
     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9FTmp5em9PMlR6VGJhUTRsVEhraFgxTlRqSnFZWDJOejZIUVZPSG9pOTFLNVhQX1RhNUxFR2dEdHFIZ3NkZU40R1JCRUFEVl9PeUVnSktFbXlFSFhuaC1RVG5zYnV2eWFmZG9kV3Rpd2lSZUk?oc=5",
     "sourceUrl": "https://www.housingherald.co.kr",
@@ -198,20 +198,20 @@
     "date": "2026-09-14"
    },
    {
-    "publisher": "mk.co.kr",
-    "title": "“전세도 없는데 나가라니요”…‘계약갱신 분쟁’ 이미 작년치 넘어서",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5FbllVN2VGS0IyNTgxczBvQTQtVmZSMkFjY1Ixd3diczFiTko2LWtVOWNqeG5WYTZqTHhfXzRaLTMwQ1JFdG5VdS1ERGJzQmtiX3BMdQ?oc=5",
-    "sourceUrl": "https://www.mk.co.kr",
-    "excerpt": "",
-    "date": "2026-09-17"
-   },
-   {
     "publisher": "연합뉴스",
     "title": "[서미숙의 집수다] '토허구역+대출규제 확대' 11개월…내몰리는 임차인들",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9jY0RDTmVESjF1UWJMMFlfQklUYWc2V1J0b3B6Yi1HZkRySUFJNHVUdHpuNzl1aGRxRVU2RFBiTkxJRkpTR1NTVEJHdTR6SU1DeE1yNEJLRVR6c2fSAWBBVV95cUxPWUJmV3g5cnFmQmhfazBaOGNTU1gyVHpMSDlsdnZZUlNIcC1fYUtwYU8wZl9rV1RZR0pCQW9EYXhNWjFRYk1VdVVoMjZtenlKNHctYXlTQkhzTjZFajBOams?oc=5",
     "sourceUrl": "https://www.yna.co.kr",
     "excerpt": "",
     "date": "2026-09-16"
+   },
+   {
+    "publisher": "매일경제",
+    "title": "“전세도 없는데 나가라니요”…‘계약갱신 분쟁’ 이미 작년치 넘어서",
+    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5FbllVN2VGS0IyNTgxczBvQTQtVmZSMkFjY1Ixd3diczFiTko2LWtVOWNqeG5WYTZqTHhfXzRaLTMwQ1JFdG5VdS1ERGJzQmtiX3BMdQ?oc=5",
+    "sourceUrl": "https://www.mk.co.kr",
+    "excerpt": "",
+    "date": "2026-09-17"
    },
    {
     "publisher": "v.daum.net",
@@ -298,7 +298,7 @@
     "date": "2026-08-26"
    },
    {
-    "publisher": "mk.co.kr",
+    "publisher": "매일경제",
     "title": "“신혼부부 소득 합산 안한다”…청년 4억 이하 비아파트 매수 지원",
     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5hUkRVbjRDMmo1SkRWaG1aSm5EMDFXajNFQkhScjNveDc5R2NKaV9mdWdzZGZSZDVLQ3V1MWFtS0pWUXpMajBRMmM3SzdwaGZ1ODk5Y19SUGg?oc=5",
     "sourceUrl": "https://www.mk.co.kr",
@@ -316,7 +316,7 @@
   ],
   "presale": [
    {
-    "publisher": "mk.co.kr",
+    "publisher": "매일경제",
     "title": "“청약 당첨돼도 그림의 떡”…분양가 치솟자 1순위 경쟁률 13개월째 한 자릿수",
     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBwWnZRTG91U2JSS1dyZld0cXp2MUZOSVlvbld4YjBrSWRfbjY5NUZzZWQzYkhpd0lNdlozZGZmUldYaXdIMXFsN1g3ZnR2Y04tRGhVRk9WY1c?oc=5",
     "sourceUrl": "https://www.mk.co.kr",
