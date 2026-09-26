@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-25T21:34:48.860Z",
+ "generatedAt": "2026-09-26T04:57:18.328Z",
  "source": "Google News RSS",
  "topics": {
   "rate": [
@@ -46,14 +46,6 @@
   ],
   "supply": [
    {
-    "publisher": "대한민국 정책브리핑",
-    "title": "수도권 13만 호 신속 공급! 달라지는 8.13 부동산 대책 - 전체 | 카드/한컷",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5WaHhvMHBsVy1jMS10NHNnMnpxYXhsU1ZHbE1RNXMtcHMwQ3ktZU9Na21zV1MzS2Y3dDlLSFRHQWRBT3BxLXdPbUM4NlN2WENockRMXzFHS0w5eE9tRTNsdERhemJPRlQ0TTd0ZGJB?oc=5",
-    "sourceUrl": "https://www.korea.kr",
-    "excerpt": "",
-    "date": "2026-08-14"
-   },
-   {
     "publisher": "브릿지경제",
     "title": "홍지선 신임 국토교통부 장관 공식 임기 시작…수도권 주택 공급·시장 안정 과제",
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1BZUhJQXczeUMwWDRZckJMdUc3U2ZjRTVHa19qemMwZU1QZTJoRzlhRGhaeURxVjJpcUNZclJjZlMtRGZoVl95a3Nxb2dXVk51dmZpS3daQkpzUQ?oc=5",
@@ -68,6 +60,14 @@
     "sourceUrl": "https://www.joongang.co.kr",
     "excerpt": "",
     "date": "2026-09-21"
+   },
+   {
+    "publisher": "정책브리핑",
+    "title": "전월세 및 매매시장 안정을 위한 주택 신속공급 방안",
+    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9yQTNHUnp1dWd2NWt5dFlkWmtJOUl1dl9kNks2cllHREw2QjRTNTFuQ1AxMExCVDY3YlFoenVabk1HZTdlb1JuT2xIYjEyUEZrMXNRTUdyb3QxR2w5ODdjMXVJMThjeXF5U2wwOTVwemZNSVVLZkNj?oc=5",
+    "sourceUrl": "https://www.korea.kr",
+    "excerpt": "",
+    "date": "2026-08-13"
    },
    {
     "publisher": "v.daum.net",
@@ -94,14 +94,6 @@
     "sourceUrl": "https://www.hankyung.com",
     "excerpt": "",
     "date": "2026-08-14"
-   },
-   {
-    "publisher": "뉴스핌",
-    "title": "서울 전월세 품귀에 임대주택도 '오픈런'…평균 경쟁률 130대 1",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE95a2N2ZGJtTFRQUWVnSlRIMFc4bl80Q0psR3RISjFhbjNabzFvOGxlSGZ5bC0wS0JzUzd3ZjBMNEpvMTJrUUt1OVZIM0dveTZzQnE5c0NaTUZydjVp?oc=5",
-    "sourceUrl": "https://www.newspim.com",
-    "excerpt": "",
-    "date": "2026-08-25"
    }
   ],
   "tax": [
@@ -156,14 +148,6 @@
     "date": "2026-09-17"
    },
    {
-    "publisher": "bvba.org",
-    "title": "서울 아파트 매매 실거래가격 상승 지속...1년 새 14.56% 상승",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9rSXNKdFg1YUhLR3ZHVG5PNmU2aGx4UUhfMURPclUxejlLNFNTdEF2bTg5dmc3VXZzSVBRNlpEQTY0c1gtN2JKa1FUOEhUUGFTV0E?oc=5",
-    "sourceUrl": "http://2we.co.kr",
-    "excerpt": "",
-    "date": "2026-09-18"
-   },
-   {
     "publisher": "영등포신문",
     "title": "서울 아파트 매매 실거래가격 상승 지속...1년 새 14.56% 상승",
     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5oNDVCQW95S3VhSW1QemxrNjNlTUNUSE9tQl9TaUdDazB3Q1NIRjh1Mm1QcWFtMVRxOHM4Wi1TOEtWbk0ya1EwYW9TdDFVMHZsdVF5TXdHaDZsaFNy?oc=5",
@@ -186,6 +170,14 @@
     "sourceUrl": "http://www.remagazine.co.kr",
     "excerpt": "",
     "date": "2026-08-31"
+   },
+   {
+    "publisher": "경기일보",
+    "title": "서울 아파트값 7월에도 상승…전세 계약 10건 중 약 6건은 ‘갱신’",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9zVmFkM2tJMG1vNENhNk1YNl8xYld4R200d0tpaGFVdExQOEt2b2pacFZfX0NuS3MxUHZjWUpxWV85eWpmNUxDTHJxbHk3RzQxNVZXZTJyalpxbXM?oc=5",
+    "sourceUrl": "https://www.kyeonggi.com",
+    "excerpt": "",
+    "date": "2026-09-17"
    }
   ],
   "lease": [
@@ -198,20 +190,20 @@
     "date": "2026-09-14"
    },
    {
-    "publisher": "연합뉴스",
-    "title": "[서미숙의 집수다] '토허구역+대출규제 확대' 11개월…내몰리는 임차인들",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9jY0RDTmVESjF1UWJMMFlfQklUYWc2V1J0b3B6Yi1HZkRySUFJNHVUdHpuNzl1aGRxRVU2RFBiTkxJRkpTR1NTVEJHdTR6SU1DeE1yNEJLRVR6c2fSAWBBVV95cUxPWUJmV3g5cnFmQmhfazBaOGNTU1gyVHpMSDlsdnZZUlNIcC1fYUtwYU8wZl9rV1RZR0pCQW9EYXhNWjFRYk1VdVVoMjZtenlKNHctYXlTQkhzTjZFajBOams?oc=5",
-    "sourceUrl": "https://www.yna.co.kr",
-    "excerpt": "",
-    "date": "2026-09-16"
-   },
-   {
     "publisher": "매일경제",
     "title": "“전세도 없는데 나가라니요”…‘계약갱신 분쟁’ 이미 작년치 넘어서",
     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5FbllVN2VGS0IyNTgxczBvQTQtVmZSMkFjY1Ixd3diczFiTko2LWtVOWNqeG5WYTZqTHhfXzRaLTMwQ1JFdG5VdS1ERGJzQmtiX3BMdQ?oc=5",
     "sourceUrl": "https://www.mk.co.kr",
     "excerpt": "",
     "date": "2026-09-17"
+   },
+   {
+    "publisher": "연합뉴스",
+    "title": "[서미숙의 집수다] '토허구역+대출규제 확대' 11개월…내몰리는 임차인들",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9jY0RDTmVESjF1UWJMMFlfQklUYWc2V1J0b3B6Yi1HZkRySUFJNHVUdHpuNzl1aGRxRVU2RFBiTkxJRkpTR1NTVEJHdTR6SU1DeE1yNEJLRVR6c2fSAWBBVV95cUxPWUJmV3g5cnFmQmhfazBaOGNTU1gyVHpMSDlsdnZZUlNIcC1fYUtwYU8wZl9rV1RZR0pCQW9EYXhNWjFRYk1VdVVoMjZtenlKNHctYXlTQkhzTjZFajBOams?oc=5",
+    "sourceUrl": "https://www.yna.co.kr",
+    "excerpt": "",
+    "date": "2026-09-16"
    },
    {
     "publisher": "v.daum.net",
@@ -306,7 +298,7 @@
     "date": "2026-08-13"
    },
    {
-    "publisher": "서울자치신문",
+    "publisher": "onseoul.net",
     "title": "[박근종 칼럼] 주식 이은 부동산 대출도 FOMO, 총량규제가 낳은 새벽 6시 ‘광클’ 주담대 직시해야",
     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1CcVpvNTdXSGJwam03M3ZlX1d2N2xMMV9nejBPRnMtSWpxUzN1WlNCa29TOFdlXzRMWkhTNFY0NTdXWEdVZ0NRV2x6OVpRSzQxZHBQeGNnckJMRE01Q3lXWTV2TnpfMmtU?oc=5",
     "sourceUrl": "https://www.onseoul.net",
