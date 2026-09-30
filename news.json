@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-09-30T12:34:05.410Z",
+ "generatedAt": "2026-09-30T22:15:18.721Z",
  "source": "Google News RSS",
  "topics": {
   "rate": [
    {
-    "publisher": "theguru.co.kr",
+    "publisher": "더구루",
     "title": "한은, 두 달 연속 기준금리 인상…부동산 시장 관망세 짙어지나",
     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBKd0x2bWp4MHlxc09DMFRwUFpuNDlscUNHQVVsN1FGS2JINGU5UDZoV0lzUUJPajh3V2JCSmFsd09yTUQweDZrT242TVZvbDZMUjVzUktTY0ZjMld1OXRhb0hCcw?oc=5",
     "sourceUrl": "https://www.theguru.co.kr",
@@ -70,7 +70,7 @@
     "date": "2026-09-22"
    },
    {
-    "publisher": "arunews.com",
+    "publisher": "한국주택경제신문",
     "title": "홍지선 국토부 장관 후보자… “수도권 주택 공급 속도”",
     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0yeDV4a1hVNDJMTDB3cnJ2ZEt4Tlc3Z3U2enBOUEhxbnRZS2NqQjBiajhoOGI3NV93ejc5OTlxZWZSRGNWdmw2MFp2VEFyanNzSXRfbnNYTHdxT3c3ckFhX3JtVUswMWpW?oc=5",
     "sourceUrl": "https://www.arunews.com",
@@ -154,7 +154,7 @@
     "date": "2026-09-18"
    },
    {
-    "publisher": "서울경제TV",
+    "publisher": "sentv.co.kr",
     "title": "서울 아파트값 7월에도 상승세 지속…1년 새 15% ‘껑충’",
     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1IVHA4TU9PQzBlSGZQYmVjeXdEbE1VeF9yZnVRM21hTV9pclZKbWw1WWMtcl96SmU1bFNVQTg2LWRvU1o5VC03bzdaMWxUd0VQM1BJNlR6Z3lzWXNNQzFwQ1pqdFg?oc=5",
     "sourceUrl": "https://www.sentv.co.kr",
@@ -172,14 +172,6 @@
   ],
   "lease": [
    {
-    "publisher": "v.daum.net",
-    "title": "“집주인이 월세 두 배로 올린답니다”…‘울며 겨자 먹기’ 합의갱신에 세입자 한숨",
-    "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5Hd2tpQzc4N0xqUTN4ajEwS0pPMjRvcWZoWUotb1JjcVFINlZRNHdIYVNvUFZaWk9oc0g2aEpEWTk4VXA2VFE?oc=5",
-    "sourceUrl": "https://v.daum.net",
-    "excerpt": "",
-    "date": "2026-09-15"
-   },
-   {
     "publisher": "YTN",
     "title": "씨 마른 전세...가격 상승률도 '역대급'",
     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBsUEtIY2luaUhraG9RLURwYXROQ09lMnpUVzJxWk9YYXpELUdvWlB0SEo1TXZuQ3VDRHU1cjVkaEhDdi05MUFuM2VwcXh1dE4wUVlzbUlZZEtmYUx1SEE?oc=5",
@@ -188,18 +180,26 @@
     "date": "2026-09-23"
    },
    {
-    "publisher": "핀포인트뉴스",
-    "title": "“전세 재계약하려니 8000만원 더 내라”…서울 세입자 ‘비명’",
-    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1hWGltWFIyYy1fWmViMW9JbnBvdG1keHFyZTg1NjZHU1dGMk5WOEZVYUIwa25CVFp1ZW9PcFh0LVF6bFJ5SWRlQ29ZS2gwREhXRFJUYnFRMnBTU1M2c2NXQjh4a1o0X2lrQWI4R0sycTlxallOTS1R0gF3QVVfeXFMTWFYaW1YUjJjLV9aZWIxb0lucG90bWR4cXJlODU2NkdTV0YyTlY4RlVhQjBrbkJUWnVlb09wWHQtUXpsUnlJZGVDb1lLaDBESFdEUlRicVEycFNTUzZzY1dCOHhrWjRfaWtBYjhHSzJxOXFqWU5NLVE?oc=5",
-    "sourceUrl": "https://www.pinpointnews.co.kr",
+    "publisher": "v.daum.net",
+    "title": "“집주인이 월세 두 배로 올린답니다”…‘울며 겨자 먹기’ 합의갱신에 세입자 한숨",
+    "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5Hd2tpQzc4N0xqUTN4ajEwS0pPMjRvcWZoWUotb1JjcVFINlZRNHdIYVNvUFZaWk9oc0g2aEpEWTk4VXA2VFE?oc=5",
+    "sourceUrl": "https://v.daum.net",
     "excerpt": "",
-    "date": "2026-09-27"
+    "date": "2026-09-15"
    },
    {
     "publisher": "edaily.co.kr",
     "title": "전세거래 급락하는 사이 월세 3배 는 중랑구…'서울 월세화' 축소판",
     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNY0docFhaTTUxNTNuYWowY2VJN3BMYXZtaF9Jajh5d1FKZHUtZngtaXMybDNUYm9ORTBEUGJjXzJEbmFobUE5R1hnSElvUFFTcS1ESlFodndvMG9xbXU3RzNibFl3dGNSbXFucmVIQzQ2RGlUeGlrMWhpc0N4YnNtNw?oc=5",
     "sourceUrl": "https://www.edaily.co.kr",
+    "excerpt": "",
+    "date": "2026-09-27"
+   },
+   {
+    "publisher": "핀포인트뉴스",
+    "title": "“전세 재계약하려니 8000만원 더 내라”…서울 세입자 ‘비명’",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1sbkZ2ZmJzcWdIa3BfczRjOXY2bThIajlwTGdkajJ0eVYxRUdqdWIydDVObU1TNEdDaTFhZzQ4TFpSTktZemVodXBHNThVM05QRFdqNDRIYXNOX0JEQllXRE92bmlqdG5jNlhCcG40OHM4OUXSAXdBVV95cUxNYVhpbVhSMmMtX1plYjFvSW5wb3RtZHhxcmU4NTY2R1NXRjJOVjhGVWFCMGtuQlRadWVvT3BYdC1RemxSeUlkZUNvWUtoMERIV0RSVGJxUTJwU1NTNnNjV0I4eGtaNF9pa0FiOEdLMnE5cWpZTk0tUQ?oc=5",
+    "sourceUrl": "https://www.pinpointnews.co.kr",
     "excerpt": "",
     "date": "2026-09-27"
    },
@@ -238,31 +238,23 @@
     "date": "2026-08-22"
    },
    {
+    "publisher": "한국도시환경헤럴드",
+    "title": "[학술대회 집중포커스①] 노후계획도시 정비, ‘단지 재건축’ 넘어 ‘도시 재창조’로",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5obWR2dm5nTXpCbFM4dE1SS3lXQmhtd1ZPQ293dGs0cXZ2OUh2a3V4ZjVqOGlBdVZKYUR5MVczT09ueWgyVlcwejV2bko0cF9JRjZiSTM0ZHRmLUxxWVhQRWdVZUNFUlNsX3VxT9IBcEFVX3lxTE1DbTRCc19iWVNUSUFsMm1iSURvcGFVUks2dkw0WFdDeV8yNnFnYnVXMmpoSjY4Y2liUWxRcVpzMnVhS2RCS2F4dy1ZN05oYXNPM2tFZ3B2V3BUbHJLV2UtYWhROTEwUkt1Vk9oYTVJSjU?oc=5",
+    "sourceUrl": "http://www.kueherald.co.kr",
+    "excerpt": "",
+    "date": "2026-09-07"
+   },
+   {
     "publisher": "데일리하우징",
     "title": "1기 신도시 최초 ‘도정법 적용’ 재건축, 산본 한라주공4단지1차...분담금은 얼마?",
     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE03b092eDBhN1haeVBZSmU2VjlDYlZuRlNTQ3ZDMm1XendSOW9mRVExYUdoekpCTzU3MDhJNG96Z1ZKVWNha1ZMblNCNVVHMWJlTDJxb0l6c3NGYXo3cldZRk9TV0NySFpVZ01Z?oc=5",
     "sourceUrl": "https://www.dailyhousing.kr",
     "excerpt": "",
     "date": "2026-09-04"
-   },
-   {
-    "publisher": "v.daum.net",
-    "title": "계양 선우아파트 정비구역 지정…추정분담금 최대 5억500만 원",
-    "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFAzeXpLWUFTTlN6UFVMc01uNk10eTg5cnVNUGNWTlhCNFFiS19KVmlzVUVkaUt5LVU2bjM5d2lyTFpzZlVpaFE?oc=5",
-    "sourceUrl": "https://v.daum.net",
-    "excerpt": "",
-    "date": "2026-08-30"
    }
   ],
   "loan": [
-   {
-    "publisher": "연합뉴스",
-    "title": "당국, 정책금융 등 고정금리 확대 주력…금리인상기 위험 흡수",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5GS2ZTekJJRk5zY2ZiWk1iMDdOQ0VxYVgyR09qZEgzNHkzUGdQd1BtdXpnVnM1X1dwYk1TSmhoc3pBTi1Kbl9rSUdnNXlxSnNGdFlkZzVveEdlNlFjMlVEWdIBYEFVX3lxTE5GS2ZTekJJRk5zY2ZiWk1iMDdOQ0VxYVgyR09qZEgzNHkzUGdQd1BtdXpnVnM1X1dwYk1TSmhoc3pBTi1Kbl9rSUdnNXlxSnNGdFlkZzVveEdlNlFjMlVEWQ?oc=5",
-    "sourceUrl": "https://www.yna.co.kr",
-    "excerpt": "",
-    "date": "2026-09-26"
-   },
    {
     "publisher": "전자신문",
     "title": "금융당국, 정책서민금융·고정금리 대출 확대…차주 리스크 완화 총력",
@@ -278,6 +270,14 @@
     "sourceUrl": "https://www.cnbnews.com",
     "excerpt": "",
     "date": "2026-08-26"
+   },
+   {
+    "publisher": "매일경제 마켓",
+    "title": "당국, 정책금융 등 고정금리 확대 주력…금리인상기 위험 흡수",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9jTVc1RktuOWJzeGpzb1A1Tlc5YVg3SUlpQzFUdmtDWjREakk2OFdCYlJBSEVuM3NRSnFhelFiQjRDZlFDUmVKM1Flb3MzY0FqV2c?oc=5",
+    "sourceUrl": "https://stock.mk.co.kr",
+    "excerpt": "",
+    "date": "2026-09-26"
    },
    {
     "publisher": "m-i.kr",
@@ -372,12 +372,12 @@
     "date": "2026-09-22"
    },
    {
-    "publisher": "땅집고",
-    "title": "GTX-C 수혜지 경기 과천 아니다…집값 상승 1순위 '이 동네'",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5TNHgyLWhvcV8tTmlEN1otdmhQZWc2NjVUU3ZNZlctZEJVc2VqcmM1LU0yQjVuXzVUa1dJbWs0eWtIT05TZlUtMUhLNnRrUklNTlpITWl6R0Fya1E0ZnJoUU1yOFFtcnZBVTVwUGRzS09MOXR0cUZFS25rM1J4VmfSAXNBVV95cUxOVWkwRW92RVVxVEE2NWhRYUtTNGRiUnB0S0hYRGJhRDVWMklqekcxX2xiYmtaWncxcllHMzA4a1RxUlozeFlvRE0wQ0ZCOFFudjNhbjdTbGFYV19QMlhGNEpldW9SWmpjVmJiSWs3QWwySTVr?oc=5",
-    "sourceUrl": "https://realty.chosun.com",
+    "publisher": "v.daum.net",
+    "title": "GTX-C 수혜지 과천 아니라고? 집값 상승 1순위 '이 동네'",
+    "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5xZWdoOGpqWm9OTlBoVHFBREtlNUExcF9ROWkyUmpFekEySWtkaUd5ZVg5LW5JVEwzRnZVcEhxb1Y0dzNGWlE?oc=5",
+    "sourceUrl": "https://v.daum.net",
     "excerpt": "",
-    "date": "2026-09-18"
+    "date": "2026-09-29"
    }
   ],
   "gap": [
@@ -398,7 +398,7 @@
     "date": "2026-09-16"
    },
    {
-    "publisher": "뉴데일리",
+    "publisher": "biz.newdaily.co.kr",
     "title": "악성 임대인 단 4명에 4633억 … HUG, 전세사기 엮여 떼인 돈만 6조8000억원",
     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9PSm5oSllPcnNxZlZINHV2azFjNFRDT2lmc0hVNjRHaGZUT1B0Mld6enpKQ3lKRlR2OFNvUjNnYktKelZ0R3U5Ym5aR0RKS0dsMXhtQ1JFQTlzU0RLVEVHdFV6VmI4cXpzM1ZVUGt3U1U1bkhRSFpFWjlhQdIBgAFBVV95cUxOQmI5VF9RZzNSQUk3LXFTX0w0dEs5dmhKWWtuWDJfZVo1QUlOSl9ZZFlrS2txRThReVpYWVgwellXcTZEbDZtS1VLc256MF92RXBHOE1KeWNrWXVyazJpeUFOdUR3LXJxQWRacFZNU0xkQUc4NmN1bjJtRlhxNVFnTQ?oc=5",
     "sourceUrl": "https://biz.newdaily.co.kr",
@@ -416,7 +416,7 @@
     "date": "2026-09-26"
    },
    {
-    "publisher": "남양주뉴스",
+    "publisher": "nyjnews.net",
     "title": "‘왕숙 중심부’ A-19 본청약 1년 연기",
     "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5XczQzaENMSWZKUnc2Q2Vfb2tVN3NEZTZhVlBHbl9TYVdQS3RSRERWTWs3YS1qRThnZ09Ka0FRSXFPNXpIbGRBQVJrdEk4dw?oc=5",
     "sourceUrl": "http://m.nyjnews.net",
