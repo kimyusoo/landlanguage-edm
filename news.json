@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-01T13:13:30.109Z",
+ "generatedAt": "2026-10-01T22:40:58.386Z",
  "source": "Google News RSS",
  "topics": {
   "rate": [
@@ -46,14 +46,6 @@
   ],
   "supply": [
    {
-    "publisher": "브릿지경제",
-    "title": "홍지선 신임 국토교통부 장관 공식 임기 시작…수도권 주택 공급·시장 안정 과제",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1BZUhJQXczeUMwWDRZckJMdUc3U2ZjRTVHa19qemMwZU1QZTJoRzlhRGhaeURxVjJpcUNZclJjZlMtRGZoVl95a3Nxb2dXVk51dmZpS3daQkpzUQ?oc=5",
-    "sourceUrl": "https://www.viva100.com",
-    "excerpt": "",
-    "date": "2026-09-22"
-   },
-   {
     "publisher": "중앙일보",
     "title": "2030년까지 공적주택 119만 가구…수도권에 92만 가구 공급",
     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9QM1pGejB4Rk8zRW5xdElIcmRVeHZLV3RTUVpPMDNHRDQyaTdyNWpIdnQ4S0hnaXdfM0lBc1MwMnh2Z1loWXlKNzU4LTVxVlQyT09tYTRn?oc=5",
@@ -78,12 +70,30 @@
     "date": "2026-09-02"
    },
    {
+    "publisher": "연합뉴스",
+    "title": "'현장형 관료' 홍지선 국토장관 후보자…주택공급 속도내나",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1MSWY0MzlFOXVaYmF1ZnlkNm5DR0VKSzRBcTR3NURkd0gxdGZFU2h0bkJFSjhReGJWOUk5OFZrSXdGanB0Sk45cEIwOUQyNmh0aUhQMWNEZFlBRmvSAWBBVV95cUxNNVRYSGgtYm8tMEp0N0NkRTlxcENpM1ZPR3NxYjI5ck9QWUE0Q0dVTGVDN0l1VjBGaW9NSWZZWXhlaWNqaTRvTEhVYzExTklYdHNwRjA2b1FERG5ndDVYLUk?oc=5",
+    "sourceUrl": "https://www.yna.co.kr",
+    "excerpt": "",
+    "date": "2026-08-30"
+   },
+   {
     "publisher": "프레스뉴스",
     "title": "서울 주택공급에 용산공원 제외… 7.3만가구 택지 유력 후보는",
     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5NMTY3RjhLLTFabmZ5UWp3WktYSUNiRVBsOWI5VWlPNkZyTkU0WDVEcjNpNG9IaGJVdHc2TlFWSFM3Z3lCU2M5V05ZTDhrdExXVjhjMjJoemoyMEZTSW05TTc3VlpLWXpjSmM0WHlFRnBuZw?oc=5",
     "sourceUrl": "https://www.pressna.com",
     "excerpt": "",
     "date": "2026-08-27"
+   }
+  ],
+  "subs": [
+   {
+    "publisher": "뉴스핌",
+    "title": "서울 전월세 품귀에 임대주택도 '오픈런'…평균 경쟁률 130대 1",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE95a2N2ZGJtTFRQUWVnSlRIMFc4bl80Q0psR3RISjFhbjNabzFvOGxlSGZ5bC0wS0JzUzd3ZjBMNEpvMTJrUUt1OVZIM0dveTZzQnE5c0NaTUZydjVp?oc=5",
+    "sourceUrl": "https://www.newspim.com",
+    "excerpt": "",
+    "date": "2026-08-25"
    }
   ],
   "tax": [
@@ -146,7 +156,7 @@
     "date": "2026-09-17"
    },
    {
-    "publisher": "서울경제TV",
+    "publisher": "sentv.co.kr",
     "title": "서울 아파트값 7월에도 상승세 지속…1년 새 15% ‘껑충’",
     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1IVHA4TU9PQzBlSGZQYmVjeXdEbE1VeF9yZnVRM21hTV9pclZKbWw1WWMtcl96SmU1bFNVQTg2LWRvU1o5VC03bzdaMWxUd0VQM1BJNlR6Z3lzWXNNQzFwQ1pqdFg?oc=5",
     "sourceUrl": "https://www.sentv.co.kr",
@@ -162,12 +172,12 @@
     "date": "2026-09-18"
    },
    {
-    "publisher": "v.daum.net",
-    "title": "서울 아파트값 1년 새 14.56% 상승…7월에도 1.93% 올라",
-    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1jdHVyQWZ5dHlEMTdqbGNqUmNuSzFpU1o5cVU3U2pGeU5CY2hZdEtyVWlpTkpZLVY0eTczSWNoRksyQUs5VDFxVGU3MA?oc=5",
-    "sourceUrl": "https://v.daum.net",
+    "publisher": "이뉴스투데이",
+    "title": "서울 아파트값 5년 만에 최대 상승, 6월 실거래가 2.50% 뛰었다",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBQdmVzY1ZWSk40a19Md3ZhTnJjdlJ0YkNmVHpHNi0tVGg2REhiVy1BY0lLYkRPd2RsbjFUVmFwNGJrRTdDLWsxcE9tQjZaalBWOWthNC05Zm5IYnFsYmMwbWJWOVpjSDUwMnpvUjU2U3fSAXRBVV95cUxQX09ab3RhM3FGd29lSDBkOU4tZGVqeGFfYlBaUC1ZYXpPc282TFQ4cXZHOXdwam1ob0Frc3RkT2toSzJ0SVdsaFg2QUdBNUwwOHBua25Dc3pCNkJVZWRTX0h4d2V0b1JYNVF2V196SkFsdW5xYg?oc=5",
+    "sourceUrl": "http://www.enewstoday.co.kr",
     "excerpt": "",
-    "date": "2026-09-18"
+    "date": "2026-08-21"
    }
   ],
   "lease": [
@@ -238,20 +248,20 @@
     "date": "2026-08-22"
    },
    {
+    "publisher": "한국도시환경헤럴드",
+    "title": "[학술대회 집중포커스①] 노후계획도시 정비, ‘단지 재건축’ 넘어 ‘도시 재창조’로",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5obWR2dm5nTXpCbFM4dE1SS3lXQmhtd1ZPQ293dGs0cXZ2OUh2a3V4ZjVqOGlBdVZKYUR5MVczT09ueWgyVlcwejV2bko0cF9JRjZiSTM0ZHRmLUxxWVhQRWdVZUNFUlNsX3VxT9IBcEFVX3lxTE1DbTRCc19iWVNUSUFsMm1iSURvcGFVUks2dkw0WFdDeV8yNnFnYnVXMmpoSjY4Y2liUWxRcVpzMnVhS2RCS2F4dy1ZN05oYXNPM2tFZ3B2V3BUbHJLV2UtYWhROTEwUkt1Vk9oYTVJSjU?oc=5",
+    "sourceUrl": "http://www.kueherald.co.kr",
+    "excerpt": "",
+    "date": "2026-09-07"
+   },
+   {
     "publisher": "데일리하우징",
     "title": "1기 신도시 최초 ‘도정법 적용’ 재건축, 산본 한라주공4단지1차...분담금은 얼마?",
     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE03b092eDBhN1haeVBZSmU2VjlDYlZuRlNTQ3ZDMm1XendSOW9mRVExYUdoekpCTzU3MDhJNG96Z1ZKVWNha1ZMblNCNVVHMWJlTDJxb0l6c3NGYXo3cldZRk9TV0NySFpVZ01Z?oc=5",
     "sourceUrl": "https://www.dailyhousing.kr",
     "excerpt": "",
     "date": "2026-09-04"
-   },
-   {
-    "publisher": "디벨로퍼뉴스",
-    "title": "송파한양1차, 창립총회 마치고 조합설립 본격화",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9pUlRvVXRvSzNXMWpHVXRhYlF2SUIxTzRIRTViakNaX0NEQXpGRGlWWUVpZ2pIVThrcmdZUzVraEhKdzAzSE14anpVVkFSWDFVSzEwRjM2UW9QeEdpV1J6MTF5a2s4VW44?oc=5",
-    "sourceUrl": "https://www.dpnews.co.kr",
-    "excerpt": "",
-    "date": "2026-09-16"
    }
   ],
   "loan": [
@@ -306,20 +316,20 @@
     "date": "2026-08-24"
    },
    {
-    "publisher": "한국경제",
-    "title": "\"당첨돼도 돈 부족해\"…수도권도 청약 경쟁률 '하락'",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5LUHYzVmRpeXpCdG8zOFdOREgxV1hYd0FEb1l5Zi1QS09VcEZ0MlJtb21ETFVWUGhwRGRBNjMxR3NGZTRMcl93UXM3SFNGMS1HSDlyLVJnT3VXZw?oc=5",
-    "sourceUrl": "https://www.hankyung.com",
-    "excerpt": "",
-    "date": "2026-09-21"
-   },
-   {
     "publisher": "서울경제",
     "title": "전국 1순위 청약 경쟁률 5.34대 1…38개월 만에 최저",
     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA3YUdEZFhieWlndzVDalZyeUQzeFQzTHU2TEZlRG5aMURyS1ZGS2NSdFBCTm5ZejVqRjgwWXJFMGlDVDdadTUwYUY5ZndLLU5jTEHSAVNBVV95cUxNZW5xT2padmZSeUJxdXNDczd6S2Jpb1dMRHlGOU5kNXFLTUM0VzRIMmZBMm0tc21kakxnOEFSNEJTTlNsaENvLW1WbDZDQzJNeTdtYw?oc=5",
     "sourceUrl": "https://www.sedaily.com",
     "excerpt": "",
     "date": "2026-09-21"
+   },
+   {
+    "publisher": "한국경제",
+    "title": "\"1000가구 대단지 안 통해\"…7월 청약 24곳 중 13곳 미달",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1IREg5SkdUQzBZeU9RanFleVRrazlUekRPcTdzbzJUb0R0SGFHb193VjBsYkpYTDVKcGN4Rzh1dmN6eFVqVnVvX2ItNVZaWjJQNW9qbmVqY1hpZw?oc=5",
+    "sourceUrl": "https://www.hankyung.com",
+    "excerpt": "",
+    "date": "2026-08-21"
    },
    {
     "publisher": "v.daum.net",
@@ -400,7 +410,7 @@
   ],
   "newtown": [
    {
-    "publisher": "헤럴드경제",
+    "publisher": "biz.heraldcorp.com",
     "title": "“4년 기다렸는데 또...” 3기 신도시 사전청약단지 60%가 본청약 지연 [부동산360]",
     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9kZTBGZU1TWDYwSlZUMkg1Sm45SGZpaWlaWjl0QjV3enpwRUxFbGF0MDQtMWFsTEdMMkwzOWZwLUNPZWlsdDJGR0hkREU1Q2ZYNHdja3VR?oc=5",
     "sourceUrl": "https://biz.heraldcorp.com",
