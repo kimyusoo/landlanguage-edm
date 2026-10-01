@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-01T05:52:33.841Z",
+ "generatedAt": "2026-10-01T13:13:30.109Z",
  "source": "Google News RSS",
  "topics": {
   "rate": [
@@ -12,18 +12,18 @@
     "date": "2026-08-27"
    },
    {
-    "publisher": "yna.co.kr",
-    "title": "기준금리 연속 인상에 주택 거래 더 위축…\"집값 하락은 제한적\"",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBKdFZCOFZYaFZZUkxjaXNZbzVMa2RPZDlGSF82MkdSM3FkZmdLRm9waUNMYXF1d2Nwb0Jra25MbTVjdnh6eTJoUU5HbXYtQm1DSUJsSmhFa2ROb2vSAWBBVV95cUxPaVh1eUI2RlpES1RQdU5EZjlqOWNDS2dIYmY2WW1GaGdZVFJFZGhnbjlXM01DeEY4YzhncjA2eW1DTjJqcklkQ2JQaUNqeFpFTVNZbnB4X1U2X1E5MEU5M3o?oc=5",
-    "sourceUrl": "https://www.yna.co.kr",
-    "excerpt": "",
-    "date": "2026-08-27"
-   },
-   {
     "publisher": "연합인포맥스",
     "title": "부동산 전문가들 \"금리 인상에 15억 이하 집값 상승세 둔화할 것\"",
     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB0YkNZajBSMjE5clFpWmR1STZrNDhDMEhBOF9jcGRuczdkczZ2T2FaRmVyT3E0b2psWWRueC1kSnBIX3R0ZEdEbERuVl9TeFR3eE1DdU13RUlNVkJkX0FYeVpYWE91b3NtTUJWeDVXdkc?oc=5",
     "sourceUrl": "https://news.einfomax.co.kr",
+    "excerpt": "",
+    "date": "2026-08-27"
+   },
+   {
+    "publisher": "연합뉴스",
+    "title": "기준금리 연속 인상에 주택 거래 더 위축…\"집값 하락은 제한적\"",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBKdFZCOFZYaFZZUkxjaXNZbzVMa2RPZDlGSF82MkdSM3FkZmdLRm9waUNMYXF1d2Nwb0Jra25MbTVjdnh6eTJoUU5HbXYtQm1DSUJsSmhFa2ROb2vSAWBBVV95cUxPaVh1eUI2RlpES1RQdU5EZjlqOWNDS2dIYmY2WW1GaGdZVFJFZGhnbjlXM01DeEY4YzhncjA2eW1DTjJqcklkQ2JQaUNqeFpFTVNZbnB4X1U2X1E5MEU5M3o?oc=5",
+    "sourceUrl": "https://www.yna.co.kr",
     "excerpt": "",
     "date": "2026-08-27"
    },
@@ -96,12 +96,20 @@
     "date": "2026-08-18"
    },
    {
-    "publisher": "yna.co.kr",
+    "publisher": "연합뉴스",
     "title": "[마이더스] 2026년 세제개편안…종부세·양도세",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBrbHpOOXRCSGlOWXZPTEppRXA1MzgxY3JGYmd2NEl0QVgwVnBqZVhENkFyYzJIdFdmNDhMMmd6RnBJR3ZnWThVLWtMd3Z6NGpmbEZjdUNMN04teDDSAWBBVV95cUxPWV9xZW1Ra0dPQnNYLUhwVS1KaWswckRVdTJMZkpaWDlEY21Sd0dwQlM2ZDlIVXJIR0lGalhsWkdMWEY1TmJPeml4RWJNX1lRQWtGS0pHT0hUR0NDQ05UTzI?oc=5",
     "sourceUrl": "https://www.yna.co.kr",
     "excerpt": "",
     "date": "2026-08-27"
+   },
+   {
+    "publisher": "충청일보",
+    "title": "[경제야 놀자!] 2027년, 부동산 세금 기준이 바뀐다",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1LQ1VxVFhjWWYzUm5WcWx5eWRIM2l6UVZabWhOWWxfX2ZIa001ZW1zVkNUNk1hNTNiTXViRGFnM25ndHRDNXJPWXAxWTljemlsVXpacWZ4UUs4M3haUWlLQkwtOUZhd29OTGh6VXlhdWM?oc=5",
+    "sourceUrl": "https://www.ccdailynews.com",
+    "excerpt": "",
+    "date": "2026-08-18"
    },
    {
     "publisher": "한국경제",
@@ -118,19 +126,11 @@
     "sourceUrl": "https://www.mk.co.kr",
     "excerpt": "",
     "date": "2026-08-23"
-   },
-   {
-    "publisher": "문화일보",
-    "title": "보유세·거래세 동시인상… “집 갖고있어도 팔아도 세부담”[부동산 세제 이것은 고쳐야]",
-    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBPZDROdW90bmxpQzJoX016MFd6S3ZLTmZNQWlSTDdlRmFHM2pDYWFkNkxPTDNzckZUY0hQWm1TM3pFbGtpMG93WWFqT3U3ZURk?oc=5",
-    "sourceUrl": "https://www.munhwa.com",
-    "excerpt": "",
-    "date": "2026-08-24"
    }
   ],
   "stat": [
    {
-    "publisher": "yna.co.kr",
+    "publisher": "연합뉴스",
     "title": "서울 아파트값 7월에도 상승세 지속…1년 새 15% 상승",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9qa0c2Vi1EbHdfR2NYOXNwY3AtRnpMb0t6ZVFxTWNGMHVCTUhvcHZJRV85N2JqYWRNaGs4MVBEN25HRVh2R09lMXhCb3lLZTNJczB4U21lUVpjODDSAWBBVV95cUxNOFhrQ3hESU93Z2NnOU9Fb0JlQmIwZ0NiVFFMUkJ1UnVUUG94SmdnVUV6VXhvRHhLd09PejZJYU5wSk4yUWItVmZSU0NjbFhucFg1djRJSzN3WDJiNDRnR3g?oc=5",
     "sourceUrl": "https://www.yna.co.kr",
@@ -146,18 +146,18 @@
     "date": "2026-09-17"
    },
    {
-    "publisher": "영등포신문",
-    "title": "서울 아파트 매매 실거래가격 상승 지속...1년 새 14.56% 상승",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5oNDVCQW95S3VhSW1QemxrNjNlTUNUSE9tQl9TaUdDazB3Q1NIRjh1Mm1QcWFtMVRxOHM4Wi1TOEtWbk0ya1EwYW9TdDFVMHZsdVF5TXdHaDZsaFNy?oc=5",
-    "sourceUrl": "https://www.ybstv.net",
-    "excerpt": "",
-    "date": "2026-09-18"
-   },
-   {
     "publisher": "서울경제TV",
     "title": "서울 아파트값 7월에도 상승세 지속…1년 새 15% ‘껑충’",
     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1IVHA4TU9PQzBlSGZQYmVjeXdEbE1VeF9yZnVRM21hTV9pclZKbWw1WWMtcl96SmU1bFNVQTg2LWRvU1o5VC03bzdaMWxUd0VQM1BJNlR6Z3lzWXNNQzFwQ1pqdFg?oc=5",
     "sourceUrl": "https://www.sentv.co.kr",
+    "excerpt": "",
+    "date": "2026-09-18"
+   },
+   {
+    "publisher": "영등포신문",
+    "title": "서울 아파트 매매 실거래가격 상승 지속...1년 새 14.56% 상승",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5oNDVCQW95S3VhSW1QemxrNjNlTUNUSE9tQl9TaUdDazB3Q1NIRjh1Mm1QcWFtMVRxOHM4Wi1TOEtWbk0ya1EwYW9TdDFVMHZsdVF5TXdHaDZsaFNy?oc=5",
+    "sourceUrl": "https://www.ybstv.net",
     "excerpt": "",
     "date": "2026-09-18"
    },
@@ -238,20 +238,20 @@
     "date": "2026-08-22"
    },
    {
-    "publisher": "한국도시환경헤럴드",
-    "title": "[학술대회 집중포커스①] 노후계획도시 정비, ‘단지 재건축’ 넘어 ‘도시 재창조’로",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5obWR2dm5nTXpCbFM4dE1SS3lXQmhtd1ZPQ293dGs0cXZ2OUh2a3V4ZjVqOGlBdVZKYUR5MVczT09ueWgyVlcwejV2bko0cF9JRjZiSTM0ZHRmLUxxWVhQRWdVZUNFUlNsX3VxT9IBcEFVX3lxTE1DbTRCc19iWVNUSUFsMm1iSURvcGFVUks2dkw0WFdDeV8yNnFnYnVXMmpoSjY4Y2liUWxRcVpzMnVhS2RCS2F4dy1ZN05oYXNPM2tFZ3B2V3BUbHJLV2UtYWhROTEwUkt1Vk9oYTVJSjU?oc=5",
-    "sourceUrl": "http://www.kueherald.co.kr",
-    "excerpt": "",
-    "date": "2026-09-07"
-   },
-   {
     "publisher": "데일리하우징",
     "title": "1기 신도시 최초 ‘도정법 적용’ 재건축, 산본 한라주공4단지1차...분담금은 얼마?",
     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE03b092eDBhN1haeVBZSmU2VjlDYlZuRlNTQ3ZDMm1XendSOW9mRVExYUdoekpCTzU3MDhJNG96Z1ZKVWNha1ZMblNCNVVHMWJlTDJxb0l6c3NGYXo3cldZRk9TV0NySFpVZ01Z?oc=5",
     "sourceUrl": "https://www.dailyhousing.kr",
     "excerpt": "",
     "date": "2026-09-04"
+   },
+   {
+    "publisher": "디벨로퍼뉴스",
+    "title": "송파한양1차, 창립총회 마치고 조합설립 본격화",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9pUlRvVXRvSzNXMWpHVXRhYlF2SUIxTzRIRTViakNaX0NEQXpGRGlWWUVpZ2pIVThrcmdZUzVraEhKdzAzSE14anpVVkFSWDFVSzEwRjM2UW9QeEdpV1J6MTF5a2s4VW44?oc=5",
+    "sourceUrl": "https://www.dpnews.co.kr",
+    "excerpt": "",
+    "date": "2026-09-16"
    }
   ],
   "loan": [
