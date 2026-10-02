@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-01T22:40:58.386Z",
+ "generatedAt": "2026-10-02T05:36:22.982Z",
  "source": "Google News RSS",
  "topics": {
   "rate": [
@@ -86,19 +86,9 @@
     "date": "2026-08-27"
    }
   ],
-  "subs": [
-   {
-    "publisher": "뉴스핌",
-    "title": "서울 전월세 품귀에 임대주택도 '오픈런'…평균 경쟁률 130대 1",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE95a2N2ZGJtTFRQUWVnSlRIMFc4bl80Q0psR3RISjFhbjNabzFvOGxlSGZ5bC0wS0JzUzd3ZjBMNEpvMTJrUUt1OVZIM0dveTZzQnE5c0NaTUZydjVp?oc=5",
-    "sourceUrl": "https://www.newspim.com",
-    "excerpt": "",
-    "date": "2026-08-25"
-   }
-  ],
   "tax": [
    {
-    "publisher": "KB Think",
+    "publisher": "kbthink.com",
     "title": "꼭 알아야 할 2026년 주택 세제개편(안)",
     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE40ejdlUWNxZjZLSGFjazBSZHRDR09qdGFjdTluejdScnQ0ZHh2NDdwaWFucXZLS0lESjM0cGZtYTBQVnhSRjc1STdaUWFPZWZMZ1R5MVI4NUJJUFhVRE9BOVJKVVh6c1YzTEFNRTk1ZUU2RkVKR2l0SXNvU20?oc=5",
     "sourceUrl": "https://kbthink.com",
@@ -156,7 +146,7 @@
     "date": "2026-09-17"
    },
    {
-    "publisher": "sentv.co.kr",
+    "publisher": "서울경제TV",
     "title": "서울 아파트값 7월에도 상승세 지속…1년 새 15% ‘껑충’",
     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1IVHA4TU9PQzBlSGZQYmVjeXdEbE1VeF9yZnVRM21hTV9pclZKbWw1WWMtcl96SmU1bFNVQTg2LWRvU1o5VC03bzdaMWxUd0VQM1BJNlR6Z3lzWXNNQzFwQ1pqdFg?oc=5",
     "sourceUrl": "https://www.sentv.co.kr",
@@ -172,12 +162,12 @@
     "date": "2026-09-18"
    },
    {
-    "publisher": "이뉴스투데이",
-    "title": "서울 아파트값 5년 만에 최대 상승, 6월 실거래가 2.50% 뛰었다",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBQdmVzY1ZWSk40a19Md3ZhTnJjdlJ0YkNmVHpHNi0tVGg2REhiVy1BY0lLYkRPd2RsbjFUVmFwNGJrRTdDLWsxcE9tQjZaalBWOWthNC05Zm5IYnFsYmMwbWJWOVpjSDUwMnpvUjU2U3fSAXRBVV95cUxQX09ab3RhM3FGd29lSDBkOU4tZGVqeGFfYlBaUC1ZYXpPc282TFQ4cXZHOXdwam1ob0Frc3RkT2toSzJ0SVdsaFg2QUdBNUwwOHBua25Dc3pCNkJVZWRTX0h4d2V0b1JYNVF2V196SkFsdW5xYg?oc=5",
-    "sourceUrl": "http://www.enewstoday.co.kr",
+    "publisher": "v.daum.net",
+    "title": "서울 아파트값 1년 새 14.56% 상승…7월에도 1.93% 올라",
+    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1jdHVyQWZ5dHlEMTdqbGNqUmNuSzFpU1o5cVU3U2pGeU5CY2hZdEtyVWlpTkpZLVY0eTczSWNoRksyQUs5VDFxVGU3MA?oc=5",
+    "sourceUrl": "https://v.daum.net",
     "excerpt": "",
-    "date": "2026-08-21"
+    "date": "2026-09-18"
    }
   ],
   "lease": [
@@ -248,20 +238,20 @@
     "date": "2026-08-22"
    },
    {
-    "publisher": "한국도시환경헤럴드",
-    "title": "[학술대회 집중포커스①] 노후계획도시 정비, ‘단지 재건축’ 넘어 ‘도시 재창조’로",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5obWR2dm5nTXpCbFM4dE1SS3lXQmhtd1ZPQ293dGs0cXZ2OUh2a3V4ZjVqOGlBdVZKYUR5MVczT09ueWgyVlcwejV2bko0cF9JRjZiSTM0ZHRmLUxxWVhQRWdVZUNFUlNsX3VxT9IBcEFVX3lxTE1DbTRCc19iWVNUSUFsMm1iSURvcGFVUks2dkw0WFdDeV8yNnFnYnVXMmpoSjY4Y2liUWxRcVpzMnVhS2RCS2F4dy1ZN05oYXNPM2tFZ3B2V3BUbHJLV2UtYWhROTEwUkt1Vk9oYTVJSjU?oc=5",
-    "sourceUrl": "http://www.kueherald.co.kr",
-    "excerpt": "",
-    "date": "2026-09-07"
-   },
-   {
     "publisher": "데일리하우징",
     "title": "1기 신도시 최초 ‘도정법 적용’ 재건축, 산본 한라주공4단지1차...분담금은 얼마?",
     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE03b092eDBhN1haeVBZSmU2VjlDYlZuRlNTQ3ZDMm1XendSOW9mRVExYUdoekpCTzU3MDhJNG96Z1ZKVWNha1ZMblNCNVVHMWJlTDJxb0l6c3NGYXo3cldZRk9TV0NySFpVZ01Z?oc=5",
     "sourceUrl": "https://www.dailyhousing.kr",
     "excerpt": "",
     "date": "2026-09-04"
+   },
+   {
+    "publisher": "디벨로퍼뉴스",
+    "title": "송파한양1차, 창립총회 마치고 조합설립 본격화",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9pUlRvVXRvSzNXMWpHVXRhYlF2SUIxTzRIRTViakNaX0NEQXpGRGlWWUVpZ2pIVThrcmdZUzVraEhKdzAzSE14anpVVkFSWDFVSzEwRjM2UW9QeEdpV1J6MTF5a2s4VW44?oc=5",
+    "sourceUrl": "https://www.dpnews.co.kr",
+    "excerpt": "",
+    "date": "2026-09-16"
    }
   ],
   "loan": [
@@ -332,20 +322,20 @@
     "date": "2026-08-21"
    },
    {
+    "publisher": "etoday.co.kr",
+    "title": "“집 살 사람이 없다”…지방 민영아파트 청약 10곳 중 7곳 미달",
+    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9uQnNVUFRpdnhWR1d1aUlCeU5jQkg1N285MldWXzlPM3VzVk9lZzc0cDJub3Z4ejFoMDdEa0lINzZVampFRUhDM0JsNHVqMFZES1JrUQ?oc=5",
+    "sourceUrl": "https://www.etoday.co.kr",
+    "excerpt": "",
+    "date": "2026-08-18"
+   },
+   {
     "publisher": "v.daum.net",
     "title": "분양시장 양극화 심화…수도권서도 성패 갈려",
     "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9pRmJlMG5nWnRyUkt5Vk5jZDdySkZzV2xYcl9pc0FnUmNTSzhqUVY2RmFyU2llTXRFN0NKVnFpZy1vYS1mNHc?oc=5",
     "sourceUrl": "https://v.daum.net",
     "excerpt": "",
     "date": "2026-08-19"
-   },
-   {
-    "publisher": "땅집고",
-    "title": "\"국평 10억? 안 사요\" 미분양 광명 '그 아파트', 국평 20억 시대로",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9uaks3TER0RERaNkhDaXd0cUpCM0VaS1BhbHNIVTZwbkJjYlNJS1UzcWJwaTQ2Y3Y5enFTN3ExWTRhZFlrbDRWdW5WeXRJZHBhcUl0R2RCQ0hGRk82U0loaDhVcXhhUjJOZzh5Z0gzQWZOQklOR1BpcnpGQ0xGcnPSAXNBVV95cUxNSmVNbEo3WlNfUnMwdndicTRoaUJxSFRDWjMtVGhaaHpQT29KZmNZMXlla2lTUVIwVm1zMm1uOWx0R1h5dUFrY0szdDY0T0luSnlUVng4SXRWN1FZYS0xYUpUVkVkQmtaVS00VlpKc0JkbHlv?oc=5",
-    "sourceUrl": "https://realty.chosun.com",
-    "excerpt": "",
-    "date": "2026-08-25"
    }
   ],
   "gtx": [
@@ -382,7 +372,7 @@
     "date": "2026-09-20"
    },
    {
-    "publisher": "이투데이",
+    "publisher": "etoday.co.kr",
     "title": "GTX-C 지나도 집값은 ‘온도차’…선반영·교통효과에 갈린다 [GTX-C가 온다 ③]",
     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAyaVRJLXN5M2IxM3d4RTRJbUpLdTYxSXIyQk1KRVBJcFMwV0NUVmFocHZ0R28zb3BBZkpfalJsTW9wTEZSSjVUNFJsdUFSdzZFVWpYMA?oc=5",
     "sourceUrl": "https://www.etoday.co.kr",
@@ -392,9 +382,17 @@
   ],
   "gap": [
    {
+    "publisher": "뉴시스",
+    "title": "\"전세 사라지면 갭투자도 끝?…막 내린 전세 불패, 앞으로 집값은\"",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBNNVJPN2s5NlRkX3hnMXdWR2NTWW92a293RzQzQm1NT1ZiTElpYXViN3ZDR3ozRWNLYWVUQktPYTl3c1lPeDR5Y21kRzU4ckE5djB2SjFaUFp6eHBra0d0a9IBeEFVX3lxTFBnaWRETEp6MXRDV0w1dExJM2ZlQnlYVVA4cE5FV2hxVFA0ZmsyX1ZWTDhRVVNnczllTE1sM2hrMktnTnMzWGRQc1o3OTd6emJmTW9OMjFZRl9WSFBfc1R0Z2wzVlFwVzRKSjNhNzZwY0pQQ08zaTJMMA?oc=5",
+    "sourceUrl": "https://www.newsis.com",
+    "excerpt": "",
+    "date": "2026-09-09"
+   },
+   {
     "publisher": "v.daum.net",
     "title": "악성 임대인 솎아내니 서민만 ‘벼랑 끝’… 깐깐해진 전세보증의 그림자",
-    "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5LS21wZmNwNXBJUmI5bjRFUUNYM193OVNrd3JiYk5HaVVpV3dvRk43bmVFV3V5VmpJTC1vUDZ3Zmo3MEJjSGc?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5LdDdvdzJyLW1KazAxenBqVlNWdDE1bW1nRzdWMndkNV9jSzA1bkUyVk52SDAzbWhrc2pTOUJpM3p3REw0alRGYTk0cw?oc=5",
     "sourceUrl": "https://v.daum.net",
     "excerpt": "",
     "date": "2026-09-10"
@@ -410,7 +408,7 @@
   ],
   "newtown": [
    {
-    "publisher": "biz.heraldcorp.com",
+    "publisher": "헤럴드경제",
     "title": "“4년 기다렸는데 또...” 3기 신도시 사전청약단지 60%가 본청약 지연 [부동산360]",
     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9kZTBGZU1TWDYwSlZUMkg1Sm45SGZpaWlaWjl0QjV3enpwRUxFbGF0MDQtMWFsTEdMMkwzOWZwLUNPZWlsdDJGR0hkREU1Q2ZYNHdja3VR?oc=5",
     "sourceUrl": "https://biz.heraldcorp.com",
@@ -426,20 +424,20 @@
     "date": "2026-09-22"
    },
    {
-    "publisher": "edaily.co.kr",
-    "title": "추석 끝나자 3기 신도시 청약…계양·대장·왕숙 줄줄이 공급",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTWhsNGRtZzA3d05BeFhTR0hobzQwamhXSU1SYy1vMG1EY2tybjVkbk5rcG9kbklfSVRYNUJoU09ER2FQaFdvbkNvUWloUFludDZpejY2U096RGthUXlPcEFXOVBfbGZXczZMM3lGMlJmamhTeDhSUDZXMTRpb1pxbQ?oc=5",
-    "sourceUrl": "https://www.edaily.co.kr",
-    "excerpt": "",
-    "date": "2026-09-27"
-   },
-   {
     "publisher": "서울파이낸스",
     "title": "3기 신도시 첫 입주 계양···10월부터 민간 분양도 시동",
     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBQRDRFWjAxODdVc2lWbUx0dVEyTFlsaFZIWFlUSVlqcTFGQThoREZ2eXJGSVF5cnFqdWV4c244UDFHbHdIQ01JdkJjeUE2UGZqek5fYnZFNTRHajZSTFlLR2FzWUZaVGJzY0E?oc=5",
     "sourceUrl": "https://www.seoulfn.com",
     "excerpt": "",
     "date": "2026-09-11"
+   },
+   {
+    "publisher": "edaily.co.kr",
+    "title": "추석 끝나자 3기 신도시 청약…계양·대장·왕숙 줄줄이 공급",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTWhsNGRtZzA3d05BeFhTR0hobzQwamhXSU1SYy1vMG1EY2tybjVkbk5rcG9kbklfSVRYNUJoU09ER2FQaFdvbkNvUWloUFludDZpejY2U096RGthUXlPcEFXOVBfbGZXczZMM3lGMlJmamhTeDhSUDZXMTRpb1pxbQ?oc=5",
+    "sourceUrl": "https://www.edaily.co.kr",
+    "excerpt": "",
+    "date": "2026-09-27"
    },
    {
     "publisher": "시사저널",
