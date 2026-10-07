@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-06T18:21:33.832Z",
+ "generatedAt": "2026-10-07T05:58:40.745Z",
  "source": "Google News RSS",
  "topics": {
   "rate": [
@@ -78,12 +78,12 @@
     "date": "2026-09-23"
    },
    {
-    "publisher": "조선일보",
-    "title": "국토부 장관 \"吳시장과 협의 잘되면 수도권에 10만가구 이상 공급 가능\"",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNd3dQdkdnaGFJSVlGNVc3XzROZE0xUW5WeGRKTzhoZ2dLNDFxWnM5a0lMQ1BoLTNGYzRoR3N1d1UzSTkzcFZvUFVoTXBUay1Pd0ZBR3lFamQxRy1fWFJZOWgyUUJpTFo5Z1hSLVNYVTF4bHhjaS1GcGM1WHF4YU1ISW5oZjczc0Vf?oc=5",
-    "sourceUrl": "https://www.chosun.com",
+    "publisher": "인천일보",
+    "title": "“집만 짓는 신도시 안돼”…추미애, 국토부에 ‘경기도형 주택공급’ 제안",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBqN0J4d3VETHJrV0gxQzVTUkFkX09iNzNiODhYWklhaUhHaUZBVWxVaVJiWDlQZHBQWk9lX1BqeGkxSVlmUnZndkwzNm1kY0lqY1lBZVBaVEEzS3R0aE8xUnhrQXpoMGxOUzZLMl9VR3c?oc=5",
+    "sourceUrl": "https://www.incheonilbo.com",
     "excerpt": "",
-    "date": "2026-08-28"
+    "date": "2026-10-02"
    }
   ],
   "subs": [
@@ -145,7 +145,7 @@
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9qa0c2Vi1EbHdfR2NYOXNwY3AtRnpMb0t6ZVFxTWNGMHVCTUhvcHZJRV85N2JqYWRNaGs4MVBEN25HRVh2R09lMXhCb3lLZTNJczB4U21lUVpjODDSAWBBVV95cUxNOFhrQ3hESU93Z2NnOU9Fb0JlQmIwZ0NiVFFMUkJ1UnVUUG94SmdnVUV6VXhvRHhLd09PejZJYU5wSk4yUWItVmZSU0NjbFhucFg1djRJSzN3WDJiNDRnR3g?oc=5",
     "sourceUrl": "https://www.yna.co.kr",
     "excerpt": "",
-    "date": "2026-09-17"
+    "date": "2026-09-18"
    },
    {
     "publisher": "영등포신문",
@@ -240,6 +240,14 @@
     "date": "2026-09-20"
    },
    {
+    "publisher": "중부일보",
+    "title": "계양 선우아파트 정비구역 지정…추정분담금 최대 5억500만 원",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9RaFFxREJEUE9CZmY1eHBra1FrdXVFalAyU1BFd3hhbjNWY2txd1Bod0N6cUdpVWxIUDBGdHdWMFZNWkF5Qno3VkVoVnFkU29UNl9CNnB4R2R0Y1A2TDlveTlKWFFIaTR1N1RNRUtWTQ?oc=5",
+    "sourceUrl": "https://www.joongboo.com",
+    "excerpt": "",
+    "date": "2026-08-31"
+   },
+   {
     "publisher": "아유경제",
     "title": "[아유경제_부동산] 서초구 ‘재건축 신속 지원단’, 리모델링사업까지 지원 확대",
     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1wRTdHU1E5R3ZXbklVMi02LUFPaU9jVnJhajhfSVlvVTFCWEJNam44TUZPTTJqZy1GNXVoY1pLbG52MXhlel9ONEVoMHRiclNEUTExU0Fva0ZjSm9hQldHOVdEcjBCclk4?oc=5",
@@ -254,17 +262,17 @@
     "sourceUrl": "https://www.dailyhousing.kr",
     "excerpt": "",
     "date": "2026-09-04"
-   },
-   {
-    "publisher": "디벨로퍼뉴스",
-    "title": "여의도 광장28, ‘환급형 재건축’ 확정…일반상업지역 종상향으로 사업성 폭발",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5XOVpMSEtIWjE5NFZjblQyaGx4dU5nTExrazdEWjV2TGxxZGp4UjVwYXhmSkJTc0NYMWlRYjVpWkJORzlkOXc5Tl9HWGczdDlpYXJDekplTVB5dktVSVdXbmxXRlA0SFBy?oc=5",
-    "sourceUrl": "https://www.dpnews.co.kr",
-    "excerpt": "",
-    "date": "2026-08-27"
    }
   ],
   "loan": [
+   {
+    "publisher": "Daum",
+    "title": "당국, 정책금융 등 고정금리 확대 주력…금리인상기 위험 흡수",
+    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB3V3FfNVB2ck9mR0NHbWlfNjI5d1JWN2lIMWFheVo5b3FiZzVQdjRNQVVGN1dRWmZ5OXpjWTlaaHhvWDhOdzBiWWFjNzczSVE?oc=5",
+    "sourceUrl": "https://v.daum.net",
+    "excerpt": "",
+    "date": "2026-09-26"
+   },
    {
     "publisher": "전자신문",
     "title": "금융당국, 정책서민금융·고정금리 대출 확대…차주 리스크 완화 총력",
@@ -278,14 +286,6 @@
     "title": "금융당국, 정책대출·고정금리 확대…금리상승기 부담 완화 By 알파경제 alphabiz",
     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5qREl2NDkwMjFZdGF4Ul90MXRjN3YtT3FxTGlweWlEVmN3bDBTMlhtbFZ3Qk1rQzhja2JSNFNBNkp6ZWFGTmhleHF2RVQ0bGNrVnZtVVZ3aUp5Q0xBT0l1S1htZDZ5R0ZIQ2Y5N19DWXE?oc=5",
     "sourceUrl": "https://kr.investing.com",
-    "excerpt": "",
-    "date": "2026-09-27"
-   },
-   {
-    "publisher": "연합뉴스",
-    "title": "당국, 정책금융 등 고정금리 확대 주력…금리인상기 위험 흡수",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9DZG9BakZoVXJvamJLSEhoZWFXOG1Vam8xQ2dWT2M1WDJOcnl3dE9OVE1hRDgtaldSY3NvdmFyZEY4UGNwcklERFFMUXVhZERrUGRZaW5oUmh3N03SAWBBVV95cUxORktmU3pCSUZOc2NmYlpNYjA3TkNFcWFYMkdPamRIMzR5M1BnUHdQbXV6Z1ZzNV9XcGJNU0poaHN6QU4tSm5fa0lHZzV5cUpzRnRZZGc1b3hHZTZRYzJVRFk?oc=5",
-    "sourceUrl": "https://www.yna.co.kr",
     "excerpt": "",
     "date": "2026-09-27"
    },
@@ -392,6 +392,14 @@
   ],
   "gap": [
    {
+    "publisher": "뉴시스",
+    "title": "\"전세 사라지면 갭투자도 끝?…막 내린 전세 불패, 앞으로 집값은\"",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBNNVJPN2s5NlRkX3hnMXdWR2NTWW92a293RzQzQm1NT1ZiTElpYXViN3ZDR3ozRWNLYWVUQktPYTl3c1lPeDR5Y21kRzU4ckE5djB2SjFaUFp6eHBra0d0a9IBeEFVX3lxTFBnaWRETEp6MXRDV0w1dExJM2ZlQnlYVVA4cE5FV2hxVFA0ZmsyX1ZWTDhRVVNnczllTE1sM2hrMktnTnMzWGRQc1o3OTd6emJmTW9OMjFZRl9WSFBfc1R0Z2wzVlFwVzRKSjNhNzZwY0pQQ08zaTJMMA?oc=5",
+    "sourceUrl": "https://www.newsis.com",
+    "excerpt": "",
+    "date": "2026-09-09"
+   },
+   {
     "publisher": "Daum",
     "title": "악성 임대인 솎아내니 서민만 ‘벼랑 끝’… 깐깐해진 전세보증의 그림자",
     "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5LdDdvdzJyLW1KazAxenBqVlNWdDE1bW1nRzdWMndkNV9jSzA1bkUyVk52SDAzbWhrc2pTOUJpM3p3REw0alRGYTk0cw?oc=5",
@@ -442,12 +450,12 @@
     "date": "2026-08-27"
    },
    {
-    "publisher": "서울파이낸스",
-    "title": "3기 신도시 첫 입주 계양···10월부터 민간 분양도 시동",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBQRDRFWjAxODdVc2lWbUx0dVEyTFlsaFZIWFlUSVlqcTFGQThoREZ2eXJGSVF5cnFqdWV4c244UDFHbHdIQ01JdkJjeUE2UGZqek5fYnZFNTRHajZSTFlLR2FzWUZaVGJzY0E?oc=5",
-    "sourceUrl": "https://www.seoulfn.com",
+    "publisher": "네이버 프리미엄콘텐츠",
+    "title": "3기 신도시 목표 17만 가구, 본청약은 1.5만 — 지구별 달성률 총정리",
+    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE00WGIzc0ZVM3pYcUtKQmEtNm1RV2drVjZJbmNpRTNORTU3azhULUgwMlBNWW5mT0tEdEp5aFA1SDNQS05XZEhvUTRuYk82SE5LOUxXalVLTWtOZWZJQnlCeXZUYXo0cmtvMjBucEJUN1hxV0RFZjA4a3lPRmo?oc=5",
+    "sourceUrl": "https://contents.premium.naver.com",
     "excerpt": "",
-    "date": "2026-09-11"
+    "date": "2026-09-21"
    }
   ]
  }
