@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T06:03:21.582Z",
+ "generatedAt": "2026-10-08T13:28:55.352Z",
  "source": "Google News RSS",
  "topics": {
   "rate": [
@@ -54,14 +54,6 @@
     "date": "2026-09-21"
    },
    {
-    "publisher": "한국주택경제신문",
-    "title": "홍지선 국토부 장관 후보자… “수도권 주택 공급 속도”",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0yeDV4a1hVNDJMTDB3cnJ2ZEt4Tlc3Z3U2enBOUEhxbnRZS2NqQjBiajhoOGI3NV93ejc5OTlxZWZSRGNWdmw2MFp2VEFyanNzSXRfbnNYTHdxT3c3ckFhX3JtVUswMWpW?oc=5",
-    "sourceUrl": "https://www.arunews.com",
-    "excerpt": "",
-    "date": "2026-09-02"
-   },
-   {
     "publisher": "Daum",
     "title": "‘최측근’ 새 국토부 수장… 주택 공급·전월세난 해법 찾을까",
     "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5CNmJPYUl0UjBBaTZRVmdNaHdrVm9pWGxaTTBDcWdzVk1lbDFRQ2MzTW1TbFpUaG9YbThIN2dxUnFIaklfVm5WQUxPQzFwaHM?oc=5",
@@ -76,6 +68,14 @@
     "sourceUrl": "https://www.ohmynews.com",
     "excerpt": "",
     "date": "2026-10-02"
+   },
+   {
+    "publisher": "경향신문",
+    "title": "홍지선 국토장관 “임대주택 비율 10%로 높일 것…30년까지 수도권에 5만3천호 공급”",
+    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5ZczNKME1hdjdiWGl2VEc2WmZEXy1kUjJUM01kWnl5c0lLMU9FYjlCX2gtLVFTa2JVeEFLN0g3clZoZ0RESU9acEhZZ3NCNGhvOUI1R0Q0VXFjWDNyQXcw0gFfQVVfeXFMTllzM0owTWF2N2JYaXZURzZaZkRfLWRSMlQzTWRaeXlzSUsxT0ViOUJfaC0tUVNrYlV4QUs3SDdyVmhnRERJT1pwSFlnc0I0aG85QjVHRDRVcWNYM3JBdzA?oc=5",
+    "sourceUrl": "https://www.khan.co.kr",
+    "excerpt": "",
+    "date": "2026-10-08"
    },
    {
     "publisher": "인천일보",
@@ -106,20 +106,20 @@
     "date": "2026-08-27"
    },
    {
-    "publisher": "KB Think",
-    "title": "비거주 1주택 세금 | 종부세, 양도세 거주 여부로 어떻게 달라질까요?",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5xeTFuYlk0cEdnY0Q0UGNRaHROckJrTVBNNWhwczlrQjRFX2QzS1RkU2piQU9ndmVlalBwQWpLWV9IdlVOYS1xTklzMThqLTR1NjVBM0FnQ2lXSm9QWnIyTC1n?oc=5",
-    "sourceUrl": "https://kbthink.com",
-    "excerpt": "",
-    "date": "2026-08-24"
-   },
-   {
     "publisher": "한국경제",
     "title": "\"사자니 취득세, 살자니 종부세, 주자니 증여세, 죽자니 상속세\" [돈앤톡]",
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4xNncyTmJVQWdVT2xycy05dGV0eEhMNjVxbVdORzdkd0d0NXFjNm55MFRhOXA0dWRpR25vZ0FNN3VVOHMyU0xLX2pXcFVteFRwbnZsd2RQWUNidw?oc=5",
     "sourceUrl": "https://www.hankyung.com",
     "excerpt": "",
     "date": "2026-08-31"
+   },
+   {
+    "publisher": "참여연대",
+    "title": "[기자회견] 부동산 부자 감세 중단과 보유세 정상화 촉구 국회·시민사회·학계 기자회견",
+    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1DWjBTbFgzdDFXMzJrVDlkZXdUQ1REbTlSekxXMzcxZGRIS3N3bHJ5eXRFMnFJUU9nOGg0YkZneXZRaEZTdmNKTHBkNWttUQ?oc=5",
+    "sourceUrl": "https://peoplepower21.org",
+    "excerpt": "",
+    "date": "2026-08-27"
    },
    {
     "publisher": "뉴스투데이",
@@ -130,12 +130,12 @@
     "date": "2026-09-02"
    },
    {
-    "publisher": "문화일보",
-    "title": "보유세·거래세 동시인상… “집 갖고있어도 팔아도 세부담”[부동산 세제 이것은 고쳐야]",
-    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBPZDROdW90bmxpQzJoX016MFd6S3ZLTmZNQWlSTDdlRmFHM2pDYWFkNkxPTDNzckZUY0hQWm1TM3pFbGtpMG93WWFqT3U3ZURk?oc=5",
-    "sourceUrl": "https://www.munhwa.com",
+    "publisher": "홈두부",
+    "title": "(업뎃) 2026 세제개편안 나왔다! 부동산 세제 지각변동 시작",
+    "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFBYbjUxVlQ5c2xld1REM3YzQXViOEV6S2RNU1A2ZHZZUm1PaXZxRGpLeEY4WndCSmFXWXcycGszVUU?oc=5",
+    "sourceUrl": "https://homedubu.com",
     "excerpt": "",
-    "date": "2026-08-24"
+    "date": "2026-09-02"
    }
   ],
   "stat": [
@@ -224,14 +224,6 @@
   ],
   "redev": [
    {
-    "publisher": "경인일보",
-    "title": "광명시 ‘철산·하안 재건축’ 공공임대 확대 요구… 조합 “분담금 증가” 반발",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4tcDBPOWEtN2dOdEc5WUoyejlWcDBJT2lHU1NPU2RmRXJFUVZSTXVDZW5aVzNEV0pLRVI4UDltbUowNnFuZ3ByS2EtNjI1SkN4dmc?oc=5",
-    "sourceUrl": "https://www.kyeongin.com",
-    "excerpt": "",
-    "date": "2026-08-24"
-   },
-   {
     "publisher": "Daum",
     "title": "서울 자치구, 리모델링 사업에도 행정 지원 확대",
     "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE50eHZJTzRSMEtDMDVjSXoxMFVCWVlRdm50aG9OMGhGdmNpcnc5U1RJUXBaSnNvMWYxeGhaMHpJWnk2WXhnZ3c?oc=5",
@@ -254,6 +246,14 @@
     "sourceUrl": "http://www.areyou.co.kr",
     "excerpt": "",
     "date": "2026-09-08"
+   },
+   {
+    "publisher": "디벨로퍼뉴스",
+    "title": "여의도 광장28, ‘환급형 재건축’ 확정…일반상업지역 종상향으로 사업성 폭발",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5XOVpMSEtIWjE5NFZjblQyaGx4dU5nTExrazdEWjV2TGxxZGp4UjVwYXhmSkJTc0NYMWlRYjVpWkJORzlkOXc5Tl9HWGczdDlpYXJDekplTVB5dktVSVdXbmxXRlA0SFBy?oc=5",
+    "sourceUrl": "https://www.dpnews.co.kr",
+    "excerpt": "",
+    "date": "2026-08-27"
    },
    {
     "publisher": "데일리하우징",
@@ -308,14 +308,6 @@
   ],
   "presale": [
    {
-    "publisher": "매일경제",
-    "title": "“청약 당첨돼도 그림의 떡”…분양가 치솟자 1순위 경쟁률 13개월째 한 자릿수",
-    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBwWnZRTG91U2JSS1dyZld0cXp2MUZOSVlvbld4YjBrSWRfbjY5NUZzZWQzYkhpd0lNdlozZGZmUldYaXdIMXFsN1g3ZnR2Y04tRGhVRk9WY1c?oc=5",
-    "sourceUrl": "https://www.mk.co.kr",
-    "excerpt": "",
-    "date": "2026-08-24"
-   },
-   {
     "publisher": "KB Think",
     "title": "KB주택시장 리뷰 2026년 9월호 - 주택 분양",
     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9VNWN3TTBKTlRFVGRGUmhvWkJwQ0RZc1A5SkFSUTZKa2dCbDdvRTgtazBKUElZODE1YkpKUEtxclpNeDhTYmdST01Gbk1qOEhNUHMxUTJma2JSeTFlLURLaUN1aUE4NV9xZEYwcG5UUQ?oc=5",
@@ -346,6 +338,14 @@
     "sourceUrl": "https://www.hankyung.com",
     "excerpt": "",
     "date": "2026-09-21"
+   },
+   {
+    "publisher": "Daum",
+    "title": "지방아파트가 5억→12억…집값 띄운 '멀티세권' 매직[실전재테크]",
+    "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9naTBTZlBkanZGb2ZHZHBlZ3VYMWRjMUMyMHFlaHdVM3RFY1NMVWhweUJPb3JoRkU1RDlhTV9zZWRpV2NoNkE?oc=5",
+    "sourceUrl": "https://v.daum.net",
+    "excerpt": "",
+    "date": "2026-09-16"
    }
   ],
   "gtx": [
@@ -414,6 +414,22 @@
     "sourceUrl": "https://v.daum.net",
     "excerpt": "",
     "date": "2026-09-10"
+   },
+   {
+    "publisher": "뉴스1",
+    "title": "토허제 실거주 유예 1년 더…세입자 낀 매물 거래 '숨통'",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9vYkpHVFp5RXdZVFpfMzhkMzFaV1Jub0RfWUE4U0RZTTVWNmNNNGhtOVhCTHNfblNIVGlLQzlZUEJNTkpjbjkwU3RUX1Y3TkJKU2RoWXB3cy1EUGc?oc=5",
+    "sourceUrl": "https://www.news1.kr",
+    "excerpt": "",
+    "date": "2026-09-17"
+   },
+   {
+    "publisher": "스마트비즈",
+    "title": "\"전세금 못 받았나\"···서울 임차권등기 32% 급감, 송파·영등포 '최다'",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1RVUdnZkd1ZktBZkVKRWktdE9FZ2ZZUEdNeUotazI1R2dvQVdsellGbkRPaFBtMkhObmFFemhiMk9xbFBTR3g1a2Q4V2NVcTJ3akw1QlI2QkNmWlVPbk1mT3A0Ui1xanhld2ROVA?oc=5",
+    "sourceUrl": "https://www.smartbizn.com",
+    "excerpt": "",
+    "date": "2026-09-01"
    }
   ],
   "newtown": [
