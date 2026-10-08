@@ -1,16 +1,8 @@
 {
- "generatedAt": "2026-10-07T23:05:05.028Z",
+ "generatedAt": "2026-10-08T06:03:21.582Z",
  "source": "Google News RSS",
  "topics": {
   "rate": [
-   {
-    "publisher": "더구루",
-    "title": "한은, 두 달 연속 기준금리 인상…부동산 시장 관망세 짙어지나",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBDZlczZXBKbmRBTUZ3QkExQ3pYck9uMS1kbUsyZXpaelZwZTR1T2k3b3d5OVZIUzlIM3ZfZkpPdS0wb01IZXNaQ3VTM2pOUklpOGN0OXhrLThrbE5uR3c?oc=5",
-    "sourceUrl": "https://theguru.co.kr",
-    "excerpt": "",
-    "date": "2026-08-27"
-   },
    {
     "publisher": "https://www.2news.co.kr/",
     "title": "한국은행 기준금리 3% 인상에 따른 주택시장 영향",
@@ -37,11 +29,19 @@
    },
    {
     "publisher": "머니투데이",
-    "title": "\"5년간 빚 갚았는데도\" 월 부담 80만원 뛴다?...주담대 '금리 폭탄' 우려 - 머니투데이",
-    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5QOWw5SzhIdTAzLW9zMmNZbDVZZ2VlbVZpMFhYck9jRE9WaWtZY25mSWtVU1Q5b3hZVkxzcWFpSm44R2tyMFcxZE1mSTliOF82MHhXTVdFQnlmcWdxTGR4TTlUQUxjQ3ZjaUlV0gFwQVVfeXFMTmhVZ0ZBSVF3UFd5UkJTV1BOendCVHdVbkhmSWtiSzNLcXhGRF9NNUlZbEhpRURSQU44ZjNqRlhQQUYwbU9VdTQ5Ui01Vnd1MVZRcHZEa0dFYTZXV2RHYnhtLW40aWU0dUxLcU12Ulk1Qg?oc=5",
+    "title": "\"집 언제 사지\" 타이밍 보는 3040...'기준금리 3% 시대' 부동산 전망은 - 머니투데이",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1jemhKUTdXMHhjazRsNi1TMTBlU3BGQ0xPVW9ibEhzblVTVXpPWk9FZUxGcmtYeVhPVlJIb3h3YkpBTlk4RTdIM2xtQ1EyOEFnSGNXUnU0LVJXMjZ2QWduVk5jaXRtSDZVSXfSAW9BVV95cUxPS2F0ckJKSGtkNEYtaVM1Z3ZWZnVQa3liZWhGOEdBZzRicHYyWTBoY084cEhZVk56S2F3UGxUcHhiMFJxNEQyZ0FXdGdCbFZ3M1h1REF3cmpLTVpycWZGaGppdVQwRFF0TWFLc1ZHUkU?oc=5",
     "sourceUrl": "https://www.mt.co.kr",
     "excerpt": "",
-    "date": "2026-09-01"
+    "date": "2026-08-27"
+   },
+   {
+    "publisher": "중앙일보",
+    "title": "주담대 금리 연 8% 뚫릴 수도…영끌족, 이자폭탄 공포",
+    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9pbkc1UDBNUFVtbzFtWmRBTnNueDFxaVlJZ3lfQ1J3MG14US1LS1BNZEZHVFZDNVJzbXdrOTIyeGEwaF85SUpxLXJvOTNpRF9JRkt4eVJB?oc=5",
+    "sourceUrl": "https://www.joongang.co.kr",
+    "excerpt": "",
+    "date": "2026-08-27"
    }
   ],
   "supply": [
@@ -214,12 +214,12 @@
     "date": "2026-09-17"
    },
    {
-    "publisher": "한국경제",
-    "title": "'세입자 낀 집' 2029년까지 입주 유예…갱신계약까지 허용",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5qdC1BMHAwN2JxZFJaa210VTRBS2w3QjUtaDhwNUNFMGgzbWlUY0tBNkNHaERVbDA0dFBIa180VTZRTWJjMFpPVW8ydERNa2NYOS1PaEVBNWcyZw?oc=5",
-    "sourceUrl": "https://www.hankyung.com",
+    "publisher": "마켓인",
+    "title": "전세거래 급감하는 사이 월세 3배 는 중랑구…'서울 월세화' 축소판",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE03UGtXZENjelFDby1zN3Y5YzRaMDFfMm5rZTA3Q01DRnVDQ0R0YUYzUk5McXhTZHlRSEdlTnRkRm85VDYzdkJhZUVXWVJWOEVFVDdycGRpZmJGVVY5OV9TQXM3SW5QdEFySlZ0UkVKMGNjdHc?oc=5",
+    "sourceUrl": "https://marketin.edaily.co.kr",
     "excerpt": "",
-    "date": "2026-09-17"
+    "date": "2026-09-27"
    }
   ],
   "redev": [
@@ -240,6 +240,14 @@
     "date": "2026-09-20"
    },
    {
+    "publisher": "중부일보",
+    "title": "계양 선우아파트 정비구역 지정…추정분담금 최대 5억500만 원",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9RaFFxREJEUE9CZmY1eHBra1FrdXVFalAyU1BFd3hhbjNWY2txd1Bod0N6cUdpVWxIUDBGdHdWMFZNWkF5Qno3VkVoVnFkU29UNl9CNnB4R2R0Y1A2TDlveTlKWFFIaTR1N1RNRUtWTQ?oc=5",
+    "sourceUrl": "https://www.joongboo.com",
+    "excerpt": "",
+    "date": "2026-08-31"
+   },
+   {
     "publisher": "아유경제",
     "title": "[아유경제_부동산] 서초구 ‘재건축 신속 지원단’, 리모델링사업까지 지원 확대",
     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1wRTdHU1E5R3ZXbklVMi02LUFPaU9jVnJhajhfSVlvVTFCWEJNam44TUZPTTJqZy1GNXVoY1pLbG52MXhlel9ONEVoMHRiclNEUTExU0Fva0ZjSm9hQldHOVdEcjBCclk4?oc=5",
@@ -254,14 +262,6 @@
     "sourceUrl": "https://www.dailyhousing.kr",
     "excerpt": "",
     "date": "2026-09-04"
-   },
-   {
-    "publisher": "디벨로퍼뉴스",
-    "title": "여의도 광장28, ‘환급형 재건축’ 확정…일반상업지역 종상향으로 사업성 폭발",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5XOVpMSEtIWjE5NFZjblQyaGx4dU5nTExrazdEWjV2TGxxZGp4UjVwYXhmSkJTc0NYMWlRYjVpWkJORzlkOXc5Tl9HWGczdDlpYXJDekplTVB5dktVSVdXbmxXRlA0SFBy?oc=5",
-    "sourceUrl": "https://www.dpnews.co.kr",
-    "excerpt": "",
-    "date": "2026-08-27"
    }
   ],
   "loan": [
@@ -290,18 +290,18 @@
     "date": "2026-08-26"
    },
    {
+    "publisher": "www.ebn.co.kr",
+    "title": "[금융위 국감] 가계대출 총량 3%로 넓힌다…주택공급 금융 47.8조원+α",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5iT2lZX1REVXYyVzkwMVRIaTA4Q2lSOVFpUDJnUGJSMEgzWTQ5NjZheWppRm9mVjV2QmtmMGtWRzBoU0o4Z0JCcG9RM3VGS2NDT3R1YzhZYTY2cDc4bjZOTzk3a05IRHpR?oc=5",
+    "sourceUrl": "https://www.ebn.co.kr",
+    "excerpt": "",
+    "date": "2026-10-08"
+   },
+   {
     "publisher": "Daum",
     "title": "금리 인상 충격 막는다…금융당국, 취약차주 방어막 강화",
     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1aWG5KbDhZcmxkcGNXRjFQd3BYeUdiOHlteERTTW1FdXZYSHBYRlhEWm5NdzFLVDNRaV85VkRoQ3Z6RkVsbDBiaVZlVWlZUG5YdWZJUg?oc=5",
     "sourceUrl": "https://v.daum.net",
-    "excerpt": "",
-    "date": "2026-09-27"
-   },
-   {
-    "publisher": "한국일보",
-    "title": "금리 뛰자 싼 변동금리 쏠림 극심…당국, 고정금리 정책대출 확대 검토",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE45NWlaaEZ6bWJDWVpUUGx2NjN0WURSZEVmYWRfMEc4aG5zRG5CMWdiYzQyektqNzVrbGNobzJPaXE3LXp3NUpWS19Nc0tjMWo5YWJlbkt5Tjhrci1iVmJKLUpUZDVYTGM1bl9iQXhn0gFzQVVfeXFMT1hGUm9pcFZsOXQxdl9RMzN5a1pBMENWS050MjE3QUw0cklqSjA1QXZOd1JnLTRrd2xkamI3X1o2TlhhUkNoT3BDLXFQSXFMaDNjNlhseE4tV3hCTnR6elo0azVLVll1dTVjZk42eUNTbmtvWQ?oc=5",
-    "sourceUrl": "https://www.hankookilbo.com",
     "excerpt": "",
     "date": "2026-09-27"
    }
