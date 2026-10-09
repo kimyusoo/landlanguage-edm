@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T23:20:37.838Z",
+ "generatedAt": "2026-10-09T06:07:58.862Z",
  "source": "Google News RSS",
  "topics": {
   "rate": [
@@ -62,6 +62,14 @@
     "date": "2026-10-08"
    },
    {
+    "publisher": "경기도청",
+    "title": "열린도지사실",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1TdVJFY3Zmd1lZeUtSTHJLNG5POGt6LW1rdm5SOEN6YkpGZVF5LXVrVExPS3hxZnBxdzd2aDhxZXNuTVZMYmlWRmtIY3NNSnhVOFBhR3N1djV0Q2czTTRtQXNMVzNCLS1WMEpxRUk0NFpLU1E?oc=5",
+    "sourceUrl": "https://www.gg.go.kr",
+    "excerpt": "",
+    "date": "2026-10-03"
+   },
+   {
     "publisher": "Daum",
     "title": "‘최측근’ 새 국토부 수장… 주택 공급·전월세난 해법 찾을까",
     "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5CNmJPYUl0UjBBaTZRVmdNaHdrVm9pWGxaTTBDcWdzVk1lbDFRQ2MzTW1TbFpUaG9YbThIN2dxUnFIaklfVm5WQUxPQzFwaHM?oc=5",
@@ -74,14 +82,6 @@
     "title": "추미애, '경기도형 주택공급' 직접 뛴다… 국토부에 권한 확대 요구",
     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8xZEk2Z0VwVklhQ2VzajIxYVVXTG9feUQyRWNQM2xOUEJOMVpQX3VmZWhxdjR2ck9KWF9BVlh0S3VoRE5zWnJjc2tQbGRYc0dDTkU2TGtETjF0a0x0UF9UekptUmdsM1NJTlFMejYyOGlNaUxhRjJJ?oc=5",
     "sourceUrl": "https://www.ohmynews.com",
-    "excerpt": "",
-    "date": "2026-10-02"
-   },
-   {
-    "publisher": "인천일보",
-    "title": "“집만 짓는 신도시 안돼”…추미애, 국토부에 ‘경기도형 주택공급’ 제안",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBqN0J4d3VETHJrV0gxQzVTUkFkX09iNzNiODhYWklhaUhHaUZBVWxVaVJiWDlQZHBQWk9lX1BqeGkxSVlmUnZndkwzNm1kY0lqY1lBZVBaVEEzS3R0aE8xUnhrQXpoMGxOUzZLMl9VR3c?oc=5",
-    "sourceUrl": "https://www.incheonilbo.com",
     "excerpt": "",
     "date": "2026-10-02"
    }
@@ -122,12 +122,12 @@
     "date": "2026-08-27"
    },
    {
-    "publisher": "KB Think",
-    "title": "세제 개편, 1가구 1주택자도 무풍지대 아냐",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE15UzJYcFNXUXdMd1lKX0Zya1FmcEVNM2hpVE1aSkhVbTYxSVBBcEY1TVNOeTdBUWxwSGFPZjc1LUFMc2JtcXN0LTBJQ1FPVmdtcGhvdVJVQV9yMzlQSFE?oc=5",
-    "sourceUrl": "https://kbthink.com",
+    "publisher": "하우징헤럴드",
+    "title": "2026년 부동산 세제개편 주요 내용 및 대처방안",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9FTmp5em9PMlR6VGJhUTRsVEhraFgxTlRqSnFZWDJOejZIUVZPSG9pOTFLNVhQX1RhNUxFR2dEdHFIZ3NkZU40R1JCRUFEVl9PeUVnSktFbXlFSFhuaC1RVG5zYnV2eWFmZG9kV3Rpd2lSZUk?oc=5",
+    "sourceUrl": "https://www.housingherald.co.kr",
     "excerpt": "",
-    "date": "2026-09-01"
+    "date": "2026-09-04"
    },
    {
     "publisher": "뉴스투데이",
@@ -145,7 +145,7 @@
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9qa0c2Vi1EbHdfR2NYOXNwY3AtRnpMb0t6ZVFxTWNGMHVCTUhvcHZJRV85N2JqYWRNaGs4MVBEN25HRVh2R09lMXhCb3lLZTNJczB4U21lUVpjODDSAWBBVV95cUxNOFhrQ3hESU93Z2NnOU9Fb0JlQmIwZ0NiVFFMUkJ1UnVUUG94SmdnVUV6VXhvRHhLd09PejZJYU5wSk4yUWItVmZSU0NjbFhucFg1djRJSzN3WDJiNDRnR3g?oc=5",
     "sourceUrl": "https://www.yna.co.kr",
     "excerpt": "",
-    "date": "2026-09-18"
+    "date": "2026-09-17"
    },
    {
     "publisher": "더구루",
@@ -248,20 +248,20 @@
     "date": "2026-09-08"
    },
    {
-    "publisher": "디벨로퍼뉴스",
-    "title": "여의도 광장28, ‘환급형 재건축’ 확정…일반상업지역 종상향으로 사업성 폭발",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5XOVpMSEtIWjE5NFZjblQyaGx4dU5nTExrazdEWjV2TGxxZGp4UjVwYXhmSkJTc0NYMWlRYjVpWkJORzlkOXc5Tl9HWGczdDlpYXJDekplTVB5dktVSVdXbmxXRlA0SFBy?oc=5",
-    "sourceUrl": "https://www.dpnews.co.kr",
-    "excerpt": "",
-    "date": "2026-08-27"
-   },
-   {
     "publisher": "데일리하우징",
     "title": "1기 신도시 최초 ‘도정법 적용’ 재건축, 산본 한라주공4단지1차...분담금은 얼마?",
     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE03b092eDBhN1haeVBZSmU2VjlDYlZuRlNTQ3ZDMm1XendSOW9mRVExYUdoekpCTzU3MDhJNG96Z1ZKVWNha1ZMblNCNVVHMWJlTDJxb0l6c3NGYXo3cldZRk9TV0NySFpVZ01Z?oc=5",
     "sourceUrl": "https://www.dailyhousing.kr",
     "excerpt": "",
     "date": "2026-09-04"
+   },
+   {
+    "publisher": "디벨로퍼뉴스",
+    "title": "여의도 광장28, ‘환급형 재건축’ 확정…일반상업지역 종상향으로 사업성 폭발",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5XOVpMSEtIWjE5NFZjblQyaGx4dU5nTExrazdEWjV2TGxxZGp4UjVwYXhmSkJTc0NYMWlRYjVpWkJORzlkOXc5Tl9HWGczdDlpYXJDekplTVB5dktVSVdXbmxXRlA0SFBy?oc=5",
+    "sourceUrl": "https://www.dpnews.co.kr",
+    "excerpt": "",
+    "date": "2026-08-27"
    }
   ],
   "loan": [
@@ -276,7 +276,7 @@
    {
     "publisher": "연합뉴스",
     "title": "당국, 정책금융 등 고정금리 확대 주력…금리인상기 위험 흡수",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9DZG9BakZoVXJvamJLSEhoZWFXOG1Vam8xQ2dWT2M1WDJOcnl3dE9OVE1hRDgtaldSY3NvdmFyZEY4UGNwcklERFFMUXVhZERrUGRZaW5oUmh3N03SAWBBVV95cUxORktmU3pCSUZOc2NmYlpNYjA3TkNFcWFYMkdPamRIMzR5M1BnUHdQbXV6Z1ZzNV9XcGJNU0poaHN6QU4tSm5fa0lHZzV5cUpzRnRZZGc1b3hHZTZRYzJVRFk?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9DZG9BakZoVXJvamJLSEhoZWFXOG1Vam8xQ2dWT2M1WDJOcnl3dE9OVE1hRDgtaldSY3NvdmFyZEY4UGNwcklERFFMUXVhZERrUGRZaW5oUmh3N00?oc=5",
     "sourceUrl": "https://www.yna.co.kr",
     "excerpt": "",
     "date": "2026-09-27"
@@ -382,12 +382,12 @@
     "date": "2026-09-22"
    },
    {
-    "publisher": "스마트비즈",
-    "title": "GTX-C 착공한 의정부역···'49층·1300세대' 초고층 복합타워 들어선다",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5MYnZZNHRCWnhCUUdWQVozakF1YkNieGFVdXZsZWFtSDFFM0VLSHRhYVl0VW1qVTdfYUtqeU02Q3NjQkttSndmVjBBNlJYVFZvZXF1Q0hSTDdXLUFWWkxOSmJiaFZIVDA2aW5fbg?oc=5",
-    "sourceUrl": "https://www.smartbizn.com",
+    "publisher": "일요시사",
+    "title": "내 집 마련? 길에 물어봐!",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBMUkVzWGVKcWkwaGdDUVVicHRiY3hwN0NEYmEycEc2V0w4Y0tlcE5yM2Jmbmk5Y0dOMVVRbXRQQ0lVbXI1M1pDNjhIRkZzbFJDUkFSX3ZDWk5ERHBXMUxiMTJPZjM?oc=5",
+    "sourceUrl": "https://www.ilyosisa.co.kr",
     "excerpt": "",
-    "date": "2026-10-06"
+    "date": "2026-08-25"
    }
   ],
   "gap": [
@@ -424,30 +424,22 @@
     "date": "2026-09-17"
    },
    {
-    "publisher": "스마트비즈",
-    "title": "\"전세금 못 받았나\"···서울 임차권등기 32% 급감, 송파·영등포 '최다'",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1RVUdnZkd1ZktBZkVKRWktdE9FZ2ZZUEdNeUotazI1R2dvQVdsellGbkRPaFBtMkhObmFFemhiMk9xbFBTR3g1a2Q4V2NVcTJ3akw1QlI2QkNmWlVPbk1mT3A0Ui1xanhld2ROVA?oc=5",
-    "sourceUrl": "https://www.smartbizn.com",
+    "publisher": "뉴데일리",
+    "title": "악성 임대인 단 4명에 4633억 … HUG, 전세사기 엮여 떼인 돈만 6조8000억원",
+    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9PSm5oSllPcnNxZlZINHV2azFjNFRDT2lmc0hVNjRHaGZUT1B0Mld6enpKQ3lKRlR2OFNvUjNnYktKelZ0R3U5Ym5aR0RKS0dsMXhtQ1JFQTlzU0RLVEVHdFV6VmI4cXpzM1ZVUGt3U1U1bkhRSFpFWjlhQdIBgAFBVV95cUxOQmI5VF9RZzNSQUk3LXFTX0w0dEs5dmhKWWtuWDJfZVo1QUlOSl9ZZFlrS2txRThReVpYWVgwellXcTZEbDZtS1VLc256MF92RXBHOE1KeWNrWXVyazJpeUFOdUR3LXJxQWRacFZNU0xkQUc4NmN1bjJtRlhxNVFnTQ?oc=5",
+    "sourceUrl": "https://biz.newdaily.co.kr",
     "excerpt": "",
-    "date": "2026-09-01"
+    "date": "2026-09-16"
    }
   ],
   "newtown": [
    {
-    "publisher": "Daum",
+    "publisher": "헤럴드경제",
     "title": "“4년 기다렸는데 또...” 3기 신도시 사전청약단지 60%가 본청약 지연 [부동산360]",
-    "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBGaTloWXVsZDNSTHpkRml6NlNlVllsejdSamZ1YndQbkNSazRPY2VSUWE0YWZUUUc2TGtrU28ySnV1TTFLWXc?oc=5",
-    "sourceUrl": "https://v.daum.net",
+    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9kZTBGZU1TWDYwSlZUMkg1Sm45SGZpaWlaWjl0QjV3enpwRUxFbGF0MDQtMWFsTEdMMkwzOWZwLUNPZWlsdDJGR0hkREU1Q2ZYNHdja3VR?oc=5",
+    "sourceUrl": "https://biz.heraldcorp.com",
     "excerpt": "",
     "date": "2026-09-26"
-   },
-   {
-    "publisher": "마켓인",
-    "title": "추석 끝나자 3기 신도시 청약…계양·대장·왕숙 줄줄이 공급",
-    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9DcTdwVWx1OUVOWmlDQ251TXZBSHZBSlFuZWRnaXBFU1dldm1WdTVzSkdPV1lfdjByMWhLZk5JbHVmR2FIQmVaZ2tORUVvaDRTMnRnZkFmSUxfNVRnYXpIZnoxVEM4YUFFM3IxbkV1a0o1WTQ?oc=5",
-    "sourceUrl": "https://marketin.edaily.co.kr",
-    "excerpt": "",
-    "date": "2026-09-27"
    },
    {
     "publisher": "남양주뉴스",
@@ -458,12 +450,12 @@
     "date": "2026-09-22"
    },
    {
-    "publisher": "네이버 프리미엄콘텐츠",
-    "title": "3기 신도시 목표 17만 가구, 본청약은 1.5만 — 지구별 달성률 총정리",
-    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE00WGIzc0ZVM3pYcUtKQmEtNm1RV2drVjZJbmNpRTNORTU3azhULUgwMlBNWW5mT0tEdEp5aFA1SDNQS05XZEhvUTRuYk82SE5LOUxXalVLTWtOZWZJQnlCeXZUYXo0cmtvMjBucEJUN1hxV0RFZjA4a3lPRmo?oc=5",
-    "sourceUrl": "https://contents.premium.naver.com",
+    "publisher": "마켓인",
+    "title": "추석 끝나자 3기 신도시 청약…계양·대장·왕숙 줄줄이 공급",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9DcTdwVWx1OUVOWmlDQ251TXZBSHZBSlFuZWRnaXBFU1dldm1WdTVzSkdPV1lfdjByMWhLZk5JbHVmR2FIQmVaZ2tORUVvaDRTMnRnZkFmSUxfNVRnYXpIZnoxVEM4YUFFM3IxbkV1a0o1WTQ?oc=5",
+    "sourceUrl": "https://marketin.edaily.co.kr",
     "excerpt": "",
-    "date": "2026-09-21"
+    "date": "2026-09-27"
    },
    {
     "publisher": "브릿지경제",
@@ -472,6 +464,14 @@
     "sourceUrl": "https://m.viva100.com",
     "excerpt": "",
     "date": "2026-08-27"
+   },
+   {
+    "publisher": "네이버 프리미엄콘텐츠",
+    "title": "3기 신도시 목표 17만 가구, 본청약은 1.5만 — 지구별 달성률 총정리",
+    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE00WGIzc0ZVM3pYcUtKQmEtNm1RV2drVjZJbmNpRTNORTU3azhULUgwMlBNWW5mT0tEdEp5aFA1SDNQS05XZEhvUTRuYk82SE5LOUxXalVLTWtOZWZJQnlCeXZUYXo0cmtvMjBucEJUN1hxV0RFZjA4a3lPRmo?oc=5",
+    "sourceUrl": "https://contents.premium.naver.com",
+    "excerpt": "",
+    "date": "2026-09-21"
    }
   ]
  }
