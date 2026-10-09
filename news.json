@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-09T13:16:07.566Z",
+ "generatedAt": "2026-10-09T22:37:58.025Z",
  "source": "Google News RSS",
  "topics": {
   "rate": [
@@ -54,6 +54,14 @@
     "date": "2026-09-21"
    },
    {
+    "publisher": "한국주택경제신문",
+    "title": "홍지선 국토부 장관 후보자… “수도권 주택 공급 속도”",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0yeDV4a1hVNDJMTDB3cnJ2ZEt4Tlc3Z3U2enBOUEhxbnRZS2NqQjBiajhoOGI3NV93ejc5OTlxZWZSRGNWdmw2MFp2VEFyanNzSXRfbnNYTHdxT3c3ckFhX3JtVUswMWpW?oc=5",
+    "sourceUrl": "https://www.arunews.com",
+    "excerpt": "",
+    "date": "2026-09-02"
+   },
+   {
     "publisher": "경향신문",
     "title": "홍지선 국토장관 “임대주택 비율 10%로 높일 것…30년까지 수도권에 5만3천호 공급”",
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE50ZVdIdmlNUlY4QUxxbm9XVEhyX2ZwandCRXI0Y3p6UWNZTG1YNFlCMVp1RHhlWUx1aWw2eFFBWFJrSlZJcy04dktMVDkwdlFyTXVmb0I4OEN5Z9IBX0FVX3lxTE5ZczNKME1hdjdiWGl2VEc2WmZEXy1kUjJUM01kWnl5c0lLMU9FYjlCX2gtLVFTa2JVeEFLN0g3clZoZ0RESU9acEhZZ3NCNGhvOUI1R0Q0VXFjWDNyQXcw?oc=5",
@@ -76,14 +84,6 @@
     "sourceUrl": "https://v.daum.net",
     "excerpt": "",
     "date": "2026-09-23"
-   },
-   {
-    "publisher": "OhmyNews",
-    "title": "추미애, '경기도형 주택공급' 직접 뛴다… 국토부에 권한 확대 요구",
-    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8xZEk2Z0VwVklhQ2VzajIxYVVXTG9feUQyRWNQM2xOUEJOMVpQX3VmZWhxdjR2ck9KWF9BVlh0S3VoRE5zWnJjc2tQbGRYc0dDTkU2TGtETjF0a0x0UF9UekptUmdsM1NJTlFMejYyOGlNaUxhRjJJ?oc=5",
-    "sourceUrl": "https://www.ohmynews.com",
-    "excerpt": "",
-    "date": "2026-10-02"
    }
   ],
   "tax": [
@@ -135,7 +135,7 @@
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9qa0c2Vi1EbHdfR2NYOXNwY3AtRnpMb0t6ZVFxTWNGMHVCTUhvcHZJRV85N2JqYWRNaGs4MVBEN25HRVh2R09lMXhCb3lLZTNJczB4U21lUVpjODDSAWBBVV95cUxNOFhrQ3hESU93Z2NnOU9Fb0JlQmIwZ0NiVFFMUkJ1UnVUUG94SmdnVUV6VXhvRHhLd09PejZJYU5wSk4yUWItVmZSU0NjbFhucFg1djRJSzN3WDJiNDRnR3g?oc=5",
     "sourceUrl": "https://www.yna.co.kr",
     "excerpt": "",
-    "date": "2026-09-18"
+    "date": "2026-09-17"
    },
    {
     "publisher": "더구루",
@@ -188,14 +188,6 @@
     "date": "2026-09-15"
    },
    {
-    "publisher": "연합뉴스",
-    "title": "[서미숙의 집수다] '토허구역+대출규제 확대' 11개월…내몰리는 임차인들",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9jY0RDTmVESjF1UWJMMFlfQklUYWc2V1J0b3B6Yi1HZkRySUFJNHVUdHpuNzl1aGRxRVU2RFBiTkxJRkpTR1NTVEJHdTR6SU1DeE1yNEJLRVR6c2fSAWBBVV95cUxPWUJmV3g5cnFmQmhfazBaOGNTU1gyVHpMSDlsdnZZUlNIcC1fYUtwYU8wZl9rV1RZR0pCQW9EYXhNWjFRYk1VdVVoMjZtenlKNHctYXlTQkhzTjZFajBOams?oc=5",
-    "sourceUrl": "https://www.yna.co.kr",
-    "excerpt": "",
-    "date": "2026-09-17"
-   },
-   {
     "publisher": "매일경제",
     "title": "“집주인이 월세 두 배로 올린답니다”…‘울며 겨자 먹기’ 합의갱신에 세입자 한숨",
     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBRUC1vdHQxVVVTTG1Hald6ZVJ6T1EtanpfcUcydjRONkV1RTJQemV2aGlKaXNzYTUwRl9hMGVsLWdSbWdWQUxuLVBQOW5zSTBFcDk3RjRtVDI?oc=5",
@@ -210,9 +202,25 @@
     "sourceUrl": "https://www.nbntv.kr",
     "excerpt": "",
     "date": "2026-09-30"
+   },
+   {
+    "publisher": "핀포인트뉴스",
+    "title": "“전세 재계약하려니 8000만원 더 내라”…서울 세입자 ‘비명’",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1sbkZ2ZmJzcWdIa3BfczRjOXY2bThIajlwTGdkajJ0eVYxRUdqdWIydDVObU1TNEdDaTFhZzQ4TFpSTktZemVodXBHNThVM05QRFdqNDRIYXNOX0JEQllXRE92bmlqdG5jNlhCcG40OHM4OUXSAXdBVV95cUxNYVhpbVhSMmMtX1plYjFvSW5wb3RtZHhxcmU4NTY2R1NXRjJOVjhGVWFCMGtuQlRadWVvT3BYdC1RemxSeUlkZUNvWUtoMERIV0RSVGJxUTJwU1NTNnNjV0I4eGtaNF9pa0FiOEdLMnE5cWpZTk0tUQ?oc=5",
+    "sourceUrl": "https://www.pinpointnews.co.kr",
+    "excerpt": "",
+    "date": "2026-09-27"
    }
   ],
   "redev": [
+   {
+    "publisher": "머니투데이",
+    "title": "[챗집피티] 40년 된 송파 '알짜' 오금현대…1.6조에 삼성·포스코 경쟁 - 머니투데이",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9qTGtaZnZtckRldExxMVN3dThoekl3R1psMmtadmxhNmJsYmtfNnBEUGNjT0M1ZTRtRVp2UWxUTl8yY3ktLWVUbEJ0VzVlLTlyNGJERXJyS0Uya0JtUTlyM2hMX1ZhekFXMk1vamt4SdIBb0FVX3lxTE9qTGtaZnZtckRldExxMVN3dThoekl3R1psMmtadmxhNmJsYmtfNnBEUGNjT0M1ZTRtRVp2UWxUTl8yY3ktLWVUbEJ0VzVlLTlyNGJERXJyS0Uya0JtUTlyM2hMX1ZhekFXMk1vamt4SQ?oc=5",
+    "sourceUrl": "https://www.mt.co.kr",
+    "excerpt": "",
+    "date": "2026-10-09"
+   },
    {
     "publisher": "Daum",
     "title": "서울 자치구, 리모델링 사업에도 행정 지원 확대",
@@ -244,30 +252,22 @@
     "sourceUrl": "https://www.dpnews.co.kr",
     "excerpt": "",
     "date": "2026-08-27"
-   },
-   {
-    "publisher": "한국도시환경헤럴드",
-    "title": "[학술대회 집중포커스①] 노후계획도시 정비, ‘단지 재건축’ 넘어 ‘도시 재창조’로",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5obWR2dm5nTXpCbFM4dE1SS3lXQmhtd1ZPQ293dGs0cXZ2OUh2a3V4ZjVqOGlBdVZKYUR5MVczT09ueWgyVlcwejV2bko0cF9JRjZiSTM0ZHRmLUxxWVhQRWdVZUNFUlNsX3VxT9IBcEFVX3lxTE1DbTRCc19iWVNUSUFsMm1iSURvcGFVUks2dkw0WFdDeV8yNnFnYnVXMmpoSjY4Y2liUWxRcVpzMnVhS2RCS2F4dy1ZN05oYXNPM2tFZ3B2V3BUbHJLV2UtYWhROTEwUkt1Vk9oYTVJSjU?oc=5",
-    "sourceUrl": "http://www.kueherald.co.kr",
-    "excerpt": "",
-    "date": "2026-09-07"
    }
   ],
   "loan": [
+   {
+    "publisher": "Daum",
+    "title": "당국, 정책금융 등 고정금리 확대 주력…금리인상기 위험 흡수",
+    "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFB4OHRhNVVBQ3EweVF4MUlHOHQ0d2o4VmZHbDRvSHNUdkFVS0pDZG12SXFGNkNQMXhadXc1R0xnWUd4cUVhVmc?oc=5",
+    "sourceUrl": "https://v.daum.net",
+    "excerpt": "",
+    "date": "2026-09-26"
+   },
    {
     "publisher": "전자신문",
     "title": "금융당국, 정책서민금융·고정금리 대출 확대…차주 리스크 완화 총력",
     "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5UMUd0dko1N1FtOEJTamVySDItTDJYUHh0OGluZ085NEFtVlFlMXRwWVBab1ZtSGVQTVRZakdLUVZrYWI5X3pDcmdJb0RaQQ?oc=5",
     "sourceUrl": "https://www.etnews.com",
-    "excerpt": "",
-    "date": "2026-09-27"
-   },
-   {
-    "publisher": "연합뉴스",
-    "title": "당국, 정책금융 등 고정금리 확대 주력…금리인상기 위험 흡수",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9DZG9BakZoVXJvamJLSEhoZWFXOG1Vam8xQ2dWT2M1WDJOcnl3dE9OVE1hRDgtaldSY3NvdmFyZEY4UGNwcklERFFMUXVhZERrUGRZaW5oUmh3N03SAWBBVV95cUxORktmU3pCSUZOc2NmYlpNYjA3TkNFcWFYMkdPamRIMzR5M1BnUHdQbXV6Z1ZzNV9XcGJNU0poaHN6QU4tSm5fa0lHZzV5cUpzRnRZZGc1b3hHZTZRYzJVRFk?oc=5",
-    "sourceUrl": "https://www.yna.co.kr",
     "excerpt": "",
     "date": "2026-09-27"
    },
