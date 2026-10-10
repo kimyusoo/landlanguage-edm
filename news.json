@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-09T22:37:58.025Z",
+ "generatedAt": "2026-10-10T05:51:58.964Z",
  "source": "Google News RSS",
  "topics": {
   "rate": [
@@ -54,20 +54,20 @@
     "date": "2026-09-21"
    },
    {
-    "publisher": "한국주택경제신문",
-    "title": "홍지선 국토부 장관 후보자… “수도권 주택 공급 속도”",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0yeDV4a1hVNDJMTDB3cnJ2ZEt4Tlc3Z3U2enBOUEhxbnRZS2NqQjBiajhoOGI3NV93ejc5OTlxZWZSRGNWdmw2MFp2VEFyanNzSXRfbnNYTHdxT3c3ckFhX3JtVUswMWpW?oc=5",
-    "sourceUrl": "https://www.arunews.com",
-    "excerpt": "",
-    "date": "2026-09-02"
-   },
-   {
     "publisher": "경향신문",
     "title": "홍지선 국토장관 “임대주택 비율 10%로 높일 것…30년까지 수도권에 5만3천호 공급”",
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE50ZVdIdmlNUlY4QUxxbm9XVEhyX2ZwandCRXI0Y3p6UWNZTG1YNFlCMVp1RHhlWUx1aWw2eFFBWFJrSlZJcy04dktMVDkwdlFyTXVmb0I4OEN5Z9IBX0FVX3lxTE5ZczNKME1hdjdiWGl2VEc2WmZEXy1kUjJUM01kWnl5c0lLMU9FYjlCX2gtLVFTa2JVeEFLN0g3clZoZ0RESU9acEhZZ3NCNGhvOUI1R0Q0VXFjWDNyQXcw?oc=5",
     "sourceUrl": "https://www.khan.co.kr",
     "excerpt": "",
     "date": "2026-10-08"
+   },
+   {
+    "publisher": "한국주택경제신문",
+    "title": "홍지선 국토부 장관 후보자… “수도권 주택 공급 속도”",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0yeDV4a1hVNDJMTDB3cnJ2ZEt4Tlc3Z3U2enBOUEhxbnRZS2NqQjBiajhoOGI3NV93ejc5OTlxZWZSRGNWdmw2MFp2VEFyanNzSXRfbnNYTHdxT3c3ckFhX3JtVUswMWpW?oc=5",
+    "sourceUrl": "https://www.arunews.com",
+    "excerpt": "",
+    "date": "2026-09-02"
    },
    {
     "publisher": "경기도청",
@@ -79,11 +79,11 @@
    },
    {
     "publisher": "Daum",
-    "title": "‘최측근’ 새 국토부 수장… 주택 공급·전월세난 해법 찾을까",
-    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5CNmJPYUl0UjBBaTZRVmdNaHdrVm9pWGxaTTBDcWdzVk1lbDFRQ2MzTW1TbFpUaG9YbThIN2dxUnFIaklfVm5WQUxPQzFwaHM?oc=5",
+    "title": "‘최측근’ 새 국토부 수장… 주택 공급·전월세 해법 찾을까",
+    "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1TSE5BbjAya1Y5WnMyMWx3VU93Z0t5U3ExVEU1em81WF9XYkQ1VnB2eE5JT084eUpVYWNfWkM5YUxnTUtZSkE?oc=5",
     "sourceUrl": "https://v.daum.net",
     "excerpt": "",
-    "date": "2026-09-23"
+    "date": "2026-09-22"
    }
   ],
   "tax": [
@@ -188,6 +188,14 @@
     "date": "2026-09-15"
    },
    {
+    "publisher": "연합뉴스",
+    "title": "[서미숙의 집수다] '토허구역+대출규제 확대' 11개월…내몰리는 임차인들",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9jY0RDTmVESjF1UWJMMFlfQklUYWc2V1J0b3B6Yi1HZkRySUFJNHVUdHpuNzl1aGRxRVU2RFBiTkxJRkpTR1NTVEJHdTR6SU1DeE1yNEJLRVR6c2fSAWBBVV95cUxPWUJmV3g5cnFmQmhfazBaOGNTU1gyVHpMSDlsdnZZUlNIcC1fYUtwYU8wZl9rV1RZR0pCQW9EYXhNWjFRYk1VdVVoMjZtenlKNHctYXlTQkhzTjZFajBOams?oc=5",
+    "sourceUrl": "https://www.yna.co.kr",
+    "excerpt": "",
+    "date": "2026-09-17"
+   },
+   {
     "publisher": "매일경제",
     "title": "“집주인이 월세 두 배로 올린답니다”…‘울며 겨자 먹기’ 합의갱신에 세입자 한숨",
     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBRUC1vdHQxVVVTTG1Hald6ZVJ6T1EtanpfcUcydjRONkV1RTJQemV2aGlKaXNzYTUwRl9hMGVsLWdSbWdWQUxuLVBQOW5zSTBFcDk3RjRtVDI?oc=5",
@@ -202,14 +210,6 @@
     "sourceUrl": "https://www.nbntv.kr",
     "excerpt": "",
     "date": "2026-09-30"
-   },
-   {
-    "publisher": "핀포인트뉴스",
-    "title": "“전세 재계약하려니 8000만원 더 내라”…서울 세입자 ‘비명’",
-    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1sbkZ2ZmJzcWdIa3BfczRjOXY2bThIajlwTGdkajJ0eVYxRUdqdWIydDVObU1TNEdDaTFhZzQ4TFpSTktZemVodXBHNThVM05QRFdqNDRIYXNOX0JEQllXRE92bmlqdG5jNlhCcG40OHM4OUXSAXdBVV95cUxNYVhpbVhSMmMtX1plYjFvSW5wb3RtZHhxcmU4NTY2R1NXRjJOVjhGVWFCMGtuQlRadWVvT3BYdC1RemxSeUlkZUNvWUtoMERIV0RSVGJxUTJwU1NTNnNjV0I4eGtaNF9pa0FiOEdLMnE5cWpZTk0tUQ?oc=5",
-    "sourceUrl": "https://www.pinpointnews.co.kr",
-    "excerpt": "",
-    "date": "2026-09-27"
    }
   ],
   "redev": [
@@ -322,18 +322,18 @@
     "date": "2026-10-08"
    },
    {
-    "publisher": "서울경제",
-    "title": "전국 1순위 청약 경쟁률 5.34대 1…38개월 만에 최저",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA3YUdEZFhieWlndzVDalZyeUQzeFQzTHU2TEZlRG5aMURyS1ZGS2NSdFBCTm5ZejVqRjgwWXJFMGlDVDdadTUwYUY5ZndLLU5jTEHSAVNBVV95cUxNZW5xT2padmZSeUJxdXNDczd6S2Jpb1dMRHlGOU5kNXFLTUM0VzRIMmZBMm0tc21kakxnOEFSNEJTTlNsaENvLW1WbDZDQzJNeTdtYw?oc=5",
-    "sourceUrl": "https://www.sedaily.com",
-    "excerpt": "",
-    "date": "2026-09-21"
-   },
-   {
     "publisher": "한국경제",
     "title": "\"당첨돼도 돈 부족해\"…수도권도 청약 경쟁률 '하락'",
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5LUHYzVmRpeXpCdG8zOFdOREgxV1hYd0FEb1l5Zi1QS09VcEZ0MlJtb21ETFVWUGhwRGRBNjMxR3NGZTRMcl93UXM3SFNGMS1HSDlyLVJnT3VXZw?oc=5",
     "sourceUrl": "https://www.hankyung.com",
+    "excerpt": "",
+    "date": "2026-09-21"
+   },
+   {
+    "publisher": "서울경제",
+    "title": "전국 1순위 청약 경쟁률 5.34대 1…38개월 만에 최저",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA3YUdEZFhieWlndzVDalZyeUQzeFQzTHU2TEZlRG5aMURyS1ZGS2NSdFBCTm5ZejVqRjgwWXJFMGlDVDdadTUwYUY5ZndLLU5jTEHSAVNBVV95cUxNZW5xT2padmZSeUJxdXNDczd6S2Jpb1dMRHlGOU5kNXFLTUM0VzRIMmZBMm0tc21kakxnOEFSNEJTTlNsaENvLW1WbDZDQzJNeTdtYw?oc=5",
+    "sourceUrl": "https://www.sedaily.com",
     "excerpt": "",
     "date": "2026-09-21"
    }
@@ -372,12 +372,12 @@
     "date": "2026-09-22"
    },
    {
-    "publisher": "스마트비즈",
-    "title": "GTX-C 착공한 의정부역···'49층·1300세대' 초고층 복합타워 들어선다",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5MYnZZNHRCWnhCUUdWQVozakF1YkNieGFVdXZsZWFtSDFFM0VLSHRhYVl0VW1qVTdfYUtqeU02Q3NjQkttSndmVjBBNlJYVFZvZXF1Q0hSTDdXLUFWWkxOSmJiaFZIVDA2aW5fbg?oc=5",
-    "sourceUrl": "https://www.smartbizn.com",
+    "publisher": "서울경제",
+    "title": "GTX-C노선, 15일 첫 삽 “안산·의왕·양주 등 수혜”",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9MZFNkS0VqcFd3NTUtZDJuMVR0c0dZOW1SOVgtbm9TREVOSUIzelVhcVNrYnpEWjJwc2hXcXlLcHJ1cmNKWmJmX3lDbFJJdjJaOGfSAVNBVV95cUxPZ0IycmdiT1FXaERIcmRmWE5OQl9BcjVSYkg1SzVkV3RpV2hBUFUzSm1kODNlZ05DeFF4dXBZcjl2UHFfY2U5RmM3YVdCU0haNEEtdw?oc=5",
+    "sourceUrl": "https://www.sedaily.com",
     "excerpt": "",
-    "date": "2026-10-06"
+    "date": "2026-09-14"
    }
   ],
   "gap": [
@@ -400,7 +400,7 @@
    {
     "publisher": "Daum",
     "title": "악성 임대인 솎아내니 서민만 ‘벼랑 끝’… 깐깐해진 전세보증의 그림자",
-    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5LdDdvdzJyLW1KazAxenBqVlNWdDE1bW1nRzdWMndkNV9jSzA1bkUyVk52SDAzbWhrc2pTOUJpM3p3REw0alRGYTk0cw?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9HNW1LZm5pZWdqbF94OG01eGI3ZXBwajduTUtxSnJwWnpjTlVUNkN0MnYxX0NLVU9ibXVLUzdKVzlvT2lHbktGcnI5aHhxWEY4cVFIZA?oc=5",
     "sourceUrl": "https://v.daum.net",
     "excerpt": "",
     "date": "2026-09-10"
@@ -456,12 +456,12 @@
     "date": "2026-09-21"
    },
    {
-    "publisher": "신아일보",
-    "title": "[분양소식] 3기 신도시 첫 민간분양 '계양신도시 카이브 유보라' 내달 분양",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBjVzRaT2lDemF5UXhUZ25KeWVnVDdpMm5WMEx3Y0NNdHEyLUdROGNFYVVqZzVXeFBSV3BuTjMxeFVlUHVtUldiajV0V293Zko1UFJTM2NPXzdteV84TThnSWpHRXc2ckZxOWZRVGYyVWg?oc=5",
-    "sourceUrl": "https://www.shinailbo.co.kr",
+    "publisher": "시사저널",
+    "title": "“15년간 모은 청약통장, 교산신도시 당첨될까요?” [사이다 부동산]",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE92QUprTnBBTS02MWI3ZU9GMGx3elFRU3UxVWV5Q0s5aGlCY2MtQWhDU0dRRzlwc1lKbFY2VmFFQV9qMDJVeHV1S2o0TmpTaFdqekNRdW0yNDVfenA1eFhIaE5tSm11YVpxd0ZwbUxkY9IBc0FVX3lxTE13ZUdQSzQwMnh3dm15ZzRtQjk4VHJGWWM3SEp5Q3BwMm5ESHpwU2NBOHNkWlFQZGpVQ2VNel9zdTNabE5CLVR5WlFOaEp0cldJYlQ3bEluR2ZrekNXY1puUHZuTjcwRGVjSV9nUUJTZXRvOWc?oc=5",
+    "sourceUrl": "https://www.sisajournal.com",
     "excerpt": "",
-    "date": "2026-09-02"
+    "date": "2026-09-13"
    }
   ]
  }
