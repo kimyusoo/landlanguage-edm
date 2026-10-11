@@ -1,16 +1,8 @@
 {
- "generatedAt": "2026-10-10T21:43:04.331Z",
+ "generatedAt": "2026-10-11T05:45:50.755Z",
  "source": "Google News RSS",
  "topics": {
   "rate": [
-   {
-    "publisher": "Daum",
-    "title": "3%까지 오른 기준금리…집값 영향 제한적, 건설·PF 부담은 커진다",
-    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5DSzlaOU5IUmFid2J3dC01Yi03RUFoNEtuYkxqcHR1X3BMRlJkaTRkcTdhMUFrYTNmNXY0VGtUX21BLVY5QUlaY1pOZ0hkRTg?oc=5",
-    "sourceUrl": "https://v.daum.net",
-    "excerpt": "",
-    "date": "2026-08-28"
-   },
    {
     "publisher": "매일경제",
     "title": "“월126만원 냈는데 이제 206만원 내라고?”…5년 전 ‘영끌족’에 날아든 고금리 청구서",
@@ -18,6 +10,14 @@
     "sourceUrl": "https://www.mk.co.kr",
     "excerpt": "",
     "date": "2026-09-03"
+   },
+   {
+    "publisher": "Daum",
+    "title": "3%까지 오른 기준금리…집값 영향 제한적, 건설·PF 부담은 커진다",
+    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5DSzlaOU5IUmFid2J3dC01Yi03RUFoNEtuYkxqcHR1X3BMRlJkaTRkcTdhMUFrYTNmNXY0VGtUX21BLVY5QUlaY1pOZ0hkRTg?oc=5",
+    "sourceUrl": "https://v.daum.net",
+    "excerpt": "",
+    "date": "2026-08-28"
    },
    {
     "publisher": "머니투데이",
@@ -146,14 +146,6 @@
     "date": "2026-10-04"
    },
    {
-    "publisher": "경기일보",
-    "title": "서울 아파트값 7월에도 상승…전세 계약 10건 중 약 6건은 ‘갱신’",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9zVmFkM2tJMG1vNENhNk1YNl8xYld4R200d0tpaGFVdExQOEt2b2pacFZfX0NuS3MxUHZjWUpxWV85eWpmNUxDTHJxbHk3RzQxNVZXZTJyalpxbXM?oc=5",
-    "sourceUrl": "https://www.kyeonggi.com",
-    "excerpt": "",
-    "date": "2026-09-18"
-   },
-   {
     "publisher": "영등포신문",
     "title": "서울 아파트 매매 실거래가격 상승 지속...1년 새 14.56% 상승",
     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5oNDVCQW95S3VhSW1QemxrNjNlTUNUSE9tQl9TaUdDazB3Q1NIRjh1Mm1QcWFtMVRxOHM4Wi1TOEtWbk0ya1EwYW9TdDFVMHZsdVF5TXdHaDZsaFNy?oc=5",
@@ -162,10 +154,18 @@
     "date": "2026-09-18"
    },
    {
-    "publisher": "서울경제TV",
-    "title": "서울 아파트값 7월에도 상승세 지속…1년 새 15% ‘껑충’",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1IVHA4TU9PQzBlSGZQYmVjeXdEbE1VeF9yZnVRM21hTV9pclZKbWw1WWMtcl96SmU1bFNVQTg2LWRvU1o5VC03bzdaMWxUd0VQM1BJNlR6Z3lzWXNNQzFwQ1pqdFg?oc=5",
-    "sourceUrl": "https://www.sentv.co.kr",
+    "publisher": "경기일보",
+    "title": "서울 아파트값 7월에도 상승…전세 계약 10건 중 약 6건은 ‘갱신’",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9zVmFkM2tJMG1vNENhNk1YNl8xYld4R200d0tpaGFVdExQOEt2b2pacFZfX0NuS3MxUHZjWUpxWV85eWpmNUxDTHJxbHk3RzQxNVZXZTJyalpxbXM?oc=5",
+    "sourceUrl": "https://www.kyeonggi.com",
+    "excerpt": "",
+    "date": "2026-09-18"
+   },
+   {
+    "publisher": "청년일보",
+    "title": "서울 아파트 7월 실거래가 전월 대비 1.9% 상승…1년 전보다 14.5% '껑충'",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0tV05GM2xNY2RobjY5MWU3Wkw3UTdwRlFDVWhsQ3BONjMtaGpadnp6aklBMHdqUEIyUlJnOEIzNkpVdi1NZF9qMVZnS3F4Sk8xbVBLdWVzM1h5bFoyczc0M2R1UDVOWUk?oc=5",
+    "sourceUrl": "https://www.youthdaily.co.kr",
     "excerpt": "",
     "date": "2026-09-18"
    }
@@ -432,10 +432,18 @@
     "date": "2026-09-26"
    },
    {
-    "publisher": "마켓인",
+    "publisher": "네이버 프리미엄콘텐츠",
+    "title": "3기 신도시 목표 17만 가구, 본청약은 1.5만 — 지구별 달성률 총정리",
+    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE00WGIzc0ZVM3pYcUtKQmEtNm1RV2drVjZJbmNpRTNORTU3azhULUgwMlBNWW5mT0tEdEp5aFA1SDNQS05XZEhvUTRuYk82SE5LOUxXalVLTWtOZWZJQnlCeXZUYXo0cmtvMjBucEJUN1hxV0RFZjA4a3lPRmo?oc=5",
+    "sourceUrl": "https://contents.premium.naver.com",
+    "excerpt": "",
+    "date": "2026-09-21"
+   },
+   {
+    "publisher": "이데일리",
     "title": "추석 끝나자 3기 신도시 청약…계양·대장·왕숙 줄줄이 공급",
-    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9DcTdwVWx1OUVOWmlDQ251TXZBSHZBSlFuZWRnaXBFU1dldm1WdTVzSkdPV1lfdjByMWhLZk5JbHVmR2FIQmVaZ2tORUVvaDRTMnRnZkFmSUxfNVRnYXpIZnoxVEM4YUFFM3IxbkV1a0o1WTQ?oc=5",
-    "sourceUrl": "https://marketin.edaily.co.kr",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTWhsNGRtZzA3d05BeFhTR0hobzQwamhXSU1SYy1vMG1EY2tybjVkbk5rcG9kbklfSVRYNUJoU09ER2FQaFdvbkNvUWloUFludDZpejY2U096RGthUXlPcEFXOVBfbGZXczZMM3lGMlJmamhTeDhSUDZXMTRpb1pxbQ?oc=5",
+    "sourceUrl": "https://www.edaily.co.kr",
     "excerpt": "",
     "date": "2026-09-27"
    },
@@ -446,14 +454,6 @@
     "sourceUrl": "https://m.viva100.com",
     "excerpt": "",
     "date": "2026-08-27"
-   },
-   {
-    "publisher": "네이버 프리미엄콘텐츠",
-    "title": "3기 신도시 목표 17만 가구, 본청약은 1.5만 — 지구별 달성률 총정리",
-    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE00WGIzc0ZVM3pYcUtKQmEtNm1RV2drVjZJbmNpRTNORTU3azhULUgwMlBNWW5mT0tEdEp5aFA1SDNQS05XZEhvUTRuYk82SE5LOUxXalVLTWtOZWZJQnlCeXZUYXo0cmtvMjBucEJUN1hxV0RFZjA4a3lPRmo?oc=5",
-    "sourceUrl": "https://contents.premium.naver.com",
-    "excerpt": "",
-    "date": "2026-09-21"
    },
    {
     "publisher": "시사저널",
