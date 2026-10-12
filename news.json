@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-11T21:57:48.859Z",
+ "generatedAt": "2026-10-12T05:56:55.422Z",
  "source": "Google News RSS",
  "topics": {
   "rate": [
@@ -20,12 +20,20 @@
     "date": "2026-08-28"
    },
    {
+    "publisher": "한겨레",
+    "title": "8월 주담대 금리 4.66%...3년9개월 만에 ‘최고’",
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE80ZVFqeEJNNG16b1VJQUZxTDRLTDI1blpHdFkzSUZhVGNqWHVmeEEyTVR3UldlTnBEX0FqWnJEUGVwdGVmTURkQVJ5b1JaLWxRVjN5VEs0MkpwZGtERlUzYmhVeG9Sdnd0OEszc2J0T0MzZw?oc=5",
+    "sourceUrl": "https://www.hani.co.kr",
+    "excerpt": "",
+    "date": "2026-09-30"
+   },
+   {
     "publisher": "머니투데이",
-    "title": "\"내년 금리 3.5% 유의\"…李 대통령, 부동산에 '한은 카드' 꺼낸 까닭 - 머니투데이",
-    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1kUFVHQlJ6elZzNWMwal9FTVVpbnp2S2VpWUZnT2tBSjZKazM1TVVaZnVENUs5WGl3T1pPYWZLSUdVRjRIelpuVnlDSGpocHU3WW1xQ0gydTZ1ZndrSGlkSzZJcVNrMkVzR2tn0gFwQVVfeXFMT0plb18tVGFmSXZuaXdzNzBYUGpkV01HUHZxczRDbXNhckVTUXpmR1l3NTRya3llV3NVSkhiUHFBcnN6NzdRcWNUYklmUTAxc0ctUWtKNloyckd3NmFfOTJreGlpSXlBMjBvdU93RWFYaA?oc=5",
+    "title": "\"5년간 빚 갚았는데도\" 월 부담 80만원 뛴다?...주담대 '금리 폭탄' 우려 - 머니투데이",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5QOWw5SzhIdTAzLW9zMmNZbDVZZ2VlbVZpMFhYck9jRE9WaWtZY25mSWtVU1Q5b3hZVkxzcWFpSm44R2tyMFcxZE1mSTliOF82MHhXTVdFQnlmcWdxTGR4TTlUQUxjQ3ZjaUlV0gFwQVVfeXFMTmhVZ0ZBSVF3UFd5UkJTV1BOendCVHdVbkhmSWtiSzNLcXhGRF9NNUlZbEhpRURSQU44ZjNqRlhQQUYwbU9VdTQ5Ui01Vnd1MVZRcHZEa0dFYTZXV2RHYnhtLW40aWU0dUxLcU12Ulk1Qg?oc=5",
     "sourceUrl": "https://www.mt.co.kr",
     "excerpt": "",
-    "date": "2026-08-30"
+    "date": "2026-09-01"
    },
    {
     "publisher": "엠에스투데이",
@@ -34,14 +42,6 @@
     "sourceUrl": "https://www.mstoday.co.kr",
     "excerpt": "",
     "date": "2026-08-31"
-   },
-   {
-    "publisher": "시사저널e",
-    "title": "기준금리 3% 시대···대출 의존도 높은 서울 외곽 상승세 꺾이나",
-    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1hcWtrZ2NGVW9oVE5CYWc0Vy1jV3ppSUk1ZGduQS1haVpaOFRZT29nZWVvTlhEQ1FQUlZ1RG9ZMVBRaEdVbGRkbTJRa1BsekF5d2RpTE9Lc3FkcjZoT05TQVFjY01BMElzbS1ZUThwc0xIUdIBdkFVX3lxTE1BUXJqV2lzR054c1o3RmJqZmVmRS1sZTF5YVV0ZXpZQ2ZWSF9CLVJQZXE3MWllZDc2Q1lEWkY1dnZDbDZSVW1MdHhsc3dnSHdQN0t3QWUxejlXdmx2Um1CdXpNanRVUWMwNV9XZUViYTMzbXg0THc?oc=5",
-    "sourceUrl": "https://www.sisajournal-e.com",
-    "excerpt": "",
-    "date": "2026-08-28"
    }
   ],
   "supply": [
@@ -180,20 +180,20 @@
     "date": "2026-09-25"
    },
    {
-    "publisher": "연합뉴스",
-    "title": "[서미숙의 집수다] '토허구역+대출규제 확대' 11개월…내몰리는 임차인들",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9jY0RDTmVESjF1UWJMMFlfQklUYWc2V1J0b3B6Yi1HZkRySUFJNHVUdHpuNzl1aGRxRVU2RFBiTkxJRkpTR1NTVEJHdTR6SU1DeE1yNEJLRVR6c2fSAWBBVV95cUxPWUJmV3g5cnFmQmhfazBaOGNTU1gyVHpMSDlsdnZZUlNIcC1fYUtwYU8wZl9rV1RZR0pCQW9EYXhNWjFRYk1VdVVoMjZtenlKNHctYXlTQkhzTjZFajBOams?oc=5",
-    "sourceUrl": "https://www.yna.co.kr",
-    "excerpt": "",
-    "date": "2026-09-17"
-   },
-   {
     "publisher": "매일경제",
     "title": "“집주인이 월세 두 배로 올린답니다”…‘울며 겨자 먹기’ 합의갱신에 세입자 한숨",
     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBRUC1vdHQxVVVTTG1Hald6ZVJ6T1EtanpfcUcydjRONkV1RTJQemV2aGlKaXNzYTUwRl9hMGVsLWdSbWdWQUxuLVBQOW5zSTBFcDk3RjRtVDI?oc=5",
     "sourceUrl": "https://www.mk.co.kr",
     "excerpt": "",
     "date": "2026-09-15"
+   },
+   {
+    "publisher": "연합뉴스",
+    "title": "[서미숙의 집수다] '토허구역+대출규제 확대' 11개월…내몰리는 임차인들",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9jY0RDTmVESjF1UWJMMFlfQklUYWc2V1J0b3B6Yi1HZkRySUFJNHVUdHpuNzl1aGRxRVU2RFBiTkxJRkpTR1NTVEJHdTR6SU1DeE1yNEJLRVR6c2fSAWBBVV95cUxPWUJmV3g5cnFmQmhfazBaOGNTU1gyVHpMSDlsdnZZUlNIcC1fYUtwYU8wZl9rV1RZR0pCQW9EYXhNWjFRYk1VdVVoMjZtenlKNHctYXlTQkhzTjZFajBOams?oc=5",
+    "sourceUrl": "https://www.yna.co.kr",
+    "excerpt": "",
+    "date": "2026-09-17"
    },
    {
     "publisher": "Daum",
@@ -230,10 +230,10 @@
     "date": "2026-09-20"
    },
    {
-    "publisher": "한국도시환경헤럴드",
-    "title": "[학술대회 집중포커스①] 노후계획도시 정비, ‘단지 재건축’ 넘어 ‘도시 재창조’로",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5obWR2dm5nTXpCbFM4dE1SS3lXQmhtd1ZPQ293dGs0cXZ2OUh2a3V4ZjVqOGlBdVZKYUR5MVczT09ueWgyVlcwejV2bko0cF9JRjZiSTM0ZHRmLUxxWVhQRWdVZUNFUlNsX3VxT9IBcEFVX3lxTE1DbTRCc19iWVNUSUFsMm1iSURvcGFVUks2dkw0WFdDeV8yNnFnYnVXMmpoSjY4Y2liUWxRcVpzMnVhS2RCS2F4dy1ZN05oYXNPM2tFZ3B2V3BUbHJLV2UtYWhROTEwUkt1Vk9oYTVJSjU?oc=5",
-    "sourceUrl": "http://www.kueherald.co.kr",
+    "publisher": "서울아파트신문",
+    "title": "서초구, 재건축 넘어 리모델링까지 현장 지원 확대",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5DVnctRk5QRWhrMGtrbkhLQWFrdFRQNnhTcEhuQ2J2VV9vNDI2Tm8xZm5TeFhjWUp1TlpZLXZHdWNRYk5qd0VfSU95YzIxQ1BnTHc2MkEzRXlfZHZlZ0I5X2VoSXpJTUVBUEV3?oc=5",
+    "sourceUrl": "https://www.seoulapt.co.kr",
     "excerpt": "",
     "date": "2026-09-07"
    },
@@ -256,12 +256,12 @@
   ],
   "loan": [
    {
-    "publisher": "Daum",
+    "publisher": "연합뉴스",
     "title": "당국, 정책금융 등 고정금리 확대 주력…금리인상기 위험 흡수",
-    "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFB4OHRhNVVBQ3EweVF4MUlHOHQ0d2o4VmZHbDRvSHNUdkFVS0pDZG12SXFGNkNQMXhadXc1R0xnWUd4cUVhVmc?oc=5",
-    "sourceUrl": "https://v.daum.net",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9DZG9BakZoVXJvamJLSEhoZWFXOG1Vam8xQ2dWT2M1WDJOcnl3dE9OVE1hRDgtaldSY3NvdmFyZEY4UGNwcklERFFMUXVhZERrUGRZaW5oUmh3N03SAWBBVV95cUxORktmU3pCSUZOc2NmYlpNYjA3TkNFcWFYMkdPamRIMzR5M1BnUHdQbXV6Z1ZzNV9XcGJNU0poaHN6QU4tSm5fa0lHZzV5cUpzRnRZZGc1b3hHZTZRYzJVRFk?oc=5",
+    "sourceUrl": "https://www.yna.co.kr",
     "excerpt": "",
-    "date": "2026-09-26"
+    "date": "2026-09-27"
    },
    {
     "publisher": "전자신문",
@@ -288,10 +288,10 @@
     "date": "2026-10-08"
    },
    {
-    "publisher": "아주경제",
-    "title": "금리 인상 충격 막는다…금융당국, 취약차주 방어막 강화",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTlVXZF8wNVBaSGRmVUdGMlZ1M3YyM0tub1lmTEF2QTBXREJ4ZHdnZmNTakNyMkc4N2ZRRTlaTDZtWGZJNnVvTTdvSXF6UTd2Z1d3VlZFbmk5QdIBWEFVX3lxTE5QYVZPRGN0UndvV0d6Zm1XOEM3aDRIN1Bab2hNVTktQkRBVXMyU0xMQmZQeEFJU0JLU040VzZNS1p6TmEyUjlER3RYYWpXbzJXZFhYa2xxU1E?oc=5",
-    "sourceUrl": "https://www.ajunews.com",
+    "publisher": "뉴스투데이",
+    "title": "금융당국, 고정금리 대출 늘린다...금리 상승기 차주 부담 완화",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE40aVN0SFl2UmlyVkZsamJfemMtSTBfamNoTlBqeHp2c19mTVRtLTJuLTA2dHRBLUpiWUFEdnhweHNCVzJfZ1BhbF9YZ3Jad3gzNjM3Y1VmY3BDODNNZkE?oc=5",
+    "sourceUrl": "https://www.news2day.co.kr",
     "excerpt": "",
     "date": "2026-09-27"
    }
@@ -404,14 +404,6 @@
     "sourceUrl": "https://v.daum.net",
     "excerpt": "",
     "date": "2026-09-10"
-   },
-   {
-    "publisher": "뉴데일리",
-    "title": "악성 임대인 단 4명에 4633억 … HUG, 전세사기 엮여 떼인 돈만 6조8000억원",
-    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9PSm5oSllPcnNxZlZINHV2azFjNFRDT2lmc0hVNjRHaGZUT1B0Mld6enpKQ3lKRlR2OFNvUjNnYktKelZ0R3U5Ym5aR0RKS0dsMXhtQ1JFQTlzU0RLVEVHdFV6VmI4cXpzM1ZVUGt3U1U1bkhRSFpFWjlhQdIBgAFBVV95cUxOQmI5VF9RZzNSQUk3LXFTX0w0dEs5dmhKWWtuWDJfZVo1QUlOSl9ZZFlrS2txRThReVpYWVgwellXcTZEbDZtS1VLc256MF92RXBHOE1KeWNrWXVyazJpeUFOdUR3LXJxQWRacFZNU0xkQUc4NmN1bjJtRlhxNVFnTQ?oc=5",
-    "sourceUrl": "https://biz.newdaily.co.kr",
-    "excerpt": "",
-    "date": "2026-09-16"
    },
    {
     "publisher": "스마트비즈",
