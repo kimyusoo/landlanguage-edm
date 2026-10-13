@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-12T15:23:57.513Z",
+ "generatedAt": "2026-10-13T00:39:05.771Z",
  "source": "Google News RSS",
  "topics": {
   "rate": [
@@ -180,14 +180,6 @@
     "date": "2026-09-25"
    },
    {
-    "publisher": "Chosunbiz",
-    "title": "전월세 매물 부족에 ‘합의 갱신’ 늘었다… 월세 두 배 올라도 재계약 - 조선비즈",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZWpOOTFicXhnSjkwbjJuck91S1FFcWN5UHJ2WV9tT2h5dTdUTlNveWpUbmdVbW1GWHdPTDRLNEIyTnNZZnh4d1BMRUFNV0QxbzhfY2FscVhDa3AzbUQwM2hmZ3dmUTAydk1UTnY3XzY3X0NGaS1FeUxCbGF5eXFxSmNvT3BiNHdLRGZZbUpOR2xpTEIzdlMwctIBrAFBVV95cUxOandOYWRKVzhzR0haRVEzZFlpMVoyc3BzYnVtd2NJeFFqLXZGSWR0R1hrcE1QNm9INndMdGN4anVhaDNKcnJ6TV9JR2RiSXJTYWpYOG9TVWNsYzQyTDZpV1g1dHowdjNYR1VhdE45UjhIQlNkZ3hnV2hoRHRlZndGU2JGSkZvZzZVbUpuX0pWUmFqV01mQjFsbVVuUFN1bUZ3X2xRM1lzNDMzc19k?oc=5",
-    "sourceUrl": "https://biz.chosun.com",
-    "excerpt": "",
-    "date": "2026-09-08"
-   },
-   {
     "publisher": "매일경제",
     "title": "“전세도 없는데 나가라니요”…‘계약갱신 분쟁’ 이미 작년치 넘어서",
     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5FbllVN2VGS0IyNTgxczBvQTQtVmZSMkFjY1Ixd3diczFiTko2LWtVOWNqeG5WYTZqTHhfXzRaLTMwQ1JFdG5VdS1ERGJzQmtiX3BMdQ?oc=5",
@@ -210,13 +202,21 @@
     "sourceUrl": "https://v.daum.net",
     "excerpt": "",
     "date": "2026-09-15"
+   },
+   {
+    "publisher": "한국경제",
+    "title": "'세입자 낀 집' 2029년까지 입주 유예…갱신계약까지 허용",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5qdC1BMHAwN2JxZFJaa210VTRBS2w3QjUtaDhwNUNFMGgzbWlUY0tBNkNHaERVbDA0dFBIa180VTZRTWJjMFpPVW8ydERNa2NYOS1PaEVBNWcyZw?oc=5",
+    "sourceUrl": "https://www.hankyung.com",
+    "excerpt": "",
+    "date": "2026-09-17"
    }
   ],
   "redev": [
    {
     "publisher": "머니투데이",
     "title": "[챗집피티] 40년 된 송파 '알짜' 오금현대…1.6조에 삼성·포스코 경쟁 - 머니투데이",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9qTGtaZnZtckRldExxMVN3dThoekl3R1psMmtadmxhNmJsYmtfNnBEUGNjT0M1ZTRtRVp2UWxUTl8yY3ktLWVUbEJ0VzVlLTlyNGJERXJyS0Uya0JtUTlyM2hMX1ZhekFXMk1vamt4SdIBb0FVX3lxTE9qTGtaZnZtckRldExxMVN3dThoekl3R1psMmtadmxhNmJsYmtfNnBEUGNjT0M1ZTRtRVp2UWxUTl8yY3ktLWVUbEJ0VzVlLTlyNGJERXJyS0Uya0JtUTlyM2hMX1ZhekFXMk1vamt4SQ?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9SWGEtczE0OE5tOGJ2UkdZT0NhU0lsT1dqSjR5X21rNzZwUklKY2RCM0NlRnZXbU5iMXRPalJMUGlReEhyc0JENnJjazl3MlplSjBSM3FORC1yTWdpNnM2amVuTVFrWHRDMGfSAW9BVV95cUxPakxrWmZ2bXJEZXRMcTFTd3U4aHpJd0dabDJrWnZsYTZibGJrXzZwRFBjY09DNWU0bUVadlFsVE5fMmN5LS1lVGxCdFc1ZS05cjRiREVycktFMmtCbVE5cjNoTF9WYXpBVzJNb2preEk?oc=5",
     "sourceUrl": "https://www.mt.co.kr",
     "excerpt": "",
     "date": "2026-10-09"
@@ -306,14 +306,6 @@
     "date": "2026-10-06"
    },
    {
-    "publisher": "파이낸셜뉴스",
-    "title": "미분양 나던 동네가 20억 '훌쩍'…청약 경쟁률 564대 1 가보니 [집 나와라 뚝딱!]",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5xb05pR2tuYVJtSTV5b0M5bjEyM1ladU0yU19HQk9TOXhnNklpMWJIaXBaYmgwTXkxLVB4aFNPNVpKeW95MTVrV01kSVZBMG13VFhoU2Jhdk0wZw?oc=5",
-    "sourceUrl": "https://www.fnnews.com",
-    "excerpt": "",
-    "date": "2026-10-08"
-   },
-   {
     "publisher": "한국경제",
     "title": "\"당첨돼도 돈 부족해\"…수도권도 청약 경쟁률 '하락'",
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5LUHYzVmRpeXpCdG8zOFdOREgxV1hYd0FEb1l5Zi1QS09VcEZ0MlJtb21ETFVWUGhwRGRBNjMxR3NGZTRMcl93UXM3SFNGMS1HSDlyLVJnT3VXZw?oc=5",
@@ -322,12 +314,12 @@
     "date": "2026-09-21"
    },
    {
-    "publisher": "서울경제",
-    "title": "전국 1순위 청약 경쟁률 5.34대 1…38개월 만에 최저",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA3YUdEZFhieWlndzVDalZyeUQzeFQzTHU2TEZlRG5aMURyS1ZGS2NSdFBCTm5ZejVqRjgwWXJFMGlDVDdadTUwYUY5ZndLLU5jTEHSAVNBVV95cUxNZW5xT2padmZSeUJxdXNDczd6S2Jpb1dMRHlGOU5kNXFLTUM0VzRIMmZBMm0tc21kakxnOEFSNEJTTlNsaENvLW1WbDZDQzJNeTdtYw?oc=5",
-    "sourceUrl": "https://www.sedaily.com",
+    "publisher": "파이낸셜뉴스",
+    "title": "미분양 나던 동네가 20억 '훌쩍'…청약 경쟁률 564대 1 가보니 [집 나와라 뚝딱!]",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5xb05pR2tuYVJtSTV5b0M5bjEyM1ladU0yU19HQk9TOXhnNklpMWJIaXBaYmgwTXkxLVB4aFNPNVpKeW95MTVrV01kSVZBMG13VFhoU2Jhdk0wZw?oc=5",
+    "sourceUrl": "https://www.fnnews.com",
     "excerpt": "",
-    "date": "2026-09-21"
+    "date": "2026-10-08"
    },
    {
     "publisher": "매일경제",
@@ -336,6 +328,14 @@
     "sourceUrl": "https://www.mk.co.kr",
     "excerpt": "",
     "date": "2026-10-09"
+   },
+   {
+    "publisher": "Daum",
+    "title": "분양가 상승·대출 부담…아파트 청약시장 '냉랭'",
+    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1aOTBSZ3BnNnZNeGlFQmE4SUZSeVpjNmV2Smk0M0dnZkkyemtZdkJ1UDNxM2NVOTVEdkxUckdhNlBKU2NiV0VoMmVSZkRaeWM?oc=5",
+    "sourceUrl": "https://v.daum.net",
+    "excerpt": "",
+    "date": "2026-09-21"
    }
   ],
   "gtx": [
@@ -390,14 +390,6 @@
     "date": "2026-08-30"
    },
    {
-    "publisher": "뉴시스",
-    "title": "\"전세 사라지면 갭투자도 끝?…막 내린 전세 불패, 앞으로 집값은\"",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBNNVJPN2s5NlRkX3hnMXdWR2NTWW92a293RzQzQm1NT1ZiTElpYXViN3ZDR3ozRWNLYWVUQktPYTl3c1lPeDR5Y21kRzU4ckE5djB2SjFaUFp6eHBra0d0a9IBeEFVX3lxTFBnaWRETEp6MXRDV0w1dExJM2ZlQnlYVVA4cE5FV2hxVFA0ZmsyX1ZWTDhRVVNnczllTE1sM2hrMktnTnMzWGRQc1o3OTd6emJmTW9OMjFZRl9WSFBfc1R0Z2wzVlFwVzRKSjNhNzZwY0pQQ08zaTJMMA?oc=5",
-    "sourceUrl": "https://www.newsis.com",
-    "excerpt": "",
-    "date": "2026-09-09"
-   },
-   {
     "publisher": "Daum",
     "title": "악성 임대인 솎아내니 서민만 ‘벼랑 끝’… 깐깐해진 전세보증의 그림자",
     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9HNW1LZm5pZWdqbF94OG01eGI3ZXBwajduTUtxSnJwWnpjTlVUNkN0MnYxX0NLVU9ibXVLUzdKVzlvT2lHbktGcnI5aHhxWEY4cVFIZA?oc=5",
@@ -448,12 +440,12 @@
     "date": "2026-09-13"
    },
    {
-    "publisher": "뉴스밸류",
-    "title": "[심층분석]3기 신도시 첫 입주 앞둔 계양, ‘공급 속도전’의 시험대…민간분양까지 주택 공급축 넓힌다",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBUVFBLa1dGRTJyeXU0eFk4QjFxdFNBd0lEWjI4UVA3aTkzYVVwV2hPd25RNDFiMmpTSFNDUkNiZGNkUjQteXpZel95S1ZOd0ZPNWF4YzVEc0xKdDJrSVBSdS1nbUtGZkFTcFE?oc=5",
-    "sourceUrl": "https://www.newsvalue.kr",
+    "publisher": "Queen 이코노미퀸",
+    "title": "3기 신도시 인천계양 A6 분양가, 사전청약 추정가보다 35% 상승 ... 84㎡ '5.3억→7.1억'",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5VVkpIY3dVV0Q3VHB5UWJJNENDZ1ZlYnBYZkMxN2JiNW9zcXBJWVozbHprMVotV3ZLSXVBXzNTc0xTelp6Z29udnBNU25xZm5zLWZ6Ym9kZ3ZvSTBPR01PekNTZS1fcGJSeUE?oc=5",
+    "sourceUrl": "https://www.queen.co.kr",
     "excerpt": "",
-    "date": "2026-09-02"
+    "date": "2026-08-31"
    }
   ]
  }
