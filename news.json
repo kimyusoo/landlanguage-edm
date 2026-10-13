@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-13T14:10:54.602Z",
+ "generatedAt": "2026-10-13T22:44:16.505Z",
  "source": "Google News RSS",
  "topics": {
   "rate": [
@@ -62,14 +62,6 @@
     "date": "2026-10-08"
    },
    {
-    "publisher": "연합뉴스",
-    "title": "[10·15 대책 1년] '닥치고 공급'인데 공급 부족 언제 해소되나",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4tWVdldHdkMjdNY2VyZFhTa3dPbjloTVNnYWlZLUR0V1p3aXZuQU5OY0VHS0hfZXJPQWV3UVB1MVpJVF9sdjE5SWNsWkEwaTdBemZpbFRtYkZIbWfSAWBBVV95cUxOUldQSVV4RXpFSHlEdndKSjRTQUplNnhNcXZlLXMtZWRwemxOVldSSzZGdXd4ZFJpN3lhOVd4Q1ROM0hUZFdMWkIzSGExY1ZHZ2hHdVhaMWxEWlRzdG9HWmM?oc=5",
-    "sourceUrl": "https://www.yna.co.kr",
-    "excerpt": "",
-    "date": "2026-10-10"
-   },
-   {
     "publisher": "한국주택경제신문",
     "title": "홍지선 국토부 장관 후보자… “수도권 주택 공급 속도”",
     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0yeDV4a1hVNDJMTDB3cnJ2ZEt4Tlc3Z3U2enBOUEhxbnRZS2NqQjBiajhoOGI3NV93ejc5OTlxZWZSRGNWdmw2MFp2VEFyanNzSXRfbnNYTHdxT3c3ckFhX3JtVUswMWpW?oc=5",
@@ -78,12 +70,20 @@
     "date": "2026-09-02"
    },
    {
+    "publisher": "연합뉴스",
+    "title": "[10·15 대책 1년] '닥치고 공급'인데 공급 부족 언제 해소되나",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4tWVdldHdkMjdNY2VyZFhTa3dPbjloTVNnYWlZLUR0V1p3aXZuQU5OY0VHS0hfZXJPQWV3UVB1MVpJVF9sdjE5SWNsWkEwaTdBemZpbFRtYkZIbWfSAWBBVV95cUxOUldQSVV4RXpFSHlEdndKSjRTQUplNnhNcXZlLXMtZWRwemxOVldSSzZGdXd4ZFJpN3lhOVd4Q1ROM0hUZFdMWkIzSGExY1ZHZ2hHdVhaMWxEWlRzdG9HWmM?oc=5",
+    "sourceUrl": "https://www.yna.co.kr",
+    "excerpt": "",
+    "date": "2026-10-10"
+   },
+   {
     "publisher": "경기도청",
     "title": "열린도지사실",
     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1TdVJFY3Zmd1lZeUtSTHJLNG5POGt6LW1rdm5SOEN6YkpGZVF5LXVrVExPS3hxZnBxdzd2aDhxZXNuTVZMYmlWRmtIY3NNSnhVOFBhR3N1djV0Q2czTTRtQXNMVzNCLS1WMEpxRUk0NFpLU1E?oc=5",
     "sourceUrl": "https://www.gg.go.kr",
     "excerpt": "",
-    "date": "2026-10-03"
+    "date": "2026-10-02"
    }
   ],
   "tax": [
@@ -104,20 +104,20 @@
     "date": "2026-08-31"
    },
    {
-    "publisher": "하우징헤럴드",
-    "title": "2026년 부동산 세제개편 주요 내용 및 대처방안",
-    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9FTmp5em9PMlR6VGJhUTRsVEhraFgxTlRqSnFZWDJOejZIUVZPSG9pOTFLNVhQX1RhNUxFR2dEdHFIZ3NkZU40R1JCRUFEVl9PeUVnSktFbXlFSFhuaC1RVG5zYnV2eWFmZG9kV3Rpd2lSZUk?oc=5",
-    "sourceUrl": "https://www.housingherald.co.kr",
-    "excerpt": "",
-    "date": "2026-09-04"
-   },
-   {
     "publisher": "뉴스투데이",
     "title": "2026 부동산 세제개편 종부세·양도세 어떻게 바뀌나…서울·지방 차이 분석",
     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBCNnhucVBOeGpvZUNaRmo5dXVsa2JGOWdNZ29sR1YyQkVneUw5NTAtWERRdUhiTlJLV1dEM3JyNWN1Nkx6cGxUbm9YRDJnQVlwQmNYTThvTTNVeW9xRWc?oc=5",
     "sourceUrl": "https://www.news2day.co.kr",
     "excerpt": "",
     "date": "2026-09-02"
+   },
+   {
+    "publisher": "하우징헤럴드",
+    "title": "2026년 부동산 세제개편 주요 내용 및 대처방안",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9FTmp5em9PMlR6VGJhUTRsVEhraFgxTlRqSnFZWDJOejZIUVZPSG9pOTFLNVhQX1RhNUxFR2dEdHFIZ3NkZU40R1JCRUFEVl9PeUVnSktFbXlFSFhuaC1RVG5zYnV2eWFmZG9kV3Rpd2lSZUk?oc=5",
+    "sourceUrl": "https://www.housingherald.co.kr",
+    "excerpt": "",
+    "date": "2026-09-04"
    },
    {
     "publisher": "홈두부",
@@ -135,7 +135,7 @@
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9qa0c2Vi1EbHdfR2NYOXNwY3AtRnpMb0t6ZVFxTWNGMHVCTUhvcHZJRV85N2JqYWRNaGs4MVBEN25HRVh2R09lMXhCb3lLZTNJczB4U21lUVpjODDSAWBBVV95cUxNOFhrQ3hESU93Z2NnOU9Fb0JlQmIwZ0NiVFFMUkJ1UnVUUG94SmdnVUV6VXhvRHhLd09PejZJYU5wSk4yUWItVmZSU0NjbFhucFg1djRJSzN3WDJiNDRnR3g?oc=5",
     "sourceUrl": "https://www.yna.co.kr",
     "excerpt": "",
-    "date": "2026-09-17"
+    "date": "2026-09-18"
    },
    {
     "publisher": "더구루",
@@ -246,12 +246,12 @@
     "date": "2026-10-13"
    },
    {
-    "publisher": "하우징헤럴드",
-    "title": "부산시 정비사업 현황과 전망(1)- 부산진구",
-    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9TY241cUgycTEtRHNHa1NCbzlralhLdnRVNlptdUxiRlFiWXVHbEV0aEpDMzh5T0JpejBldERPNFlfM1lqaUt4bG5GYXdKNE9aYS1XTmd0TW95RDBxZ2w5a1R4OGhOSUJHQVJQMnNpUXE4akk?oc=5",
-    "sourceUrl": "https://www.housingherald.co.kr",
+    "publisher": "한국주택경제신문",
+    "title": "일원 가람아파트, 수서택지지구 첫 재건축 조합설립인가",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5Ka1RlZ3NrZ3YzaXZLNkxYZXR2d3owWmJUUEhleF9vSTVzb2Q3UGNPWUM2WXJhT2tHOTV2YldlX1BXekQ1ZXhpNmhLTFZSR3Fzbl8wSVk3aFFNOUE1STNIRHB5OVB1OXR0?oc=5",
+    "sourceUrl": "https://www.arunews.com",
     "excerpt": "",
-    "date": "2026-09-02"
+    "date": "2026-10-13"
    }
   ],
   "loan": [
@@ -280,20 +280,20 @@
     "date": "2026-10-09"
    },
    {
-    "publisher": "뉴스투데이",
-    "title": "금융당국, 고정금리 대출 늘린다...금리 상승기 차주 부담 완화",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE40aVN0SFl2UmlyVkZsamJfemMtSTBfamNoTlBqeHp2c19mTVRtLTJuLTA2dHRBLUpiWUFEdnhweHNCVzJfZ1BhbF9YZ3Jad3gzNjM3Y1VmY3BDODNNZkE?oc=5",
-    "sourceUrl": "https://www.news2day.co.kr",
-    "excerpt": "",
-    "date": "2026-09-27"
-   },
-   {
     "publisher": "www.ebn.co.kr",
     "title": "[금융위 국감] 가계대출 총량 3%로 넓힌다…주택공급 금융 47.8조원+α",
     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5iT2lZX1REVXYyVzkwMVRIaTA4Q2lSOVFpUDJnUGJSMEgzWTQ5NjZheWppRm9mVjV2QmtmMGtWRzBoU0o4Z0JCcG9RM3VGS2NDT3R1YzhZYTY2cDc4bjZOTzk3a05IRHpR?oc=5",
     "sourceUrl": "https://www.ebn.co.kr",
     "excerpt": "",
     "date": "2026-10-08"
+   },
+   {
+    "publisher": "Daum",
+    "title": "금리 인상 충격 막는다…금융당국, 취약차주 방어막 강화",
+    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1aWG5KbDhZcmxkcGNXRjFQd3BYeUdiOHlteERTTW1FdXZYSHBYRlhEWm5NdzFLVDNRaV85VkRoQ3Z6RkVsbDBiaVZlVWlZUG5YdWZJUg?oc=5",
+    "sourceUrl": "https://v.daum.net",
+    "excerpt": "",
+    "date": "2026-09-27"
    }
   ],
   "presale": [
@@ -388,14 +388,6 @@
     "sourceUrl": "https://www.dataeconomy.co.kr",
     "excerpt": "",
     "date": "2026-08-30"
-   },
-   {
-    "publisher": "Daum",
-    "title": "악성 임대인 솎아내니 서민만 ‘벼랑 끝’… 깐깐해진 전세보증의 그림자",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9HNW1LZm5pZWdqbF94OG01eGI3ZXBwajduTUtxSnJwWnpjTlVUNkN0MnYxX0NLVU9ibXVLUzdKVzlvT2lHbktGcnI5aHhxWEY4cVFIZA?oc=5",
-    "sourceUrl": "https://v.daum.net",
-    "excerpt": "",
-    "date": "2026-09-10"
    },
    {
     "publisher": "스마트비즈",
