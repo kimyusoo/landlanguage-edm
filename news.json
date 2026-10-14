@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-14T04:52:53.462Z",
+ "generatedAt": "2026-10-14T11:51:05.247Z",
  "source": "Google News RSS",
  "topics": {
   "rate": [
@@ -36,12 +36,12 @@
     "date": "2026-09-10"
    },
    {
-    "publisher": "Daum",
-    "title": "서울 매수세 이끈 3040…두 번 오른 금리에 '내 집 마련' 주춤하나",
-    "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9Ma3hBejQ0c0NpX1JZeTMxVlBpOGg0NHQ3THlrb0ZkaENPczF4RC1aYWIxSGpMdU52RVlMaFhVSmVtRE1zVEE?oc=5",
-    "sourceUrl": "https://v.daum.net",
+    "publisher": "인더스트리뉴스",
+    "title": "한은 “금리 인상, 금융취약성 완화”…가계·기업 이자 부담은 커져",
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFA0SGRxRlRycTAxVVJxeGVwakVrRnVmcnBCcEM1N3lKY250LUxMRU9GZVl3QXcxMWNBdEZXVmw4aDEya0ZNZGJ4c2hPNmJmTWF3dllIbm5oX3k1VmNzOWNsUTBMODVpTEZMakYzU1Jqa3J1Zw?oc=5",
+    "sourceUrl": "https://www.industrynews.co.kr",
     "excerpt": "",
-    "date": "2026-08-30"
+    "date": "2026-09-22"
    }
   ],
   "supply": [
@@ -138,6 +138,14 @@
     "date": "2026-09-18"
    },
    {
+    "publisher": "스트레이트뉴스",
+    "title": "서울 아파트값은 오르는데 평균 거래금액은 하락…왜?",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9WM2ZrZzdseVQzTl9PdVVLWUN3dU8yUENFbkVNM1N2cDBCeFNpNU15T2JhZ3dFcnVoU1JwR1FLX1pYOUQ2M3JnTTJ4RkVNa0xLckQ1V3ExNWYwMHNWNkNIQ21QaFU2N3ViSVR0ZklaVkRFTjTSAXdBVV95cUxQTnV5dVhyZnRnMU1LZVAzOFp4Z2gxQ1UyMTAta3RPbkVMVVRZNXhGSFpLZ0N1cDVOVFVyYnVuLTAtVVI1YURibnAxVzV0VFlySDJXUXdtNWpSWDJ2SWl6U3BwaEdLd2RDRTNGYmdYYmtMbUlqSk84RQ?oc=5",
+    "sourceUrl": "https://www.straightnews.co.kr",
+    "excerpt": "",
+    "date": "2026-10-14"
+   },
+   {
     "publisher": "더구루",
     "title": "서울 아파트에 찬바람...거래량 급감에 거래절벽 장기화 조짐",
     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9pdEFUTTk3TWdJWU44eE44SFJSbWhZZDRaTVZkUV9CdGR0M0l0VE9PN3kwbjJLQXRPY3ptU0Q4QkRLeFZnTzJqejhlY3c3Nnh6SDhfdDNoUXkySU94ZzRldExlNA?oc=5",
@@ -158,14 +166,6 @@
     "title": "서울 아파트 7월 실거래가 전월 대비 1.9% 상승…1년 전보다 14.5% '껑충'",
     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0tV05GM2xNY2RobjY5MWU3Wkw3UTdwRlFDVWhsQ3BONjMtaGpadnp6aklBMHdqUEIyUlJnOEIzNkpVdi1NZF9qMVZnS3F4Sk8xbVBLdWVzM1h5bFoyczc0M2R1UDVOWUk?oc=5",
     "sourceUrl": "https://www.youthdaily.co.kr",
-    "excerpt": "",
-    "date": "2026-09-18"
-   },
-   {
-    "publisher": "뉴스줌",
-    "title": "서울 아파트 매매 실거래가격 상승 지속...1년 새 14.56% 상승",
-    "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE01ZU5ZRVVnOE1XWElFTEJXQmtJQXJyTVVLdVd2clZrYjlWd1RBa2VPa2NOWmxOdlBEbEZYZHRBYUM2SFFz?oc=5",
-    "sourceUrl": "http://www.newszoom.kr",
     "excerpt": "",
     "date": "2026-09-18"
    }
@@ -214,20 +214,20 @@
   ],
   "redev": [
    {
-    "publisher": "Daum",
-    "title": "서울 자치구, 리모델링 사업에도 행정 지원 확대",
-    "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE50eHZJTzRSMEtDMDVjSXoxMFVCWVlRdm50aG9OMGhGdmNpcnc5U1RJUXBaSnNvMWYxeGhaMHpJWnk2WXhnZ3c?oc=5",
-    "sourceUrl": "https://v.daum.net",
-    "excerpt": "",
-    "date": "2026-09-20"
-   },
-   {
     "publisher": "서울아파트신문",
     "title": "서초구, 재건축 넘어 리모델링까지 현장 지원 확대",
     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5DVnctRk5QRWhrMGtrbkhLQWFrdFRQNnhTcEhuQ2J2VV9vNDI2Tm8xZm5TeFhjWUp1TlpZLXZHdWNRYk5qd0VfSU95YzIxQ1BnTHc2MkEzRXlfZHZlZ0I5X2VoSXpJTUVBUEV3?oc=5",
     "sourceUrl": "https://www.seoulapt.co.kr",
     "excerpt": "",
     "date": "2026-09-07"
+   },
+   {
+    "publisher": "Daum",
+    "title": "서울 자치구, 리모델링 사업에도 행정 지원 확대",
+    "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE50eHZJTzRSMEtDMDVjSXoxMFVCWVlRdm50aG9OMGhGdmNpcnc5U1RJUXBaSnNvMWYxeGhaMHpJWnk2WXhnZ3c?oc=5",
+    "sourceUrl": "https://v.daum.net",
+    "excerpt": "",
+    "date": "2026-09-20"
    },
    {
     "publisher": "머니투데이",
@@ -280,20 +280,20 @@
     "date": "2026-10-09"
    },
    {
+    "publisher": "Daum",
+    "title": "금리 인상 충격 막는다…금융당국, 취약차주 방어막 강화",
+    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1aWG5KbDhZcmxkcGNXRjFQd3BYeUdiOHlteERTTW1FdXZYSHBYRlhEWm5NdzFLVDNRaV85VkRoQ3Z6RkVsbDBiaVZlVWlZUG5YdWZJUg?oc=5",
+    "sourceUrl": "https://v.daum.net",
+    "excerpt": "",
+    "date": "2026-09-27"
+   },
+   {
     "publisher": "뉴스투데이",
     "title": "금융당국, 고정금리 대출 늘린다...금리 상승기 차주 부담 완화",
     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE40aVN0SFl2UmlyVkZsamJfemMtSTBfamNoTlBqeHp2c19mTVRtLTJuLTA2dHRBLUpiWUFEdnhweHNCVzJfZ1BhbF9YZ3Jad3gzNjM3Y1VmY3BDODNNZkE?oc=5",
     "sourceUrl": "https://www.news2day.co.kr",
     "excerpt": "",
     "date": "2026-09-27"
-   },
-   {
-    "publisher": "www.ebn.co.kr",
-    "title": "[금융위 국감] 가계대출 총량 3%로 넓힌다…주택공급 금융 47.8조원+α",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5iT2lZX1REVXYyVzkwMVRIaTA4Q2lSOVFpUDJnUGJSMEgzWTQ5NjZheWppRm9mVjV2QmtmMGtWRzBoU0o4Z0JCcG9RM3VGS2NDT3R1YzhZYTY2cDc4bjZOTzk3a05IRHpR?oc=5",
-    "sourceUrl": "https://www.ebn.co.kr",
-    "excerpt": "",
-    "date": "2026-10-08"
    }
   ],
   "presale": [
@@ -381,22 +381,6 @@
    }
   ],
   "gap": [
-   {
-    "publisher": "한국데이터경제신문",
-    "title": "[데이터로 읽는 부동산] 서울 아파트 전세가율 55% 돌파에 노도강 갭투자 급증 배경 분석",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1UQXRIZHFGRWV0S3d5M0kzZ3lwZ0JZWVlvbWNWUVZUZVJBSmEwVmZhcTBWYV9aSTB3R3VwU0dOZnVEUTZuWjBMbERjd3Z2alIxN2NESDB1QTAtc0k4QXJiSVJWai00M2FEVDFaVnFhV1rSAXRBVV95cUxOc21DSnljUDJ0ZUdDdEd3R1E1eEsyLTdTR0ZuaWYxM1FIQmE5S19ZTjNlclNZTlhCbWVXeFNraDhFQ3JTZTZlanNMc3N4NWc0ZHZ4RlBsMDFwUTE3RjVxTjdRR1lCd1lmbEtGVEZwR2FPTW9nVQ?oc=5",
-    "sourceUrl": "https://www.dataeconomy.co.kr",
-    "excerpt": "",
-    "date": "2026-08-30"
-   },
-   {
-    "publisher": "Daum",
-    "title": "악성 임대인 솎아내니 서민만 ‘벼랑 끝’… 깐깐해진 전세보증의 그림자",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9HNW1LZm5pZWdqbF94OG01eGI3ZXBwajduTUtxSnJwWnpjTlVUNkN0MnYxX0NLVU9ibXVLUzdKVzlvT2lHbktGcnI5aHhxWEY4cVFIZA?oc=5",
-    "sourceUrl": "https://v.daum.net",
-    "excerpt": "",
-    "date": "2026-09-10"
-   },
    {
     "publisher": "스마트비즈",
     "title": "\"전세금 못 받았나\"···서울 임차권등기 32% 급감, 송파·영등포 '최다'",
