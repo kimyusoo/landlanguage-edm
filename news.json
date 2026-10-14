@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-14T11:51:05.247Z",
+ "generatedAt": "2026-10-14T17:09:46.020Z",
  "source": "Google News RSS",
  "topics": {
   "rate": [
@@ -78,12 +78,12 @@
     "date": "2026-10-10"
    },
    {
-    "publisher": "경기도청",
-    "title": "열린도지사실",
-    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1TdVJFY3Zmd1lZeUtSTHJLNG5POGt6LW1rdm5SOEN6YkpGZVF5LXVrVExPS3hxZnBxdzd2aDhxZXNuTVZMYmlWRmtIY3NNSnhVOFBhR3N1djV0Q2czTTRtQXNMVzNCLS1WMEpxRUk0NFpLU1E?oc=5",
-    "sourceUrl": "https://www.gg.go.kr",
+    "publisher": "Daum",
+    "title": "‘최측근’ 새 국토부 수장… 주택 공급·전월세 해법 찾을까",
+    "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1TSE5BbjAya1Y5WnMyMWx3VU93Z0t5U3ExVEU1em81WF9XYkQ1VnB2eE5JT084eUpVYWNfWkM5YUxnTUtZSkE?oc=5",
+    "sourceUrl": "https://v.daum.net",
     "excerpt": "",
-    "date": "2026-10-02"
+    "date": "2026-09-22"
    }
   ],
   "tax": [
@@ -162,10 +162,10 @@
     "date": "2026-09-18"
    },
    {
-    "publisher": "청년일보",
-    "title": "서울 아파트 7월 실거래가 전월 대비 1.9% 상승…1년 전보다 14.5% '껑충'",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0tV05GM2xNY2RobjY5MWU3Wkw3UTdwRlFDVWhsQ3BONjMtaGpadnp6aklBMHdqUEIyUlJnOEIzNkpVdi1NZF9qMVZnS3F4Sk8xbVBLdWVzM1h5bFoyczc0M2R1UDVOWUk?oc=5",
-    "sourceUrl": "https://www.youthdaily.co.kr",
+    "publisher": "영등포신문",
+    "title": "서울 아파트 매매 실거래가격 상승 지속...1년 새 14.56% 상승",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5oNDVCQW95S3VhSW1QemxrNjNlTUNUSE9tQl9TaUdDazB3Q1NIRjh1Mm1QcWFtMVRxOHM4Wi1TOEtWbk0ya1EwYW9TdDFVMHZsdVF5TXdHaDZsaFNy?oc=5",
+    "sourceUrl": "https://www.ybstv.net",
     "excerpt": "",
     "date": "2026-09-18"
    }
@@ -196,20 +196,20 @@
     "date": "2026-09-15"
    },
    {
-    "publisher": "연합뉴스",
-    "title": "[서미숙의 집수다] '토허구역+대출규제 확대' 11개월…내몰리는 임차인들",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9jY0RDTmVESjF1UWJMMFlfQklUYWc2V1J0b3B6Yi1HZkRySUFJNHVUdHpuNzl1aGRxRVU2RFBiTkxJRkpTR1NTVEJHdTR6SU1DeE1yNEJLRVR6c2fSAWBBVV95cUxPWUJmV3g5cnFmQmhfazBaOGNTU1gyVHpMSDlsdnZZUlNIcC1fYUtwYU8wZl9rV1RZR0pCQW9EYXhNWjFRYk1VdVVoMjZtenlKNHctYXlTQkhzTjZFajBOams?oc=5",
-    "sourceUrl": "https://www.yna.co.kr",
-    "excerpt": "",
-    "date": "2026-09-17"
-   },
-   {
     "publisher": "Daum",
     "title": "“집주인이 월세 두 배로 올린답니다”…‘울며 겨자 먹기’ 합의갱신에 세입자 한숨",
     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1JR2xzWE5yb3R1c2lyUWRmVm9hSWw1QlN4MG1pQ0t0MFhFZFc4cGZVREVtYW1YMFE4S09pUUt2LVpaaEdYcVFUV2N1bGh3TXlSbzdDNQ?oc=5",
     "sourceUrl": "https://v.daum.net",
     "excerpt": "",
     "date": "2026-09-15"
+   },
+   {
+    "publisher": "NBN미디어",
+    "title": "[윤준의 부동산수첩] 집은 팔으라더니...세입자는 나가지 말라는 정부",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1Dc3dWM1Q3aE5rQWgyakRBbDhTQzI1NlRHeVZNUFlmTUI3UGY5OG5FY0MtUVpEN20yRWxPU0kyRU5YWFlwR3RvVjBoWDFQRUppOERQdUU2WjdPQ0VRWkUwczQtVWpkUdIBakFVX3lxTE44Y0tSb211R0ZVRzFWUXdJU2tBN3dKaWlEWnZxbkhhZU9vbjFyZ1p6eWl3bFlqMU5CWFJqVlBGalFmbWxPcHZOSEc3UU1WNTJMenNSZlZGdW5SNV9QSzNNamFBTERibzBrV2c?oc=5",
+    "sourceUrl": "https://www.nbntv.kr",
+    "excerpt": "",
+    "date": "2026-09-30"
    }
   ],
   "redev": [
@@ -220,14 +220,6 @@
     "sourceUrl": "https://www.seoulapt.co.kr",
     "excerpt": "",
     "date": "2026-09-07"
-   },
-   {
-    "publisher": "Daum",
-    "title": "서울 자치구, 리모델링 사업에도 행정 지원 확대",
-    "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE50eHZJTzRSMEtDMDVjSXoxMFVCWVlRdm50aG9OMGhGdmNpcnc5U1RJUXBaSnNvMWYxeGhaMHpJWnk2WXhnZ3c?oc=5",
-    "sourceUrl": "https://v.daum.net",
-    "excerpt": "",
-    "date": "2026-09-20"
    },
    {
     "publisher": "머니투데이",
@@ -244,6 +236,14 @@
     "sourceUrl": "https://www.dpnews.co.kr",
     "excerpt": "",
     "date": "2026-10-13"
+   },
+   {
+    "publisher": "Daum",
+    "title": "서울 자치구, 리모델링 사업에도 행정 지원 확대",
+    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE8ySFB2VDlaQjdjZmpjOWVZX0ZVZG00T3prSEp0dnlKYTU1QVFLV2lZb091WUs0cklGR01xRUJaUy1xWE1LV3FRM0Yzdw?oc=5",
+    "sourceUrl": "https://v.daum.net",
+    "excerpt": "",
+    "date": "2026-09-21"
    },
    {
     "publisher": "한국주택경제신문",
