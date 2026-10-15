@@ -1,16 +1,8 @@
 {
- "generatedAt": "2026-10-14T21:40:34.772Z",
+ "generatedAt": "2026-10-15T04:37:47.181Z",
  "source": "Google News RSS",
  "topics": {
   "rate": [
-   {
-    "publisher": "한겨레",
-    "title": "8월 주담대 금리 4.66%...3년9개월 만에 ‘최고’",
-    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE80ZVFqeEJNNG16b1VJQUZxTDRLTDI1blpHdFkzSUZhVGNqWHVmeEEyTVR3UldlTnBEX0FqWnJEUGVwdGVmTURkQVJ5b1JaLWxRVjN5VEs0MkpwZGtERlUzYmhVeG9Sdnd0OEszc2J0T0MzZw?oc=5",
-    "sourceUrl": "https://www.hani.co.kr",
-    "excerpt": "",
-    "date": "2026-09-30"
-   },
    {
     "publisher": "머니투데이",
     "title": "\"5년간 빚 갚았는데도\" 월 부담 80만원 뛴다?...주담대 '금리 폭탄' 우려 - 머니투데이",
@@ -18,6 +10,14 @@
     "sourceUrl": "https://www.mt.co.kr",
     "excerpt": "",
     "date": "2026-09-01"
+   },
+   {
+    "publisher": "한겨레",
+    "title": "8월 주담대 금리 4.66%...3년9개월 만에 ‘최고’",
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE80ZVFqeEJNNG16b1VJQUZxTDRLTDI1blpHdFkzSUZhVGNqWHVmeEEyTVR3UldlTnBEX0FqWnJEUGVwdGVmTURkQVJ5b1JaLWxRVjN5VEs0MkpwZGtERlUzYmhVeG9Sdnd0OEszc2J0T0MzZw?oc=5",
+    "sourceUrl": "https://www.hani.co.kr",
+    "excerpt": "",
+    "date": "2026-09-30"
    },
    {
     "publisher": "엠에스투데이",
@@ -78,12 +78,12 @@
     "date": "2026-09-22"
    },
    {
-    "publisher": "OhmyNews",
-    "title": "추미애, '경기도형 주택공급' 직접 뛴다… 국토부에 권한 확대 요구",
-    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8xZEk2Z0VwVklhQ2VzajIxYVVXTG9feUQyRWNQM2xOUEJOMVpQX3VmZWhxdjR2ck9KWF9BVlh0S3VoRE5zWnJjc2tQbGRYc0dDTkU2TGtETjF0a0x0UF9UekptUmdsM1NJTlFMejYyOGlNaUxhRjJJ?oc=5",
-    "sourceUrl": "https://www.ohmynews.com",
+    "publisher": "뉴시스",
+    "title": "공급 대책 쏟아냈는데…수도권 착공·준공 지지부진",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5ad0swTGNzLXdETWc3WHdDUnE2YXp0X25IUzhjZjNoU0NRYjZ6ejkzWXBsYXJoLUVhRXV1aldNbjUyQUUxMllWTExqTGF1dzZQY0NURGpSY2l4eTVWN2xNTtIBeEFVX3lxTE0wZVpuTDd4VFBGeW56ZkRSYTU2T1RfTnU4WkZpUFBwNVBYVTJtSDVvYkRNbUt6dXNEZEhQMHM3d0NtSENIeFhEU2VyQjBoYXBIeTF5SjAwR0VTR0JfYk5kLVYzNU84LW05N2s1LV8xWGlhM0dOOGMwRQ?oc=5",
+    "sourceUrl": "https://www.newsis.com",
     "excerpt": "",
-    "date": "2026-10-02"
+    "date": "2026-10-14"
    }
   ],
   "tax": [
@@ -143,15 +143,7 @@
     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9WM2ZrZzdseVQzTl9PdVVLWUN3dU8yUENFbkVNM1N2cDBCeFNpNU15T2JhZ3dFcnVoU1JwR1FLX1pYOUQ2M3JnTTJ4RkVNa0xLckQ1V3ExNWYwMHNWNkNIQ21QaFU2N3ViSVR0ZklaVkRFTjTSAXdBVV95cUxQTnV5dVhyZnRnMU1LZVAzOFp4Z2gxQ1UyMTAta3RPbkVMVVRZNXhGSFpLZ0N1cDVOVFVyYnVuLTAtVVI1YURibnAxVzV0VFlySDJXUXdtNWpSWDJ2SWl6U3BwaEdLd2RDRTNGYmdYYmtMbUlqSk84RQ?oc=5",
     "sourceUrl": "https://www.straightnews.co.kr",
     "excerpt": "",
-    "date": "2026-10-14"
-   },
-   {
-    "publisher": "더구루",
-    "title": "서울 아파트에 찬바람...거래량 급감에 거래절벽 장기화 조짐",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9pdEFUTTk3TWdJWU44eE44SFJSbWhZZDRaTVZkUV9CdGR0M0l0VE9PN3kwbjJLQXRPY3ptU0Q4QkRLeFZnTzJqejhlY3c3Nnh6SDhfdDNoUXkySU94ZzRldExlNA?oc=5",
-    "sourceUrl": "https://www.theguru.co.kr",
-    "excerpt": "",
-    "date": "2026-10-04"
+    "date": "2026-10-12"
    },
    {
     "publisher": "경기일보",
@@ -168,6 +160,14 @@
     "sourceUrl": "https://www.ybstv.net",
     "excerpt": "",
     "date": "2026-09-18"
+   },
+   {
+    "publisher": "더구루",
+    "title": "서울 아파트에 찬바람...거래량 급감에 거래절벽 장기화 조짐",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBWcnFUa2tkbjdrcDk3TXFlU2FqdFhoaG1lZFRwc2NBbEs1OVU0cmNlZ2s5TlRyblIxZjdyM09saDlNZVJkd3FKeFV0YUZpN3FrZl9sSDlHQUJYdkRuLVE?oc=5",
+    "sourceUrl": "https://theguru.co.kr",
+    "excerpt": "",
+    "date": "2026-10-04"
    }
   ],
   "lease": [
@@ -196,12 +196,12 @@
     "date": "2026-09-15"
    },
    {
-    "publisher": "Daum",
-    "title": "“집주인이 월세 두 배로 올린답니다”…‘울며 겨자 먹기’ 합의갱신에 세입자 한숨",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1JR2xzWE5yb3R1c2lyUWRmVm9hSWw1QlN4MG1pQ0t0MFhFZFc4cGZVREVtYW1YMFE4S09pUUt2LVpaaEdYcVFUV2N1bGh3TXlSbzdDNQ?oc=5",
-    "sourceUrl": "https://v.daum.net",
+    "publisher": "www.ebn.co.kr",
+    "title": "[10·15 대책 1년] 전세 품귀에 임대차 혼란…집값·분양가 연쇄 자극",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5GOThNTy1FeFlYQU5xQWtQMkVGNzJJSkZfdUU2aFRSQkdBTVQ3U2xnb1ZsMjhZTlltaGhEQnJXUDVSazEzcGNERWJ5b2sxOHR6NnlmMjlHYUN3dTVWYldXYVhuVjZQRENs?oc=5",
+    "sourceUrl": "https://www.ebn.co.kr",
     "excerpt": "",
-    "date": "2026-09-15"
+    "date": "2026-10-15"
    },
    {
     "publisher": "NBN미디어",
@@ -230,10 +230,10 @@
     "date": "2026-10-09"
    },
    {
-    "publisher": "Daum",
+    "publisher": "조선일보",
     "title": "서울 자치구, 리모델링 사업에도 행정 지원 확대",
-    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE8ySFB2VDlaQjdjZmpjOWVZX0ZVZG00T3prSEp0dnlKYTU1QVFLV2lZb091WUs0cklGR01xRUJaUy1xWE1LV3FRM0Yzdw?oc=5",
-    "sourceUrl": "https://v.daum.net",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeXQyVUJoX0l2czhXc3BFYnBTZmZBaUpMMXlNRHFpc1hrV3ZVbTNNSlB1ZlF4RlI0YU11cmszamNHc1R4NlhRUERMazEtN1Q5NGtKVGtERXBwelhoRlZEYmc3RXh3czN3d3JPSkI1eUFQX2ZMNXp2ME1leDZHRGZVcGZCNS1CSm82SVNNYUZ3?oc=5",
+    "sourceUrl": "https://www.chosun.com",
     "excerpt": "",
     "date": "2026-09-21"
    },
@@ -330,10 +330,10 @@
     "date": "2026-10-09"
    },
    {
-    "publisher": "프리진뉴스",
+    "publisher": "프리진경제",
     "title": "서울 아파트 분양전망 105.7로 상승…청약·미분양 여건 개선 기대 커져",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBHcmQzSVRwUVFxaVo2c1NwVDR0UmxLZTBVcDJqSC1OZkZfUUg5bl9DcnZ0anJLMGRzZ0VrWUFZWno2RE9EZENDdWU3czRXeS1qTGhxQzZTaHVlUkxEUExBajg4M3FKRUdWaDNPQnB5UQ?oc=5",
-    "sourceUrl": "https://www.freezinenews.com",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE84WVdaX1BURnVMdS03SG1MaGszTVJqVU1obWl3T2VoYkVaVVU1YWdETmVRUXFyZE13WjdMNFJuT0VvYzEtUUtfUkE5ZXNXR2dqWDY0RVJkaEFTdGJXb2dPcVhKWXNqeGY1a3lNWg?oc=5",
+    "sourceUrl": "https://www.freezine.co.kr",
     "excerpt": "",
     "date": "2026-10-13"
    }
