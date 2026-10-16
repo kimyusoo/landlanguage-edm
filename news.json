@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-16T16:38:54.940Z",
+ "generatedAt": "2026-10-16T21:06:59.063Z",
  "source": "Google News RSS",
  "topics": {
   "rate": [
@@ -70,20 +70,20 @@
     "date": "2026-10-16"
    },
    {
-    "publisher": "뉴시스",
-    "title": "공급 대책 쏟아냈는데…수도권 착공·준공 지지부진",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5ad0swTGNzLXdETWc3WHdDUnE2YXp0X25IUzhjZjNoU0NRYjZ6ejkzWXBsYXJoLUVhRXV1aldNbjUyQUUxMllWTExqTGF1dzZQY0NURGpSY2l4eTVWN2xNTtIBeEFVX3lxTE0wZVpuTDd4VFBGeW56ZkRSYTU2T1RfTnU4WkZpUFBwNVBYVTJtSDVvYkRNbUt6dXNEZEhQMHM3d0NtSENIeFhEU2VyQjBoYXBIeTF5SjAwR0VTR0JfYk5kLVYzNU84LW05N2s1LV8xWGlhM0dOOGMwRQ?oc=5",
-    "sourceUrl": "https://www.newsis.com",
-    "excerpt": "",
-    "date": "2026-10-14"
-   },
-   {
     "publisher": "경기일보",
     "title": "수도권 주택 올해 9만9천가구 착공…경기·인천 3기 신도시·택지 공급 속도",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1mQ0FuNHU5TXIyS250T190bk9zR0tPSXA3cnZLWk43ZTk4Q2JEc2hrc1JsUE8zamUtbWlOMVpidWFFc2FRUU9WeEhNU19MWnlpWmtsMFgwMDRpbnc?oc=5",
     "sourceUrl": "https://www.kyeonggi.com",
     "excerpt": "",
     "date": "2026-10-16"
+   },
+   {
+    "publisher": "경향신문",
+    "title": "홍지선 국토장관 “임대주택 비율 10%로 높일 것…30년까지 수도권에 5만3천호 공급”",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE50ZVdIdmlNUlY4QUxxbm9XVEhyX2ZwandCRXI0Y3p6UWNZTG1YNFlCMVp1RHhlWUx1aWw2eFFBWFJrSlZJcy04dktMVDkwdlFyTXVmb0I4OEN5Z9IBX0FVX3lxTE5ZczNKME1hdjdiWGl2VEc2WmZEXy1kUjJUM01kWnl5c0lLMU9FYjlCX2gtLVFTa2JVeEFLN0g3clZoZ0RESU9acEhZZ3NCNGhvOUI1R0Q0VXFjWDNyQXcw?oc=5",
+    "sourceUrl": "https://www.khan.co.kr",
+    "excerpt": "",
+    "date": "2026-10-08"
    }
   ],
   "tax": [
@@ -135,7 +135,7 @@
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9qa0c2Vi1EbHdfR2NYOXNwY3AtRnpMb0t6ZVFxTWNGMHVCTUhvcHZJRV85N2JqYWRNaGs4MVBEN25HRVh2R09lMXhCb3lLZTNJczB4U21lUVpjODDSAWBBVV95cUxNOFhrQ3hESU93Z2NnOU9Fb0JlQmIwZ0NiVFFMUkJ1UnVUUG94SmdnVUV6VXhvRHhLd09PejZJYU5wSk4yUWItVmZSU0NjbFhucFg1djRJSzN3WDJiNDRnR3g?oc=5",
     "sourceUrl": "https://www.yna.co.kr",
     "excerpt": "",
-    "date": "2026-09-18"
+    "date": "2026-09-17"
    },
    {
     "publisher": "스트레이트뉴스",
@@ -280,18 +280,18 @@
     "date": "2026-10-09"
    },
    {
-    "publisher": "뉴스투데이",
-    "title": "금융당국, 고정금리 대출 늘린다...금리 상승기 차주 부담 완화",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE40aVN0SFl2UmlyVkZsamJfemMtSTBfamNoTlBqeHp2c19mTVRtLTJuLTA2dHRBLUpiWUFEdnhweHNCVzJfZ1BhbF9YZ3Jad3gzNjM3Y1VmY3BDODNNZkE?oc=5",
-    "sourceUrl": "https://www.news2day.co.kr",
-    "excerpt": "",
-    "date": "2026-09-27"
-   },
-   {
     "publisher": "Daum",
     "title": "금리 인상 충격 막는다…금융당국, 취약차주 방어막 강화",
     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1aWG5KbDhZcmxkcGNXRjFQd3BYeUdiOHlteERTTW1FdXZYSHBYRlhEWm5NdzFLVDNRaV85VkRoQ3Z6RkVsbDBiaVZlVWlZUG5YdWZJUg?oc=5",
     "sourceUrl": "https://v.daum.net",
+    "excerpt": "",
+    "date": "2026-09-27"
+   },
+   {
+    "publisher": "뉴스투데이",
+    "title": "금융당국, 고정금리 대출 늘린다...금리 상승기 차주 부담 완화",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE40aVN0SFl2UmlyVkZsamJfemMtSTBfamNoTlBqeHp2c19mTVRtLTJuLTA2dHRBLUpiWUFEdnhweHNCVzJfZ1BhbF9YZ3Jad3gzNjM3Y1VmY3BDODNNZkE?oc=5",
+    "sourceUrl": "https://www.news2day.co.kr",
     "excerpt": "",
     "date": "2026-09-27"
    }
@@ -322,31 +322,23 @@
     "date": "2026-09-21"
    },
    {
+    "publisher": "서울경제",
+    "title": "전국 1순위 청약 경쟁률 5.34대 1…38개월 만에 최저",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA3YUdEZFhieWlndzVDalZyeUQzeFQzTHU2TEZlRG5aMURyS1ZGS2NSdFBCTm5ZejVqRjgwWXJFMGlDVDdadTUwYUY5ZndLLU5jTEHSAVNBVV95cUxNZW5xT2padmZSeUJxdXNDczd6S2Jpb1dMRHlGOU5kNXFLTUM0VzRIMmZBMm0tc21kakxnOEFSNEJTTlNsaENvLW1WbDZDQzJNeTdtYw?oc=5",
+    "sourceUrl": "https://www.sedaily.com",
+    "excerpt": "",
+    "date": "2026-09-21"
+   },
+   {
     "publisher": "매일경제",
     "title": "서울은 1000대 1도 나오는데…지방은 줄줄이 청약 미달",
     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9UUzlhcXN2cjllcnlnQk5WdmItTWxGVzBqNFVDeU1jbjFVRzNxTVBsMDYtSU1WQkVPdEhKWjJVb2RNb0F6alhRQUtGOEJfTC05Ylk5NFlR?oc=5",
     "sourceUrl": "https://www.mk.co.kr",
     "excerpt": "",
     "date": "2026-10-09"
-   },
-   {
-    "publisher": "프리진뉴스",
-    "title": "서울 아파트 분양전망 105.7로 상승…청약·미분양 여건 개선 기대 커져",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBHcmQzSVRwUVFxaVo2c1NwVDR0UmxLZTBVcDJqSC1OZkZfUUg5bl9DcnZ0anJLMGRzZ0VrWUFZWno2RE9EZENDdWU3czRXeS1qTGhxQzZTaHVlUkxEUExBajg4M3FKRUdWaDNPQnB5UQ?oc=5",
-    "sourceUrl": "https://www.freezinenews.com",
-    "excerpt": "",
-    "date": "2026-10-13"
    }
   ],
   "gtx": [
-   {
-    "publisher": "매일경제",
-    "title": "“GTX 생긴다고 덥석 샀다간” … A·B·C 역세권 진짜 수혜지역 어디 [교통망 2편]",
-    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1SSHN4ekNqU1pta3Q2aDN1eGZ6UlplU2ptZzJ4ZnEzNHVfTGFzak9LUzJKYW1scUJhWFByNEJ6VmZXOWVBMFpFMjhKN1ZMQVR4THJBN0UwZG4?oc=5",
-    "sourceUrl": "https://www.mk.co.kr",
-    "excerpt": "",
-    "date": "2026-09-28"
-   },
    {
     "publisher": "중부일보",
     "title": "초역세권에 GTX·광역철도까지…수원·동탄·성남 등으로 몰리는 주택 수요",
@@ -370,6 +362,14 @@
     "sourceUrl": "https://www.hankyung.com",
     "excerpt": "",
     "date": "2026-09-20"
+   },
+   {
+    "publisher": "경인일보",
+    "title": "GTX-C 수혜 ‘쿼드러플’ 역세권 수원역, 실거래 56% 증가",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1MMVZwMDRtd0o4dng4dHpZa014eFFQNDhKc0VGd0dVRXlEcFZsUm9lZ1Q5SDg5TUEyZGQ1NjBNTVBTX3p3M3Mya3JFTEF1Y0xLUlE?oc=5",
+    "sourceUrl": "https://www.kyeongin.com",
+    "excerpt": "",
+    "date": "2026-09-15"
    },
    {
     "publisher": "이투데이",
@@ -408,14 +408,6 @@
     "date": "2026-09-21"
    },
    {
-    "publisher": "남양주뉴스",
-    "title": "‘왕숙 중심부’ A-19 본청약 연기",
-    "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBkOFRjV1Uydm8wbFZGb2RLNGJZWUw3WjE2M09yeDFnVmV0dGtvNFJDMHNBUGJidVFKX0NZWXBmT21CQQ?oc=5",
-    "sourceUrl": "http://www.nyjnews.net",
-    "excerpt": "",
-    "date": "2026-09-22"
-   },
-   {
     "publisher": "이데일리",
     "title": "추석 끝나자 3기 신도시 청약…계양·대장·왕숙 줄줄이 공급",
     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTWhsNGRtZzA3d05BeFhTR0hobzQwamhXSU1SYy1vMG1EY2tybjVkbk5rcG9kbklfSVRYNUJoU09ER2FQaFdvbkNvUWloUFludDZpejY2U096RGthUXlPcEFXOVBfbGZXczZMM3lGMlJmamhTeDhSUDZXMTRpb1pxbQ?oc=5",
@@ -430,6 +422,14 @@
     "sourceUrl": "https://www.sisajournal.com",
     "excerpt": "",
     "date": "2026-09-13"
+   },
+   {
+    "publisher": "조선일보",
+    "title": "3기 신도시 첫 민간분양… ‘김포공항역까지 세 정거장’ 서울 접근성 좋아",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUDV3UmFwWTg1M1ZFSDRQcDFuYTVzYWY3Z3IyNFlocGtKTmVjMmFBZElIZEpLVUhCNFl2Sks2dklfSUVxQ29QQVlDZTRpeWRienBNc241SzQwYmZGbURvTW54ektJNTJRbG9KTDdjWTFuVUROSnZ5QmZqbk5PZ0ZIVHRycU9ES0M4ZDdzOVVn?oc=5",
+    "sourceUrl": "https://www.chosun.com",
+    "excerpt": "",
+    "date": "2026-10-01"
    }
   ]
  }
