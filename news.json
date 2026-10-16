@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-15T21:22:13.139Z",
+ "generatedAt": "2026-10-16T04:31:17.167Z",
  "source": "Google News RSS",
  "topics": {
   "rate": [
@@ -62,6 +62,14 @@
     "date": "2026-10-08"
    },
    {
+    "publisher": "뉴시스",
+    "title": "공급 대책 쏟아냈는데…수도권 착공·준공 지지부진",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5ad0swTGNzLXdETWc3WHdDUnE2YXp0X25IUzhjZjNoU0NRYjZ6ejkzWXBsYXJoLUVhRXV1aldNbjUyQUUxMllWTExqTGF1dzZQY0NURGpSY2l4eTVWN2xNTtIBeEFVX3lxTE0wZVpuTDd4VFBGeW56ZkRSYTU2T1RfTnU4WkZpUFBwNVBYVTJtSDVvYkRNbUt6dXNEZEhQMHM3d0NtSENIeFhEU2VyQjBoYXBIeTF5SjAwR0VTR0JfYk5kLVYzNU84LW05N2s1LV8xWGlhM0dOOGMwRQ?oc=5",
+    "sourceUrl": "https://www.newsis.com",
+    "excerpt": "",
+    "date": "2026-10-14"
+   },
+   {
     "publisher": "연합뉴스",
     "title": "[10·15 대책 1년] '닥치고 공급'인데 공급 부족 언제 해소되나",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4tWVdldHdkMjdNY2VyZFhTa3dPbjloTVNnYWlZLUR0V1p3aXZuQU5OY0VHS0hfZXJPQWV3UVB1MVpJVF9sdjE5SWNsWkEwaTdBemZpbFRtYkZIbWfSAWBBVV95cUxOUldQSVV4RXpFSHlEdndKSjRTQUplNnhNcXZlLXMtZWRwemxOVldSSzZGdXd4ZFJpN3lhOVd4Q1ROM0hUZFdMWkIzSGExY1ZHZ2hHdVhaMWxEWlRzdG9HWmM?oc=5",
@@ -76,14 +84,6 @@
     "sourceUrl": "https://v.daum.net",
     "excerpt": "",
     "date": "2026-09-22"
-   },
-   {
-    "publisher": "OhmyNews",
-    "title": "추미애, '경기도형 주택공급' 직접 뛴다… 국토부에 권한 확대 요구",
-    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8xZEk2Z0VwVklhQ2VzajIxYVVXTG9feUQyRWNQM2xOUEJOMVpQX3VmZWhxdjR2ck9KWF9BVlh0S3VoRE5zWnJjc2tQbGRYc0dDTkU2TGtETjF0a0x0UF9UekptUmdsM1NJTlFMejYyOGlNaUxhRjJJ?oc=5",
-    "sourceUrl": "https://www.ohmynews.com",
-    "excerpt": "",
-    "date": "2026-10-02"
    }
   ],
   "tax": [
@@ -188,14 +188,6 @@
     "date": "2026-09-25"
    },
    {
-    "publisher": "매일경제",
-    "title": "“집주인이 월세 두 배로 올린답니다”…‘울며 겨자 먹기’ 합의갱신에 세입자 한숨",
-    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBRUC1vdHQxVVVTTG1Hald6ZVJ6T1EtanpfcUcydjRONkV1RTJQemV2aGlKaXNzYTUwRl9hMGVsLWdSbWdWQUxuLVBQOW5zSTBFcDk3RjRtVDI?oc=5",
-    "sourceUrl": "https://www.mk.co.kr",
-    "excerpt": "",
-    "date": "2026-09-15"
-   },
-   {
     "publisher": "www.ebn.co.kr",
     "title": "[10·15 대책 1년] 전세 품귀에 임대차 혼란…집값·분양가 연쇄 자극",
     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5GOThNTy1FeFlYQU5xQWtQMkVGNzJJSkZfdUU2aFRSQkdBTVQ3U2xnb1ZsMjhZTlltaGhEQnJXUDVSazEzcGNERWJ5b2sxOHR6NnlmMjlHYUN3dTVWYldXYVhuVjZQRENs?oc=5",
@@ -204,12 +196,20 @@
     "date": "2026-10-15"
    },
    {
-    "publisher": "NBN미디어",
-    "title": "[윤준의 부동산수첩] 집은 팔으라더니...세입자는 나가지 말라는 정부",
-    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1Dc3dWM1Q3aE5rQWgyakRBbDhTQzI1NlRHeVZNUFlmTUI3UGY5OG5FY0MtUVpEN20yRWxPU0kyRU5YWFlwR3RvVjBoWDFQRUppOERQdUU2WjdPQ0VRWkUwczQtVWpkUdIBakFVX3lxTE44Y0tSb211R0ZVRzFWUXdJU2tBN3dKaWlEWnZxbkhhZU9vbjFyZ1p6eWl3bFlqMU5CWFJqVlBGalFmbWxPcHZOSEc3UU1WNTJMenNSZlZGdW5SNV9QSzNNamFBTERibzBrV2c?oc=5",
-    "sourceUrl": "https://www.nbntv.kr",
+    "publisher": "매일경제",
+    "title": "“집주인이 월세 두 배로 올린답니다”…‘울며 겨자 먹기’ 합의갱신에 세입자 한숨",
+    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBRUC1vdHQxVVVTTG1Hald6ZVJ6T1EtanpfcUcydjRONkV1RTJQemV2aGlKaXNzYTUwRl9hMGVsLWdSbWdWQUxuLVBQOW5zSTBFcDk3RjRtVDI?oc=5",
+    "sourceUrl": "https://www.mk.co.kr",
     "excerpt": "",
-    "date": "2026-09-30"
+    "date": "2026-09-15"
+   },
+   {
+    "publisher": "한국공공정책신문",
+    "title": "[전문가 칼럼 | 조재현 법무사] 실거주 갱신거절 후 재임대 시 손해배상 책임까지… 벼랑 끝에 선 집주인들",
+    "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1JMnVzX0M4dHNuSjlFdF9UX2hrcnhYbFA1TGprSkhYU2wtMkNEbHlwbVpFOWVKeGZsMllqRWVMUHR5bm8?oc=5",
+    "sourceUrl": "http://knpp.co.kr",
+    "excerpt": "",
+    "date": "2026-10-16"
    }
   ],
   "redev": [
@@ -280,18 +280,18 @@
     "date": "2026-10-09"
    },
    {
-    "publisher": "뉴스투데이",
-    "title": "금융당국, 고정금리 대출 늘린다...금리 상승기 차주 부담 완화",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE40aVN0SFl2UmlyVkZsamJfemMtSTBfamNoTlBqeHp2c19mTVRtLTJuLTA2dHRBLUpiWUFEdnhweHNCVzJfZ1BhbF9YZ3Jad3gzNjM3Y1VmY3BDODNNZkE?oc=5",
-    "sourceUrl": "https://www.news2day.co.kr",
-    "excerpt": "",
-    "date": "2026-09-27"
-   },
-   {
     "publisher": "Daum",
     "title": "금리 인상 충격 막는다…금융당국, 취약차주 방어막 강화",
     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1aWG5KbDhZcmxkcGNXRjFQd3BYeUdiOHlteERTTW1FdXZYSHBYRlhEWm5NdzFLVDNRaV85VkRoQ3Z6RkVsbDBiaVZlVWlZUG5YdWZJUg?oc=5",
     "sourceUrl": "https://v.daum.net",
+    "excerpt": "",
+    "date": "2026-09-27"
+   },
+   {
+    "publisher": "뉴스투데이",
+    "title": "금융당국, 고정금리 대출 늘린다...금리 상승기 차주 부담 완화",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE40aVN0SFl2UmlyVkZsamJfemMtSTBfamNoTlBqeHp2c19mTVRtLTJuLTA2dHRBLUpiWUFEdnhweHNCVzJfZ1BhbF9YZ3Jad3gzNjM3Y1VmY3BDODNNZkE?oc=5",
+    "sourceUrl": "https://www.news2day.co.kr",
     "excerpt": "",
     "date": "2026-09-27"
    }
@@ -306,20 +306,20 @@
     "date": "2026-10-06"
    },
    {
-    "publisher": "파이낸셜뉴스",
-    "title": "미분양 나던 동네가 20억 '훌쩍'…청약 경쟁률 564대 1 가보니 [집 나와라 뚝딱!]",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5xb05pR2tuYVJtSTV5b0M5bjEyM1ladU0yU19HQk9TOXhnNklpMWJIaXBaYmgwTXkxLVB4aFNPNVpKeW95MTVrV01kSVZBMG13VFhoU2Jhdk0wZw?oc=5",
-    "sourceUrl": "https://www.fnnews.com",
-    "excerpt": "",
-    "date": "2026-10-08"
-   },
-   {
     "publisher": "한국경제",
     "title": "\"당첨돼도 돈 부족해\"…수도권도 청약 경쟁률 '하락'",
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5LUHYzVmRpeXpCdG8zOFdOREgxV1hYd0FEb1l5Zi1QS09VcEZ0MlJtb21ETFVWUGhwRGRBNjMxR3NGZTRMcl93UXM3SFNGMS1HSDlyLVJnT3VXZw?oc=5",
     "sourceUrl": "https://www.hankyung.com",
     "excerpt": "",
     "date": "2026-09-21"
+   },
+   {
+    "publisher": "파이낸셜뉴스",
+    "title": "미분양 나던 동네가 20억 '훌쩍'…청약 경쟁률 564대 1 가보니 [집 나와라 뚝딱!]",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5xb05pR2tuYVJtSTV5b0M5bjEyM1ladU0yU19HQk9TOXhnNklpMWJIaXBaYmgwTXkxLVB4aFNPNVpKeW95MTVrV01kSVZBMG13VFhoU2Jhdk0wZw?oc=5",
+    "sourceUrl": "https://www.fnnews.com",
+    "excerpt": "",
+    "date": "2026-10-08"
    },
    {
     "publisher": "매일경제",
@@ -374,13 +374,21 @@
    {
     "publisher": "서울경제",
     "title": "GTX-C노선, 15일 첫 삽 “안산·의왕·양주 등 수혜”",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9MZFNkS0VqcFd3NTUtZDJuMVR0c0dZOW1SOVgtbm9TREVOSUIzelVhcVNrYnpEWjJwc2hXcXlLcHJ1cmNKWmJmX3lDbFJJdjJaOGc?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9MZFNkS0VqcFd3NTUtZDJuMVR0c0dZOW1SOVgtbm9TREVOSUIzelVhcVNrYnpEWjJwc2hXcXlLcHJ1cmNKWmJmX3lDbFJJdjJaOGfSAVNBVV95cUxPZ0IycmdiT1FXaERIcmRmWE5OQl9BcjVSYkg1SzVkV3RpV2hBUFUzSm1kODNlZ05DeFF4dXBZcjl2UHFfY2U5RmM3YVdCU0haNEEtdw?oc=5",
     "sourceUrl": "https://www.sedaily.com",
     "excerpt": "",
     "date": "2026-09-14"
    }
   ],
   "gap": [
+   {
+    "publisher": "비즈워치",
+    "title": "HUG 최인호 \"안심신탁 원금 손실도 충분히 책임\"",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1CTkRPNlZNUDVuVF9BczByNTRJWWFUT1hta1BaMnhIZlFkZ0xwVGxabmkteW9wNWxaNDR0N1dSZDNiYm5fMnpJUzlEWmJnSnE5UE1hbVhqZTlaOVdGT3h4NThpZ2RWd3pNVjF3cGkzY1I?oc=5",
+    "sourceUrl": "https://news.bizwatch.co.kr",
+    "excerpt": "",
+    "date": "2026-10-15"
+   },
    {
     "publisher": "스마트비즈",
     "title": "\"전세금 못 받았나\"···서울 임차권등기 32% 급감, 송파·영등포 '최다'",
