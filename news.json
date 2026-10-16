@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-16T11:23:28.127Z",
+ "generatedAt": "2026-10-16T16:38:54.940Z",
  "source": "Google News RSS",
  "topics": {
   "rate": [
@@ -70,12 +70,12 @@
     "date": "2026-10-16"
    },
    {
-    "publisher": "중앙일보",
-    "title": "2030년까지 공적주택 119만 가구…수도권에 92만 가구 공급",
-    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9QM1pGejB4Rk8zRW5xdElIcmRVeHZLV3RTUVpPMDNHRDQyaTdyNWpIdnQ4S0hnaXdfM0lBc1MwMnh2Z1loWXlKNzU4LTVxVlQyT09tYTRn?oc=5",
-    "sourceUrl": "https://www.joongang.co.kr",
+    "publisher": "뉴시스",
+    "title": "공급 대책 쏟아냈는데…수도권 착공·준공 지지부진",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5ad0swTGNzLXdETWc3WHdDUnE2YXp0X25IUzhjZjNoU0NRYjZ6ejkzWXBsYXJoLUVhRXV1aldNbjUyQUUxMllWTExqTGF1dzZQY0NURGpSY2l4eTVWN2xNTtIBeEFVX3lxTE0wZVpuTDd4VFBGeW56ZkRSYTU2T1RfTnU4WkZpUFBwNVBYVTJtSDVvYkRNbUt6dXNEZEhQMHM3d0NtSENIeFhEU2VyQjBoYXBIeTF5SjAwR0VTR0JfYk5kLVYzNU84LW05N2s1LV8xWGlhM0dOOGMwRQ?oc=5",
+    "sourceUrl": "https://www.newsis.com",
     "excerpt": "",
-    "date": "2026-09-21"
+    "date": "2026-10-14"
    },
    {
     "publisher": "경기일보",
@@ -120,12 +120,12 @@
     "date": "2026-09-04"
    },
    {
-    "publisher": "경기일보",
-    "title": "넉 달 만에 바뀌고 석 달 만에 완화…부동산 정책 ‘오락가락’",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE42SG5DUUNwMkxBOWp3OGJfVktpNFRGaHlrLVMxZVE5dXV6X0ZHVjltNnZmZ2hxU2xkWGF3V0dPcHIxdEZuUVFCa3J6RFMtc0ktcFNqejVGOXplZm8?oc=5",
-    "sourceUrl": "https://www.kyeonggi.com",
+    "publisher": "세정일보",
+    "title": "`26 세제개편안, 양도세·종부세 동시 강화 논란…시장 왜곡 키우나",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE51c3kyZUhtN0lEUnhZWUZqdTE4Q21vLTFCaDNUTlZ5a2VEVElBbGVhVFJLQTh1aklsbDRUSzgwX1Q1dTRvUG9YZUlxNEdnNkZJX3k5UWdmTHo2Si1qX19rQkFJLU0zd09mYTlJYw?oc=5",
+    "sourceUrl": "https://www.sejungilbo.com",
     "excerpt": "",
-    "date": "2026-09-20"
+    "date": "2026-09-09"
    }
   ],
   "stat": [
@@ -188,18 +188,10 @@
     "date": "2026-09-25"
    },
    {
-    "publisher": "www.ebn.co.kr",
-    "title": "[10·15 대책 1년] 전세 품귀에 임대차 혼란…집값·분양가 연쇄 자극",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5GOThNTy1FeFlYQU5xQWtQMkVGNzJJSkZfdUU2aFRSQkdBTVQ3U2xnb1ZsMjhZTlltaGhEQnJXUDVSazEzcGNERWJ5b2sxOHR6NnlmMjlHYUN3dTVWYldXYVhuVjZQRENs?oc=5",
-    "sourceUrl": "https://www.ebn.co.kr",
-    "excerpt": "",
-    "date": "2026-10-15"
-   },
-   {
-    "publisher": "투데이타임즈",
+    "publisher": "한국공공정책신문",
     "title": "[전문가 칼럼 | 조재현 법무사] 실거주 갱신거절 후 재임대 시 손해배상 책임까지… 벼랑 끝에 선 집주인들",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBLenRfQTVmZllocEZmSlB0U0lTWTZmdFJTUzg5OUQ3dFdyRTJzMERULWhla3puWmxmbUVYMnRFZkxxSkhSRlBrVEdnZmFhTGg1SXc?oc=5",
-    "sourceUrl": "https://www.todaytimes.co.kr",
+    "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1JMnVzX0M4dHNuSjlFdF9UX2hrcnhYbFA1TGprSkhYU2wtMkNEbHlwbVpFOWVKeGZsMllqRWVMUHR5bm8?oc=5",
+    "sourceUrl": "http://knpp.co.kr",
     "excerpt": "",
     "date": "2026-10-16"
    },
@@ -210,6 +202,14 @@
     "sourceUrl": "https://www.pinpointnews.co.kr",
     "excerpt": "",
     "date": "2026-09-27"
+   },
+   {
+    "publisher": "이데일리",
+    "title": "전세거래 급감하는 사이 월세 3배 는 중랑구…'서울 월세화' 축소판",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNY0docFhaTTUxNTNuYWowY2VJN3BMYXZtaF9Jajh5d1FKZHUtZngtaXMybDNUYm9ORTBEUGJjXzJEbmFobUE5R1hnSElvUFFTcS1ESlFodndvMG9xbXU3RzNibFl3dGNSbXFucmVIQzQ2RGlUeGlrMWhpc0N4YnNtNw?oc=5",
+    "sourceUrl": "https://www.edaily.co.kr",
+    "excerpt": "",
+    "date": "2026-09-28"
    }
   ],
   "redev": [
@@ -340,20 +340,20 @@
   ],
   "gtx": [
    {
-    "publisher": "중부일보",
-    "title": "초역세권에 GTX·광역철도까지…수원·동탄·성남 등으로 몰리는 주택 수요",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9CTW9QZG9mRkNadWVCWlY2U3oxNnV0enI2NlNLZ1JvdnplR0pHUEJ1SHpicGlyOV91UWFSSGYtNl9OWUFXN1U1bGE4dHVlc3J5SjZoS3poOEo2X2lZek16V2FaTUJRNWxFdnctcWtycw?oc=5",
-    "sourceUrl": "https://www.joongboo.com",
-    "excerpt": "",
-    "date": "2026-10-12"
-   },
-   {
     "publisher": "매일경제",
     "title": "“GTX 생긴다고 덥석 샀다간” … A·B·C 역세권 진짜 수혜지역 어디 [교통망 2편]",
     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1SSHN4ekNqU1pta3Q2aDN1eGZ6UlplU2ptZzJ4ZnEzNHVfTGFzak9LUzJKYW1scUJhWFByNEJ6VmZXOWVBMFpFMjhKN1ZMQVR4THJBN0UwZG4?oc=5",
     "sourceUrl": "https://www.mk.co.kr",
     "excerpt": "",
     "date": "2026-09-28"
+   },
+   {
+    "publisher": "중부일보",
+    "title": "초역세권에 GTX·광역철도까지…수원·동탄·성남 등으로 몰리는 주택 수요",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9CTW9QZG9mRkNadWVCWlY2U3oxNnV0enI2NlNLZ1JvdnplR0pHUEJ1SHpicGlyOV91UWFSSGYtNl9OWUFXN1U1bGE4dHVlc3J5SjZoS3poOEo2X2lZek16V2FaTUJRNWxFdnctcWtycw?oc=5",
+    "sourceUrl": "https://www.joongboo.com",
+    "excerpt": "",
+    "date": "2026-10-12"
    },
    {
     "publisher": "땅집고",
@@ -408,6 +408,14 @@
     "date": "2026-09-21"
    },
    {
+    "publisher": "남양주뉴스",
+    "title": "‘왕숙 중심부’ A-19 본청약 연기",
+    "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBkOFRjV1Uydm8wbFZGb2RLNGJZWUw3WjE2M09yeDFnVmV0dGtvNFJDMHNBUGJidVFKX0NZWXBmT21CQQ?oc=5",
+    "sourceUrl": "http://www.nyjnews.net",
+    "excerpt": "",
+    "date": "2026-09-22"
+   },
+   {
     "publisher": "이데일리",
     "title": "추석 끝나자 3기 신도시 청약…계양·대장·왕숙 줄줄이 공급",
     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTWhsNGRtZzA3d05BeFhTR0hobzQwamhXSU1SYy1vMG1EY2tybjVkbk5rcG9kbklfSVRYNUJoU09ER2FQaFdvbkNvUWloUFludDZpejY2U096RGthUXlPcEFXOVBfbGZXczZMM3lGMlJmamhTeDhSUDZXMTRpb1pxbQ?oc=5",
@@ -422,14 +430,6 @@
     "sourceUrl": "https://www.sisajournal.com",
     "excerpt": "",
     "date": "2026-09-13"
-   },
-   {
-    "publisher": "조선일보",
-    "title": "3기 신도시 첫 민간분양… ‘김포공항역까지 세 정거장’ 서울 접근성 좋아",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUDV3UmFwWTg1M1ZFSDRQcDFuYTVzYWY3Z3IyNFlocGtKTmVjMmFBZElIZEpLVUhCNFl2Sks2dklfSUVxQ29QQVlDZTRpeWRienBNc241SzQwYmZGbURvTW54ektJNTJRbG9KTDdjWTFuVUROSnZ5QmZqbk5PZ0ZIVHRycU9ES0M4ZDdzOVVn?oc=5",
-    "sourceUrl": "https://www.chosun.com",
-    "excerpt": "",
-    "date": "2026-10-01"
    }
   ]
  }
