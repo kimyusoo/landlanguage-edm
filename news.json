@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-17T15:34:08.338Z",
+ "generatedAt": "2026-10-17T20:35:56.970Z",
  "source": "Google News RSS",
  "topics": {
   "rate": [
@@ -28,20 +28,20 @@
     "date": "2026-09-10"
    },
    {
-    "publisher": "KB Think",
-    "title": "KB주택시장 리뷰 2026년 9월호 - 주택 금융",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5HZHduZUkyX0RYVTBndFVubk9rVkRfVUx4NE5rNm9xM1dBb3VudVBFQmk0T2xodjZyZzZpeFlqdVo4WWNMLTZsNFZDc2JtbWxIcUk5ZUllY3Q1ZWwzZTBVX3NqVFlpNFluWkJ0OWktOA?oc=5",
-    "sourceUrl": "https://kbthink.com",
-    "excerpt": "",
-    "date": "2026-09-16"
-   },
-   {
     "publisher": "인더스트리뉴스",
     "title": "한은 “금리 인상, 금융취약성 완화”…가계·기업 이자 부담은 커져",
     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFA0SGRxRlRycTAxVVJxeGVwakVrRnVmcnBCcEM1N3lKY250LUxMRU9GZVl3QXcxMWNBdEZXVmw4aDEya0ZNZGJ4c2hPNmJmTWF3dllIbm5oX3k1VmNzOWNsUTBMODVpTEZMakYzU1Jqa3J1Zw?oc=5",
     "sourceUrl": "https://www.industrynews.co.kr",
     "excerpt": "",
     "date": "2026-09-22"
+   },
+   {
+    "publisher": "KB Think",
+    "title": "KB주택시장 리뷰 2026년 9월호 - 주택 금융",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5HZHduZUkyX0RYVTBndFVubk9rVkRfVUx4NE5rNm9xM1dBb3VudVBFQmk0T2xodjZyZzZpeFlqdVo4WWNMLTZsNFZDc2JtbWxIcUk5ZUllY3Q1ZWwzZTBVX3NqVFlpNFluWkJ0OWktOA?oc=5",
+    "sourceUrl": "https://kbthink.com",
+    "excerpt": "",
+    "date": "2026-09-16"
    }
   ],
   "supply": [
@@ -140,20 +140,20 @@
   ],
   "stat": [
    {
-    "publisher": "연합뉴스",
-    "title": "서울 아파트값 7월에도 상승세 지속…1년 새 15% 상승",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9qa0c2Vi1EbHdfR2NYOXNwY3AtRnpMb0t6ZVFxTWNGMHVCTUhvcHZJRV85N2JqYWRNaGs4MVBEN25HRVh2R09lMXhCb3lLZTNJczB4U21lUVpjODDSAWBBVV95cUxNOFhrQ3hESU93Z2NnOU9Fb0JlQmIwZ0NiVFFMUkJ1UnVUUG94SmdnVUV6VXhvRHhLd09PejZJYU5wSk4yUWItVmZSU0NjbFhucFg1djRJSzN3WDJiNDRnR3g?oc=5",
-    "sourceUrl": "https://www.yna.co.kr",
-    "excerpt": "",
-    "date": "2026-09-17"
-   },
-   {
     "publisher": "스트레이트뉴스",
     "title": "서울 아파트값은 오르는데 평균 거래금액은 하락…왜?",
     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9WM2ZrZzdseVQzTl9PdVVLWUN3dU8yUENFbkVNM1N2cDBCeFNpNU15T2JhZ3dFcnVoU1JwR1FLX1pYOUQ2M3JnTTJ4RkVNa0xLckQ1V3ExNWYwMHNWNkNIQ21QaFU2N3ViSVR0ZklaVkRFTjTSAXdBVV95cUxQTnV5dVhyZnRnMU1LZVAzOFp4Z2gxQ1UyMTAta3RPbkVMVVRZNXhGSFpLZ0N1cDVOVFVyYnVuLTAtVVI1YURibnAxVzV0VFlySDJXUXdtNWpSWDJ2SWl6U3BwaEdLd2RDRTNGYmdYYmtMbUlqSk84RQ?oc=5",
     "sourceUrl": "https://www.straightnews.co.kr",
     "excerpt": "",
     "date": "2026-10-12"
+   },
+   {
+    "publisher": "연합뉴스",
+    "title": "서울 아파트값 7월에도 상승세 지속…1년 새 15% 상승",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9qa0c2Vi1EbHdfR2NYOXNwY3AtRnpMb0t6ZVFxTWNGMHVCTUhvcHZJRV85N2JqYWRNaGs4MVBEN25HRVh2R09lMXhCb3lLZTNJczB4U21lUVpjODDSAWBBVV95cUxNOFhrQ3hESU93Z2NnOU9Fb0JlQmIwZ0NiVFFMUkJ1UnVUUG94SmdnVUV6VXhvRHhLd09PejZJYU5wSk4yUWItVmZSU0NjbFhucFg1djRJSzN3WDJiNDRnR3g?oc=5",
+    "sourceUrl": "https://www.yna.co.kr",
+    "excerpt": "",
+    "date": "2026-09-17"
    },
    {
     "publisher": "경기일보",
@@ -174,8 +174,8 @@
    {
     "publisher": "더구루",
     "title": "서울 아파트에 찬바람...거래량 급감에 거래절벽 장기화 조짐",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9pdEFUTTk3TWdJWU44eE44SFJSbWhZZDRaTVZkUV9CdGR0M0l0VE9PN3kwbjJLQXRPY3ptU0Q4QkRLeFZnTzJqejhlY3c3Nnh6SDhfdDNoUXkySU94ZzRldExlNA?oc=5",
-    "sourceUrl": "https://www.theguru.co.kr",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBWcnFUa2tkbjdrcDk3TXFlU2FqdFhoaG1lZFRwc2NBbEs1OVU0cmNlZ2s5TlRyblIxZjdyM09saDlNZVJkd3FKeFV0YUZpN3FrZl9sSDlHQUJYdkRuLVE?oc=5",
+    "sourceUrl": "https://theguru.co.kr",
     "excerpt": "",
     "date": "2026-10-05"
    }
@@ -256,12 +256,12 @@
     "date": "2026-10-13"
    },
    {
-    "publisher": "아유경제",
-    "title": "[아유경제_부동산] 서울시 신속통합기획ㆍ도시정비사업 지원 기대감 ↑… 주요 사업 가속도",
-    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5GTmhrYU1LM3BIcm9WT1ZsVDhlcG5DWnVWWnM4Mjd0TnlYSzFuaTdid09CODhpeVd2eDN6MXhPWEdCZTBzVUNERHVmWGIwOWFoWjl4emhnSlJheVNia1J3?oc=5",
-    "sourceUrl": "http://m.areyou.co.kr",
+    "publisher": "한국주택경제신문",
+    "title": "일원 가람아파트, 수서택지지구 첫 재건축 조합설립인가",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5Ka1RlZ3NrZ3YzaXZLNkxYZXR2d3owWmJUUEhleF9vSTVzb2Q3UGNPWUM2WXJhT2tHOTV2YldlX1BXekQ1ZXhpNmhLTFZSR3Fzbl8wSVk3aFFNOUE1STNIRHB5OVB1OXR0?oc=5",
+    "sourceUrl": "https://www.arunews.com",
     "excerpt": "",
-    "date": "2026-10-06"
+    "date": "2026-10-13"
    }
   ],
   "loan": [
@@ -340,12 +340,12 @@
     "date": "2026-09-21"
    },
    {
-    "publisher": "중부매일",
-    "title": "충남 미분양 1만가구 육박…세종·대전 청약은 전국 평균 웃돌아",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE53alk4Y09kMlFNZ0lKTTk3R0R4cWtTU2syX3BCby0tTVBXWEhWTUd2TnNZdGlyQ2UzTW42TlF5aFpiSkxKQTBXSkZaNDRrRWVkaHhBNkRaYXVPMTZ1WkE2VFFFZFlaN2NkWEE?oc=5",
-    "sourceUrl": "https://www.jbnews.com",
+    "publisher": "매일경제",
+    "title": "서울은 1000대 1도 나오는데…지방은 줄줄이 청약 미달",
+    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9UUzlhcXN2cjllcnlnQk5WdmItTWxGVzBqNFVDeU1jbjFVRzNxTVBsMDYtSU1WQkVPdEhKWjJVb2RNb0F6alhRQUtGOEJfTC05Ylk5NFlR?oc=5",
+    "sourceUrl": "https://www.mk.co.kr",
     "excerpt": "",
-    "date": "2026-09-21"
+    "date": "2026-10-09"
    }
   ],
   "gtx": [
