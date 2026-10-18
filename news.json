@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-18T04:32:54.418Z",
+ "generatedAt": "2026-10-18T11:03:40.326Z",
  "source": "Google News RSS",
  "topics": {
   "rate": [
@@ -10,14 +10,6 @@
     "sourceUrl": "https://www.hani.co.kr",
     "excerpt": "",
     "date": "2026-09-30"
-   },
-   {
-    "publisher": "매일경제",
-    "title": "“월126만원 냈는데 이제 206만원 내라고?”…5년 전 ‘영끌족’에 날아든 고금리 청구서",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5uSTItT3NVOVd0eXE1Yy1nWlpJTFBLbUFxVkNvOUlCVVp5bzFmRDVrUllJQ0tRM0RHQTdoWHR1ampoZl8tYjNsQjBHREstVFQyZ3Npbw?oc=5",
-    "sourceUrl": "https://www.mk.co.kr",
-    "excerpt": "",
-    "date": "2026-09-03"
    },
    {
     "publisher": "연합뉴스TV",
@@ -42,6 +34,14 @@
     "sourceUrl": "https://www.industrynews.co.kr",
     "excerpt": "",
     "date": "2026-09-22"
+   },
+   {
+    "publisher": "더스쿠프",
+    "title": "미국 금리인상 시작…내 계좌도 “윈터 이즈 커밍”",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1WdHBTNkk0Uk1lUWNKeXNEdC1VT282VmF0UGxTaWtRT0VONGVOSDBMc0xTZHVjdmthdVlSeVlqOFU5QXZmcWtoa2dFYXhURFFrYjIxTjIxUWQzNFNfT3lNa2ZGX29YbElUeHh4TFR3?oc=5",
+    "sourceUrl": "https://www.thescoop.co.kr",
+    "excerpt": "",
+    "date": "2026-09-19"
    }
   ],
   "supply": [
@@ -114,6 +114,14 @@
     "date": "2026-09-04"
    },
    {
+    "publisher": "매일경제",
+    "title": "고민 많은 다주택자 …\"팔려면 지금, 버티려면 종부세 계산을\"",
+    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE44anRodWNEdGtWOV9qTEkyOGI1YkhFUFg5Z3NGUmhqWU51ZHBDaVNaUm1kTmVscXEzLUtzSjhBak9LRDlvVU1SZ0wzaTFmc0JuVU1wNDFhWEs?oc=5",
+    "sourceUrl": "https://www.mk.co.kr",
+    "excerpt": "",
+    "date": "2026-10-18"
+   },
+   {
     "publisher": "세정일보",
     "title": "`26 세제개편안, 양도세·종부세 동시 강화 논란…시장 왜곡 키우나",
     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE51c3kyZUhtN0lEUnhZWUZqdTE4Q21vLTFCaDNUTlZ5a2VEVElBbGVhVFJLQTh1aklsbDRUSzgwX1Q1dTRvUG9YZUlxNEdnNkZJX3k5UWdmTHo2Si1qX19rQkFJLU0zd09mYTlJYw?oc=5",
@@ -122,20 +130,12 @@
     "date": "2026-09-09"
    },
    {
-    "publisher": "경기일보",
-    "title": "넉 달 만에 바뀌고 석 달 만에 완화…부동산 정책 ‘오락가락’",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE42SG5DUUNwMkxBOWp3OGJfVktpNFRGaHlrLVMxZVE5dXV6X0ZHVjltNnZmZ2hxU2xkWGF3V0dPcHIxdEZuUVFCa3J6RFMtc0ktcFNqejVGOXplZm8?oc=5",
-    "sourceUrl": "https://www.kyeonggi.com",
+    "publisher": "땅집고",
+    "title": "실직·이직으로 딴집 살면 증세?…\"부동산 세금, 이미 OECD 평균 2배\"",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBKa21fa3VIX2lINzRVTVdnMk9RalBzYmVodXFuakx4X3NnNTBRdUhQZWQ5U0M4c3NBRkEza1hHRVlTaWE0TE1iWVFEWHVBY1ZpcURyY3cwZGUxY3FwQUtaV3dXMVJyU3YwYjV4MnJMYTU4QWRHaW85V1dHWGxWdjjSAXNBVV95cUxPLXFGLUZrVHItVGpoc1Q5R2M2VmJYdThkZERRamdnQzJZSjB3Rl9nOV94WE1qeWF0bldySFp3V3JHZy1ic1hPY0ZxTjItb0xoN3lZcGh5Um5OMUMzWktyTjBYZFFja01ad2xwMktWdXk1ODM0?oc=5",
+    "sourceUrl": "https://realty.chosun.com",
     "excerpt": "",
-    "date": "2026-09-20"
-   },
-   {
-    "publisher": "팝콘뉴스",
-    "title": "‘8·3→ 9·1’ 한 달 만에 수정된 세제개편안...무엇이 달라졌나?",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB5RnFpVG8tR1BCY2RrSTVScXFGc2U4emxzYTJtREtOUGMxemwwVmlidl9SN2Q2dGpyTkdjOVB6al9aV1lNSjhnQkdxZEozalVQd2JqVW1Eczh3ZFo1cjBiWVBoMEpSMTd6djBKekln0gFyQVVfeXFMUEZDM3M1WENkRDRMdU42d1pYYmhUX3NubnkwOVlJYk1xcUNzUVNCWmVYTTRPVkMtd2JNSHh1SkdxOEdfYjlzVnQ2OEpfV0hVeThBVkpqOXVTdlRlV3pVUWRfNGluc1d2a2ZJRUJZQy1PZ2dR?oc=5",
-    "sourceUrl": "http://www.popcornnews.net",
-    "excerpt": "",
-    "date": "2026-09-04"
+    "date": "2026-09-14"
    }
   ],
   "stat": [
@@ -156,12 +156,12 @@
     "date": "2026-09-17"
    },
    {
-    "publisher": "영등포신문",
-    "title": "서울 아파트 매매 실거래가격 상승 지속...1년 새 14.56% 상승",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5oNDVCQW95S3VhSW1QemxrNjNlTUNUSE9tQl9TaUdDazB3Q1NIRjh1Mm1QcWFtMVRxOHM4Wi1TOEtWbk0ya1EwYW9TdDFVMHZsdVF5TXdHaDZsaFNy?oc=5",
-    "sourceUrl": "https://www.ybstv.net",
+    "publisher": "KPI뉴스",
+    "title": "매주 발표하는 주택가격 통계, 신뢰성 의문…국토부 개편 예고",
+    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1pWmlyTnZKOUs4ejhXM0JkZ3ZPekhHVGE5TDFobFlOZ1RYdFFpOUs3NTZSc3lyRkdsSzlGRE02TGhxajJrR2c0bGZkdXRzaDgtOXdwdEg3OA?oc=5",
+    "sourceUrl": "https://kpinews.kr",
     "excerpt": "",
-    "date": "2026-09-18"
+    "date": "2026-10-16"
    },
    {
     "publisher": "경기일보",
@@ -172,12 +172,12 @@
     "date": "2026-09-18"
    },
    {
-    "publisher": "더구루",
-    "title": "서울 아파트에 찬바람...거래량 급감에 거래절벽 장기화 조짐",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBWcnFUa2tkbjdrcDk3TXFlU2FqdFhoaG1lZFRwc2NBbEs1OVU0cmNlZ2s5TlRyblIxZjdyM09saDlNZVJkd3FKeFV0YUZpN3FrZl9sSDlHQUJYdkRuLVE?oc=5",
-    "sourceUrl": "https://theguru.co.kr",
+    "publisher": "영등포신문",
+    "title": "서울 아파트 매매 실거래가격 상승 지속...1년 새 14.56% 상승",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5oNDVCQW95S3VhSW1QemxrNjNlTUNUSE9tQl9TaUdDazB3Q1NIRjh1Mm1QcWFtMVRxOHM4Wi1TOEtWbk0ya1EwYW9TdDFVMHZsdVF5TXdHaDZsaFNy?oc=5",
+    "sourceUrl": "https://www.ybstv.net",
     "excerpt": "",
-    "date": "2026-10-05"
+    "date": "2026-09-18"
    }
   ],
   "lease": [
@@ -256,12 +256,12 @@
     "date": "2026-10-13"
    },
    {
-    "publisher": "한국주택경제신문",
-    "title": "일원 가람아파트, 수서택지지구 첫 재건축 조합설립인가",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5Ka1RlZ3NrZ3YzaXZLNkxYZXR2d3owWmJUUEhleF9vSTVzb2Q3UGNPWUM2WXJhT2tHOTV2YldlX1BXekQ1ZXhpNmhLTFZSR3Fzbl8wSVk3aFFNOUE1STNIRHB5OVB1OXR0?oc=5",
-    "sourceUrl": "https://www.arunews.com",
+    "publisher": "아유경제",
+    "title": "[아유경제_부동산] 서울시 신속통합기획ㆍ도시정비사업 지원 기대감 ↑… 주요 사업 가속도",
+    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5GTmhrYU1LM3BIcm9WT1ZsVDhlcG5DWnVWWnM4Mjd0TnlYSzFuaTdid09CODhpeVd2eDN6MXhPWEdCZTBzVUNERHVmWGIwOWFoWjl4emhnSlJheVNia1J3?oc=5",
+    "sourceUrl": "http://m.areyou.co.kr",
     "excerpt": "",
-    "date": "2026-10-13"
+    "date": "2026-10-06"
    }
   ],
   "loan": [
