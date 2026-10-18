@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-18T15:51:47.866Z",
+ "generatedAt": "2026-10-18T20:42:15.404Z",
  "source": "Google News RSS",
  "topics": {
   "rate": [
@@ -48,7 +48,7 @@
    {
     "publisher": "전기신문",
     "title": "수도권 주택 9.9만호 착공…연말까지 최대 23.5만호 전망",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBsZndrZHlOcEMyNUNjSHNubU5HczFGZmNfOGg4X09Za2huSFhIaTI3VXN5TkRCY1FyQlRPeE43T0JIYW9TLVE2Z1pWQ25mYXY5eUxHWldSQ0hKelpHZ3N1ZGNhSVJOaUxyS2xRVGtBeW3SAXBBVV95cUxQbGZ3a2R5TnBDMjVDY0hzbm1OR3MxRmZjXzhoOF9PWWtobkhYSGkyN1VzeU5EQmNRckJUT3hON09CSGFvUy1RNmdaVkNuZmF2OXlMR1pXUkNISnpaR2dzdWRjYUlSTmlMcktsUVRrQXlt?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE92bVlmb1VoU1Nla25Zd1JHdWczMDI0bm5uU2FaU0xCWkY1YW9HNnZtdC1oWWtaX3BPNThuRXBGQ1BWbFNaLVpUSkRVa3NhaVN4cVBxb3VRQjBhWURJWW5sZENnRE5raXlPbDdmRtIBcEFVX3lxTFBsZndrZHlOcEMyNUNjSHNubU5HczFGZmNfOGg4X09Za2huSFhIaTI3VXN5TkRCY1FyQlRPeE43T0JIYW9TLVE2Z1pWQ25mYXY5eUxHWldSQ0hKelpHZ3N1ZGNhSVJOaUxyS2xRVGtBeW0?oc=5",
     "sourceUrl": "https://www.electimes.com",
     "excerpt": "",
     "date": "2026-10-16"
@@ -156,12 +156,12 @@
     "date": "2026-09-17"
    },
    {
-    "publisher": "KPI뉴스",
-    "title": "매주 발표하는 주택가격 통계, 신뢰성 의문…국토부 개편 예고",
-    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1pWmlyTnZKOUs4ejhXM0JkZ3ZPekhHVGE5TDFobFlOZ1RYdFFpOUs3NTZSc3lyRkdsSzlGRE02TGhxajJrR2c0bGZkdXRzaDgtOXdwdEg3OA?oc=5",
-    "sourceUrl": "https://kpinews.kr",
+    "publisher": "KB Think",
+    "title": "실거래가 아닌데…주간 아파트값 통계 결론 '지지부진'",
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB2N3pqdU5reWNSbEc2MXIzd3hLcE84ZW45bGJMWXFfelZVVzNEYmM5WllYalZReEpVZ3pzcUJqenpHRWZoSm9ZdlB4RjRTTUxQZHduWmdsLTNVeGdGLTV3YS1jMmI2RUhzd1BoUklGb1dzdw?oc=5",
+    "sourceUrl": "https://kbthink.com",
     "excerpt": "",
-    "date": "2026-10-16"
+    "date": "2026-10-17"
    },
    {
     "publisher": "경기일보",
@@ -206,20 +206,20 @@
     "date": "2026-10-15"
    },
    {
+    "publisher": "매일경제",
+    "title": "“집주인이 월세 두 배로 올린답니다”…‘울며 겨자 먹기’ 합의갱신에 세입자 한숨",
+    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBRUC1vdHQxVVVTTG1Hald6ZVJ6T1EtanpfcUcydjRONkV1RTJQemV2aGlKaXNzYTUwRl9hMGVsLWdSbWdWQUxuLVBQOW5zSTBFcDk3RjRtVDI?oc=5",
+    "sourceUrl": "https://www.mk.co.kr",
+    "excerpt": "",
+    "date": "2026-09-15"
+   },
+   {
     "publisher": "핀포인트뉴스",
     "title": "“전세 재계약하려니 8000만원 더 내라”…서울 세입자 ‘비명’",
     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1sbkZ2ZmJzcWdIa3BfczRjOXY2bThIajlwTGdkajJ0eVYxRUdqdWIydDVObU1TNEdDaTFhZzQ4TFpSTktZemVodXBHNThVM05QRFdqNDRIYXNOX0JEQllXRE92bmlqdG5jNlhCcG40OHM4OUXSAXdBVV95cUxNYVhpbVhSMmMtX1plYjFvSW5wb3RtZHhxcmU4NTY2R1NXRjJOVjhGVWFCMGtuQlRadWVvT3BYdC1RemxSeUlkZUNvWUtoMERIV0RSVGJxUTJwU1NTNnNjV0I4eGtaNF9pa0FiOEdLMnE5cWpZTk0tUQ?oc=5",
     "sourceUrl": "https://www.pinpointnews.co.kr",
     "excerpt": "",
     "date": "2026-09-27"
-   },
-   {
-    "publisher": "이데일리",
-    "title": "전세거래 급감하는 사이 월세 3배 는 중랑구…'서울 월세화' 축소판",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNY0docFhaTTUxNTNuYWowY2VJN3BMYXZtaF9Jajh5d1FKZHUtZngtaXMybDNUYm9ORTBEUGJjXzJEbmFobUE5R1hnSElvUFFTcS1ESlFodndvMG9xbXU3RzNibFl3dGNSbXFucmVIQzQ2RGlUeGlrMWhpc0N4YnNtNw?oc=5",
-    "sourceUrl": "https://www.edaily.co.kr",
-    "excerpt": "",
-    "date": "2026-09-28"
    }
   ],
   "redev": [
@@ -391,14 +391,6 @@
    }
   ],
   "gap": [
-   {
-    "publisher": "비즈워치",
-    "title": "HUG 최인호 \"안심신탁 원금 손실도 충분히 책임\"",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1CTkRPNlZNUDVuVF9BczByNTRJWWFUT1hta1BaMnhIZlFkZ0xwVGxabmkteW9wNWxaNDR0N1dSZDNiYm5fMnpJUzlEWmJnSnE5UE1hbVhqZTlaOVdGT3h4NThpZ2RWd3pNVjF3cGkzY1I?oc=5",
-    "sourceUrl": "https://news.bizwatch.co.kr",
-    "excerpt": "",
-    "date": "2026-10-15"
-   },
    {
     "publisher": "www.dt.co.kr",
     "title": "악성 임대인 솎아내니 서민만 ‘벼랑 끝’… 깐깐해진 전세보증의 그림자",
