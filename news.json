@@ -1,16 +1,8 @@
 {
- "generatedAt": "2026-10-17T20:35:56.970Z",
+ "generatedAt": "2026-10-18T04:32:54.418Z",
  "source": "Google News RSS",
  "topics": {
   "rate": [
-   {
-    "publisher": "매일경제",
-    "title": "“월126만원 냈는데 이제 206만원 내라고?”…5년 전 ‘영끌족’에 날아든 고금리 청구서",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5uSTItT3NVOVd0eXE1Yy1nWlpJTFBLbUFxVkNvOUlCVVp5bzFmRDVrUllJQ0tRM0RHQTdoWHR1ampoZl8tYjNsQjBHREstVFQyZ3Npbw?oc=5",
-    "sourceUrl": "https://www.mk.co.kr",
-    "excerpt": "",
-    "date": "2026-09-03"
-   },
    {
     "publisher": "한겨레",
     "title": "8월 주담대 금리 4.66%...3년9개월 만에 ‘최고’",
@@ -18,6 +10,14 @@
     "sourceUrl": "https://www.hani.co.kr",
     "excerpt": "",
     "date": "2026-09-30"
+   },
+   {
+    "publisher": "매일경제",
+    "title": "“월126만원 냈는데 이제 206만원 내라고?”…5년 전 ‘영끌족’에 날아든 고금리 청구서",
+    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5uSTItT3NVOVd0eXE1Yy1nWlpJTFBLbUFxVkNvOUlCVVp5bzFmRDVrUllJQ0tRM0RHQTdoWHR1ampoZl8tYjNsQjBHREstVFQyZ3Npbw?oc=5",
+    "sourceUrl": "https://www.mk.co.kr",
+    "excerpt": "",
+    "date": "2026-09-03"
    },
    {
     "publisher": "연합뉴스TV",
@@ -28,20 +28,20 @@
     "date": "2026-09-10"
    },
    {
-    "publisher": "인더스트리뉴스",
-    "title": "한은 “금리 인상, 금융취약성 완화”…가계·기업 이자 부담은 커져",
-    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFA0SGRxRlRycTAxVVJxeGVwakVrRnVmcnBCcEM1N3lKY250LUxMRU9GZVl3QXcxMWNBdEZXVmw4aDEya0ZNZGJ4c2hPNmJmTWF3dllIbm5oX3k1VmNzOWNsUTBMODVpTEZMakYzU1Jqa3J1Zw?oc=5",
-    "sourceUrl": "https://www.industrynews.co.kr",
-    "excerpt": "",
-    "date": "2026-09-22"
-   },
-   {
     "publisher": "KB Think",
     "title": "KB주택시장 리뷰 2026년 9월호 - 주택 금융",
     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5HZHduZUkyX0RYVTBndFVubk9rVkRfVUx4NE5rNm9xM1dBb3VudVBFQmk0T2xodjZyZzZpeFlqdVo4WWNMLTZsNFZDc2JtbWxIcUk5ZUllY3Q1ZWwzZTBVX3NqVFlpNFluWkJ0OWktOA?oc=5",
     "sourceUrl": "https://kbthink.com",
     "excerpt": "",
     "date": "2026-09-16"
+   },
+   {
+    "publisher": "인더스트리뉴스",
+    "title": "한은 “금리 인상, 금융취약성 완화”…가계·기업 이자 부담은 커져",
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFA0SGRxRlRycTAxVVJxeGVwakVrRnVmcnBCcEM1N3lKY250LUxMRU9GZVl3QXcxMWNBdEZXVmw4aDEya0ZNZGJ4c2hPNmJmTWF3dllIbm5oX3k1VmNzOWNsUTBMODVpTEZMakYzU1Jqa3J1Zw?oc=5",
+    "sourceUrl": "https://www.industrynews.co.kr",
+    "excerpt": "",
+    "date": "2026-09-22"
    }
   ],
   "supply": [
@@ -122,20 +122,20 @@
     "date": "2026-09-09"
    },
    {
+    "publisher": "경기일보",
+    "title": "넉 달 만에 바뀌고 석 달 만에 완화…부동산 정책 ‘오락가락’",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE42SG5DUUNwMkxBOWp3OGJfVktpNFRGaHlrLVMxZVE5dXV6X0ZHVjltNnZmZ2hxU2xkWGF3V0dPcHIxdEZuUVFCa3J6RFMtc0ktcFNqejVGOXplZm8?oc=5",
+    "sourceUrl": "https://www.kyeonggi.com",
+    "excerpt": "",
+    "date": "2026-09-20"
+   },
+   {
     "publisher": "팝콘뉴스",
     "title": "‘8·3→ 9·1’ 한 달 만에 수정된 세제개편안...무엇이 달라졌나?",
     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB5RnFpVG8tR1BCY2RrSTVScXFGc2U4emxzYTJtREtOUGMxemwwVmlidl9SN2Q2dGpyTkdjOVB6al9aV1lNSjhnQkdxZEozalVQd2JqVW1Eczh3ZFo1cjBiWVBoMEpSMTd6djBKekln0gFyQVVfeXFMUEZDM3M1WENkRDRMdU42d1pYYmhUX3NubnkwOVlJYk1xcUNzUVNCWmVYTTRPVkMtd2JNSHh1SkdxOEdfYjlzVnQ2OEpfV0hVeThBVkpqOXVTdlRlV3pVUWRfNGluc1d2a2ZJRUJZQy1PZ2dR?oc=5",
     "sourceUrl": "http://www.popcornnews.net",
     "excerpt": "",
     "date": "2026-09-04"
-   },
-   {
-    "publisher": "땅집고",
-    "title": "실직·이직으로 딴집 살면 증세?…\"부동산 세금, 이미 OECD 평균 2배\"",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBKa21fa3VIX2lINzRVTVdnMk9RalBzYmVodXFuakx4X3NnNTBRdUhQZWQ5U0M4c3NBRkEza1hHRVlTaWE0TE1iWVFEWHVBY1ZpcURyY3cwZGUxY3FwQUtaV3dXMVJyU3YwYjV4MnJMYTU4QWRHaW85V1dHWGxWdjjSAXNBVV95cUxPLXFGLUZrVHItVGpoc1Q5R2M2VmJYdThkZERRamdnQzJZSjB3Rl9nOV94WE1qeWF0bldySFp3V3JHZy1ic1hPY0ZxTjItb0xoN3lZcGh5Um5OMUMzWktyTjBYZFFja01ad2xwMktWdXk1ODM0?oc=5",
-    "sourceUrl": "https://realty.chosun.com",
-    "excerpt": "",
-    "date": "2026-09-14"
    }
   ],
   "stat": [
@@ -156,18 +156,18 @@
     "date": "2026-09-17"
    },
    {
-    "publisher": "경기일보",
-    "title": "서울 아파트값 7월에도 상승…전세 계약 10건 중 약 6건은 ‘갱신’",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9zVmFkM2tJMG1vNENhNk1YNl8xYld4R200d0tpaGFVdExQOEt2b2pacFZfX0NuS3MxUHZjWUpxWV85eWpmNUxDTHJxbHk3RzQxNVZXZTJyalpxbXM?oc=5",
-    "sourceUrl": "https://www.kyeonggi.com",
-    "excerpt": "",
-    "date": "2026-09-18"
-   },
-   {
     "publisher": "영등포신문",
     "title": "서울 아파트 매매 실거래가격 상승 지속...1년 새 14.56% 상승",
     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5oNDVCQW95S3VhSW1QemxrNjNlTUNUSE9tQl9TaUdDazB3Q1NIRjh1Mm1QcWFtMVRxOHM4Wi1TOEtWbk0ya1EwYW9TdDFVMHZsdVF5TXdHaDZsaFNy?oc=5",
     "sourceUrl": "https://www.ybstv.net",
+    "excerpt": "",
+    "date": "2026-09-18"
+   },
+   {
+    "publisher": "경기일보",
+    "title": "서울 아파트값 7월에도 상승…전세 계약 10건 중 약 6건은 ‘갱신’",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9zVmFkM2tJMG1vNENhNk1YNl8xYld4R200d0tpaGFVdExQOEt2b2pacFZfX0NuS3MxUHZjWUpxWV85eWpmNUxDTHJxbHk3RzQxNVZXZTJyalpxbXM?oc=5",
+    "sourceUrl": "https://www.kyeonggi.com",
     "excerpt": "",
     "date": "2026-09-18"
    },
@@ -274,18 +274,18 @@
     "date": "2026-09-27"
    },
    {
-    "publisher": "전자신문",
-    "title": "금융당국, 정책서민금융·고정금리 대출 확대…차주 리스크 완화 총력",
-    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5UMUd0dko1N1FtOEJTamVySDItTDJYUHh0OGluZ085NEFtVlFlMXRwWVBab1ZtSGVQTVRZakdLUVZrYWI5X3pDcmdJb0RaQQ?oc=5",
-    "sourceUrl": "https://www.etnews.com",
-    "excerpt": "",
-    "date": "2026-09-27"
-   },
-   {
     "publisher": "알파경제",
     "title": "금융당국, 정책대출·고정금리 확대…금리상승기 부담 완화",
     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBjZXFOcjFxdjBSMWVVek5VYk0xTk11WF82SWVHN0VXSTZvUGJ3NkV3ZzVBZ0FoVVVTWjI4NmJOM0tZSktuTVBKUkVpQTZZV2ZxMThhOG9SMFJWQnlPd3lmYmlPT25BWjhNeE9LeVNR?oc=5",
     "sourceUrl": "https://www.alphabiz.co.kr",
+    "excerpt": "",
+    "date": "2026-09-27"
+   },
+   {
+    "publisher": "전자신문",
+    "title": "금융당국, 정책서민금융·고정금리 대출 확대…차주 리스크 완화 총력",
+    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5UMUd0dko1N1FtOEJTamVySDItTDJYUHh0OGluZ085NEFtVlFlMXRwWVBab1ZtSGVQTVRZakdLUVZrYWI5X3pDcmdJb0RaQQ?oc=5",
+    "sourceUrl": "https://www.etnews.com",
     "excerpt": "",
     "date": "2026-09-27"
    },
@@ -298,10 +298,10 @@
     "date": "2026-10-09"
    },
    {
-    "publisher": "뉴스투데이",
-    "title": "금융당국, 고정금리 대출 늘린다...금리 상승기 차주 부담 완화",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE40aVN0SFl2UmlyVkZsamJfemMtSTBfamNoTlBqeHp2c19mTVRtLTJuLTA2dHRBLUpiWUFEdnhweHNCVzJfZ1BhbF9YZ3Jad3gzNjM3Y1VmY3BDODNNZkE?oc=5",
-    "sourceUrl": "https://www.news2day.co.kr",
+    "publisher": "Daum",
+    "title": "금리 인상 충격 막는다…금융당국, 취약차주 방어막 강화",
+    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1aWG5KbDhZcmxkcGNXRjFQd3BYeUdiOHlteERTTW1FdXZYSHBYRlhEWm5NdzFLVDNRaV85VkRoQ3Z6RkVsbDBiaVZlVWlZUG5YdWZJUg?oc=5",
+    "sourceUrl": "https://v.daum.net",
     "excerpt": "",
     "date": "2026-09-27"
    }
@@ -329,7 +329,7 @@
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5xb05pR2tuYVJtSTV5b0M5bjEyM1ladU0yU19HQk9TOXhnNklpMWJIaXBaYmgwTXkxLVB4aFNPNVpKeW95MTVrV01kSVZBMG13VFhoU2Jhdk0wZw?oc=5",
     "sourceUrl": "https://www.fnnews.com",
     "excerpt": "",
-    "date": "2026-10-08"
+    "date": "2026-10-09"
    },
    {
     "publisher": "서울경제",
@@ -340,12 +340,12 @@
     "date": "2026-09-21"
    },
    {
-    "publisher": "매일경제",
-    "title": "서울은 1000대 1도 나오는데…지방은 줄줄이 청약 미달",
-    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9UUzlhcXN2cjllcnlnQk5WdmItTWxGVzBqNFVDeU1jbjFVRzNxTVBsMDYtSU1WQkVPdEhKWjJVb2RNb0F6alhRQUtGOEJfTC05Ylk5NFlR?oc=5",
-    "sourceUrl": "https://www.mk.co.kr",
+    "publisher": "중부매일",
+    "title": "충남 미분양 1만가구 육박…세종·대전 청약은 전국 평균 웃돌아",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE53alk4Y09kMlFNZ0lKTTk3R0R4cWtTU2syX3BCby0tTVBXWEhWTUd2TnNZdGlyQ2UzTW42TlF5aFpiSkxKQTBXSkZaNDRrRWVkaHhBNkRaYXVPMTZ1WkE2VFFFZFlaN2NkWEE?oc=5",
+    "sourceUrl": "https://www.jbnews.com",
     "excerpt": "",
-    "date": "2026-10-09"
+    "date": "2026-09-21"
    }
   ],
   "gtx": [
@@ -358,20 +358,20 @@
     "date": "2026-10-12"
    },
    {
-    "publisher": "땅집고",
-    "title": "GTX-C 수혜지 경기 과천 아니다…집값 상승 1순위 '이 동네'",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5TNHgyLWhvcV8tTmlEN1otdmhQZWc2NjVUU3ZNZlctZEJVc2VqcmM1LU0yQjVuXzVUa1dJbWs0eWtIT05TZlUtMUhLNnRrUklNTlpITWl6R0Fya1E0ZnJoUU1yOFFtcnZBVTVwUGRzS09MOXR0cUZFS25rM1J4VmfSAXNBVV95cUxOVWkwRW92RVVxVEE2NWhRYUtTNGRiUnB0S0hYRGJhRDVWMklqekcxX2xiYmtaWncxcllHMzA4a1RxUlozeFlvRE0wQ0ZCOFFudjNhbjdTbGFYV19QMlhGNEpldW9SWmpjVmJiSWs3QWwySTVr?oc=5",
-    "sourceUrl": "https://realty.chosun.com",
-    "excerpt": "",
-    "date": "2026-09-18"
-   },
-   {
     "publisher": "한국경제",
     "title": "\"2년8개월 기다렸다\"…GTX-C 진짜 첫 삽 뜬 의정부 [철길옆집]",
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1taEc0LWNJVGt0dDI5TFl6bHJqYzRBVnhVQThDdk5OWWJabUViMmp0R2cwcXpoZVBEbkxZaUxvQ2NKZjRYdmFSQlMtU2d6TmhBTVZ6d0pDS2hQdw?oc=5",
     "sourceUrl": "https://www.hankyung.com",
     "excerpt": "",
     "date": "2026-09-20"
+   },
+   {
+    "publisher": "땅집고",
+    "title": "GTX-C 수혜지 경기 과천 아니다…집값 상승 1순위 '이 동네'",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5TNHgyLWhvcV8tTmlEN1otdmhQZWc2NjVUU3ZNZlctZEJVc2VqcmM1LU0yQjVuXzVUa1dJbWs0eWtIT05TZlUtMUhLNnRrUklNTlpITWl6R0Fya1E0ZnJoUU1yOFFtcnZBVTVwUGRzS09MOXR0cUZFS25rM1J4VmfSAXNBVV95cUxOVWkwRW92RVVxVEE2NWhRYUtTNGRiUnB0S0hYRGJhRDVWMklqekcxX2xiYmtaWncxcllHMzA4a1RxUlozeFlvRE0wQ0ZCOFFudjNhbjdTbGFYV19QMlhGNEpldW9SWmpjVmJiSWs3QWwySTVr?oc=5",
+    "sourceUrl": "https://realty.chosun.com",
+    "excerpt": "",
+    "date": "2026-09-18"
    },
    {
     "publisher": "경인일보",
