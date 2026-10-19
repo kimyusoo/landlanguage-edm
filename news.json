@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-19T13:13:37.879Z",
+ "generatedAt": "2026-10-19T22:20:52.909Z",
  "source": "Google News RSS",
  "topics": {
   "rate": [
@@ -140,20 +140,20 @@
   ],
   "stat": [
    {
-    "publisher": "스트레이트뉴스",
-    "title": "서울 아파트값은 오르는데 평균 거래금액은 하락…왜?",
-    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9WM2ZrZzdseVQzTl9PdVVLWUN3dU8yUENFbkVNM1N2cDBCeFNpNU15T2JhZ3dFcnVoU1JwR1FLX1pYOUQ2M3JnTTJ4RkVNa0xLckQ1V3ExNWYwMHNWNkNIQ21QaFU2N3ViSVR0ZklaVkRFTjTSAXdBVV95cUxQTnV5dVhyZnRnMU1LZVAzOFp4Z2gxQ1UyMTAta3RPbkVMVVRZNXhGSFpLZ0N1cDVOVFVyYnVuLTAtVVI1YURibnAxVzV0VFlySDJXUXdtNWpSWDJ2SWl6U3BwaEdLd2RDRTNGYmdYYmtMbUlqSk84RQ?oc=5",
-    "sourceUrl": "https://www.straightnews.co.kr",
-    "excerpt": "",
-    "date": "2026-10-14"
-   },
-   {
     "publisher": "연합뉴스",
     "title": "서울 아파트값 7월에도 상승세 지속…1년 새 15% 상승",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9qa0c2Vi1EbHdfR2NYOXNwY3AtRnpMb0t6ZVFxTWNGMHVCTUhvcHZJRV85N2JqYWRNaGs4MVBEN25HRVh2R09lMXhCb3lLZTNJczB4U21lUVpjODDSAWBBVV95cUxNOFhrQ3hESU93Z2NnOU9Fb0JlQmIwZ0NiVFFMUkJ1UnVUUG94SmdnVUV6VXhvRHhLd09PejZJYU5wSk4yUWItVmZSU0NjbFhucFg1djRJSzN3WDJiNDRnR3g?oc=5",
     "sourceUrl": "https://www.yna.co.kr",
     "excerpt": "",
     "date": "2026-09-17"
+   },
+   {
+    "publisher": "스트레이트뉴스",
+    "title": "서울 아파트값은 오르는데 평균 거래금액은 하락…왜?",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9WM2ZrZzdseVQzTl9PdVVLWUN3dU8yUENFbkVNM1N2cDBCeFNpNU15T2JhZ3dFcnVoU1JwR1FLX1pYOUQ2M3JnTTJ4RkVNa0xLckQ1V3ExNWYwMHNWNkNIQ21QaFU2N3ViSVR0ZklaVkRFTjTSAXdBVV95cUxQTnV5dVhyZnRnMU1LZVAzOFp4Z2gxQ1UyMTAta3RPbkVMVVRZNXhGSFpLZ0N1cDVOVFVyYnVuLTAtVVI1YURibnAxVzV0VFlySDJXUXdtNWpSWDJ2SWl6U3BwaEdLd2RDRTNGYmdYYmtMbUlqSk84RQ?oc=5",
+    "sourceUrl": "https://www.straightnews.co.kr",
+    "excerpt": "",
+    "date": "2026-10-14"
    },
    {
     "publisher": "더구루",
@@ -355,15 +355,7 @@
     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9CTW9QZG9mRkNadWVCWlY2U3oxNnV0enI2NlNLZ1JvdnplR0pHUEJ1SHpicGlyOV91UWFSSGYtNl9OWUFXN1U1bGE4dHVlc3J5SjZoS3poOEo2X2lZek16V2FaTUJRNWxFdnctcWtycw?oc=5",
     "sourceUrl": "https://www.joongboo.com",
     "excerpt": "",
-    "date": "2026-10-12"
-   },
-   {
-    "publisher": "땅집고",
-    "title": "GTX-C 수혜지 경기 과천 아니다…집값 상승 1순위 '이 동네'",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5TNHgyLWhvcV8tTmlEN1otdmhQZWc2NjVUU3ZNZlctZEJVc2VqcmM1LU0yQjVuXzVUa1dJbWs0eWtIT05TZlUtMUhLNnRrUklNTlpITWl6R0Fya1E0ZnJoUU1yOFFtcnZBVTVwUGRzS09MOXR0cUZFS25rM1J4VmfSAXNBVV95cUxOVWkwRW92RVVxVEE2NWhRYUtTNGRiUnB0S0hYRGJhRDVWMklqekcxX2xiYmtaWncxcllHMzA4a1RxUlozeFlvRE0wQ0ZCOFFudjNhbjdTbGFYV19QMlhGNEpldW9SWmpjVmJiSWs3QWwySTVr?oc=5",
-    "sourceUrl": "https://realty.chosun.com",
-    "excerpt": "",
-    "date": "2026-09-18"
+    "date": "2026-10-11"
    },
    {
     "publisher": "한국경제",
@@ -372,6 +364,14 @@
     "sourceUrl": "https://www.hankyung.com",
     "excerpt": "",
     "date": "2026-09-20"
+   },
+   {
+    "publisher": "땅집고",
+    "title": "GTX-C 수혜지 경기 과천 아니다…집값 상승 1순위 '이 동네'",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5TNHgyLWhvcV8tTmlEN1otdmhQZWc2NjVUU3ZNZlctZEJVc2VqcmM1LU0yQjVuXzVUa1dJbWs0eWtIT05TZlUtMUhLNnRrUklNTlpITWl6R0Fya1E0ZnJoUU1yOFFtcnZBVTVwUGRzS09MOXR0cUZFS25rM1J4VmfSAXNBVV95cUxOVWkwRW92RVVxVEE2NWhRYUtTNGRiUnB0S0hYRGJhRDVWMklqekcxX2xiYmtaWncxcllHMzA4a1RxUlozeFlvRE0wQ0ZCOFFudjNhbjdTbGFYV19QMlhGNEpldW9SWmpjVmJiSWs3QWwySTVr?oc=5",
+    "sourceUrl": "https://realty.chosun.com",
+    "excerpt": "",
+    "date": "2026-09-18"
    },
    {
     "publisher": "경인일보",
@@ -406,6 +406,14 @@
     "sourceUrl": "https://www.news1.kr",
     "excerpt": "",
     "date": "2026-09-17"
+   },
+   {
+    "publisher": "스트레이트뉴스",
+    "title": "[2026국감] 전세금 떼이고 HUG가 대신 갚은 돈 12조...다주택 채무자가 6.8조",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBKMjlJZDhrSUxMa1JwaENaRXlMejFyYmZ2OTR1d3V6UERXa295OVdvZUtfSmdOb3FWUzN4THdnX1dad2YycmxZMnMzcXVFUU9Ea3QwUFI5REcwX3p0MVFOMGpCRnpYZW9xVHQxYkpoUXk1UXPSAXdBVV95cUxPLWQ3TU9vb1JKeVRmLVU3ajZOWjNFdnNBR1hLMDQzR3dWRFZNUGFMcVdaZWlQelpvTkxaYTF3WUh1OGIwaWtmSll2Vk9VWTdRamFtOV9MUTlkVERTM2NsUXZCUkJrSl9GNlBETHdqVDJOblhQSlpiQQ?oc=5",
+    "sourceUrl": "https://www.straightnews.co.kr",
+    "excerpt": "",
+    "date": "2026-09-16"
    }
   ],
   "newtown": [
