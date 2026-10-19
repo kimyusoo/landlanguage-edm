@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-18T20:42:15.404Z",
+ "generatedAt": "2026-10-19T04:39:41.173Z",
  "source": "Google News RSS",
  "topics": {
   "rate": [
@@ -164,31 +164,23 @@
     "date": "2026-10-17"
    },
    {
-    "publisher": "경기일보",
-    "title": "서울 아파트값 7월에도 상승…전세 계약 10건 중 약 6건은 ‘갱신’",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9zVmFkM2tJMG1vNENhNk1YNl8xYld4R200d0tpaGFVdExQOEt2b2pacFZfX0NuS3MxUHZjWUpxWV85eWpmNUxDTHJxbHk3RzQxNVZXZTJyalpxbXM?oc=5",
-    "sourceUrl": "https://www.kyeonggi.com",
+    "publisher": "더구루",
+    "title": "\"세 부담 피하자\" 서울 강남권 아파트 실거래가 4개월 만에 하락",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB3bFZzYkM2aDQ1dVhDU2xEZnJoQ2tJck9WWHZ6ZW5jdlpJZk9WNm5ZRnBXV3dlajk0ZW85eWlFMU9QR0ZNZml0YUhfOTAwbGFQaUZlZk5QZkNWSWZ3a1MxUmNXVQ?oc=5",
+    "sourceUrl": "https://www.theguru.co.kr",
     "excerpt": "",
-    "date": "2026-09-18"
+    "date": "2026-10-16"
    },
    {
-    "publisher": "영등포신문",
-    "title": "서울 아파트 매매 실거래가격 상승 지속...1년 새 14.56% 상승",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5oNDVCQW95S3VhSW1QemxrNjNlTUNUSE9tQl9TaUdDazB3Q1NIRjh1Mm1QcWFtMVRxOHM4Wi1TOEtWbk0ya1EwYW9TdDFVMHZsdVF5TXdHaDZsaFNy?oc=5",
-    "sourceUrl": "https://www.ybstv.net",
+    "publisher": "KPI뉴스",
+    "title": "매주 발표하는 주택가격 통계, 신뢰성 의문…국토부 개편 예고",
+    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1pWmlyTnZKOUs4ejhXM0JkZ3ZPekhHVGE5TDFobFlOZ1RYdFFpOUs3NTZSc3lyRkdsSzlGRE02TGhxajJrR2c0bGZkdXRzaDgtOXdwdEg3OA?oc=5",
+    "sourceUrl": "https://kpinews.kr",
     "excerpt": "",
-    "date": "2026-09-18"
+    "date": "2026-10-16"
    }
   ],
   "lease": [
-   {
-    "publisher": "매일일보",
-    "title": "[기획] 전세품귀에 갱신계약 늘고 ‘노룩’계약 확산",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE15dXlhLWx3NFRYa1NnanpmZkJSOGJTXzV0ajR2RkY0Qk1xNEQ4Q2VtdktDNlpta21qMjlDY09aY01LVE5DQ2plbTJXLUkzbWFqcl93YXZRZXY1VWk5UzV5RUFPZWo?oc=5",
-    "sourceUrl": "https://www.m-i.kr",
-    "excerpt": "",
-    "date": "2026-09-14"
-   },
    {
     "publisher": "YTN",
     "title": "씨 마른 전세...가격 상승률도 '역대급'",
@@ -196,6 +188,14 @@
     "sourceUrl": "https://www.ytn.co.kr",
     "excerpt": "",
     "date": "2026-09-25"
+   },
+   {
+    "publisher": "매일일보",
+    "title": "[기획] 전세품귀에 갱신계약 늘고 ‘노룩’계약 확산",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE15dXlhLWx3NFRYa1NnanpmZkJSOGJTXzV0ajR2RkY0Qk1xNEQ4Q2VtdktDNlpta21qMjlDY09aY01LVE5DQ2plbTJXLUkzbWFqcl93YXZRZXY1VWk5UzV5RUFPZWo?oc=5",
+    "sourceUrl": "https://www.m-i.kr",
+    "excerpt": "",
+    "date": "2026-09-14"
    },
    {
     "publisher": "www.ebn.co.kr",
@@ -206,12 +206,12 @@
     "date": "2026-10-15"
    },
    {
-    "publisher": "매일경제",
-    "title": "“집주인이 월세 두 배로 올린답니다”…‘울며 겨자 먹기’ 합의갱신에 세입자 한숨",
-    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBRUC1vdHQxVVVTTG1Hald6ZVJ6T1EtanpfcUcydjRONkV1RTJQemV2aGlKaXNzYTUwRl9hMGVsLWdSbWdWQUxuLVBQOW5zSTBFcDk3RjRtVDI?oc=5",
-    "sourceUrl": "https://www.mk.co.kr",
+    "publisher": "한국공공정책신문",
+    "title": "[전문가 칼럼 | 조재현 법무사] 실거주 갱신거절 후 재임대 시 손해배상 책임까지… 벼랑 끝에 선 집주인들",
+    "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1JMnVzX0M4dHNuSjlFdF9UX2hrcnhYbFA1TGprSkhYU2wtMkNEbHlwbVpFOWVKeGZsMllqRWVMUHR5bm8?oc=5",
+    "sourceUrl": "http://knpp.co.kr",
     "excerpt": "",
-    "date": "2026-09-15"
+    "date": "2026-10-16"
    },
    {
     "publisher": "핀포인트뉴스",
