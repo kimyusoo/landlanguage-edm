@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-20T04:49:57.819Z",
+ "generatedAt": "2026-10-20T11:35:18.987Z",
  "source": "Google News RSS",
  "topics": {
   "rate": [
@@ -122,20 +122,20 @@
     "date": "2026-09-09"
    },
    {
-    "publisher": "경기일보",
-    "title": "넉 달 만에 바뀌고 석 달 만에 완화…부동산 정책 ‘오락가락’",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE42SG5DUUNwMkxBOWp3OGJfVktpNFRGaHlrLVMxZVE5dXV6X0ZHVjltNnZmZ2hxU2xkWGF3V0dPcHIxdEZuUVFCa3J6RFMtc0ktcFNqejVGOXplZm8?oc=5",
-    "sourceUrl": "https://www.kyeonggi.com",
-    "excerpt": "",
-    "date": "2026-09-20"
-   },
-   {
     "publisher": "땅집고",
     "title": "실직·이직으로 딴집 살면 증세?…\"부동산 세금, 이미 OECD 평균 2배\"",
     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBKa21fa3VIX2lINzRVTVdnMk9RalBzYmVodXFuakx4X3NnNTBRdUhQZWQ5U0M4c3NBRkEza1hHRVlTaWE0TE1iWVFEWHVBY1ZpcURyY3cwZGUxY3FwQUtaV3dXMVJyU3YwYjV4MnJMYTU4QWRHaW85V1dHWGxWdjjSAXNBVV95cUxPLXFGLUZrVHItVGpoc1Q5R2M2VmJYdThkZERRamdnQzJZSjB3Rl9nOV94WE1qeWF0bldySFp3V3JHZy1ic1hPY0ZxTjItb0xoN3lZcGh5Um5OMUMzWktyTjBYZFFja01ad2xwMktWdXk1ODM0?oc=5",
     "sourceUrl": "https://realty.chosun.com",
     "excerpt": "",
     "date": "2026-09-14"
+   },
+   {
+    "publisher": "신아일보",
+    "title": "집합건물 다소유자 비중, 7년9개월 만에 '최저'",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5RblB1VENKN1FNTUhoY0lNRVdkVzh0YTdDcDNZODNXT2hBcmNOdVphUFdmZzF0TmZzN1ItWU9FRExTQjQ4NGU5LUladkp2ZkZIeEVJSnRxQVJILUtRTnFEcU9NZmI5Wmc5SmdOMmh6bUY?oc=5",
+    "sourceUrl": "https://www.shinailbo.co.kr",
+    "excerpt": "",
+    "date": "2026-09-28"
    }
   ],
   "stat": [
@@ -156,14 +156,6 @@
     "date": "2026-10-14"
    },
    {
-    "publisher": "연합인포맥스",
-    "title": "실거래가 아닌데…주간 아파트값 통계 결론 '지지부진' |",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9WS3R6Y09nTkVaR25UWWo2MTJPS25IRGVjQ3NVREdyUk9reVNRYmVMZ1JDV1JESWdVWk1qT01ONVprOHl0LUUxVFdJNUM0S1FTeHBLR2ZxaHhGVHF1UkJvVnVKM3pJdzNWUFhlelQ1dFh4ajhl?oc=5",
-    "sourceUrl": "https://news.einfomax.co.kr",
-    "excerpt": "",
-    "date": "2026-10-17"
-   },
-   {
     "publisher": "더구루",
     "title": "\"세 부담 피하자\" 서울 강남권 아파트 실거래가 4개월 만에 하락",
     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB3bFZzYkM2aDQ1dVhDU2xEZnJoQ2tJck9WWHZ6ZW5jdlpJZk9WNm5ZRnBXV3dlajk0ZW85eWlFMU9QR0ZNZml0YUhfOTAwbGFQaUZlZk5QZkNWSWZ3a1MxUmNXVQ?oc=5",
@@ -176,6 +168,14 @@
     "title": "서울 아파트값 7월에도 상승…전세 계약 10건 중 약 6건은 ‘갱신’",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9zVmFkM2tJMG1vNENhNk1YNl8xYld4R200d0tpaGFVdExQOEt2b2pacFZfX0NuS3MxUHZjWUpxWV85eWpmNUxDTHJxbHk3RzQxNVZXZTJyalpxbXM?oc=5",
     "sourceUrl": "https://www.kyeonggi.com",
+    "excerpt": "",
+    "date": "2026-09-18"
+   },
+   {
+    "publisher": "영등포신문",
+    "title": "서울 아파트 매매 실거래가격 상승 지속...1년 새 14.56% 상승",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5oNDVCQW95S3VhSW1QemxrNjNlTUNUSE9tQl9TaUdDazB3Q1NIRjh1Mm1QcWFtMVRxOHM4Wi1TOEtWbk0ya1EwYW9TdDFVMHZsdVF5TXdHaDZsaFNy?oc=5",
+    "sourceUrl": "https://www.ybstv.net",
     "excerpt": "",
     "date": "2026-09-18"
    }
@@ -224,14 +224,6 @@
   ],
   "redev": [
    {
-    "publisher": "땅집고",
-    "title": "강북 재건축 대장 월계 '미미삼', 59㎡ 12억…5억대 분담금 더 뛰나",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9iVXhPSmxNSkkwLWpXWWN0aVNRbllBLTB3NGt2d041ZUxXdWF4OFRhc1F3NFFQV3ZMd2x3TklQdE5HbVVpVWtkWDFvTVZpbnBJRGhJUHRRX1dRSDNVYXhIN2xNeUJCOE9mNm1ycHpRN3dHVlFUcUdkd1p5VnV5bTjSAXNBVV95cUxQdU1WZjdNZ3BVbWdhS3R3SUNxOTJpTU55RXlUNlllelM3N3RJLU9FZExObzJaNlhhZWlzS3pLUkJSN2s2TjNtSnpoNVNJN2l2c0hPVGk5cUZVNmxGQXRZUmVna0dBYlo5Y1dLcEZTRkhMRUtJ?oc=5",
-    "sourceUrl": "https://realty.chosun.com",
-    "excerpt": "",
-    "date": "2026-10-01"
-   },
-   {
     "publisher": "서울아파트신문",
     "title": "서초구, 재건축 넘어 리모델링까지 현장 지원 확대",
     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5DVnctRk5QRWhrMGtrbkhLQWFrdFRQNnhTcEhuQ2J2VV9vNDI2Tm8xZm5TeFhjWUp1TlpZLXZHdWNRYk5qd0VfSU95YzIxQ1BnTHc2MkEzRXlfZHZlZ0I5X2VoSXpJTUVBUEV3?oc=5",
@@ -246,6 +238,14 @@
     "sourceUrl": "https://www.mt.co.kr",
     "excerpt": "",
     "date": "2026-10-09"
+   },
+   {
+    "publisher": "조선일보",
+    "title": "서울 자치구, 리모델링 사업에도 행정 지원 확대",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeXQyVUJoX0l2czhXc3BFYnBTZmZBaUpMMXlNRHFpc1hrV3ZVbTNNSlB1ZlF4RlI0YU11cmszamNHc1R4NlhRUERMazEtN1Q5NGtKVGtERXBwelhoRlZEYmc3RXh3czN3d3JPSkI1eUFQX2ZMNXp2ME1leDZHRGZVcGZCNS1CSm82SVNNYUZ3?oc=5",
+    "sourceUrl": "https://www.chosun.com",
+    "excerpt": "",
+    "date": "2026-09-21"
    },
    {
     "publisher": "디벨로퍼뉴스",
@@ -406,6 +406,14 @@
     "sourceUrl": "https://www.news1.kr",
     "excerpt": "",
     "date": "2026-09-17"
+   },
+   {
+    "publisher": "매일경제",
+    "title": "단 4명이 세입자 종잣돈 4600억 떼먹었다…돈 대신 갚아준 HUG, 회수 ‘막막’",
+    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE41R0ZKaU1UZE9ab0VfWlpuSVBLcmN0MzdTZkxuZkdZWFAtMU1HZlRrcXJiRkJ6STE3TGQybTJsbU9zTEF3YzZLU1pMS0hGek5JNVdVNw?oc=5",
+    "sourceUrl": "https://www.mk.co.kr",
+    "excerpt": "",
+    "date": "2026-09-16"
    },
    {
     "publisher": "스트레이트뉴스",
