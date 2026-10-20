@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-20T17:03:00.107Z",
+ "generatedAt": "2026-10-20T21:36:44.677Z",
  "source": "Google News RSS",
  "topics": {
   "rate": [
@@ -62,20 +62,20 @@
     "date": "2026-10-16"
    },
    {
-    "publisher": "YTN",
-    "title": "정부 \"올해 수도권 주택 착공, 최대 23만5천 호\"",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9zWXZxX05XbzE0V09PRGczaGJzWXVYYTJncUdRMm1ISmxvUi00U0VyQVJnMkVhZEFFenRqVDVIUkduN0NwUk1vOWM4RXdEMm9NbHhudnBvdUh4ZUI5UWc?oc=5",
-    "sourceUrl": "https://www.ytn.co.kr",
-    "excerpt": "",
-    "date": "2026-10-16"
-   },
-   {
     "publisher": "경향신문",
     "title": "홍지선 국토장관 “임대주택 비율 10%로 높일 것…30년까지 수도권에 5만3천호 공급”",
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE50ZVdIdmlNUlY4QUxxbm9XVEhyX2ZwandCRXI0Y3p6UWNZTG1YNFlCMVp1RHhlWUx1aWw2eFFBWFJrSlZJcy04dktMVDkwdlFyTXVmb0I4OEN5Z9IBX0FVX3lxTE5ZczNKME1hdjdiWGl2VEc2WmZEXy1kUjJUM01kWnl5c0lLMU9FYjlCX2gtLVFTa2JVeEFLN0g3clZoZ0RESU9acEhZZ3NCNGhvOUI1R0Q0VXFjWDNyQXcw?oc=5",
     "sourceUrl": "https://www.khan.co.kr",
     "excerpt": "",
     "date": "2026-10-08"
+   },
+   {
+    "publisher": "YTN",
+    "title": "정부 \"올해 수도권 주택 착공, 최대 23만5천 호\"",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9zWXZxX05XbzE0V09PRGczaGJzWXVYYTJncUdRMm1ISmxvUi00U0VyQVJnMkVhZEFFenRqVDVIUkduN0NwUk1vOWM4RXdEMm9NbHhudnBvdUh4ZUI5UWc?oc=5",
+    "sourceUrl": "https://www.ytn.co.kr",
+    "excerpt": "",
+    "date": "2026-10-16"
    },
    {
     "publisher": "정책브리핑",
@@ -130,12 +130,12 @@
     "date": "2026-09-14"
    },
    {
-    "publisher": "신아일보",
-    "title": "집합건물 다소유자 비중, 7년9개월 만에 '최저'",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5RblB1VENKN1FNTUhoY0lNRVdkVzh0YTdDcDNZODNXT2hBcmNOdVphUFdmZzF0TmZzN1ItWU9FRExTQjQ4NGU5LUladkp2ZkZIeEVJSnRxQVJILUtRTnFEcU9NZmI5Wmc5SmdOMmh6bUY?oc=5",
-    "sourceUrl": "https://www.shinailbo.co.kr",
+    "publisher": "뉴스웍스",
+    "title": "\"투자엔 무겁게, 실거주엔 가볍게\"…다주택·법인 취득 과세 압박 커질 듯",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9Xb2tNOUl3R0FHbjNUOVM1dWJJS2ticXdQUG1vM3JhU2JMVWJqR1EycHpaRWU2YjM2NFlqX1dEbm15dVpUeWJ4OVZpa1JGeGlxNEUtNXMxYzlMeXV3SWxCblVMR2JpUTFPbE1DeWI1NNIBc0FVX3lxTE90bTdHQUk1THJreTIyUUlVNFZNWHRkU0NsNy1QRXFrN3ctMTJ2dUFBQzl2OVlXUUprX0dvVzJ1aGpDTEMzUTlzVDljUmJGR3dUcWNxZF91WXlvc2NQS0NWaU00VExYTE5XNzNkTzFpbTZvcjA?oc=5",
+    "sourceUrl": "https://www.newsworks.co.kr",
     "excerpt": "",
-    "date": "2026-09-28"
+    "date": "2026-10-20"
    }
   ],
   "stat": [
@@ -156,6 +156,14 @@
     "date": "2026-10-14"
    },
    {
+    "publisher": "연합인포맥스",
+    "title": "실거래가 아닌데…주간 아파트값 통계 결론 '지지부진' |",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9WS3R6Y09nTkVaR25UWWo2MTJPS25IRGVjQ3NVREdyUk9reVNRYmVMZ1JDV1JESWdVWk1qT01ONVprOHl0LUUxVFdJNUM0S1FTeHBLR2ZxaHhGVHF1UkJvVnVKM3pJdzNWUFhlelQ1dFh4ajhl?oc=5",
+    "sourceUrl": "https://news.einfomax.co.kr",
+    "excerpt": "",
+    "date": "2026-10-17"
+   },
+   {
     "publisher": "더구루",
     "title": "\"세 부담 피하자\" 서울 강남권 아파트 실거래가 4개월 만에 하락",
     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB3bFZzYkM2aDQ1dVhDU2xEZnJoQ2tJck9WWHZ6ZW5jdlpJZk9WNm5ZRnBXV3dlajk0ZW85eWlFMU9QR0ZNZml0YUhfOTAwbGFQaUZlZk5QZkNWSWZ3a1MxUmNXVQ?oc=5",
@@ -168,14 +176,6 @@
     "title": "서울 아파트값 7월에도 상승…전세 계약 10건 중 약 6건은 ‘갱신’",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9zVmFkM2tJMG1vNENhNk1YNl8xYld4R200d0tpaGFVdExQOEt2b2pacFZfX0NuS3MxUHZjWUpxWV85eWpmNUxDTHJxbHk3RzQxNVZXZTJyalpxbXM?oc=5",
     "sourceUrl": "https://www.kyeonggi.com",
-    "excerpt": "",
-    "date": "2026-09-18"
-   },
-   {
-    "publisher": "영등포신문",
-    "title": "서울 아파트 매매 실거래가격 상승 지속...1년 새 14.56% 상승",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5oNDVCQW95S3VhSW1QemxrNjNlTUNUSE9tQl9TaUdDazB3Q1NIRjh1Mm1QcWFtMVRxOHM4Wi1TOEtWbk0ya1EwYW9TdDFVMHZsdVF5TXdHaDZsaFNy?oc=5",
-    "sourceUrl": "https://www.ybstv.net",
     "excerpt": "",
     "date": "2026-09-18"
    }
@@ -298,12 +298,12 @@
     "date": "2026-09-27"
    },
    {
-    "publisher": "매일일보",
-    "title": "[기획] 금리 인상기 취약자주 '이자상환' 충격 줄인다",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE02SUQ1TTNEeWhDVUFfREpkYXhRblFKdHpuclFPWFBHcHdBR2dLR3FaRjF6c1ZZOHVsczdlREw3a3VTOVlFUWFfeUUxY25qZHY4QldUNW9oWDcwajFKX01jUDZGSTU?oc=5",
-    "sourceUrl": "https://www.m-i.kr",
+    "publisher": "ER 이코노믹리뷰",
+    "title": "당국, 고정금리 늘려 '금리 충격' 낮춘다…스트레스 DSR도 유지 무게",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0xRVMxMW9hNjB5RjR5cVFEQTEzMlRtUUxzZ001b2d5c3Ayc1pmeUNBWEplUGMxLWN3eVZuTmZIRzFuWkJaZE4zM3puTjI3b0ZOLUpBTjJCblY3R0dEQ0FMV1Z1ZFJOOTV4V25lUQ?oc=5",
+    "sourceUrl": "https://www.econovill.com",
     "excerpt": "",
-    "date": "2026-09-28"
+    "date": "2026-09-27"
    }
   ],
   "presale": [
