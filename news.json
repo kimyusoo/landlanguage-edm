@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-21T11:47:44.442Z",
+ "generatedAt": "2026-10-21T17:11:25.164Z",
  "source": "Google News RSS",
  "topics": {
   "rate": [
@@ -54,20 +54,20 @@
     "date": "2026-10-16"
    },
    {
-    "publisher": "경향신문",
-    "title": "홍지선 국토장관 “임대주택 비율 10%로 높일 것…30년까지 수도권에 5만3천호 공급”",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE50ZVdIdmlNUlY4QUxxbm9XVEhyX2ZwandCRXI0Y3p6UWNZTG1YNFlCMVp1RHhlWUx1aWw2eFFBWFJrSlZJcy04dktMVDkwdlFyTXVmb0I4OEN5Z9IBX0FVX3lxTE5ZczNKME1hdjdiWGl2VEc2WmZEXy1kUjJUM01kWnl5c0lLMU9FYjlCX2gtLVFTa2JVeEFLN0g3clZoZ0RESU9acEhZZ3NCNGhvOUI1R0Q0VXFjWDNyQXcw?oc=5",
-    "sourceUrl": "https://www.khan.co.kr",
-    "excerpt": "",
-    "date": "2026-10-08"
-   },
-   {
     "publisher": "경기일보",
     "title": "수도권 주택 올해 9만9천가구 착공…경기·인천 3기 신도시·택지 공급 속도",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1mQ0FuNHU5TXIyS250T190bk9zR0tPSXA3cnZLWk43ZTk4Q2JEc2hrc1JsUE8zamUtbWlOMVpidWFFc2FRUU9WeEhNU19MWnlpWmtsMFgwMDRpbnc?oc=5",
     "sourceUrl": "https://www.kyeonggi.com",
     "excerpt": "",
     "date": "2026-10-16"
+   },
+   {
+    "publisher": "경향신문",
+    "title": "홍지선 국토장관 “임대주택 비율 10%로 높일 것…30년까지 수도권에 5만3천호 공급”",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE50ZVdIdmlNUlY4QUxxbm9XVEhyX2ZwandCRXI0Y3p6UWNZTG1YNFlCMVp1RHhlWUx1aWw2eFFBWFJrSlZJcy04dktMVDkwdlFyTXVmb0I4OEN5Z9IBX0FVX3lxTE5ZczNKME1hdjdiWGl2VEc2WmZEXy1kUjJUM01kWnl5c0lLMU9FYjlCX2gtLVFTa2JVeEFLN0g3clZoZ0RESU9acEhZZ3NCNGhvOUI1R0Q0VXFjWDNyQXcw?oc=5",
+    "sourceUrl": "https://www.khan.co.kr",
+    "excerpt": "",
+    "date": "2026-10-08"
    },
    {
     "publisher": "YTN",
@@ -98,20 +98,20 @@
   ],
   "tax": [
    {
-    "publisher": "조세일보",
-    "title": "양도세·종부세 모두 강화하는 것이 맞나 [2026 국감이슈]",
-    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBfRWI5ZEJDQVhYQm1NVDJRNXJvUmYtRUp6OWM3bmYxMWtZR3dmeExaTF9VYnlsRUU4ZXJTVG96MTRxRk9JYnZEdi1TTkRvQk5SZWlvUC0wNU9kbVVfTXJR?oc=5",
-    "sourceUrl": "https://m.joseilbo.com",
-    "excerpt": "",
-    "date": "2026-09-10"
-   },
-   {
     "publisher": "소셜포커스",
     "title": "종합부동산세 내년부터 어떻게 달라지나?",
     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1BWHYtNkdkRHcwU3U0OG5JZ2QzMGJlX21lRDdnaXZiYVJ6S3pnenZ1dkc2V3FGT3VXM1RvNnExM243NHpmcmlvenBvbWY0cXJFd196Zm5qbHJtaGhjM2RGX0k0SmVMUzY5TFZtZm03SlE?oc=5",
     "sourceUrl": "https://www.socialfocus.co.kr",
     "excerpt": "",
     "date": "2026-09-07"
+   },
+   {
+    "publisher": "조세일보",
+    "title": "양도세·종부세 모두 강화하는 것이 맞나 [2026 국감이슈]",
+    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBfRWI5ZEJDQVhYQm1NVDJRNXJvUmYtRUp6OWM3bmYxMWtZR3dmeExaTF9VYnlsRUU4ZXJTVG96MTRxRk9JYnZEdi1TTkRvQk5SZWlvUC0wNU9kbVVfTXJR?oc=5",
+    "sourceUrl": "https://m.joseilbo.com",
+    "excerpt": "",
+    "date": "2026-09-10"
    },
    {
     "publisher": "세정일보",
@@ -282,14 +282,6 @@
     "date": "2026-09-27"
    },
    {
-    "publisher": "영남경제",
-    "title": "2026년 9월 가계대출 작년 12월이후 처음으로 2.2조 감소",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE12SDJ4a3A2OS1Qdmx5VnFhc1ltd29PcFBzSGxDbVNJWHo1eVh6Z3RlMWZrcWQ2NmMzWF9RV3JzM3ExeGVzREh4c1g4cmc3SXZJQU5vNWhJX0xXUm1LVl9wRUVHWW4zQ1E?oc=5",
-    "sourceUrl": "https://www.ynenews.kr",
-    "excerpt": "",
-    "date": "2026-10-20"
-   },
-   {
     "publisher": "위클리서울",
     "title": "스트레스 DSR 확대에 내 집 마련 멀어지다",
     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5lMTVJS2lMNmlqLVZNY1lUR180MjV0YTJHZ0djM3E2cm1PazM4N2FmUnZOU3JNMTg1ajFDa2V3bXdkZnpWNllnZmF4VHdSeC1WMXBUTGhHdU9KYkdseHpnVmZ5MHZEdVJ6dV9kMDZB?oc=5",
@@ -298,12 +290,20 @@
     "date": "2026-10-09"
    },
    {
-    "publisher": "알파경제",
-    "title": "금융당국, 정책대출·고정금리 확대…금리상승기 부담 완화",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBjZXFOcjFxdjBSMWVVek5VYk0xTk11WF82SWVHN0VXSTZvUGJ3NkV3ZzVBZ0FoVVVTWjI4NmJOM0tZSktuTVBKUkVpQTZZV2ZxMThhOG9SMFJWQnlPd3lmYmlPT25BWjhNeE9LeVNR?oc=5",
-    "sourceUrl": "https://www.alphabiz.co.kr",
+    "publisher": "ER 이코노믹리뷰",
+    "title": "당국, 고정금리 늘려 '금리 충격' 낮춘다…스트레스 DSR도 유지 무게",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0xRVMxMW9hNjB5RjR5cVFEQTEzMlRtUUxzZ001b2d5c3Ayc1pmeUNBWEplUGMxLWN3eVZuTmZIRzFuWkJaZE4zM3puTjI3b0ZOLUpBTjJCblY3R0dEQ0FMV1Z1ZFJOOTV4V25lUQ?oc=5",
+    "sourceUrl": "https://www.econovill.com",
     "excerpt": "",
     "date": "2026-09-27"
+   },
+   {
+    "publisher": "매일일보",
+    "title": "[기획] 금리 인상기 취약자주 '이자상환' 충격 줄인다",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE02SUQ1TTNEeWhDVUFfREpkYXhRblFKdHpuclFPWFBHcHdBR2dLR3FaRjF6c1ZZOHVsczdlREw3a3VTOVlFUWFfeUUxY25qZHY4QldUNW9oWDcwajFKX01jUDZGSTU?oc=5",
+    "sourceUrl": "https://www.m-i.kr",
+    "excerpt": "",
+    "date": "2026-09-28"
    }
   ],
   "presale": [
@@ -366,14 +366,6 @@
     "date": "2026-09-20"
    },
    {
-    "publisher": "경인일보",
-    "title": "GTX-C 수혜 ‘쿼드러플’ 역세권 수원역, 실거래 56% 증가",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1MMVZwMDRtd0o4dng4dHpZa014eFFQNDhKc0VGd0dVRXlEcFZsUm9lZ1Q5SDg5TUEyZGQ1NjBNTVBTX3p3M3Mya3JFTEF1Y0xLUlE?oc=5",
-    "sourceUrl": "https://www.kyeongin.com",
-    "excerpt": "",
-    "date": "2026-09-15"
-   },
-   {
     "publisher": "Daum",
     "title": "GTX-C 수혜지 과천 아니라고? 집값 상승 1순위 '이 동네'",
     "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5xZWdoOGpqWm9OTlBoVHFBREtlNUExcF9ROWkyUmpFekEySWtkaUd5ZVg5LW5JVEwzRnZVcEhxb1Y0dzNGWlE?oc=5",
@@ -388,6 +380,14 @@
     "sourceUrl": "https://www.etoday.co.kr",
     "excerpt": "",
     "date": "2026-09-22"
+   },
+   {
+    "publisher": "서울경제",
+    "title": "GTX-C노선, 15일 첫 삽 “안산·의왕·양주 등 수혜”",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9MZFNkS0VqcFd3NTUtZDJuMVR0c0dZOW1SOVgtbm9TREVOSUIzelVhcVNrYnpEWjJwc2hXcXlLcHJ1cmNKWmJmX3lDbFJJdjJaOGfSAVNBVV95cUxPZ0IycmdiT1FXaERIcmRmWE5OQl9BcjVSYkg1SzVkV3RpV2hBUFUzSm1kODNlZ05DeFF4dXBZcjl2UHFfY2U5RmM3YVdCU0haNEEtdw?oc=5",
+    "sourceUrl": "https://www.sedaily.com",
+    "excerpt": "",
+    "date": "2026-09-14"
    }
   ],
   "gap": [
