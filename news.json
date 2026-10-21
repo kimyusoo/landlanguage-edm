@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-20T21:36:44.677Z",
+ "generatedAt": "2026-10-21T04:45:21.684Z",
  "source": "Google News RSS",
  "topics": {
   "rate": [
@@ -78,7 +78,7 @@
     "date": "2026-10-16"
    },
    {
-    "publisher": "정책브리핑",
+    "publisher": "대한민국 정책브리핑",
     "title": "강남 3구 집값 상승 둔화…정부 \"공급 확대로 시장 안정 총력\"",
     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5jX2VXbnVkVEdMMDNYUmF2SUx4NmN3SDVLUmxTQUtJc1ZMZlh4Vk8yMHRVT1VjS3RmbTRPVDh3RVNVTFN3YXVQYW84b1dJa0gyeWhLY0cxUVY4TlFyblY1MW42WGFYRHlFbnpvMA?oc=5",
     "sourceUrl": "https://www.korea.kr",
@@ -106,6 +106,14 @@
     "date": "2026-09-10"
    },
    {
+    "publisher": "소셜포커스",
+    "title": "종합부동산세 내년부터 어떻게 달라지나?",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1BWHYtNkdkRHcwU3U0OG5JZ2QzMGJlX21lRDdnaXZiYVJ6S3pnenZ1dkc2V3FGT3VXM1RvNnExM243NHpmcmlvenBvbWY0cXJFd196Zm5qbHJtaGhjM2RGX0k0SmVMUzY5TFZtZm03SlE?oc=5",
+    "sourceUrl": "https://www.socialfocus.co.kr",
+    "excerpt": "",
+    "date": "2026-09-07"
+   },
+   {
     "publisher": "매일경제",
     "title": "고민 많은 다주택자 …\"팔려면 지금, 버티려면 종부세 계산을\"",
     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE44anRodWNEdGtWOV9qTEkyOGI1YkhFUFg5Z3NGUmhqWU51ZHBDaVNaUm1kTmVscXEzLUtzSjhBak9LRDlvVU1SZ0wzaTFmc0JuVU1wNDFhWEs?oc=5",
@@ -128,14 +136,6 @@
     "sourceUrl": "https://realty.chosun.com",
     "excerpt": "",
     "date": "2026-09-14"
-   },
-   {
-    "publisher": "뉴스웍스",
-    "title": "\"투자엔 무겁게, 실거주엔 가볍게\"…다주택·법인 취득 과세 압박 커질 듯",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9Xb2tNOUl3R0FHbjNUOVM1dWJJS2ticXdQUG1vM3JhU2JMVWJqR1EycHpaRWU2YjM2NFlqX1dEbm15dVpUeWJ4OVZpa1JGeGlxNEUtNXMxYzlMeXV3SWxCblVMR2JpUTFPbE1DeWI1NNIBc0FVX3lxTE90bTdHQUk1THJreTIyUUlVNFZNWHRkU0NsNy1QRXFrN3ctMTJ2dUFBQzl2OVlXUUprX0dvVzJ1aGpDTEMzUTlzVDljUmJGR3dUcWNxZF91WXlvc2NQS0NWaU00VExYTE5XNzNkTzFpbTZvcjA?oc=5",
-    "sourceUrl": "https://www.newsworks.co.kr",
-    "excerpt": "",
-    "date": "2026-10-20"
    }
   ],
   "stat": [
@@ -156,14 +156,6 @@
     "date": "2026-10-14"
    },
    {
-    "publisher": "연합인포맥스",
-    "title": "실거래가 아닌데…주간 아파트값 통계 결론 '지지부진' |",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9WS3R6Y09nTkVaR25UWWo2MTJPS25IRGVjQ3NVREdyUk9reVNRYmVMZ1JDV1JESWdVWk1qT01ONVprOHl0LUUxVFdJNUM0S1FTeHBLR2ZxaHhGVHF1UkJvVnVKM3pJdzNWUFhlelQ1dFh4ajhl?oc=5",
-    "sourceUrl": "https://news.einfomax.co.kr",
-    "excerpt": "",
-    "date": "2026-10-17"
-   },
-   {
     "publisher": "더구루",
     "title": "\"세 부담 피하자\" 서울 강남권 아파트 실거래가 4개월 만에 하락",
     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB3bFZzYkM2aDQ1dVhDU2xEZnJoQ2tJck9WWHZ6ZW5jdlpJZk9WNm5ZRnBXV3dlajk0ZW85eWlFMU9QR0ZNZml0YUhfOTAwbGFQaUZlZk5QZkNWSWZ3a1MxUmNXVQ?oc=5",
@@ -176,6 +168,14 @@
     "title": "서울 아파트값 7월에도 상승…전세 계약 10건 중 약 6건은 ‘갱신’",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9zVmFkM2tJMG1vNENhNk1YNl8xYld4R200d0tpaGFVdExQOEt2b2pacFZfX0NuS3MxUHZjWUpxWV85eWpmNUxDTHJxbHk3RzQxNVZXZTJyalpxbXM?oc=5",
     "sourceUrl": "https://www.kyeonggi.com",
+    "excerpt": "",
+    "date": "2026-09-18"
+   },
+   {
+    "publisher": "영등포신문",
+    "title": "서울 아파트 매매 실거래가격 상승 지속...1년 새 14.56% 상승",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5oNDVCQW95S3VhSW1QemxrNjNlTUNUSE9tQl9TaUdDazB3Q1NIRjh1Mm1QcWFtMVRxOHM4Wi1TOEtWbk0ya1EwYW9TdDFVMHZsdVF5TXdHaDZsaFNy?oc=5",
+    "sourceUrl": "https://www.ybstv.net",
     "excerpt": "",
     "date": "2026-09-18"
    }
@@ -237,15 +237,7 @@
     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9SWGEtczE0OE5tOGJ2UkdZT0NhU0lsT1dqSjR5X21rNzZwUklKY2RCM0NlRnZXbU5iMXRPalJMUGlReEhyc0JENnJjazl3MlplSjBSM3FORC1yTWdpNnM2amVuTVFrWHRDMGfSAW9BVV95cUxPakxrWmZ2bXJEZXRMcTFTd3U4aHpJd0dabDJrWnZsYTZibGJrXzZwRFBjY09DNWU0bUVadlFsVE5fMmN5LS1lVGxCdFc1ZS05cjRiREVycktFMmtCbVE5cjNoTF9WYXpBVzJNb2preEk?oc=5",
     "sourceUrl": "https://www.mt.co.kr",
     "excerpt": "",
-    "date": "2026-10-09"
-   },
-   {
-    "publisher": "조선일보",
-    "title": "서울 자치구, 리모델링 사업에도 행정 지원 확대",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeXQyVUJoX0l2czhXc3BFYnBTZmZBaUpMMXlNRHFpc1hrV3ZVbTNNSlB1ZlF4RlI0YU11cmszamNHc1R4NlhRUERMazEtN1Q5NGtKVGtERXBwelhoRlZEYmc3RXh3czN3d3JPSkI1eUFQX2ZMNXp2ME1leDZHRGZVcGZCNS1CSm82SVNNYUZ3?oc=5",
-    "sourceUrl": "https://www.chosun.com",
-    "excerpt": "",
-    "date": "2026-09-21"
+    "date": "2026-10-10"
    },
    {
     "publisher": "디벨로퍼뉴스",
@@ -254,6 +246,14 @@
     "sourceUrl": "https://www.dpnews.co.kr",
     "excerpt": "",
     "date": "2026-10-13"
+   },
+   {
+    "publisher": "조선일보",
+    "title": "서울 자치구, 리모델링 사업에도 행정 지원 확대",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeXQyVUJoX0l2czhXc3BFYnBTZmZBaUpMMXlNRHFpc1hrV3ZVbTNNSlB1ZlF4RlI0YU11cmszamNHc1R4NlhRUERMazEtN1Q5NGtKVGtERXBwelhoRlZEYmc3RXh3czN3d3JPSkI1eUFQX2ZMNXp2ME1leDZHRGZVcGZCNS1CSm82SVNNYUZ3?oc=5",
+    "sourceUrl": "https://www.chosun.com",
+    "excerpt": "",
+    "date": "2026-09-21"
    },
    {
     "publisher": "아유경제",
@@ -324,14 +324,6 @@
     "date": "2026-09-21"
    },
    {
-    "publisher": "뉴데일리",
-    "title": "고분양가에 수도권도 미분양 속출 … 경기도 신축 12곳 중 11곳 미달",
-    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE50ZlczTTZWN2MtZmROamRPd19sWVZyMWFsclJXenQzNnNQWmFySzNINkZrVG5ZUTM3Q1ZCTnVnRzQ5dmhhNUFvSkRYcjUtQ0p4aURlQm82WWdHTGlrY19wOXBHTGFLQkhKU18yRVhDR09KejZwTkZxSS14c9IBgAFBVV95cUxPN3ozRmlIWThONFZNWGota1kzRERXbW96R1JLN2FfVm5pNUpZcnpBVE85T2d3R0UyWF9TNzZRUlVOUWNsU0FBMW0wX2Nibk1SWC1CNTBTNXY4YW56X2hUVllUdHBxbUJiZXRUNVNEY2l4Wk04TmlSQ1p3WXhfV1FlQg?oc=5",
-    "sourceUrl": "https://biz.newdaily.co.kr",
-    "excerpt": "",
-    "date": "2026-10-20"
-   },
-   {
     "publisher": "파이낸셜뉴스",
     "title": "미분양 나던 동네가 20억 '훌쩍'…청약 경쟁률 564대 1 가보니 [집 나와라 뚝딱!]",
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5xb05pR2tuYVJtSTV5b0M5bjEyM1ladU0yU19HQk9TOXhnNklpMWJIaXBaYmgwTXkxLVB4aFNPNVpKeW95MTVrV01kSVZBMG13VFhoU2Jhdk0wZw?oc=5",
@@ -346,6 +338,14 @@
     "sourceUrl": "https://www.sedaily.com",
     "excerpt": "",
     "date": "2026-09-21"
+   },
+   {
+    "publisher": "뉴데일리",
+    "title": "고분양가에 수도권도 미분양 속출 … 경기도 신축 12곳 중 11곳 미달",
+    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE50ZlczTTZWN2MtZmROamRPd19sWVZyMWFsclJXenQzNnNQWmFySzNINkZrVG5ZUTM3Q1ZCTnVnRzQ5dmhhNUFvSkRYcjUtQ0p4aURlQm82WWdHTGlrY19wOXBHTGFLQkhKU18yRVhDR09KejZwTkZxSS14c9IBgAFBVV95cUxPN3ozRmlIWThONFZNWGota1kzRERXbW96R1JLN2FfVm5pNUpZcnpBVE85T2d3R0UyWF9TNzZRUlVOUWNsU0FBMW0wX2Nibk1SWC1CNTBTNXY4YW56X2hUVllUdHBxbUJiZXRUNVNEY2l4Wk04TmlSQ1p3WXhfV1FlQg?oc=5",
+    "sourceUrl": "https://biz.newdaily.co.kr",
+    "excerpt": "",
+    "date": "2026-10-20"
    }
   ],
   "gtx": [
@@ -408,14 +408,6 @@
     "date": "2026-09-17"
    },
    {
-    "publisher": "매일경제",
-    "title": "단 4명이 세입자 종잣돈 4600억 떼먹었다…돈 대신 갚아준 HUG, 회수 ‘막막’",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE41R0ZKaU1UZE9ab0VfWlpuSVBLcmN0MzdTZkxuZkdZWFAtMU1HZlRrcXJiRkJ6STE3TGQybTJsbU9zTEF3YzZLU1pMS0hGek5JNVdVNw?oc=5",
-    "sourceUrl": "https://www.mk.co.kr",
-    "excerpt": "",
-    "date": "2026-09-16"
-   },
-   {
     "publisher": "스트레이트뉴스",
     "title": "[2026국감] 전세금 떼이고 HUG가 대신 갚은 돈 12조...다주택 채무자가 6.8조",
     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBKMjlJZDhrSUxMa1JwaENaRXlMejFyYmZ2OTR1d3V6UERXa295OVdvZUtfSmdOb3FWUzN4THdnX1dad2YycmxZMnMzcXVFUU9Ea3QwUFI5REcwX3p0MVFOMGpCRnpYZW9xVHQxYkpoUXk1UXPSAXdBVV95cUxPLWQ3TU9vb1JKeVRmLVU3ajZOWjNFdnNBR1hLMDQzR3dWRFZNUGFMcVdaZWlQelpvTkxaYTF3WUh1OGIwaWtmSll2Vk9VWTdRamFtOV9MUTlkVERTM2NsUXZCUkJrSl9GNlBETHdqVDJOblhQSlpiQQ?oc=5",
@@ -425,6 +417,14 @@
    }
   ],
   "newtown": [
+   {
+    "publisher": "이데일리",
+    "title": "추석 끝나자 3기 신도시 청약…계양·대장·왕숙 줄줄이 공급",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTWhsNGRtZzA3d05BeFhTR0hobzQwamhXSU1SYy1vMG1EY2tybjVkbk5rcG9kbklfSVRYNUJoU09ER2FQaFdvbkNvUWloUFludDZpejY2U096RGthUXlPcEFXOVBfbGZXczZMM3lGMlJmamhTeDhSUDZXMTRpb1pxbQ?oc=5",
+    "sourceUrl": "https://www.edaily.co.kr",
+    "excerpt": "",
+    "date": "2026-09-27"
+   },
    {
     "publisher": "헤럴드경제",
     "title": "“4년 기다렸는데 또...” 3기 신도시 사전청약단지 60%가 본청약 지연 [부동산360]",
@@ -448,14 +448,6 @@
     "sourceUrl": "https://contents.premium.naver.com",
     "excerpt": "",
     "date": "2026-09-21"
-   },
-   {
-    "publisher": "이데일리",
-    "title": "추석 끝나자 3기 신도시 청약…계양·대장·왕숙 줄줄이 공급",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTWhsNGRtZzA3d05BeFhTR0hobzQwamhXSU1SYy1vMG1EY2tybjVkbk5rcG9kbklfSVRYNUJoU09ER2FQaFdvbkNvUWloUFludDZpejY2U096RGthUXlPcEFXOVBfbGZXczZMM3lGMlJmamhTeDhSUDZXMTRpb1pxbQ?oc=5",
-    "sourceUrl": "https://www.edaily.co.kr",
-    "excerpt": "",
-    "date": "2026-09-27"
    },
    {
     "publisher": "시사저널",
