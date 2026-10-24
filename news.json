@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-24T10:58:48.100Z",
+ "generatedAt": "2026-10-24T15:56:18.787Z",
  "source": "Google News RSS",
  "topics": {
   "rate": [
@@ -54,6 +54,14 @@
     "date": "2026-10-16"
    },
    {
+    "publisher": "중앙일보",
+    "title": "2030년까지 공적주택 119만 가구…수도권에 92만 가구 공급",
+    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9QM1pGejB4Rk8zRW5xdElIcmRVeHZLV3RTUVpPMDNHRDQyaTdyNWpIdnQ4S0hnaXdfM0lBc1MwMnh2Z1loWXlKNzU4LTVxVlQyT09tYTRn?oc=5",
+    "sourceUrl": "https://www.joongang.co.kr",
+    "excerpt": "",
+    "date": "2026-09-21"
+   },
+   {
     "publisher": "경향신문",
     "title": "홍지선 국토장관 “임대주택 비율 10%로 높일 것…30년까지 수도권에 5만3천호 공급”",
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE50ZVdIdmlNUlY4QUxxbm9XVEhyX2ZwandCRXI0Y3p6UWNZTG1YNFlCMVp1RHhlWUx1aWw2eFFBWFJrSlZJcy04dktMVDkwdlFyTXVmb0I4OEN5Z9IBX0FVX3lxTE5ZczNKME1hdjdiWGl2VEc2WmZEXy1kUjJUM01kWnl5c0lLMU9FYjlCX2gtLVFTa2JVeEFLN0g3clZoZ0RESU9acEhZZ3NCNGhvOUI1R0Q0VXFjWDNyQXcw?oc=5",
@@ -76,24 +84,6 @@
     "sourceUrl": "https://www.yna.co.kr",
     "excerpt": "",
     "date": "2026-10-16"
-   },
-   {
-    "publisher": "BBS불교방송",
-    "title": "[경제 오딧세이]정부, 주택공급 '속도전'…수도권 연말까지 23만 호 착공",
-    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1iOWM1WkNWaFJPQUN5aTZiM1ZjSnB0VGdMTXk4a013UVNyNlR0VXY4ZlA5dmZFRklnNWVOc0trMU5za1RzeThKNThxT0FCcmFtQVpXQTdIcmhLTDM0cDBxVHVqLXdydGlNVk9J?oc=5",
-    "sourceUrl": "https://news.bbsi.co.kr",
-    "excerpt": "",
-    "date": "2026-10-21"
-   }
-  ],
-  "subs": [
-   {
-    "publisher": "데일리환경",
-    "title": "청약 실수가 만든 '줍줍 아파트'시장…당첨 취소 5만명 넘어",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBmOVozZnZDMVVTMkQ1TU9VZEh5Q3FmQ3pyZzNBQ2lWWmRMRkw5aTJpYTdqcUNpRGhvaDd6OExJai14X1pGRjRPbHJpQ0ZjZVJvWUoySGRfMDFrS214VkE?oc=5",
-    "sourceUrl": "https://www.dailyt.co.kr",
-    "excerpt": "",
-    "date": "2026-09-26"
    }
   ],
   "tax": [
@@ -164,20 +154,20 @@
     "date": "2026-10-22"
    },
    {
-    "publisher": "스트레이트뉴스",
-    "title": "서울 아파트값은 오르는데 평균 거래금액은 하락…왜?",
-    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9WM2ZrZzdseVQzTl9PdVVLWUN3dU8yUENFbkVNM1N2cDBCeFNpNU15T2JhZ3dFcnVoU1JwR1FLX1pYOUQ2M3JnTTJ4RkVNa0xLckQ1V3ExNWYwMHNWNkNIQ21QaFU2N3ViSVR0ZklaVkRFTjQ?oc=5",
-    "sourceUrl": "https://www.straightnews.co.kr",
+    "publisher": "글로벌이코노믹",
+    "title": "서울 아파트 매매 실거래가 1년 새 15.5%↑… 거래량은 3천 건대 밑돌아 '위축'",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQeVNOdkpsZnNvVUZHa3MwcmRsV2VtMzdxTFdTS1NDSjAwNWpyeE9ZQzZnQ21MLXB3TldqN2JSM1hMb1VGZVNITlpET2JqVFdqcFBKVC00azJsZmRsNHVsbFY2cXpTZHZHSWlEajRidi1YN25yQTdGQ1J4ci1NZ3dLbXZodlFzVThDamc?oc=5",
+    "sourceUrl": "https://www.g-enews.com",
     "excerpt": "",
-    "date": "2026-10-14"
+    "date": "2026-10-22"
    },
    {
-    "publisher": "연합인포맥스",
-    "title": "실거래가 아닌데…주간 아파트값 통계 결론 '지지부진'",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5xaDY1RktueGIwYXdfczZqU0FXVWlHc0R1YXRJRXB2aDZSdUN1c2dHYTJycTBkSnVJdGFMeDVjOW91TExJNlVNN1FUZkxDSXBXY25xQUtyVTJjamV3ZHYyYnBkOGoxWUpmTEF5ZGVNNjA?oc=5",
-    "sourceUrl": "https://news.einfomax.co.kr",
+    "publisher": "동대문 이슈",
+    "title": "서울 아파트값 1년 새 15.5% 상승…동북권 상승률 최고",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1TamVKMzBOZ09mblZDLU1vc0x6cl9PalFGU1lMSk81eFMybFZ0MHhuSHhHVnRuUHpoS3ktb2owaXBJVEpmVGxBd25QY296ak03Rm1xY1VsMWlUd3dERDNIazB3?oc=5",
+    "sourceUrl": "https://www.ddmissue.com",
     "excerpt": "",
-    "date": "2026-10-19"
+    "date": "2026-10-22"
    }
   ],
   "lease": [
@@ -190,20 +180,20 @@
     "date": "2026-09-14"
    },
    {
-    "publisher": "YTN",
-    "title": "씨 마른 전세...가격 상승률도 '역대급'",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5LeVBKQ2s3MGFMcmFjM2hQbGdrbnFMd3F5RDM0TWFSYTBxeTQzZHp0X1FxNWJKMUVYRWkwVVVicGtFcXM5U21ycWlraWc5OUhWMVVrY1R5cHgtRzlER3c?oc=5",
-    "sourceUrl": "https://www.ytn.co.kr",
-    "excerpt": "",
-    "date": "2026-09-25"
-   },
-   {
     "publisher": "연합인포맥스",
     "title": "[현장에서] \"월세화는 시대 흐름\"이라기엔… 시장이 감당 못 할 '속도' |",
     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1pc1dONXFzWFVZeVBRUDlhR2ljdUFMd1U3aE9zbHo0SXU2VWdnWnJ5Zjh6MlNQXzAzazRjbGpfS1VQQU4yQ2hQcVhaSzlIWnc2MXExQlI4bV9nejU2emJ0X2pqVkhHa3F4aE5JX3d0YXdHODY0?oc=5",
     "sourceUrl": "https://news.einfomax.co.kr",
     "excerpt": "",
     "date": "2026-10-23"
+   },
+   {
+    "publisher": "YTN",
+    "title": "씨 마른 전세...가격 상승률도 '역대급'",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5LeVBKQ2s3MGFMcmFjM2hQbGdrbnFMd3F5RDM0TWFSYTBxeTQzZHp0X1FxNWJKMUVYRWkwVVVicGtFcXM5U21ycWlraWc5OUhWMVVrY1R5cHgtRzlER3c?oc=5",
+    "sourceUrl": "https://www.ytn.co.kr",
+    "excerpt": "",
+    "date": "2026-09-25"
    },
    {
     "publisher": "www.ebn.co.kr",
@@ -282,14 +272,6 @@
     "date": "2026-09-27"
    },
    {
-    "publisher": "위클리서울",
-    "title": "스트레스 DSR 확대에 내 집 마련 멀어지다",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5lMTVJS2lMNmlqLVZNY1lUR180MjV0YTJHZ0djM3E2cm1PazM4N2FmUnZOU3JNMTg1ajFDa2V3bXdkZnpWNllnZmF4VHdSeC1WMXBUTGhHdU9KYkdseHpnVmZ5MHZEdVJ6dV9kMDZB?oc=5",
-    "sourceUrl": "https://www.weeklyseoul.net",
-    "excerpt": "",
-    "date": "2026-10-09"
-   },
-   {
     "publisher": "Investing.com 한국어",
     "title": "금융당국, 정책대출·고정금리 확대…금리상승기 부담 완화 By 알파경제 alphabiz",
     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5qREl2NDkwMjFZdGF4Ul90MXRjN3YtT3FxTGlweWlEVmN3bDBTMlhtbFZ3Qk1rQzhja2JSNFNBNkp6ZWFGTmhleHF2RVQ0bGNrVnZtVVZ3aUp5Q0xBT0l1S1htZDZ5R0ZIQ2Y5N19DWXE?oc=5",
@@ -298,10 +280,18 @@
     "date": "2026-09-28"
    },
    {
-    "publisher": "스마트비즈",
-    "title": "금융당국, 금리 인상기 취약차주 보호 나선다···고정금리 대출 확대 검토",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1wdkhpdE9MT05yRENhekhpR2x0UjJJb2Uzc0YwX01jYXFydkRzVE01UEtNeW1BcXFPWndsN1FaVFZTenVIVXJtN0Uya180aE9WSWZ3XzVIaHVuMHN3S1dqdUNCaTFablhJbmx4UQ?oc=5",
-    "sourceUrl": "https://www.smartbizn.com",
+    "publisher": "위클리서울",
+    "title": "스트레스 DSR 확대에 내 집 마련 멀어지다",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5lMTVJS2lMNmlqLVZNY1lUR180MjV0YTJHZ0djM3E2cm1PazM4N2FmUnZOU3JNMTg1ajFDa2V3bXdkZnpWNllnZmF4VHdSeC1WMXBUTGhHdU9KYkdseHpnVmZ5MHZEdVJ6dV9kMDZB?oc=5",
+    "sourceUrl": "https://www.weeklyseoul.net",
+    "excerpt": "",
+    "date": "2026-10-09"
+   },
+   {
+    "publisher": "ER 이코노믹리뷰",
+    "title": "당국, 고정금리 늘려 '금리 충격' 낮춘다…스트레스 DSR도 유지 무게",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0xRVMxMW9hNjB5RjR5cVFEQTEzMlRtUUxzZ001b2d5c3Ayc1pmeUNBWEplUGMxLWN3eVZuTmZIRzFuWkJaZE4zM3puTjI3b0ZOLUpBTjJCblY3R0dEQ0FMV1Z1ZFJOOTV4V25lUQ?oc=5",
+    "sourceUrl": "https://www.econovill.com",
     "excerpt": "",
     "date": "2026-09-27"
    }
@@ -388,16 +378,6 @@
     "sourceUrl": "https://www.sedaily.com",
     "excerpt": "",
     "date": "2026-09-14"
-   }
-  ],
-  "gap": [
-   {
-    "publisher": "www.dt.co.kr",
-    "title": "악성 임대인 솎아내니 서민만 ‘벼랑 끝’… 깐깐해진 전세보증의 그림자",
-    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5sLS1Wem14ZTM1UFRRcXVnaVY3SkF2YklHMXk3ejd1V2drUG15anFXcmVSWWMwYnlKWDYySDc2TzVfaTFYaHRneG0xU01JUQ?oc=5",
-    "sourceUrl": "https://www.dt.co.kr",
-    "excerpt": "",
-    "date": "2026-09-10"
    }
   ],
   "newtown": [
