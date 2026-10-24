@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-24T04:35:32.272Z",
+ "generatedAt": "2026-10-24T10:58:48.100Z",
  "source": "Google News RSS",
  "topics": {
   "rate": [
@@ -36,12 +36,12 @@
     "date": "2026-10-22"
    },
    {
-    "publisher": "경남신문",
-    "title": "한은, 기준금리 동결… 도내 부동산시장 회복은 ‘글쎄’",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE50SndQX2FIcGw3dVVtcEpHUkwtU0dscXpNMGRCRk5kajBmdEZBWkNicDh3SjdqQ2hlcWc5bmh5R2ZJNG8zck9jaTRkak4wU05OX3VrRnFXSnJzUQ?oc=5",
-    "sourceUrl": "https://m.knnews.co.kr",
+    "publisher": "연합뉴스",
+    "title": "대출 조여도 집값·가계대출↑…한은 \"금융불균형 위험\"",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE90TkNoeXA5SFhfMERPNTlBWG55dGY1LUZVcEF2NHdtSmJEVjFsSXJibHpkZmw2UEJ1eUVRdnlLd1ROOVdWMVI3TXRzc0JuZjZ1RG1LY0VOcnJYazDSAWBBVV95cUxNRlZiNGJqVzYwT2Zta01ieW9ZMjZsR0gzcDZjMnVyeTJ1OGpOMEdHdnc1QWpNQ0JIbVlOcHR1eGtENkZVN2hNcm42aFVONjFVcDh3dUN6U2thZ20zUzNvS2M?oc=5",
+    "sourceUrl": "https://www.yna.co.kr",
     "excerpt": "",
-    "date": "2026-10-22"
+    "date": "2026-09-10"
    }
   ],
   "supply": [
@@ -114,14 +114,6 @@
     "date": "2026-09-10"
    },
    {
-    "publisher": "세정일보",
-    "title": "`26 세제개편안, 양도세·종부세 동시 강화 논란…시장 왜곡 키우나",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE51c3kyZUhtN0lEUnhZWUZqdTE4Q21vLTFCaDNUTlZ5a2VEVElBbGVhVFJLQTh1aklsbDRUSzgwX1Q1dTRvUG9YZUlxNEdnNkZJX3k5UWdmTHo2Si1qX19rQkFJLU0zd09mYTlJYw?oc=5",
-    "sourceUrl": "https://www.sejungilbo.com",
-    "excerpt": "",
-    "date": "2026-09-09"
-   },
-   {
     "publisher": "매일경제",
     "title": "고민 많은 다주택자 …\"팔려면 지금, 버티려면 종부세 계산을\"",
     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE44anRodWNEdGtWOV9qTEkyOGI1YkhFUFg5Z3NGUmhqWU51ZHBDaVNaUm1kTmVscXEzLUtzSjhBak9LRDlvVU1SZ0wzaTFmc0JuVU1wNDFhWEs?oc=5",
@@ -136,6 +128,14 @@
     "sourceUrl": "https://realty.chosun.com",
     "excerpt": "",
     "date": "2026-09-14"
+   },
+   {
+    "publisher": "신아일보",
+    "title": "집합건물 다소유자 비중, 7년9개월 만에 '최저'",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5RblB1VENKN1FNTUhoY0lNRVdkVzh0YTdDcDNZODNXT2hBcmNOdVphUFdmZzF0TmZzN1ItWU9FRExTQjQ4NGU5LUladkp2ZkZIeEVJSnRxQVJILUtRTnFEcU9NZmI5Wmc5SmdOMmh6bUY?oc=5",
+    "sourceUrl": "https://www.shinailbo.co.kr",
+    "excerpt": "",
+    "date": "2026-09-28"
    }
   ],
   "stat": [
@@ -172,12 +172,12 @@
     "date": "2026-10-14"
    },
    {
-    "publisher": "글로벌이코노믹",
-    "title": "서울 아파트 매매 실거래가 1년 새 15.5%↑… 거래량은 3천 건대 밑돌아 '위축'",
-    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQeVNOdkpsZnNvVUZHa3MwcmRsV2VtMzdxTFdTS1NDSjAwNWpyeE9ZQzZnQ21MLXB3TldqN2JSM1hMb1VGZVNITlpET2JqVFdqcFBKVC00azJsZmRsNHVsbFY2cXpTZHZHSWlEajRidi1YN25yQTdGQ1J4ci1NZ3dLbXZodlFzVThDamc?oc=5",
-    "sourceUrl": "https://www.g-enews.com",
+    "publisher": "연합인포맥스",
+    "title": "실거래가 아닌데…주간 아파트값 통계 결론 '지지부진'",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5xaDY1RktueGIwYXdfczZqU0FXVWlHc0R1YXRJRXB2aDZSdUN1c2dHYTJycTBkSnVJdGFMeDVjOW91TExJNlVNN1FUZkxDSXBXY25xQUtyVTJjamV3ZHYyYnBkOGoxWUpmTEF5ZGVNNjA?oc=5",
+    "sourceUrl": "https://news.einfomax.co.kr",
     "excerpt": "",
-    "date": "2026-10-22"
+    "date": "2026-10-19"
    }
   ],
   "lease": [
@@ -232,6 +232,14 @@
     "date": "2026-10-06"
    },
    {
+    "publisher": "머니투데이",
+    "title": "[챗집피티] 40년 된 송파 '알짜' 오금현대…1.6조에 삼성·포스코 경쟁 - 머니투데이",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9SWGEtczE0OE5tOGJ2UkdZT0NhU0lsT1dqSjR5X21rNzZwUklKY2RCM0NlRnZXbU5iMXRPalJMUGlReEhyc0JENnJjazl3MlplSjBSM3FORC1yTWdpNnM2amVuTVFrWHRDMGfSAW9BVV95cUxPakxrWmZ2bXJEZXRMcTFTd3U4aHpJd0dabDJrWnZsYTZibGJrXzZwRFBjY09DNWU0bUVadlFsVE5fMmN5LS1lVGxCdFc1ZS05cjRiREVycktFMmtCbVE5cjNoTF9WYXpBVzJNb2preEk?oc=5",
+    "sourceUrl": "https://www.mt.co.kr",
+    "excerpt": "",
+    "date": "2026-10-10"
+   },
+   {
     "publisher": "디벨로퍼뉴스",
     "title": "상일동 빌라 5곳, ‘분담금 제로’ 재건축 승부수…유사평형 신청해도 최대 5억대 환급",
     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9nVDNMbFdocV82ejJZcnFOOUlnZ1d3ZkRydGJrUC04SHVEWTVoWE56T2ZJODhidGw5ZXVjVk5sTk9JX3J0aWQ3b0hlNHlGeXhxQU5lSThTRVh2c1NvdXZVRlUxMm1BR0Vu?oc=5",
@@ -248,20 +256,12 @@
     "date": "2026-09-21"
    },
    {
-    "publisher": "데일리하우징",
-    "title": "[기고] 아직 멀쩡한 아파트, 굳이 재건축 해야 하나",
-    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1BZnBSNU1BTEZMbTFSQUN2M2dvalNOd0VVTzNHVWJfcmdMY2t3RlZxSkFpdEVuY2xvcXlFdFFKbzdlbFQ5NGtQSkc5SXhOV084Z0Q5UlJMWUVBVEo4VS1XNWV0bkpYV2dwOEhV?oc=5",
-    "sourceUrl": "https://www.dailyhousing.kr",
+    "publisher": "한국주택경제신문",
+    "title": "일원 가람아파트, 수서택지지구 첫 재건축 조합설립인가",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5Ka1RlZ3NrZ3YzaXZLNkxYZXR2d3owWmJUUEhleF9vSTVzb2Q3UGNPWUM2WXJhT2tHOTV2YldlX1BXekQ1ZXhpNmhLTFZSR3Fzbl8wSVk3aFFNOUE1STNIRHB5OVB1OXR0?oc=5",
+    "sourceUrl": "https://www.arunews.com",
     "excerpt": "",
-    "date": "2026-09-10"
-   },
-   {
-    "publisher": "시민일보",
-    "title": "송파구, 가락우창아파트 조합설립인가 3일 만에 처리",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBqMU9jdWdXaWpPWWFDcXgtSUIwdWp1NGJ0bnIyZlVieGZZQy1MMlpPUkRhaDl4ei1RRFg4cTdjYVN2Y2hRZGxoQ2tzeUplTUdnYm5DR00ycXlDWDNOeGVZVzhYUUkwcGh5a1ZFOE9VRdIBb0FVX3lxTFBqMU9jdWdXaWpPWWFDcXgtSUIwdWp1NGJ0bnIyZlVieGZZQy1MMlpPUkRhaDl4ei1RRFg4cTdjYVN2Y2hRZGxoQ2tzeUplTUdnYm5DR00ycXlDWDNOeGVZVzhYUUkwcGh5a1ZFOE9VRQ?oc=5",
-    "sourceUrl": "https://m.siminilbo.co.kr",
-    "excerpt": "",
-    "date": "2026-10-16"
+    "date": "2026-10-13"
    }
   ],
   "loan": [
@@ -308,14 +308,6 @@
   ],
   "presale": [
    {
-    "publisher": "인천일보",
-    "title": "9월 경기 아파트 청약 경쟁률 2.12대 1…역대 최저",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5xU0RuZmZRS2VuY1RNOFFZbjRtcGZFc0NPVHN4dVVONWdGV0N5RU1wdUtkRTZtcWNjcnZuUGd5empDck85TjZ5dDk1eXQwc1dkZzhKdHVVY2ZTY09lY1RFaTdnRFMwRmJQQWdoTnQxUng?oc=5",
-    "sourceUrl": "https://www.incheonilbo.com",
-    "excerpt": "",
-    "date": "2026-10-22"
-   },
-   {
     "publisher": "연합뉴스",
     "title": "전국 아파트 1순위 청약 경쟁률 6개월째 하락…부산은 첫 미달",
     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1jRW9aRWo3elhLTHZoYmVUUE1wZ1JtTG1jQXM5OEdXNmpkQkpJdGdBTmRnNGtlVVVZNDNPc0hyMUU0RmRZanZPSFVRenV5SDZXUUJGQXRYNXBONHg2UWFISNIBYEFVX3lxTE1jRW9aRWo3elhLTHZoYmVUUE1wZ1JtTG1jQXM5OEdXNmpkQkpJdGdBTmRnNGtlVVVZNDNPc0hyMUU0RmRZanZPSFVRenV5SDZXUUJGQXRYNXBONHg2UWFISA?oc=5",
@@ -330,6 +322,14 @@
     "sourceUrl": "https://kbthink.com",
     "excerpt": "",
     "date": "2026-10-15"
+   },
+   {
+    "publisher": "인천일보",
+    "title": "9월 경기 아파트 청약 경쟁률 2.12대 1…역대 최저",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5xU0RuZmZRS2VuY1RNOFFZbjRtcGZFc0NPVHN4dVVONWdGV0N5RU1wdUtkRTZtcWNjcnZuUGd5empDck85TjZ5dDk1eXQwc1dkZzhKdHVVY2ZTY09lY1RFaTdnRFMwRmJQQWdoTnQxUng?oc=5",
+    "sourceUrl": "https://www.incheonilbo.com",
+    "excerpt": "",
+    "date": "2026-10-22"
    },
    {
     "publisher": "한국경제",
@@ -398,14 +398,6 @@
     "sourceUrl": "https://www.dt.co.kr",
     "excerpt": "",
     "date": "2026-09-10"
-   },
-   {
-    "publisher": "스트레이트뉴스",
-    "title": "[2026국감] 전세금 떼이고 HUG가 대신 갚은 돈 12조...다주택 채무자가 6.8조",
-    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBKMjlJZDhrSUxMa1JwaENaRXlMejFyYmZ2OTR1d3V6UERXa295OVdvZUtfSmdOb3FWUzN4THdnX1dad2YycmxZMnMzcXVFUU9Ea3QwUFI5REcwX3p0MVFOMGpCRnpYZW9xVHQxYkpoUXk1UXPSAXdBVV95cUxPLWQ3TU9vb1JKeVRmLVU3ajZOWjNFdnNBR1hLMDQzR3dWRFZNUGFMcVdaZWlQelpvTkxaYTF3WUh1OGIwaWtmSll2Vk9VWTdRamFtOV9MUTlkVERTM2NsUXZCUkJrSl9GNlBETHdqVDJOblhQSlpiQQ?oc=5",
-    "sourceUrl": "https://www.straightnews.co.kr",
-    "excerpt": "",
-    "date": "2026-09-16"
    }
   ],
   "newtown": [
