@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-31T05:39:25.282Z",
+ "generatedAt": "2026-10-31T12:27:46.796Z",
  "source": "Google News RSS",
  "topics": {
   "rate": [
@@ -28,62 +28,62 @@
     "date": "2026-10-22"
    },
    {
+    "publisher": "시사저널e",
+    "title": "두 번 올리고 숨 고르던 한국은행···美 긴축에 '세 번째 인상' 시계 빨라진다",
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBDcWk2OVFsZU43RjFvVl9nTW1wbWZiZUM1aGNJZmdWZms5NXM3ZWZ6Z3FtdjBfRkNCYndIMVhxbEJSNVNYMV91VDhYWjdDWkl2ZlVFRVZ2alJWZWlZX3NUSUtNTUpIUjZtRm9IcG5lQkswd9IBdkFVX3lxTE9LWWJGcnpBTmNQVzdfckF3ckZxZDgyVGlmYmx0Snp3WEQ2ZHBPMi1PbEg3RjFGeWRWWExxZVZjajIwUHNKdmJ0QzJsX19iQnY3TTZzcnY4WGFWc2tudFNxNGxBdFByay1RcWlld0h1MlVuUmJVMnc?oc=5",
+    "sourceUrl": "https://www.sisajournal-e.com",
+    "excerpt": "",
+    "date": "2026-09-22"
+   },
+   {
     "publisher": "에너지경제신문",
     "title": "“기준금리 인상 약발, 집값부터”...차주 이자부담은 이제 시작",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBPR1BoM203Q2Z3Wld6RkFXTXFSNVZEU01yTUt6VVpOblZlS05sMXVDdXF2RGxDQXB5NXJmdU1mUFhYWTc1ZHRTS05JVml0cFJhbFZwTnZUWmFWOFE?oc=5",
     "sourceUrl": "https://m.ekn.kr",
     "excerpt": "",
     "date": "2026-09-22"
-   },
-   {
-    "publisher": "경남신문",
-    "title": "한은, 기준금리 동결… 경남 부동산시장 회복은 ‘글쎄’",
-    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1WdEt0RHM3ZHl1VzBFaElsOC1PNUtLVWlWQlV6ZFhmMkJwVExNWjd1RnViQ0tNTWxSYmVOYmlPeE84Q204QU56Y1ZrQ3JlUjRTbjZ6eWQ5VWZKTEdVNUhLZHJrYWpVQUFBMzJJ?oc=5",
-    "sourceUrl": "https://www.knnews.co.kr",
-    "excerpt": "",
-    "date": "2026-10-22"
    }
   ],
   "supply": [
    {
-    "publisher": "대전일보",
-    "title": "지방 부동산 대책은 빠졌다…또 수도권 주택공급만",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9vZHNmeUl0TkdtRXFQQVEtRGdEMUNJdTF0cXhvbi1CaVNHNDFRVlNtUnZsVEpuYmc1VWNnOHd2Q0tnb1ZONXMwWW1mR1pQRS1mMFFMLVhrU3NZTjQ0NEtHUHBuaVh4Yi12V0pkNDFyTdIBc0FVX3lxTE5iclIwS2tyQlgwS2RQUWZTTDlTME1kM1dWSEEyWk9OaWtsMGhYZnBPQ3hSaXVCMzl3RGh3TnhKMHJweUpBT1FnVkV0NVFjZFVxaHgybzhMYUlkRTdCd1kyUWdGTkFqYWRmdm1DMXFwbl9LY2s?oc=5",
-    "sourceUrl": "https://www.daejonilbo.com",
-    "excerpt": "",
-    "date": "2026-10-29"
-   },
-   {
-    "publisher": "전기신문",
-    "title": "수도권 신규택지 6곳서 7만6700호 주택공급",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBEcWI5NlRRSHliei1kQW5KTXZlLVpfZGdFOXA5aHluTTRLRW5QM292ckJpT0tBcW1wbVByNkk3NExTa20zRk5lLTM5aUVETmk4NTR2UjVpY1RpN01oUkJXeTNzdDRSSGpXYWhWemRycFLSAXBBVV95cUxQRHFiOTZUUUh5YnotZEFuSk12ZS1aX2RnRTlwOWh5bk00S0VuUDNvdnJCaU9LQXFtcG1QcjZJNzRMU2ttM0ZOZS0zOWlFRE5pODU0dlI1aWNUaTdNaFJCV3kzc3Q0UkhqV2FoVnpkcnBS?oc=5",
-    "sourceUrl": "https://www.electimes.com",
-    "excerpt": "",
-    "date": "2026-10-29"
-   },
-   {
-    "publisher": "YTN",
-    "title": "정부 \"올해 수도권 주택 착공, 최대 23만5천 호\"",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9zWXZxX05XbzE0V09PRGczaGJzWXVYYTJncUdRMm1ISmxvUi00U0VyQVJnMkVhZEFFenRqVDVIUkduN0NwUk1vOWM4RXdEMm9NbHhudnBvdUh4ZUI5UWc?oc=5",
-    "sourceUrl": "https://www.ytn.co.kr",
+    "publisher": "대한민국 정책브리핑",
+    "title": "연말까지 수도권 주택 21만 8000~23만 5000호 이상 착공",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFByMXR1MW1wcURBN3hUSVlCZElpaXkwbS1UUFVmdjBBT3N5RVZHci04Z3pZMldBQjF1N3B2SFp4QXhBd1BmaEZqN0NOTGFSMURheFlsLVV1RVlydDdPWUlnZ21VX1Z1Y2lhamdRag?oc=5",
+    "sourceUrl": "https://www.korea.kr",
     "excerpt": "",
     "date": "2026-10-16"
    },
    {
-    "publisher": "조선일보",
-    "title": "경기도 6곳 그린벨트 풀어... 신규 택지 7만6700가구 공급",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTlZ0N1VmRFNzV094SkNLdmY5dXlGT0hJaDJQNzR0emtNT2I3VFBObTd0dW52SExYY2hnUHpvOHVqODJ4dHlTdUJzTWd4TFFiZHJ2WGplUU5KSnVYOVRfNk1QRVl2d2pWT1ZrZ05ORFdDWWF1S0p5UDBrY2FLbE05b2NTVFE2a3Z4?oc=5",
-    "sourceUrl": "https://www.chosun.com",
+    "publisher": "연합뉴스",
+    "title": "정부 \"수도권 공급 목표 37% 착공…연말까지 80%대 가능\"",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8zQjI2ZnNwMU5oWS1PQVBZdlBOZTQ4ZUFrMUdqb3dTeVR6RTVSUGk0dEhwNlplTHVteVE3bzlpM3EwMkhGRmFTQUpIQ29jZ25zUjQ0NHFCWFNmc1XSAWBBVV95cUxNcjFpNm1uNWtHaDNrS05EU2I0RnRqb0ZfazZJX3Z1SUw5U01OYmROaFJKVHozZndPYzZzSDFnTHFkMTVMVmFnd2pTeURFVmNWZ2hzOV94dm9QRTJZRjNPeFc?oc=5",
+    "sourceUrl": "https://www.yna.co.kr",
     "excerpt": "",
-    "date": "2026-10-29"
+    "date": "2026-10-16"
    },
    {
-    "publisher": "매일경제",
-    "title": "[속보] 수도권 신규택지 7만6700가구 추가 공급…서울 인접 교통 요지에 집중",
-    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1VLWRtNDRzLVV6emxrQVIybU9RVGxYQUN3RThpclQ1SWJvZE1tZmo1Qk81QlRzVkFXTU4xNlgyN3kwNkZ1bXQtR1R4WkpEUWZjZEZOdERyWW8?oc=5",
-    "sourceUrl": "https://www.mk.co.kr",
+    "publisher": "브릿지경제",
+    "title": "홍지선 신임 국토교통부 장관 공식 임기 시작…수도권 주택 공급·시장 안정 과제",
+    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE8wVUZLdTVnTm1sME9LemVvNWR0N2pPRnNNb05BN21UdG1TNUNTVnNHMHNxZk9YWkJzZ2VENXhRb3Q4c0Q4MDRpTFJvOTRnVnF5QkJ5S0I3RQ?oc=5",
+    "sourceUrl": "https://m.viva100.com",
     "excerpt": "",
-    "date": "2026-10-29"
+    "date": "2026-09-22"
+   },
+   {
+    "publisher": "전기신문",
+    "title": "수도권 주택 9.9만호 착공…연말까지 최대 23.5만호 전망",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE92bVlmb1VoU1Nla25Zd1JHdWczMDI0bm5uU2FaU0xCWkY1YW9HNnZtdC1oWWtaX3BPNThuRXBGQ1BWbFNaLVpUSkRVa3NhaVN4cVBxb3VRQjBhWURJWW5sZENnRE5raXlPbDdmRtIBcEFVX3lxTFBsZndrZHlOcEMyNUNjSHNubU5HczFGZmNfOGg4X09Za2huSFhIaTI3VXN5TkRCY1FyQlRPeE43T0JIYW9TLVE2Z1pWQ25mYXY5eUxHWldSQ0hKelpHZ3N1ZGNhSVJOaUxyS2xRVGtBeW0?oc=5",
+    "sourceUrl": "https://www.electimes.com",
+    "excerpt": "",
+    "date": "2026-10-16"
+   },
+   {
+    "publisher": "경기일보",
+    "title": "수도권 주택 올해 9만9천가구 착공…경기·인천 3기 신도시·택지 공급 속도",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1mQ0FuNHU5TXIyS250T190bk9zR0tPSXA3cnZLWk43ZTk4Q2JEc2hrc1JsUE8zamUtbWlOMVpidWFFc2FRUU9WeEhNU19MWnlpWmtsMFgwMDRpbnc?oc=5",
+    "sourceUrl": "https://www.kyeonggi.com",
+    "excerpt": "",
+    "date": "2026-10-16"
    }
   ],
   "subs": [
@@ -156,6 +156,14 @@
     "date": "2026-09-17"
    },
    {
+    "publisher": "스트레이트뉴스",
+    "title": "서울 아파트값은 오르는데 평균 거래금액은 하락…왜?",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9WM2ZrZzdseVQzTl9PdVVLWUN3dU8yUENFbkVNM1N2cDBCeFNpNU15T2JhZ3dFcnVoU1JwR1FLX1pYOUQ2M3JnTTJ4RkVNa0xLckQ1V3ExNWYwMHNWNkNIQ21QaFU2N3ViSVR0ZklaVkRFTjTSAXdBVV95cUxQTnV5dVhyZnRnMU1LZVAzOFp4Z2gxQ1UyMTAta3RPbkVMVVRZNXhGSFpLZ0N1cDVOVFVyYnVuLTAtVVI1YURibnAxVzV0VFlySDJXUXdtNWpSWDJ2SWl6U3BwaEdLd2RDRTNGYmdYYmtMbUlqSk84RQ?oc=5",
+    "sourceUrl": "https://www.straightnews.co.kr",
+    "excerpt": "",
+    "date": "2026-10-14"
+   },
+   {
     "publisher": "글로벌이코노믹",
     "title": "서울 아파트 매매 실거래가 1년 새 15.5%↑… 거래량은 3천 건대 밑돌아 '위축'",
     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQeVNOdkpsZnNvVUZHa3MwcmRsV2VtMzdxTFdTS1NDSjAwNWpyeE9ZQzZnQ21MLXB3TldqN2JSM1hMb1VGZVNITlpET2JqVFdqcFBKVC00azJsZmRsNHVsbFY2cXpTZHZHSWlEajRidi1YN25yQTdGQ1J4ci1NZ3dLbXZodlFzVThDamc?oc=5",
@@ -178,14 +186,6 @@
     "sourceUrl": "https://www.newscj.com",
     "excerpt": "",
     "date": "2026-10-22"
-   },
-   {
-    "publisher": "KPI뉴스",
-    "title": "매주 발표하는 주택가격 통계, 신뢰성 의문…국토부 개편 예고",
-    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1pWmlyTnZKOUs4ejhXM0JkZ3ZPekhHVGE5TDFobFlOZ1RYdFFpOUs3NTZSc3lyRkdsSzlGRE02TGhxajJrR2c0bGZkdXRzaDgtOXdwdEg3OA?oc=5",
-    "sourceUrl": "https://kpinews.kr",
-    "excerpt": "",
-    "date": "2026-10-16"
    }
   ],
   "lease": [
@@ -240,6 +240,14 @@
     "date": "2026-10-06"
    },
    {
+    "publisher": "머니투데이",
+    "title": "[챗집피티] 40년 된 송파 '알짜' 오금현대…1.6조에 삼성·포스코 경쟁 - 머니투데이",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9SWGEtczE0OE5tOGJ2UkdZT0NhU0lsT1dqSjR5X21rNzZwUklKY2RCM0NlRnZXbU5iMXRPalJMUGlReEhyc0JENnJjazl3MlplSjBSM3FORC1yTWdpNnM2amVuTVFrWHRDMGfSAW9BVV95cUxPakxrWmZ2bXJEZXRMcTFTd3U4aHpJd0dabDJrWnZsYTZibGJrXzZwRFBjY09DNWU0bUVadlFsVE5fMmN5LS1lVGxCdFc1ZS05cjRiREVycktFMmtCbVE5cjNoTF9WYXpBVzJNb2preEk?oc=5",
+    "sourceUrl": "https://www.mt.co.kr",
+    "excerpt": "",
+    "date": "2026-10-10"
+   },
+   {
     "publisher": "조선일보",
     "title": "서울 자치구, 리모델링 사업에도 행정 지원 확대",
     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeXQyVUJoX0l2czhXc3BFYnBTZmZBaUpMMXlNRHFpc1hrV3ZVbTNNSlB1ZlF4RlI0YU11cmszamNHc1R4NlhRUERMazEtN1Q5NGtKVGtERXBwelhoRlZEYmc3RXh3czN3d3JPSkI1eUFQX2ZMNXp2ME1leDZHRGZVcGZCNS1CSm82SVNNYUZ3?oc=5",
@@ -256,20 +264,12 @@
     "date": "2026-10-23"
    },
    {
-    "publisher": "경북 탑 뉴스",
-    "title": "【특별기획】 도시 개발 사업과 아파트 재건축사업, 노휴지역 재개발사업 추진 과정상 문제점은 무엇인가",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1GdlVybVFZT3BjQzVsa0d0eGt0VHBSRXRqRGpwdnotVjNTZndNbElOeFdDYjItZUhPamZVYzlEZzUwZGdpSVVpaXVDWHU1SlFoZG5NeHVCazlYVzd4RWZ3ZTM4ejA?oc=5",
-    "sourceUrl": "https://www.ktn1.net",
+    "publisher": "한국주택경제신문",
+    "title": "일원 가람아파트, 수서택지지구 첫 재건축 조합설립인가",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5Ka1RlZ3NrZ3YzaXZLNkxYZXR2d3owWmJUUEhleF9vSTVzb2Q3UGNPWUM2WXJhT2tHOTV2YldlX1BXekQ1ZXhpNmhLTFZSR3Fzbl8wSVk3aFFNOUE1STNIRHB5OVB1OXR0?oc=5",
+    "sourceUrl": "https://www.arunews.com",
     "excerpt": "",
-    "date": "2026-10-16"
-   },
-   {
-    "publisher": "서울경제",
-    "title": "규제 완화에 리모델링 기지개…건설사도 시장 공략 속도[집슐랭]",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5vVEl4aGJCNXRGWDQ2VVUyc1I4QVYyU1RGQm9wWUJ6U04wZlJZdDNSQmVacl9KUXhWQWxmY2FKSVYxX2JicXhmN3ZiQ01XdE1nMGfSAVNBVV95cUxPN2gxMW5FNjNrZVBvQUpWQWVsUzNtQ0VnbXFWdkZST3NRZDNaREhQMzAtUlBJcTJxOUtJcDd2eG03WWh5dFhFeW85WF9uNVJDOFhCZw?oc=5",
-    "sourceUrl": "https://www.sedaily.com",
-    "excerpt": "",
-    "date": "2026-10-25"
+    "date": "2026-10-13"
    }
   ],
   "loan": [
@@ -282,14 +282,6 @@
     "date": "2026-09-27"
    },
    {
-    "publisher": "www.ebn.co.kr",
-    "title": "[금융위 국감] 가계대출 총량 3%로 넓힌다…주택공급 금융 47.8조원+α",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5iT2lZX1REVXYyVzkwMVRIaTA4Q2lSOVFpUDJnUGJSMEgzWTQ5NjZheWppRm9mVjV2QmtmMGtWRzBoU0o4Z0JCcG9RM3VGS2NDT3R1YzhZYTY2cDc4bjZOTzk3a05IRHpR?oc=5",
-    "sourceUrl": "https://www.ebn.co.kr",
-    "excerpt": "",
-    "date": "2026-10-08"
-   },
-   {
     "publisher": "위클리서울",
     "title": "스트레스 DSR 확대에 내 집 마련 멀어지다",
     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5lMTVJS2lMNmlqLVZNY1lUR180MjV0YTJHZ0djM3E2cm1PazM4N2FmUnZOU3JNMTg1ajFDa2V3bXdkZnpWNllnZmF4VHdSeC1WMXBUTGhHdU9KYkdseHpnVmZ5MHZEdVJ6dV9kMDZB?oc=5",
@@ -298,18 +290,26 @@
     "date": "2026-10-09"
    },
    {
-    "publisher": "알파경제",
-    "title": "금융당국, 정책대출·고정금리 확대…금리상승기 부담 완화",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBjZXFOcjFxdjBSMWVVek5VYk0xTk11WF82SWVHN0VXSTZvUGJ3NkV3ZzVBZ0FoVVVTWjI4NmJOM0tZSktuTVBKUkVpQTZZV2ZxMThhOG9SMFJWQnlPd3lmYmlPT25BWjhNeE9LeVNR?oc=5",
-    "sourceUrl": "https://www.alphabiz.co.kr",
+    "publisher": "www.ebn.co.kr",
+    "title": "[금융위 국감] 가계대출 총량 3%로 넓힌다…주택공급 금융 47.8조원+α",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5iT2lZX1REVXYyVzkwMVRIaTA4Q2lSOVFpUDJnUGJSMEgzWTQ5NjZheWppRm9mVjV2QmtmMGtWRzBoU0o4Z0JCcG9RM3VGS2NDT3R1YzhZYTY2cDc4bjZOTzk3a05IRHpR?oc=5",
+    "sourceUrl": "https://www.ebn.co.kr",
     "excerpt": "",
-    "date": "2026-09-27"
+    "date": "2026-10-08"
    },
    {
     "publisher": "스마트비즈",
     "title": "금리 오르는데 대출문턱은 그대로···금융당국, '취약차주 방어' 총력",
     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBIUWxmdEtTMFJvQ3pwQVYzS2VuYlhTMWphS2JSUjBYTlFhQ3VhNTl3ekxqakJ2eVF5ZEtkdy16ZlFXSnFQdng1NFE1WUc3enB2V3I3TWUwMU0zNGk1SXFzMlNWX2FaSzlhcHpOTA?oc=5",
     "sourceUrl": "https://www.smartbizn.com",
+    "excerpt": "",
+    "date": "2026-09-27"
+   },
+   {
+    "publisher": "알파경제",
+    "title": "금융당국, 정책대출·고정금리 확대…금리상승기 부담 완화",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBjZXFOcjFxdjBSMWVVek5VYk0xTk11WF82SWVHN0VXSTZvUGJ3NkV3ZzVBZ0FoVVVTWjI4NmJOM0tZSktuTVBKUkVpQTZZV2ZxMThhOG9SMFJWQnlPd3lmYmlPT25BWjhNeE9LeVNR?oc=5",
+    "sourceUrl": "https://www.alphabiz.co.kr",
     "excerpt": "",
     "date": "2026-09-27"
    }
@@ -400,6 +400,14 @@
   ],
   "newtown": [
    {
+    "publisher": "조선일보",
+    "title": "‘공급 전격전’ 가로막는 3중벽… 3기 신도시도 첫 입주까지 8년 걸려",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPR2NsQzNkbmVFLW11alh5bGpDRDdlS2NVTXpVemxUWG14NXp4U0I0OGl3Y090NG80NWRIRkU0T3dVNEJtZ2VlYkpPSXpnTzQ2cnlNems2MUFxeV8tcDI0X2VubjVBVDBhZlZCQU5uUEVCUHQ1Zm1rUHVUWXptVTM1c0tpVDIxRHNZ?oc=5",
+    "sourceUrl": "https://www.chosun.com",
+    "excerpt": "",
+    "date": "2026-10-21"
+   },
+   {
     "publisher": "헤럴드경제",
     "title": "“4년 기다렸는데 또...” 3기 신도시 사전청약단지 60%가 본청약 지연 [부동산360]",
     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9kZTBGZU1TWDYwSlZUMkg1Sm45SGZpaWlaWjl0QjV3enpwRUxFbGF0MDQtMWFsTEdMMkwzOWZwLUNPZWlsdDJGR0hkREU1Q2ZYNHdja3VR?oc=5",
@@ -430,14 +438,6 @@
     "sourceUrl": "https://www.edaily.co.kr",
     "excerpt": "",
     "date": "2026-09-27"
-   },
-   {
-    "publisher": "브런치",
-    "title": "나도 해볼까, 3기신도시 사전청약",
-    "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBwT3JkWmZqTFdXZXZsRkJqb3A5NHBlY2hWdHNCdEQxTkRmSjZybnNtQlJ5aGlMMUlWaTAyN3Mzbm9faHVqZTEw?oc=5",
-    "sourceUrl": "https://brunch.co.kr",
-    "excerpt": "",
-    "date": "2026-09-24"
    }
   ]
  }
