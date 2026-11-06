@@ -1,16 +1,8 @@
 {
- "generatedAt": "2026-11-05T19:56:07.063Z",
+ "generatedAt": "2026-11-06T06:42:48.406Z",
  "source": "Google News RSS",
  "topics": {
   "rate": [
-   {
-    "publisher": "더구루",
-    "title": "한은, 예상대로 기준금리 3% 동결…부동산 시장 관망세 이어지나",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1xUFBnRGRqV210alpJM3lYTDUyMFJNaTdwSVk1R1prYmxVMTFDdnJhMm1rN1BvVWRDVWlTdjhaRFQwVGtYajdIYmg4UWxFOGVadXJIZ3AxTjBDN0RoYjVNVnIyOA?oc=5",
-    "sourceUrl": "https://www.theguru.co.kr",
-    "excerpt": "",
-    "date": "2026-10-22"
-   },
    {
     "publisher": "뉴스핌",
     "title": "'코로나 이후 고점' 3.5% 향하는 기준금리…집값·거래량 다시 압박하나",
@@ -18,6 +10,14 @@
     "sourceUrl": "https://www.newspim.com",
     "excerpt": "",
     "date": "2026-10-01"
+   },
+   {
+    "publisher": "더구루",
+    "title": "한은, 예상대로 기준금리 3% 동결…부동산 시장 관망세 이어지나",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1xUFBnRGRqV210alpJM3lYTDUyMFJNaTdwSVk1R1prYmxVMTFDdnJhMm1rN1BvVWRDVWlTdjhaRFQwVGtYajdIYmg4UWxFOGVadXJIZ3AxTjBDN0RoYjVNVnIyOA?oc=5",
+    "sourceUrl": "https://www.theguru.co.kr",
+    "excerpt": "",
+    "date": "2026-10-22"
    },
    {
     "publisher": "원주투데이",
@@ -28,20 +28,20 @@
     "date": "2026-10-05"
    },
    {
-    "publisher": "시사저널e",
-    "title": "두 번 올리고 숨 고르던 한국은행···美 긴축에 '세 번째 인상' 시계 빨라진다",
-    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBDcWk2OVFsZU43RjFvVl9nTW1wbWZiZUM1aGNJZmdWZms5NXM3ZWZ6Z3FtdjBfRkNCYndIMVhxbEJSNVNYMV91VDhYWjdDWkl2ZlVFRVZ2alJWZWlZX3NUSUtNTUpIUjZtRm9IcG5lQkswd9IBdkFVX3lxTE9LWWJGcnpBTmNQVzdfckF3ckZxZDgyVGlmYmx0Snp3WEQ2ZHBPMi1PbEg3RjFGeWRWWExxZVZjajIwUHNKdmJ0QzJsX19iQnY3TTZzcnY4WGFWc2tudFNxNGxBdFByay1RcWlld0h1MlVuUmJVMnc?oc=5",
-    "sourceUrl": "https://www.sisajournal-e.com",
-    "excerpt": "",
-    "date": "2026-09-22"
-   },
-   {
     "publisher": "경남신문",
     "title": "한은, 기준금리 동결… 경남 부동산시장 회복은 ‘글쎄’",
     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1WdEt0RHM3ZHl1VzBFaElsOC1PNUtLVWlWQlV6ZFhmMkJwVExNWjd1RnViQ0tNTWxSYmVOYmlPeE84Q204QU56Y1ZrQ3JlUjRTbjZ6eWQ5VWZKTEdVNUhLZHJrYWpVQUFBMzJJ?oc=5",
     "sourceUrl": "https://www.knnews.co.kr",
     "excerpt": "",
     "date": "2026-10-23"
+   },
+   {
+    "publisher": "시사저널e",
+    "title": "두 번 올리고 숨 고르던 한국은행···美 긴축에 '세 번째 인상' 시계 빨라진다",
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBDcWk2OVFsZU43RjFvVl9nTW1wbWZiZUM1aGNJZmdWZms5NXM3ZWZ6Z3FtdjBfRkNCYndIMVhxbEJSNVNYMV91VDhYWjdDWkl2ZlVFRVZ2alJWZWlZX3NUSUtNTUpIUjZtRm9IcG5lQkswd9IBdkFVX3lxTE9LWWJGcnpBTmNQVzdfckF3ckZxZDgyVGlmYmx0Snp3WEQ2ZHBPMi1PbEg3RjFGeWRWWExxZVZjajIwUHNKdmJ0QzJsX19iQnY3TTZzcnY4WGFWc2tudFNxNGxBdFByay1RcWlld0h1MlVuUmJVMnc?oc=5",
+    "sourceUrl": "https://www.sisajournal-e.com",
+    "excerpt": "",
+    "date": "2026-09-22"
    }
   ],
   "supply": [
@@ -109,7 +109,7 @@
     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1reVVjZ1JMajZHZkp1cE9vNEoxOG1DR3ZGQXE1ekJCUksyeU1PaF8wejZjVHB0VzZ2MDZXMVZmOGRTdlVRS1pZaHdIaGVXOXJjTE82LVFJeUxuS1prclhWSmVianh5bWRwRzlYWTFseE5Yb2ptZHfSAWZBVV95cUxOYU11T0V0NkJtU1BXM0twUVgxb2F6cGx1cGdnZlBRRUVkZy04aVYtLXZ5WU9QMVZwdnVDQTRPY1lMN1UtYzVremRSbmdEWUplc1RfU1E3RUREZ0NfMDgwdlhjajhTVmc?oc=5",
     "sourceUrl": "https://www.donga.com",
     "excerpt": "",
-    "date": "2026-10-25"
+    "date": "2026-10-26"
    },
    {
     "publisher": "신아일보",
@@ -146,18 +146,18 @@
     "date": "2026-10-22"
    },
    {
-    "publisher": "동행미디어 시대",
-    "title": "논란 타오른 부동산 통계…\"가격 말고 거래량도 봐야\"",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9MWFJfLThwcjdHbmxkM0VtN2FUeWFCTE1qSlBzdHJlaWwwSXRxeU1JUlVCZGJZUjJUZ2JmNHNiWmpNMjN0cXRiR2dFSWxabEU5dVNJRnJETWVKbUJ5Tmc?oc=5",
-    "sourceUrl": "https://www.sidae.com",
-    "excerpt": "",
-    "date": "2026-11-04"
-   },
-   {
     "publisher": "서울일보",
     "title": "이 대통령 “서울 집값 놀라울 정도로 하락” vs 오세훈 “집계 이래 최고”",
     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9jdlhZdi13cnoxanZTUGE1eUlKU1JOcnNIUlFzOGJnOENuS1Q1eFowaUs0UE5YS055azJIM0dKazFmcU5IV1RGajNlenhwVjl0YjN3TWtMWERHOHVmM2ZFaEJjTm5ScTc2NGVFOUp2SdIBb0FVX3lxTE9jdlhZdi13cnoxanZTUGE1eUlKU1JOcnNIUlFzOGJnOENuS1Q1eFowaUs0UE5YS055azJIM0dKazFmcU5IV1RGajNlenhwVjl0YjN3TWtMWERHOHVmM2ZFaEJjTm5ScTc2NGVFOUp2SQ?oc=5",
     "sourceUrl": "http://www.seoulilbo.com",
+    "excerpt": "",
+    "date": "2026-11-04"
+   },
+   {
+    "publisher": "동행미디어 시대",
+    "title": "논란 타오른 부동산 통계…\"가격 말고 거래량도 봐야\"",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9MWFJfLThwcjdHbmxkM0VtN2FUeWFCTE1qSlBzdHJlaWwwSXRxeU1JUlVCZGJZUjJUZ2JmNHNiWmpNMjN0cXRiR2dFSWxabEU5dVNJRnJETWVKbUJ5Tmc?oc=5",
+    "sourceUrl": "https://www.sidae.com",
     "excerpt": "",
     "date": "2026-11-04"
    },
@@ -172,12 +172,12 @@
   ],
   "lease": [
    {
-    "publisher": "연합인포맥스",
-    "title": "월세를 전세로 바꾼다…HUG '전월세 안심신탁' 첫 임대인 모집 |",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBRUDBLcjhOd3laU3V4Mmt6UHU4NTAyQWdHRUtBcUZtUHBObkpGeWZoZy1VLVVHNEtqZmQydmpSa0EyRnoxSmxSeGJ3Qk9GVHQtLVItdUVkSTlyeENIMHBwZWRfSTM1cVVnRk0xQmd2aG5yNkRE?oc=5",
-    "sourceUrl": "https://news.einfomax.co.kr",
+    "publisher": "이모작뉴스",
+    "title": "집주인은 월세 받고, 세입자는 전세로 산다…‘전월세 안심신탁’ 첫발",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB0eEhiUExRNkNwdFI5c3FWaHY0VUNWOTFPRjdsVDQ1d3B4Q2RabVlWRUNBTk9wTkxjY1ZPRXpSVDNMQmVwcHJ4TEt5OU1hSFRETGdyZzZxODN0d210a3lmOGdaTkZLZ0R60gFsQVVfeXFMTmVQS0l6a2dUTG1aOGdEY05wTTJmUkdna0VLRlBDUFNKODFGVUJZZTlrenVWNGFYYlpfbHVnamhtUEd0aENiM1dDTUFhRGpCVEtsbDVCekJpa0lSYldFZlRDRldsTmlqbHFHczND?oc=5",
+    "sourceUrl": "http://www.emozak.co.kr",
     "excerpt": "",
-    "date": "2026-11-04"
+    "date": "2026-11-06"
    },
    {
     "publisher": "한국방송뉴스",
@@ -230,6 +230,14 @@
     "date": "2026-10-13"
    },
    {
+    "publisher": "머니투데이",
+    "title": "[챗집피티] 40년 된 송파 '알짜' 오금현대…1.6조에 삼성·포스코 경쟁 - 머니투데이",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9SWGEtczE0OE5tOGJ2UkdZT0NhU0lsT1dqSjR5X21rNzZwUklKY2RCM0NlRnZXbU5iMXRPalJMUGlReEhyc0JENnJjazl3MlplSjBSM3FORC1yTWdpNnM2amVuTVFrWHRDMGfSAW9BVV95cUxPakxrWmZ2bXJEZXRMcTFTd3U4aHpJd0dabDJrWnZsYTZibGJrXzZwRFBjY09DNWU0bUVadlFsVE5fMmN5LS1lVGxCdFc1ZS05cjRiREVycktFMmtCbVE5cjNoTF9WYXpBVzJNb2preEk?oc=5",
+    "sourceUrl": "https://www.mt.co.kr",
+    "excerpt": "",
+    "date": "2026-10-10"
+   },
+   {
     "publisher": "경북 탑 뉴스",
     "title": "【특별기획】 도시 개발 사업과 아파트 재건축사업, 노휴지역 재개발사업 추진 과정상 문제점은 무엇인가",
     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1GdlVybVFZT3BjQzVsa0d0eGt0VHBSRXRqRGpwdnotVjNTZndNbElOeFdDYjItZUhPamZVYzlEZzUwZGdpSVVpaXVDWHU1SlFoZG5NeHVCazlYVzd4RWZ3ZTM4ejA?oc=5",
@@ -244,14 +252,6 @@
     "sourceUrl": "https://www.arunews.com",
     "excerpt": "",
     "date": "2026-10-13"
-   },
-   {
-    "publisher": "Chosunbiz",
-    "title": "“75층으로” vs “65층으로”… 잠실 아시아선수촌, 재건축 계획 두 갈래",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOY0tpYmVwb1FVRUJYbTJ5S3lqS1YxNW9ISllqRVhBbGtzU1NZeTJISFZWZU9WZXFCd0dQOXk2aU9qQXlBTzROSWpEbkNacUpPb3d6cWFHaXVCMi05Qm1CN1cwT2RmaTh5UC1UZDNxTU13SEhWeWt5bEZkZFJyaFhDVm1EYUpIX3lGNE8xMnJENDBHbktLWFVBZNIBrAFBVV95cUxPR3k5TzN2UXZiTnFlM0s2Qk9Oa2hHQlVydl83X0pFMkw0UXhBWl8wbmhQdDQtTmF6V2xVSWJEamlLNm1sTE9IZEZjN2tSSnRvaURWSUNCY3h5LTlCU3FhUlc5bW5yS2NLQVZSYlhCbjFLT2lRU2E1aDJiSWlVOUJXUE1fdzl1aUlOSjljTFlHUmM4aVNlcGIzb3Rja1lDNDZKMkl5amlaUWhDMGU0?oc=5",
-    "sourceUrl": "https://biz.chosun.com",
-    "excerpt": "",
-    "date": "2026-10-26"
    }
   ],
   "loan": [
@@ -272,6 +272,14 @@
     "date": "2026-10-09"
    },
    {
+    "publisher": "www.ebn.co.kr",
+    "title": "[금융위 국감] 가계대출 총량 3%로 넓힌다…주택공급 금융 47.8조원+α",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5iT2lZX1REVXYyVzkwMVRIaTA4Q2lSOVFpUDJnUGJSMEgzWTQ5NjZheWppRm9mVjV2QmtmMGtWRzBoU0o4Z0JCcG9RM3VGS2NDT3R1YzhZYTY2cDc4bjZOTzk3a05IRHpR?oc=5",
+    "sourceUrl": "https://www.ebn.co.kr",
+    "excerpt": "",
+    "date": "2026-10-08"
+   },
+   {
     "publisher": "Investing.com 한국어",
     "title": "금융당국, 정책대출·고정금리 확대…금리상승기 부담 완화 By 알파경제 alphabiz",
     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5qREl2NDkwMjFZdGF4Ul90MXRjN3YtT3FxTGlweWlEVmN3bDBTMlhtbFZ3Qk1rQzhja2JSNFNBNkp6ZWFGTmhleHF2RVQ0bGNrVnZtVVZ3aUp5Q0xBT0l1S1htZDZ5R0ZIQ2Y5N19DWXE?oc=5",
@@ -286,14 +294,6 @@
     "sourceUrl": "https://www.smartbizn.com",
     "excerpt": "",
     "date": "2026-09-27"
-   },
-   {
-    "publisher": "www.ebn.co.kr",
-    "title": "[금융위 국감] 가계대출 총량 3%로 넓힌다…주택공급 금융 47.8조원+α",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5iT2lZX1REVXYyVzkwMVRIaTA4Q2lSOVFpUDJnUGJSMEgzWTQ5NjZheWppRm9mVjV2QmtmMGtWRzBoU0o4Z0JCcG9RM3VGS2NDT3R1YzhZYTY2cDc4bjZOTzk3a05IRHpR?oc=5",
-    "sourceUrl": "https://www.ebn.co.kr",
-    "excerpt": "",
-    "date": "2026-10-08"
    }
   ],
   "presale": [
