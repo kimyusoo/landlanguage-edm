@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-08T13:23:27.238Z",
+ "generatedAt": "2026-11-08T22:03:33.739Z",
  "source": "Google News RSS",
  "topics": {
   "rate": [
@@ -36,12 +36,12 @@
     "date": "2026-10-23"
    },
    {
-    "publisher": "뉴시스",
-    "title": "주담대 금리도 '들썩'…한은 추가 인상에 이자 더 오르나[금리 쇼크③]",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9ib3hPTjdrbTlmNTEwSGlqQVlVSl9KekIzX05ET0kxQWlYZDZMUEpWczlYRS1uQUN6RHBpUVB4SWdKTldZbmZ3VERmRnlaaTV4emRVWHk0bnZxUTFZaUpYLdIBeEFVX3lxTE1BQzZSRl8xUTdQVjlJLXVpdUp6dFV3ZFJyLW9reEZzQldocnNnOGIzUmk1MTNfQUJYcHVMZjkwZjBnYVM2ZUd5YUNRaV9ZWDZqby01OFdfV1VVQkd0TVU1RU9IN0Z2a1k4c3FTZ1Z2M1pjQTJqQ2JoaQ?oc=5",
-    "sourceUrl": "https://www.newsis.com",
+    "publisher": "인더스트리뉴스",
+    "title": "한은, 기준금리 연 3.00%로 동결…두 차례 인상 후 숨 고르기",
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1xVlBjUG5xX1owYkFMSjhmT2FDbVhYc3RjYk1VUVh4MFJSZ2szT2tISUl1VWJfdFpmQzBvRTZhb1AwMy05M0Z1aTZyclRnOUNxSWR0a2lJZmxMS0NHQWtsbVZZaHlER1RaOF8ya2Q4eDhrZw?oc=5",
+    "sourceUrl": "https://www.industrynews.co.kr",
     "excerpt": "",
-    "date": "2026-10-05"
+    "date": "2026-10-22"
    }
   ],
   "supply": [
@@ -98,20 +98,20 @@
   ],
   "tax": [
    {
+    "publisher": "매일경제",
+    "title": "고민 많은 다주택자 …\"팔려면 지금, 버티려면 종부세 계산을\"",
+    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE44anRodWNEdGtWOV9qTEkyOGI1YkhFUFg5Z3NGUmhqWU51ZHBDaVNaUm1kTmVscXEzLUtzSjhBak9LRDlvVU1SZ0wzaTFmc0JuVU1wNDFhWEs?oc=5",
+    "sourceUrl": "https://www.mk.co.kr",
+    "excerpt": "",
+    "date": "2026-10-18"
+   },
+   {
     "publisher": "이로운넷",
     "title": "종부세, '몇 채'가 아니라 '얼마'에 매긴다...실거주 중심 부동산세 개편",
     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9UUmU4YjFKbnhRVWxKbXdqZEJVTFNucGpKMFN0dXJvNDBPNWNEN3IzUi1QM2k3ZmNBUGlTV1R1MG44RkVkRzVfRnRLck1NSGNHdndmVmJMWEVleFp3MUdsVzZIRU9aZw?oc=5",
     "sourceUrl": "https://www.eroun.net",
     "excerpt": "",
     "date": "2026-11-04"
-   },
-   {
-    "publisher": "매일경제",
-    "title": "실거주 아니면 껑충 뛰는 ‘세부담’…꼬이는 부동산 세제개편안 셈법은",
-    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5BeXVOc3pMejV5Rm1NaHlJSGQtdTR5MEcxQ216Q1c1cGFoTzZjYVYwSldXcFUzSnN4SERqQ3pBZ3V4TzNGUHFPSDlWUW1QWlBvend0VFc2UE0?oc=5",
-    "sourceUrl": "https://www.mk.co.kr",
-    "excerpt": "",
-    "date": "2026-11-03"
    },
    {
     "publisher": "더메디컬",
@@ -216,8 +216,8 @@
    {
     "publisher": "매일경제",
     "title": "오피스텔은 이미 '월세시대'… 신규 임대차 80% 차지",
-    "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9ITnJ6MGVka0phdnpac2hVX3o5NXU4R3NhM1NxaHBYNFBXdlNRSXhpdlVqMTlsWEQ5Q2ZZdjZRdWt0SWEzb0E?oc=5",
-    "sourceUrl": "https://m.mk.co.kr",
+    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9na2JlSGpLVVVMYTBSWWhqWkpFTTRxSno4bURiZ0h5UkY1OFhOeDh6eXVmUloyQ3BySFg0ekRBVzg0dEREb3hEM2hPdEpnb0t2eEVXRVNtTmY?oc=5",
+    "sourceUrl": "https://www.mk.co.kr",
     "excerpt": "",
     "date": "2026-10-25"
    }
@@ -240,6 +240,14 @@
     "date": "2026-10-13"
    },
    {
+    "publisher": "머니투데이",
+    "title": "[챗집피티] 40년 된 송파 '알짜' 오금현대…1.6조에 삼성·포스코 경쟁 - 머니투데이",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9SWGEtczE0OE5tOGJ2UkdZT0NhU0lsT1dqSjR5X21rNzZwUklKY2RCM0NlRnZXbU5iMXRPalJMUGlReEhyc0JENnJjazl3MlplSjBSM3FORC1yTWdpNnM2amVuTVFrWHRDMGfSAW9BVV95cUxPakxrWmZ2bXJEZXRMcTFTd3U4aHpJd0dabDJrWnZsYTZibGJrXzZwRFBjY09DNWU0bUVadlFsVE5fMmN5LS1lVGxCdFc1ZS05cjRiREVycktFMmtCbVE5cjNoTF9WYXpBVzJNb2preEk?oc=5",
+    "sourceUrl": "https://www.mt.co.kr",
+    "excerpt": "",
+    "date": "2026-10-10"
+   },
+   {
     "publisher": "한국주택경제신문",
     "title": "일원 가람아파트, 수서택지지구 첫 재건축 조합설립인가",
     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5Ka1RlZ3NrZ3YzaXZLNkxYZXR2d3owWmJUUEhleF9vSTVzb2Q3UGNPWUM2WXJhT2tHOTV2YldlX1BXekQ1ZXhpNmhLTFZSR3Fzbl8wSVk3aFFNOUE1STNIRHB5OVB1OXR0?oc=5",
@@ -248,18 +256,10 @@
     "date": "2026-10-13"
    },
    {
-    "publisher": "Chosunbiz",
-    "title": "“75층으로” vs “65층으로”… 잠실 아시아선수촌, 재건축 계획 두 갈래",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOY0tpYmVwb1FVRUJYbTJ5S3lqS1YxNW9ISllqRVhBbGtzU1NZeTJISFZWZU9WZXFCd0dQOXk2aU9qQXlBTzROSWpEbkNacUpPb3d6cWFHaXVCMi05Qm1CN1cwT2RmaTh5UC1UZDNxTU13SEhWeWt5bEZkZFJyaFhDVm1EYUpIX3lGNE8xMnJENDBHbktLWFVBZNIBrAFBVV95cUxPR3k5TzN2UXZiTnFlM0s2Qk9Oa2hHQlVydl83X0pFMkw0UXhBWl8wbmhQdDQtTmF6V2xVSWJEamlLNm1sTE9IZEZjN2tSSnRvaURWSUNCY3h5LTlCU3FhUlc5bW5yS2NLQVZSYlhCbjFLT2lRU2E1aDJiSWlVOUJXUE1fdzl1aUlOSjljTFlHUmM4aVNlcGIzb3Rja1lDNDZKMkl5amlaUWhDMGU0?oc=5",
-    "sourceUrl": "https://biz.chosun.com",
-    "excerpt": "",
-    "date": "2026-10-26"
-   },
-   {
-    "publisher": "서울경제",
-    "title": "규제 완화에 리모델링 기지개…건설사도 시장 공략 속도[집슐랭]",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5vVEl4aGJCNXRGWDQ2VVUyc1I4QVYyU1RGQm9wWUJ6U04wZlJZdDNSQmVacl9KUXhWQWxmY2FKSVYxX2JicXhmN3ZiQ01XdE1nMGfSAVNBVV95cUxPN2gxMW5FNjNrZVBvQUpWQWVsUzNtQ0VnbXFWdkZST3NRZDNaREhQMzAtUlBJcTJxOUtJcDd2eG03WWh5dFhFeW85WF9uNVJDOFhCZw?oc=5",
-    "sourceUrl": "https://www.sedaily.com",
+    "publisher": "땅집고",
+    "title": "\"1년 만에 집값 3억 뛰었다\" 재건축 속도 붙은 도봉 창동의 질주",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE40V25DazhoSVZaRUd0UVJKTm1zS0l0X0prUHMwNXJCaHY5QnRHX18tTkpZLThqaExEWF9uT1lfa0NPMzk5RlhIOVBqRFAzdVdVdzA1SEY5UUFjTGkzZk5LVWRYeGF5MUJRaDFZYmxoTzNMUUpQekNfLV9GMEJSR3fSAXNBVV95cUxPdXRueERyWkZpVFNvY0UzX2ZMTlkxeFZ2b1F3Ri1XdnFRajkwb3E0aEpqcVQ4VG90eWNjY1JUaHNaZ1ZIY2JVNGNMMGNaUV9zVklqN05iMVAwSjJOMEpGVlh3blF2OEl1YmVtTThEQXBKQlZR?oc=5",
+    "sourceUrl": "https://realty.chosun.com",
     "excerpt": "",
     "date": "2026-10-26"
    }
@@ -332,20 +332,20 @@
     "date": "2026-11-01"
    },
    {
+    "publisher": "이투데이",
+    "title": "11월 분양가 상한제 아파트 5205가구 공급⋯청약 경쟁률 3배 높아",
+    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1xLVVwRVFGZ0gwSmJ6RUxxXzJ0LVZMUy1pRDAxNTVFeUJrMGxtejlFUnFINDFHTWl4TklGZ2k2X2hSdmlwMExjTUJxS1AzWVE5TzJNRQ?oc=5",
+    "sourceUrl": "https://www.etoday.co.kr",
+    "excerpt": "",
+    "date": "2026-11-06"
+   },
+   {
     "publisher": "파이낸셜뉴스",
     "title": "미분양 나던 동네가 20억 '훌쩍'…청약 경쟁률 564대 1 가보니 [집 나와라 뚝딱!]",
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5xb05pR2tuYVJtSTV5b0M5bjEyM1ladU0yU19HQk9TOXhnNklpMWJIaXBaYmgwTXkxLVB4aFNPNVpKeW95MTVrV01kSVZBMG13VFhoU2Jhdk0wZw?oc=5",
     "sourceUrl": "https://www.fnnews.com",
     "excerpt": "",
     "date": "2026-10-09"
-   },
-   {
-    "publisher": "한국경제",
-    "title": "10월 아파트 4만6000가구 분양 대기…작년의 2.7배",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5hU2hjMENodDJ5bW0zNlVIbUxGU0F3RmI2aURuTmU2cHB3Tm9HaV9QVG1TeG5GZWllUHd1MVNTN3NES1JlaV81WjJsRkxoblJtUzVsdE1pb2tFdw?oc=5",
-    "sourceUrl": "https://www.hankyung.com",
-    "excerpt": "",
-    "date": "2026-09-30"
    }
   ],
   "gtx": [
@@ -393,29 +393,29 @@
   "gap": [
    {
     "publisher": "네이버 프리미엄콘텐츠",
-    "title": "서울 강동구(江東區) · '26년 11월 부동산 흐름 (59㎡ 3.4억~3.9억, 토지는 빌려 쓴다 — 고덕강일3단지 1,305가구, 강일동 시세의 3분의 1에 나왔다)",
-    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9qRERhSDlfbDU2ai1ZV1F4QVg5UzhsaDdiaWVBSlVpYVlFTXJEQXd2Qmdid1NUN2hNWGowZ3EtZjhQeEw5SmdaZnRUSzYxSk1VdnVyb2NjZ0dNY1RfaVFVMzFhWkJjaTNrak9zNXV6X2ZFVUlVMGcwSkpjR2o?oc=5",
-    "sourceUrl": "https://contents.premium.naver.com",
-    "excerpt": "",
-    "date": "2026-11-05"
-   },
-   {
-    "publisher": "네이버 프리미엄콘텐츠",
     "title": "경기 남양주시(南楊州市) · '26년 11월 부동산 흐름 (덕소 넉 달 새 1.8억 — 4구역 관리처분·라온 분양권이 끌어올린 한강변 뉴타운)",
     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5Ub3BUYkRuTDRQSHd3R1ZDY2NHRXB1MHd0TDU4VkZsM3dRSTd3V2Y5VkdVS0pPdUhDZjE3YV9zV3M4ME5nLV9qWDY5Vm90b0ljMl9PV3V0NE9xUGlnZ0djd29HTmxxeHA2X2ptUUY3U3JlY25CRWRCU00ycFM?oc=5",
     "sourceUrl": "https://contents.premium.naver.com",
     "excerpt": "",
     "date": "2026-11-02"
+   },
+   {
+    "publisher": "네이버 프리미엄콘텐츠",
+    "title": "서울 강동구(江東區) · '26년 11월 부동산 흐름 (59㎡ 3.4억~3.9억, 토지는 빌려 쓴다 — 고덕강일3단지 1,305가구, 강일동 시세의 3분의 1에 나왔다)",
+    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9qRERhSDlfbDU2ai1ZV1F4QVg5UzhsaDdiaWVBSlVpYVlFTXJEQXd2Qmdid1NUN2hNWGowZ3EtZjhQeEw5SmdaZnRUSzYxSk1VdnVyb2NjZ0dNY1RfaVFVMzFhWkJjaTNrak9zNXV6X2ZFVUlVMGcwSkpjR2o?oc=5",
+    "sourceUrl": "https://contents.premium.naver.com",
+    "excerpt": "",
+    "date": "2026-11-05"
    }
   ],
   "newtown": [
    {
-    "publisher": "조선일보",
-    "title": "‘공급 전격전’ 가로막는 3중벽… 3기 신도시도 첫 입주까지 8년 걸려",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPR2NsQzNkbmVFLW11alh5bGpDRDdlS2NVTXpVemxUWG14NXp4U0I0OGl3Y090NG80NWRIRkU0T3dVNEJtZ2VlYkpPSXpnTzQ2cnlNems2MUFxeV8tcDI0X2VubjVBVDBhZlZCQU5uUEVCUHQ1Zm1rUHVUWXptVTM1c0tpVDIxRHNZ?oc=5",
-    "sourceUrl": "https://www.chosun.com",
+    "publisher": "이데일리",
+    "title": "추석 끝나자 3기 신도시 청약…계양·대장·왕숙 줄줄이 공급",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTWhsNGRtZzA3d05BeFhTR0hobzQwamhXSU1SYy1vMG1EY2tybjVkbk5rcG9kbklfSVRYNUJoU09ER2FQaFdvbkNvUWloUFludDZpejY2U096RGthUXlPcEFXOVBfbGZXczZMM3lGMlJmamhTeDhSUDZXMTRpb1pxbQ?oc=5",
+    "sourceUrl": "https://www.edaily.co.kr",
     "excerpt": "",
-    "date": "2026-10-21"
+    "date": "2026-09-27"
    },
    {
     "publisher": "헤럴드경제",
@@ -426,20 +426,20 @@
     "date": "2026-09-26"
    },
    {
-    "publisher": "이데일리",
-    "title": "추석 끝나자 3기 신도시 청약…계양·대장·왕숙 줄줄이 공급",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTWhsNGRtZzA3d05BeFhTR0hobzQwamhXSU1SYy1vMG1EY2tybjVkbk5rcG9kbklfSVRYNUJoU09ER2FQaFdvbkNvUWloUFludDZpejY2U096RGthUXlPcEFXOVBfbGZXczZMM3lGMlJmamhTeDhSUDZXMTRpb1pxbQ?oc=5",
-    "sourceUrl": "https://www.edaily.co.kr",
-    "excerpt": "",
-    "date": "2026-09-27"
-   },
-   {
     "publisher": "파이낸셜뉴스",
     "title": "10만가구 공급 발표했지만…8년 걸린 3기신도시가 남긴 과제[주택공급의 조건①]",
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1zU1l5cG5VNkF5dy1aTGtEVnYtWVh2V2QwdnFCcGtDZnJDR1BEa2JtWTJETEpWUkhXamxqbkNYdGRuSlZCWGlBdDloNjFHMTRMSDRGS05EMko5Zw?oc=5",
     "sourceUrl": "https://www.fnnews.com",
     "excerpt": "",
     "date": "2026-10-30"
+   },
+   {
+    "publisher": "조선일보",
+    "title": "3기 신도시 첫 민간분양… ‘김포공항역까지 세 정거장’ 서울 접근성 좋아",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUDV3UmFwWTg1M1ZFSDRQcDFuYTVzYWY3Z3IyNFlocGtKTmVjMmFBZElIZEpLVUhCNFl2Sks2dklfSUVxQ29QQVlDZTRpeWRienBNc241SzQwYmZGbURvTW54ektJNTJRbG9KTDdjWTFuVUROSnZ5QmZqbk5PZ0ZIVHRycU9ES0M4ZDdzOVVn?oc=5",
+    "sourceUrl": "https://www.chosun.com",
+    "excerpt": "",
+    "date": "2026-10-01"
    },
    {
     "publisher": "신문고뉴스",
