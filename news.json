@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-09T06:25:46.499Z",
+ "generatedAt": "2026-11-09T22:20:21.403Z",
  "source": "Google News RSS",
  "topics": {
   "rate": [
@@ -140,20 +140,20 @@
   ],
   "stat": [
    {
-    "publisher": "매일경제",
-    "title": "“강남 집값 하락률 4.8배 차이”…세입자도 집주인도 “어느 통계 믿나” 대혼란",
-    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1Jd3lBek1IY0ltXzRqb3JzNGc1dTUwd0E5RXlDenlmYkJ1RkphVi04cnFBeVJTd2EyV2NGUVJreHFNeDYyNVRaYlhiT24tUWhyZkxmWXRvTWY?oc=5",
-    "sourceUrl": "https://www.mk.co.kr",
-    "excerpt": "",
-    "date": "2026-11-07"
-   },
-   {
     "publisher": "뉴스1",
     "title": "90주 상승에 가려진 '숫자들'…李대통령이 객관적 통계 강조한 이유",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5uR21IQ0ZNWVRKcklZUmRyU3lHYkxJOWVtT1dzUDlmY2hZZlp2MzhSeGxFT2NiaW45bFZzSlJ2V0t6YXIwYjNDU2tHQ3d1dUpmY3lBeHlFdkZMQUk?oc=5",
     "sourceUrl": "https://www.news1.kr",
     "excerpt": "",
     "date": "2026-11-03"
+   },
+   {
+    "publisher": "글로벌이코노믹",
+    "title": "서울 아파트 매매 실거래가 1년 새 15.5%↑… 거래량은 3천 건대 밑돌아 '위축'",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQeVNOdkpsZnNvVUZHa3MwcmRsV2VtMzdxTFdTS1NDSjAwNWpyeE9ZQzZnQ21MLXB3TldqN2JSM1hMb1VGZVNITlpET2JqVFdqcFBKVC00azJsZmRsNHVsbFY2cXpTZHZHSWlEajRidi1YN25yQTdGQ1J4ci1NZ3dLbXZodlFzVThDamc?oc=5",
+    "sourceUrl": "https://www.g-enews.com",
+    "excerpt": "",
+    "date": "2026-10-22"
    },
    {
     "publisher": "동행미디어 시대",
@@ -172,12 +172,12 @@
     "date": "2026-11-04"
    },
    {
-    "publisher": "글로벌이코노믹",
-    "title": "서울 아파트 매매 실거래가 1년 새 15.5%↑… 거래량은 3천 건대 밑돌아 '위축'",
-    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQeVNOdkpsZnNvVUZHa3MwcmRsV2VtMzdxTFdTS1NDSjAwNWpyeE9ZQzZnQ21MLXB3TldqN2JSM1hMb1VGZVNITlpET2JqVFdqcFBKVC00azJsZmRsNHVsbFY2cXpTZHZHSWlEajRidi1YN25yQTdGQ1J4ci1NZ3dLbXZodlFzVThDamc?oc=5",
-    "sourceUrl": "https://www.g-enews.com",
+    "publisher": "KB Think",
+    "title": "李 대통령 걱정한 부동산 통계, 어떤 것 있나 살펴보니",
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE96dmZ6dks0Tk01QUZ4VFcxU2N3Z1JqYWZGcExwVG9OZlhpaHlaeFdHT1Z4QloxbTZEazYzQTZQOGUwSWdXS1NNRkVYREVmb05jdy1MNWNVb21fWi1tTVlYNnM0aUtYeFlzTkhjYmphZU5sZw?oc=5",
+    "sourceUrl": "https://kbthink.com",
     "excerpt": "",
-    "date": "2026-10-22"
+    "date": "2026-11-03"
    }
   ],
   "lease": [
@@ -240,20 +240,12 @@
     "date": "2026-10-13"
    },
    {
-    "publisher": "매일일보",
-    "title": "은마 재건축, 이주 앞두고 분담금 ‘폭탄’",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA1M1ZUVXdsT29mSF9uckdSdmZ3ZnR5c19reHo4ZXJ2VDdxb3h6VHROREw3RlBhUzBHLS11VlpxZ3VGVmFWdVlMQWI3S3BtQ3lsZ1JPOXo3Ry1aX05qd2N4cld0aDA?oc=5",
-    "sourceUrl": "https://www.m-i.kr",
-    "excerpt": "",
-    "date": "2026-10-15"
-   },
-   {
     "publisher": "땅집고",
-    "title": "강북 재건축 대장 월계 '미미삼', 59㎡ 12억…5억대 분담금 더 뛰나",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9iVXhPSmxNSkkwLWpXWWN0aVNRbllBLTB3NGt2d041ZUxXdWF4OFRhc1F3NFFQV3ZMd2x3TklQdE5HbVVpVWtkWDFvTVZpbnBJRGhJUHRRX1dRSDNVYXhIN2xNeUJCOE9mNm1ycHpRN3dHVlFUcUdkd1p5VnV5bTjSAXNBVV95cUxQdU1WZjdNZ3BVbWdhS3R3SUNxOTJpTU55RXlUNlllelM3N3RJLU9FZExObzJaNlhhZWlzS3pLUkJSN2s2TjNtSnpoNVNJN2l2c0hPVGk5cUZVNmxGQXRZUmVna0dBYlo5Y1dLcEZTRkhMRUtJ?oc=5",
+    "title": "\"7억대로 양천구 새 아파트 기대\" 신월시영 1.2조 재건축, 대우건설 독주",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1OdXd1bUgzbzlFeDh5V0g5TDZKSjR4SzFtcE5KOGhDT1k0VXAxQ01TdzQ5eFZHV2ZRRmpPV3d3OTZ0TE5sblFBc21hT0lIWS1PUFI5bXd3UEJLRVA2TlJOVElyRFpfbktZQ1NwakowZEhPWmZCZzBZdndPOFcyeUXSAXNBVV95cUxNa2h3VmFoVkVjdGdNdVc4QVRTZ05tcl8tOVhrQ1ZOUVFPd3RWMEZfTkJDdlJMXzJGQVRFQUR5TzhXdDN6cE9sRktHZ251ZDQ4VDU3c0xFZTJFUVhnYlg3RDFBQlBkMmhkcGJDMEl2VGRsQnBN?oc=5",
     "sourceUrl": "https://realty.chosun.com",
     "excerpt": "",
-    "date": "2026-10-01"
+    "date": "2026-11-09"
    },
    {
     "publisher": "서울경제",
@@ -262,6 +254,14 @@
     "sourceUrl": "https://www.sedaily.com",
     "excerpt": "",
     "date": "2026-10-26"
+   },
+   {
+    "publisher": "디벨로퍼뉴스",
+    "title": "상일동 빌라 5곳, ‘분담금 제로’ 재건축 승부수…유사평형 신청해도 최대 5억대 환급",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9nVDNMbFdocV82ejJZcnFOOUlnZ1d3ZkRydGJrUC04SHVEWTVoWE56T2ZJODhidGw5ZXVjVk5sTk9JX3J0aWQ3b0hlNHlGeXhxQU5lSThTRVh2c1NvdXZVRlUxMm1BR0Vu?oc=5",
+    "sourceUrl": "https://www.dpnews.co.kr",
+    "excerpt": "",
+    "date": "2026-10-23"
    }
   ],
   "loan": [
@@ -290,20 +290,20 @@
     "date": "2026-09-28"
    },
    {
-    "publisher": "www.ebn.co.kr",
-    "title": "[금융위 국감] 가계대출 총량 3%로 넓힌다…주택공급 금융 47.8조원+α",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5iT2lZX1REVXYyVzkwMVRIaTA4Q2lSOVFpUDJnUGJSMEgzWTQ5NjZheWppRm9mVjV2QmtmMGtWRzBoU0o4Z0JCcG9RM3VGS2NDT3R1YzhZYTY2cDc4bjZOTzk3a05IRHpR?oc=5",
-    "sourceUrl": "https://www.ebn.co.kr",
-    "excerpt": "",
-    "date": "2026-10-08"
-   },
-   {
     "publisher": "스마트비즈",
     "title": "금리 오르는데 대출문턱은 그대로···금융당국, '취약차주 방어' 총력",
     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBIUWxmdEtTMFJvQ3pwQVYzS2VuYlhTMWphS2JSUjBYTlFhQ3VhNTl3ekxqakJ2eVF5ZEtkdy16ZlFXSnFQdng1NFE1WUc3enB2V3I3TWUwMU0zNGk1SXFzMlNWX2FaSzlhcHpOTA?oc=5",
     "sourceUrl": "https://www.smartbizn.com",
     "excerpt": "",
     "date": "2026-09-27"
+   },
+   {
+    "publisher": "www.ebn.co.kr",
+    "title": "[금융위 국감] 가계대출 총량 3%로 넓힌다…주택공급 금융 47.8조원+α",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5iT2lZX1REVXYyVzkwMVRIaTA4Q2lSOVFpUDJnUGJSMEgzWTQ5NjZheWppRm9mVjV2QmtmMGtWRzBoU0o4Z0JCcG9RM3VGS2NDT3R1YzhZYTY2cDc4bjZOTzk3a05IRHpR?oc=5",
+    "sourceUrl": "https://www.ebn.co.kr",
+    "excerpt": "",
+    "date": "2026-10-08"
    }
   ],
   "presale": [
@@ -332,20 +332,20 @@
     "date": "2026-11-01"
    },
    {
-    "publisher": "이투데이",
-    "title": "11월 분양가 상한제 아파트 5205가구 공급⋯청약 경쟁률 3배 높아",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1xLVVwRVFGZ0gwSmJ6RUxxXzJ0LVZMUy1pRDAxNTVFeUJrMGxtejlFUnFINDFHTWl4TklGZ2k2X2hSdmlwMExjTUJxS1AzWVE5TzJNRQ?oc=5",
-    "sourceUrl": "https://www.etoday.co.kr",
-    "excerpt": "",
-    "date": "2026-11-06"
-   },
-   {
     "publisher": "파이낸셜뉴스",
     "title": "미분양 나던 동네가 20억 '훌쩍'…청약 경쟁률 564대 1 가보니 [집 나와라 뚝딱!]",
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5xb05pR2tuYVJtSTV5b0M5bjEyM1ladU0yU19HQk9TOXhnNklpMWJIaXBaYmgwTXkxLVB4aFNPNVpKeW95MTVrV01kSVZBMG13VFhoU2Jhdk0wZw?oc=5",
     "sourceUrl": "https://www.fnnews.com",
     "excerpt": "",
     "date": "2026-10-09"
+   },
+   {
+    "publisher": "한국경제",
+    "title": "10월 아파트 4만6000가구 분양 대기…작년의 2.7배",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5hU2hjMENodDJ5bW0zNlVIbUxGU0F3RmI2aURuTmU2cHB3Tm9HaV9QVG1TeG5GZWllUHd1MVNTN3NES1JlaV81WjJsRkxoblJtUzVsdE1pb2tFdw?oc=5",
+    "sourceUrl": "https://www.hankyung.com",
+    "excerpt": "",
+    "date": "2026-09-30"
    }
   ],
   "gtx": [
@@ -392,6 +392,14 @@
   ],
   "gap": [
    {
+    "publisher": "뉴시스",
+    "title": "2030 내 집 마련, 청약 어렵다면…부동산 전문가가 꼽은 서울 재개발 투자 지역",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5HVVJBanF5V0xwckpFRzdRREktLWI2REZtdjRqTkFZcGVsZDMzQzZyQnZ4UXRCYzJrNW10eTdCVDA4dC1SSmZ3enJIdzZaUG5HRGtSejhpQmtSYmVJU2FxNNIBeEFVX3lxTE5nZXhWOVpVRTR2Rkh4SUM2Y3NJOF9leW9wREhRSzNFVGxMSmpxblU1eHgxOFdPUGV3VzNnLXo2VzVlN0tEUE9CYkNzUUtRNS1CU3MzSTJ2TkZ3SlJQOUkzMGZLaVA1MUEtVkhCN2ZnQWw2YllLcWp3RQ?oc=5",
+    "sourceUrl": "https://www.newsis.com",
+    "excerpt": "",
+    "date": "2026-10-18"
+   },
+   {
     "publisher": "네이버 프리미엄콘텐츠",
     "title": "서울 강동구(江東區) · '26년 11월 부동산 흐름 (59㎡ 3.4억~3.9억, 토지는 빌려 쓴다 — 고덕강일3단지 1,305가구, 강일동 시세의 3분의 1에 나왔다)",
     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9qRERhSDlfbDU2ai1ZV1F4QVg5UzhsaDdiaWVBSlVpYVlFTXJEQXd2Qmdid1NUN2hNWGowZ3EtZjhQeEw5SmdaZnRUSzYxSk1VdnVyb2NjZ0dNY1RfaVFVMzFhWkJjaTNrak9zNXV6X2ZFVUlVMGcwSkpjR2o?oc=5",
@@ -435,19 +443,19 @@
    },
    {
     "publisher": "조선일보",
+    "title": "정부는 ‘앞당긴다’ 했는데… 3기 신도시 최대 사업지 또 입주 지연",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMllWS1pfRTRnd3M2N0JmSEI5cVd0RlJZWUxyZkVreXR0RGdsZHF2azZfWEREN21OQk42azhMNWduQjJzZk53azJtTFFPODFuU3hTRGhBODdKalMwNTBLclpEay0zZzJNS0paYnlMUmlZQmxrUVVhYU15SXd0YUd0N2xFMFd5Y3k2?oc=5",
+    "sourceUrl": "https://www.chosun.com",
+    "excerpt": "",
+    "date": "2026-11-09"
+   },
+   {
+    "publisher": "조선일보",
     "title": "3기 신도시 첫 민간분양… ‘김포공항역까지 세 정거장’ 서울 접근성 좋아",
     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUDV3UmFwWTg1M1ZFSDRQcDFuYTVzYWY3Z3IyNFlocGtKTmVjMmFBZElIZEpLVUhCNFl2Sks2dklfSUVxQ29QQVlDZTRpeWRienBNc241SzQwYmZGbURvTW54ektJNTJRbG9KTDdjWTFuVUROSnZ5QmZqbk5PZ0ZIVHRycU9ES0M4ZDdzOVVn?oc=5",
     "sourceUrl": "https://www.chosun.com",
     "excerpt": "",
     "date": "2026-10-01"
-   },
-   {
-    "publisher": "신문고뉴스",
-    "title": "인천계양 공공아파트 4억6천만원…경실련 “건물만 분양하면 2억원대 가능”",
-    "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE56QlRSX3lzRTIyWWo0X0dfZDFZYTQ4MmdmWlVYblB0UE9zWkdISDZVOHdLb1RUWEpxbmhXRXZDeFJUVmt6b2NR?oc=5",
-    "sourceUrl": "http://www.shinmoongo.net",
-    "excerpt": "",
-    "date": "2026-10-13"
    }
   ]
  }
