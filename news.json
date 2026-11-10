@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-09T22:20:21.403Z",
+ "generatedAt": "2026-11-10T07:16:58.348Z",
  "source": "Google News RSS",
  "topics": {
   "rate": [
@@ -36,12 +36,12 @@
     "date": "2026-10-23"
    },
    {
-    "publisher": "뉴시스",
-    "title": "주담대 금리도 '들썩'…한은 추가 인상에 이자 더 오르나[금리 쇼크③]",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9ib3hPTjdrbTlmNTEwSGlqQVlVSl9KekIzX05ET0kxQWlYZDZMUEpWczlYRS1uQUN6RHBpUVB4SWdKTldZbmZ3VERmRnlaaTV4emRVWHk0bnZxUTFZaUpYLdIBeEFVX3lxTE1BQzZSRl8xUTdQVjlJLXVpdUp6dFV3ZFJyLW9reEZzQldocnNnOGIzUmk1MTNfQUJYcHVMZjkwZjBnYVM2ZUd5YUNRaV9ZWDZqby01OFdfV1VVQkd0TVU1RU9IN0Z2a1k4c3FTZ1Z2M1pjQTJqQ2JoaQ?oc=5",
-    "sourceUrl": "https://www.newsis.com",
+    "publisher": "인더스트리뉴스",
+    "title": "한은, 기준금리 연 3.00%로 동결…두 차례 인상 후 숨 고르기",
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1xVlBjUG5xX1owYkFMSjhmT2FDbVhYc3RjYk1VUVh4MFJSZ2szT2tISUl1VWJfdFpmQzBvRTZhb1AwMy05M0Z1aTZyclRnOUNxSWR0a2lJZmxMS0NHQWtsbVZZaHlER1RaOF8ya2Q4eDhrZw?oc=5",
+    "sourceUrl": "https://www.industrynews.co.kr",
     "excerpt": "",
-    "date": "2026-10-05"
+    "date": "2026-10-22"
    }
   ],
   "supply": [
@@ -324,6 +324,14 @@
     "date": "2026-10-15"
    },
    {
+    "publisher": "이투데이",
+    "title": "11월 분양가 상한제 아파트 5205가구 공급⋯청약 경쟁률 3배 높아",
+    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1xLVVwRVFGZ0gwSmJ6RUxxXzJ0LVZMUy1pRDAxNTVFeUJrMGxtejlFUnFINDFHTWl4TklGZ2k2X2hSdmlwMExjTUJxS1AzWVE5TzJNRQ?oc=5",
+    "sourceUrl": "https://www.etoday.co.kr",
+    "excerpt": "",
+    "date": "2026-11-06"
+   },
+   {
     "publisher": "매일일보",
     "title": "[기획] 청약 경쟁률도 하락…지방 주택시장, 미분양 ‘비상’",
     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8zdHdianViYmtsczZQQ2d2RU1pUnlvSkZTUElLMXRwcXl1akc0VEpnRFlIdE15R0p3NFZXb1hUdnh6a3h0MDFub0hLNFVUbnotZTltWWhKWlluNVZYVWcxMC0xQmQ?oc=5",
@@ -338,14 +346,6 @@
     "sourceUrl": "https://www.fnnews.com",
     "excerpt": "",
     "date": "2026-10-09"
-   },
-   {
-    "publisher": "한국경제",
-    "title": "10월 아파트 4만6000가구 분양 대기…작년의 2.7배",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5hU2hjMENodDJ5bW0zNlVIbUxGU0F3RmI2aURuTmU2cHB3Tm9HaV9QVG1TeG5GZWllUHd1MVNTN3NES1JlaV81WjJsRkxoblJtUzVsdE1pb2tFdw?oc=5",
-    "sourceUrl": "https://www.hankyung.com",
-    "excerpt": "",
-    "date": "2026-09-30"
    }
   ],
   "gtx": [
@@ -391,14 +391,6 @@
    }
   ],
   "gap": [
-   {
-    "publisher": "뉴시스",
-    "title": "2030 내 집 마련, 청약 어렵다면…부동산 전문가가 꼽은 서울 재개발 투자 지역",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5HVVJBanF5V0xwckpFRzdRREktLWI2REZtdjRqTkFZcGVsZDMzQzZyQnZ4UXRCYzJrNW10eTdCVDA4dC1SSmZ3enJIdzZaUG5HRGtSejhpQmtSYmVJU2FxNNIBeEFVX3lxTE5nZXhWOVpVRTR2Rkh4SUM2Y3NJOF9leW9wREhRSzNFVGxMSmpxblU1eHgxOFdPUGV3VzNnLXo2VzVlN0tEUE9CYkNzUUtRNS1CU3MzSTJ2TkZ3SlJQOUkzMGZLaVA1MUEtVkhCN2ZnQWw2YllLcWp3RQ?oc=5",
-    "sourceUrl": "https://www.newsis.com",
-    "excerpt": "",
-    "date": "2026-10-18"
-   },
    {
     "publisher": "네이버 프리미엄콘텐츠",
     "title": "서울 강동구(江東區) · '26년 11월 부동산 흐름 (59㎡ 3.4억~3.9억, 토지는 빌려 쓴다 — 고덕강일3단지 1,305가구, 강일동 시세의 3분의 1에 나왔다)",
@@ -450,12 +442,12 @@
     "date": "2026-11-09"
    },
    {
-    "publisher": "조선일보",
-    "title": "3기 신도시 첫 민간분양… ‘김포공항역까지 세 정거장’ 서울 접근성 좋아",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUDV3UmFwWTg1M1ZFSDRQcDFuYTVzYWY3Z3IyNFlocGtKTmVjMmFBZElIZEpLVUhCNFl2Sks2dklfSUVxQ29QQVlDZTRpeWRienBNc241SzQwYmZGbURvTW54ektJNTJRbG9KTDdjWTFuVUROSnZ5QmZqbk5PZ0ZIVHRycU9ES0M4ZDdzOVVn?oc=5",
-    "sourceUrl": "https://www.chosun.com",
+    "publisher": "신문고뉴스",
+    "title": "인천계양 공공아파트 4억6천만원…경실련 “건물만 분양하면 2억원대 가능”",
+    "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE56QlRSX3lzRTIyWWo0X0dfZDFZYTQ4MmdmWlVYblB0UE9zWkdISDZVOHdLb1RUWEpxbmhXRXZDeFJUVmt6b2NR?oc=5",
+    "sourceUrl": "http://www.shinmoongo.net",
     "excerpt": "",
-    "date": "2026-10-01"
+    "date": "2026-10-13"
    }
   ]
  }
