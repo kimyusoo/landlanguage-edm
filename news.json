@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-10T19:42:47.014Z",
+ "generatedAt": "2026-11-11T06:17:07.115Z",
  "source": "Google News RSS",
  "topics": {
   "rate": [
@@ -36,12 +36,12 @@
     "date": "2026-10-23"
    },
    {
-    "publisher": "한겨레",
-    "title": "8월 주담대 금리 4.66%...3년9개월 만에 ‘최고’",
-    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE80ZVFqeEJNNG16b1VJQUZxTDRLTDI1blpHdFkzSUZhVGNqWHVmeEEyTVR3UldlTnBEX0FqWnJEUGVwdGVmTURkQVJ5b1JaLWxRVjN5VEs0MkpwZGtERlUzYmhVeG9Sdnd0OEszc2J0T0MzZw?oc=5",
-    "sourceUrl": "https://www.hani.co.kr",
+    "publisher": "인더스트리뉴스",
+    "title": "한은, 기준금리 연 3.00%로 동결…두 차례 인상 후 숨 고르기",
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1xVlBjUG5xX1owYkFMSjhmT2FDbVhYc3RjYk1VUVh4MFJSZ2szT2tISUl1VWJfdFpmQzBvRTZhb1AwMy05M0Z1aTZyclRnOUNxSWR0a2lJZmxMS0NHQWtsbVZZaHlER1RaOF8ya2Q4eDhrZw?oc=5",
+    "sourceUrl": "https://www.industrynews.co.kr",
     "excerpt": "",
-    "date": "2026-09-30"
+    "date": "2026-10-22"
    }
   ],
   "supply": [
@@ -140,28 +140,12 @@
   ],
   "stat": [
    {
-    "publisher": "뉴스1",
-    "title": "90주 상승에 가려진 '숫자들'…李대통령이 객관적 통계 강조한 이유",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5uR21IQ0ZNWVRKcklZUmRyU3lHYkxJOWVtT1dzUDlmY2hZZlp2MzhSeGxFT2NiaW45bFZzSlJ2V0t6YXIwYjNDU2tHQ3d1dUpmY3lBeHlFdkZMQUk?oc=5",
-    "sourceUrl": "https://www.news1.kr",
-    "excerpt": "",
-    "date": "2026-11-03"
-   },
-   {
     "publisher": "글로벌이코노믹",
     "title": "서울 아파트 매매 실거래가 1년 새 15.5%↑… 거래량은 3천 건대 밑돌아 '위축'",
     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQeVNOdkpsZnNvVUZHa3MwcmRsV2VtMzdxTFdTS1NDSjAwNWpyeE9ZQzZnQ21MLXB3TldqN2JSM1hMb1VGZVNITlpET2JqVFdqcFBKVC00azJsZmRsNHVsbFY2cXpTZHZHSWlEajRidi1YN25yQTdGQ1J4ci1NZ3dLbXZodlFzVThDamc?oc=5",
     "sourceUrl": "https://www.g-enews.com",
     "excerpt": "",
     "date": "2026-10-22"
-   },
-   {
-    "publisher": "동행미디어 시대",
-    "title": "논란 타오른 부동산 통계…\"가격 말고 거래량도 봐야\"",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9MWFJfLThwcjdHbmxkM0VtN2FUeWFCTE1qSlBzdHJlaWwwSXRxeU1JUlVCZGJZUjJUZ2JmNHNiWmpNMjN0cXRiR2dFSWxabEU5dVNJRnJETWVKbUJ5Tmc?oc=5",
-    "sourceUrl": "https://www.sidae.com",
-    "excerpt": "",
-    "date": "2026-11-04"
    },
    {
     "publisher": "뉴스핌",
@@ -172,12 +156,28 @@
     "date": "2026-10-22"
    },
    {
-    "publisher": "KB Think",
-    "title": "李 대통령 걱정한 부동산 통계, 어떤 것 있나 살펴보니",
-    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE96dmZ6dks0Tk01QUZ4VFcxU2N3Z1JqYWZGcExwVG9OZlhpaHlaeFdHT1Z4QloxbTZEazYzQTZQOGUwSWdXS1NNRkVYREVmb05jdy1MNWNVb21fWi1tTVlYNnM0aUtYeFlzTkhjYmphZU5sZw?oc=5",
-    "sourceUrl": "https://kbthink.com",
+    "publisher": "KPI뉴스",
+    "title": "매주 발표하는 주택가격 통계, 신뢰성 의문…국토부 개편 예고",
+    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1pWmlyTnZKOUs4ejhXM0JkZ3ZPekhHVGE5TDFobFlOZ1RYdFFpOUs3NTZSc3lyRkdsSzlGRE02TGhxajJrR2c0bGZkdXRzaDgtOXdwdEg3ONIBU0FVX3lxTE40ZWVhR3EyYWtLV2V5X2kzMk1BVkxKaE8xaUVtNHczenpGd2FNcHU2WmQwb0R4TmVyNlhmck1rSFIxSVdvOFZySGo3aWFMUXVHdThV?oc=5",
+    "sourceUrl": "https://kpinews.kr",
     "excerpt": "",
-    "date": "2026-11-03"
+    "date": "2026-10-16"
+   },
+   {
+    "publisher": "천지일보",
+    "title": "서울 아파트값 1년 새 15.5% 상승… 거래량은 급감",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA2X2VSUHNYRTR4ZTBzbnBiSHpERWJta01idndpbW4xWjgxdGRITDV4QnJMNWFJbnZQUEdCZF9GLWdZZDE1eGw0d0dVTS1nWjNzT0NSZkRCRUUxZmdQdWMwQk1oOF9KbmRPTkE?oc=5",
+    "sourceUrl": "https://www.newscj.com",
+    "excerpt": "",
+    "date": "2026-10-22"
+   },
+   {
+    "publisher": "서울일보",
+    "title": "이 대통령 “서울 집값 놀라울 정도로 하락” vs 오세훈 “집계 이래 최고”",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9fNlQ4LXZSRnY4LVpBY1lNVVNOY21pS2h5b2Z2QlVWeldkS19xejJVRlJQTVgxdzY4RW02ZzBmLXJmNUlraDdCTHQ1NDJvWGZFMy1wZ0xINVVNZlYzUlRvX3lMRm5RSkZXa2tRZdIBb0FVX3lxTE9jdlhZdi13cnoxanZTUGE1eUlKU1JOcnNIUlFzOGJnOENuS1Q1eFowaUs0UE5YS055azJIM0dKazFmcU5IV1RGajNlenhwVjl0YjN3TWtMWERHOHVmM2ZFaEJjTm5ScTc2NGVFOUp2SQ?oc=5",
+    "sourceUrl": "https://www.seoulilbo.com",
+    "excerpt": "",
+    "date": "2026-11-04"
    }
   ],
   "lease": [
@@ -256,12 +256,12 @@
     "date": "2026-10-26"
    },
    {
-    "publisher": "디벨로퍼뉴스",
-    "title": "상일동 빌라 5곳, ‘분담금 제로’ 재건축 승부수…유사평형 신청해도 최대 5억대 환급",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9nVDNMbFdocV82ejJZcnFOOUlnZ1d3ZkRydGJrUC04SHVEWTVoWE56T2ZJODhidGw5ZXVjVk5sTk9JX3J0aWQ3b0hlNHlGeXhxQU5lSThTRVh2c1NvdXZVRlUxMm1BR0Vu?oc=5",
-    "sourceUrl": "https://www.dpnews.co.kr",
+    "publisher": "와이드경제",
+    "title": "\"막연한 초기 재개발보다 '가격 꺾인' 강남 재건축\"…재초환 털어낸 안전마진 주목",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE44amlHTFV6N25nNmtUbGVET04xbkNmRjZyVF9PS21Mbkp0anNSa1drRXc4N1JBdG92bXh4dEI5YTNreXhxYUJJWFh6SkhuVi1BdFpZdEdZZWhNOHR3ajVvV1ZCcHlzQkZJY3lhXw?oc=5",
+    "sourceUrl": "https://www.widedaily.com",
     "excerpt": "",
-    "date": "2026-10-23"
+    "date": "2026-11-11"
    }
   ],
   "loan": [
@@ -392,6 +392,14 @@
   ],
   "gap": [
    {
+    "publisher": "동아일보",
+    "title": "[사설]오피스텔 전세가율 85%… 전세 사기 경고등 다시 켤 때",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5zZGFaRE1rVDg2cUNYdllHOHJSQVZIZkxSUzhJTGt1WUlnWmo0dkdncExfQzJWcEFudk9HekVnRjR3T1Rka1pxTVdJTzBMaFJ1S3RxNUVUd3VfX2FrYWtsdjRjeDVidG1RNGQw0gFmQVVfeXFMTWQ5cWdodlFOY2ZxM2JHTWgtdVBpMVhITzBBdzdVeUlCUVBHV01GazJEYnJHQTFaQ0ZtVWQyd3libWlmWWcwSGMyNm5wVjZrWEhCR3dZTE9uVS1WY3l3WnlxeU1rV0lB?oc=5",
+    "sourceUrl": "https://www.donga.com",
+    "excerpt": "",
+    "date": "2026-11-01"
+   },
+   {
     "publisher": "네이버 프리미엄콘텐츠",
     "title": "서울 강동구(江東區) · '26년 11월 부동산 흐름 (59㎡ 3.4억~3.9억, 토지는 빌려 쓴다 — 고덕강일3단지 1,305가구, 강일동 시세의 3분의 1에 나왔다)",
     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9qRERhSDlfbDU2ai1ZV1F4QVg5UzhsaDdiaWVBSlVpYVlFTXJEQXd2Qmdid1NUN2hNWGowZ3EtZjhQeEw5SmdaZnRUSzYxSk1VdnVyb2NjZ0dNY1RfaVFVMzFhWkJjaTNrak9zNXV6X2ZFVUlVMGcwSkpjR2o?oc=5",
@@ -418,6 +426,14 @@
   ],
   "newtown": [
    {
+    "publisher": "조선일보",
+    "title": "‘공급 전격전’ 가로막는 3중벽… 3기 신도시도 첫 입주까지 8년 걸려",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPR2NsQzNkbmVFLW11alh5bGpDRDdlS2NVTXpVemxUWG14NXp4U0I0OGl3Y090NG80NWRIRkU0T3dVNEJtZ2VlYkpPSXpnTzQ2cnlNems2MUFxeV8tcDI0X2VubjVBVDBhZlZCQU5uUEVCUHQ1Zm1rUHVUWXptVTM1c0tpVDIxRHNZ?oc=5",
+    "sourceUrl": "https://www.chosun.com",
+    "excerpt": "",
+    "date": "2026-10-21"
+   },
+   {
     "publisher": "이데일리",
     "title": "추석 끝나자 3기 신도시 청약…계양·대장·왕숙 줄줄이 공급",
     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTWhsNGRtZzA3d05BeFhTR0hobzQwamhXSU1SYy1vMG1EY2tybjVkbk5rcG9kbklfSVRYNUJoU09ER2FQaFdvbkNvUWloUFludDZpejY2U096RGthUXlPcEFXOVBfbGZXczZMM3lGMlJmamhTeDhSUDZXMTRpb1pxbQ?oc=5",
@@ -434,14 +450,6 @@
     "date": "2026-10-31"
    },
    {
-    "publisher": "조선일보",
-    "title": "정부는 ‘앞당긴다’ 했는데… 3기 신도시 최대 사업지 또 입주 지연",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMllWS1pfRTRnd3M2N0JmSEI5cVd0RlJZWUxyZkVreXR0RGdsZHF2azZfWEREN21OQk42azhMNWduQjJzZk53azJtTFFPODFuU3hTRGhBODdKalMwNTBLclpEay0zZzJNS0paYnlMUmlZQmxrUVVhYU15SXd0YUd0N2xFMFd5Y3k2?oc=5",
-    "sourceUrl": "https://www.chosun.com",
-    "excerpt": "",
-    "date": "2026-11-09"
-   },
-   {
     "publisher": "Calgary Roughnecks",
     "title": "터치 반응이 늦을 때 점검하는 빙고게임 ppt 모바일 환경",
     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVHpSNW9KdVBZOExZcmQ4NzRHWDZGRUk2WHNYMl9wdHp6TFBqTG1Xc1RRVm1SMUI1c2lYUlNxdV81WnF3QUdybEZEQk5WNlFQYTlNTFhFZlJ0akRpWjktZ3BSM2wySzUtSWVLRUZpVGhHcWkyaC12NFU5SUFMWGUwQ09NOGNfRGdDMlZOcVVQbjl5V2pMVzdIRmJyMWdmTkx6VWVJSFVqWQ?oc=5",
@@ -450,12 +458,12 @@
     "date": "2026-10-18"
    },
    {
-    "publisher": "신문고뉴스",
-    "title": "인천계양 공공아파트 4억6천만원…경실련 “건물만 분양하면 2억원대 가능”",
-    "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE56QlRSX3lzRTIyWWo0X0dfZDFZYTQ4MmdmWlVYblB0UE9zWkdISDZVOHdLb1RUWEpxbmhXRXZDeFJUVmt6b2NR?oc=5",
-    "sourceUrl": "http://www.shinmoongo.net",
+    "publisher": "조선일보",
+    "title": "정부는 ‘앞당긴다’ 했는데… 3기 신도시 최대 사업지 또 입주 지연",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMllWS1pfRTRnd3M2N0JmSEI5cVd0RlJZWUxyZkVreXR0RGdsZHF2azZfWEREN21OQk42azhMNWduQjJzZk53azJtTFFPODFuU3hTRGhBODdKalMwNTBLclpEay0zZzJNS0paYnlMUmlZQmxrUVVhYU15SXd0YUd0N2xFMFd5Y3k2?oc=5",
+    "sourceUrl": "https://www.chosun.com",
     "excerpt": "",
-    "date": "2026-10-13"
+    "date": "2026-11-09"
    }
   ]
  }
