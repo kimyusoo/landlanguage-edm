@@ -1,16 +1,8 @@
 {
- "generatedAt": "2026-11-12T15:14:30.973Z",
+ "generatedAt": "2026-11-12T23:38:18.291Z",
  "source": "Google News RSS",
  "topics": {
   "rate": [
-   {
-    "publisher": "뉴스핌",
-    "title": "'코로나 이후 고점' 3.5% 향하는 기준금리…집값·거래량 다시 압박하나",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9odVdEWldDU0haVWk0dVdOUExXeWo4UkN2S05sMHFZWUZFcUxOaFZNWXlJSUhxTjlpZXI2UkRDOTBFYWRZRGhlUGRMb0h4NDZCUnVSakVTNkE1c25j?oc=5",
-    "sourceUrl": "https://www.newspim.com",
-    "excerpt": "",
-    "date": "2026-10-01"
-   },
    {
     "publisher": "더구루",
     "title": "한은, 예상대로 기준금리 3% 동결…부동산 시장 관망세 이어지나",
@@ -26,6 +18,14 @@
     "sourceUrl": "https://www.wonjutoday.co.kr",
     "excerpt": "",
     "date": "2026-10-05"
+   },
+   {
+    "publisher": "뉴스핌",
+    "title": "'코로나 이후 고점' 3.5% 향하는 기준금리…집값·거래량 다시 압박하나",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9odVdEWldDU0haVWk0dVdOUExXeWo4UkN2S05sMHFZWUZFcUxOaFZNWXlJSUhxTjlpZXI2UkRDOTBFYWRZRGhlUGRMb0h4NDZCUnVSakVTNkE1c25j?oc=5",
+    "sourceUrl": "https://www.newspim.com",
+    "excerpt": "",
+    "date": "2026-10-01"
    },
    {
     "publisher": "한겨레",
@@ -62,20 +62,20 @@
     "date": "2026-10-16"
    },
    {
-    "publisher": "뉴시스",
-    "title": "공급 대책 쏟아냈는데…수도권 착공·준공 지지부진",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5ad0swTGNzLXdETWc3WHdDUnE2YXp0X25IUzhjZjNoU0NRYjZ6ejkzWXBsYXJoLUVhRXV1aldNbjUyQUUxMllWTExqTGF1dzZQY0NURGpSY2l4eTVWN2xNTtIBeEFVX3lxTE0wZVpuTDd4VFBGeW56ZkRSYTU2T1RfTnU4WkZpUFBwNVBYVTJtSDVvYkRNbUt6dXNEZEhQMHM3d0NtSENIeFhEU2VyQjBoYXBIeTF5SjAwR0VTR0JfYk5kLVYzNU84LW05N2s1LV8xWGlhM0dOOGMwRQ?oc=5",
-    "sourceUrl": "https://www.newsis.com",
-    "excerpt": "",
-    "date": "2026-10-15"
-   },
-   {
     "publisher": "전기신문",
     "title": "수도권 주택 9.9만호 착공…연말까지 최대 23.5만호 전망",
     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE92bVlmb1VoU1Nla25Zd1JHdWczMDI0bm5uU2FaU0xCWkY1YW9HNnZtdC1oWWtaX3BPNThuRXBGQ1BWbFNaLVpUSkRVa3NhaVN4cVBxb3VRQjBhWURJWW5sZENnRE5raXlPbDdmRtIBcEFVX3lxTFBsZndrZHlOcEMyNUNjSHNubU5HczFGZmNfOGg4X09Za2huSFhIaTI3VXN5TkRCY1FyQlRPeE43T0JIYW9TLVE2Z1pWQ25mYXY5eUxHWldSQ0hKelpHZ3N1ZGNhSVJOaUxyS2xRVGtBeW0?oc=5",
     "sourceUrl": "https://www.electimes.com",
     "excerpt": "",
     "date": "2026-10-16"
+   },
+   {
+    "publisher": "뉴시스",
+    "title": "공급 대책 쏟아냈는데…수도권 착공·준공 지지부진",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5ad0swTGNzLXdETWc3WHdDUnE2YXp0X25IUzhjZjNoU0NRYjZ6ejkzWXBsYXJoLUVhRXV1aldNbjUyQUUxMllWTExqTGF1dzZQY0NURGpSY2l4eTVWN2xNTg?oc=5",
+    "sourceUrl": "https://www.newsis.com",
+    "excerpt": "",
+    "date": "2026-10-15"
    },
    {
     "publisher": "YTN",
@@ -274,20 +274,20 @@
     "date": "2026-10-09"
    },
    {
-    "publisher": "www.ebn.co.kr",
-    "title": "[금융위 국감] 가계대출 총량 3%로 넓힌다…주택공급 금융 47.8조원+α",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5iT2lZX1REVXYyVzkwMVRIaTA4Q2lSOVFpUDJnUGJSMEgzWTQ5NjZheWppRm9mVjV2QmtmMGtWRzBoU0o4Z0JCcG9RM3VGS2NDT3R1YzhZYTY2cDc4bjZOTzk3a05IRHpR?oc=5",
-    "sourceUrl": "https://www.ebn.co.kr",
-    "excerpt": "",
-    "date": "2026-10-08"
-   },
-   {
     "publisher": "영남경제",
     "title": "2026년 9월 가계대출 작년 12월이후 처음으로 2.2조 감소",
     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE12SDJ4a3A2OS1Qdmx5VnFhc1ltd29PcFBzSGxDbVNJWHo1eVh6Z3RlMWZrcWQ2NmMzWF9RV3JzM3ExeGVzREh4c1g4cmc3SXZJQU5vNWhJX0xXUm1LVl9wRUVHWW4zQ1E?oc=5",
     "sourceUrl": "https://www.ynenews.kr",
     "excerpt": "",
     "date": "2026-10-21"
+   },
+   {
+    "publisher": "www.ebn.co.kr",
+    "title": "[금융위 국감] 가계대출 총량 3%로 넓힌다…주택공급 금융 47.8조원+α",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5iT2lZX1REVXYyVzkwMVRIaTA4Q2lSOVFpUDJnUGJSMEgzWTQ5NjZheWppRm9mVjV2QmtmMGtWRzBoU0o4Z0JCcG9RM3VGS2NDT3R1YzhZYTY2cDc4bjZOTzk3a05IRHpR?oc=5",
+    "sourceUrl": "https://www.ebn.co.kr",
+    "excerpt": "",
+    "date": "2026-10-08"
    },
    {
     "publisher": "주간한국",
@@ -316,22 +316,6 @@
     "date": "2026-10-15"
    },
    {
-    "publisher": "인천일보",
-    "title": "아파트값 '고공행진' 청약시장 '찬바람'",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5FYzFteDhNZkw3LVlFU0dsczJQSEg0ZEUwRjU3WTViS2RlNlRwa3dFZW1DNjI3cjFVVXEwT0dFQ09JY0k4X0JJM2ZpSFQ2ejlZOHp4V0ZxQXJBRkZTUTBsSVh2NVpmTzJldGxjYUtaQkk?oc=5",
-    "sourceUrl": "https://www.incheonilbo.com",
-    "excerpt": "",
-    "date": "2026-10-06"
-   },
-   {
-    "publisher": "이투데이",
-    "title": "11월 분양가 상한제 아파트 5205가구 공급⋯청약 경쟁률 3배 높아",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1xLVVwRVFGZ0gwSmJ6RUxxXzJ0LVZMUy1pRDAxNTVFeUJrMGxtejlFUnFINDFHTWl4TklGZ2k2X2hSdmlwMExjTUJxS1AzWVE5TzJNRQ?oc=5",
-    "sourceUrl": "https://www.etoday.co.kr",
-    "excerpt": "",
-    "date": "2026-11-06"
-   },
-   {
     "publisher": "매일일보",
     "title": "[기획] 청약 경쟁률도 하락…지방 주택시장, 미분양 ‘비상’",
     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8zdHdianViYmtsczZQQ2d2RU1pUnlvSkZTUElLMXRwcXl1akc0VEpnRFlIdE15R0p3NFZXb1hUdnh6a3h0MDFub0hLNFVUbnotZTltWWhKWlluNVZYVWcxMC0xQmQ?oc=5",
@@ -340,12 +324,28 @@
     "date": "2026-11-01"
    },
    {
+    "publisher": "인천일보",
+    "title": "9월 경기 아파트 청약 경쟁률 2.12대 1…역대 최저",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5xU0RuZmZRS2VuY1RNOFFZbjRtcGZFc0NPVHN4dVVONWdGV0N5RU1wdUtkRTZtcWNjcnZuUGd5empDck85TjZ5dDk1eXQwc1dkZzhKdHVVY2ZTY09lY1RFaTdnRFMwRmJQQWdoTnQxUng?oc=5",
+    "sourceUrl": "https://www.incheonilbo.com",
+    "excerpt": "",
+    "date": "2026-10-22"
+   },
+   {
     "publisher": "파이낸셜뉴스",
     "title": "미분양 나던 동네가 20억 '훌쩍'…청약 경쟁률 564대 1 가보니 [집 나와라 뚝딱!]",
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5xb05pR2tuYVJtSTV5b0M5bjEyM1ladU0yU19HQk9TOXhnNklpMWJIaXBaYmgwTXkxLVB4aFNPNVpKeW95MTVrV01kSVZBMG13VFhoU2Jhdk0wZw?oc=5",
     "sourceUrl": "https://www.fnnews.com",
     "excerpt": "",
     "date": "2026-10-09"
+   },
+   {
+    "publisher": "이투데이",
+    "title": "11월 분양가 상한제 아파트 5205가구 공급⋯청약 경쟁률 3배 높아",
+    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1xLVVwRVFGZ0gwSmJ6RUxxXzJ0LVZMUy1pRDAxNTVFeUJrMGxtejlFUnFINDFHTWl4TklGZ2k2X2hSdmlwMExjTUJxS1AzWVE5TzJNRQ?oc=5",
+    "sourceUrl": "https://www.etoday.co.kr",
+    "excerpt": "",
+    "date": "2026-11-06"
    }
   ],
   "gtx": [
