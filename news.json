@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-20T07:14:08.952Z",
+ "generatedAt": "2026-11-20T20:17:21.790Z",
  "source": "Google News RSS",
  "topics": {
   "rate": [
@@ -84,6 +84,16 @@
     "sourceUrl": "https://m.dnews.co.kr",
     "excerpt": "",
     "date": "2026-10-29"
+   }
+  ],
+  "subs": [
+   {
+    "publisher": "매일경제",
+    "title": "“살 사람 없다더니 분상제엔 바글바글”…시장 관망세에도 줍줍 몰리는 이유",
+    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFA4TWFKeE5JYVVYeEcwYllRLXc2NlNDVi1BY0szVmJRTTBVRmFmUmFIY1VmQUFUeGlEWnFWLUNrU2JOWGtyek5Ld3dZZUVtajBzQWd6ajNFckE?oc=5",
+    "sourceUrl": "https://www.mk.co.kr",
+    "excerpt": "",
+    "date": "2026-11-11"
    }
   ],
   "tax": [
@@ -188,14 +198,6 @@
     "date": "2026-11-06"
    },
    {
-    "publisher": "KB Think",
-    "title": "월세를 전세로 바꾼다…HUG '전월세 안심신탁' 첫 임대인 모집",
-    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1Jc0psVVR1ZldQdjNhY3R5YWM3cUpEdFQ2VzJmZXJPdmdFbkItczJReVFZV2hEQXZTeGlNdVZsdGJ4OG82TG1waGhtYS0zdFM0UkptQ01EVGZURlNwNGpDbDQ4VlVnVWVfcXdtZnZjSjBZUQ?oc=5",
-    "sourceUrl": "https://kbthink.com",
-    "excerpt": "",
-    "date": "2026-11-04"
-   },
-   {
     "publisher": "부산일보",
     "title": "세입자 보증금 HUG에 맡기고, HUG는 집주인에 월세 수익 지급…전월세 안심신탁 모집공고",
     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE92Sk55Y0pyY2g4dWdRRWFubWxTUkpNV2x1aXBKMG9JUkYxcU1PX0F2dWIwcnY4TGdoVHhYVldFWElkLTh2UDlicThhRXJGZEYwcU1MOEpzXzEtRUptM2M2eS1CWmhwXzA3RE9LLTRUa2dpWldZ?oc=5",
@@ -210,17 +212,17 @@
     "sourceUrl": "https://www.kookje.co.kr",
     "excerpt": "",
     "date": "2026-11-04"
+   },
+   {
+    "publisher": "땅집고",
+    "title": "전세금 HUG에 맡기면 월세 0원…정부, '전월세 안심신탁' 첫 모집",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA1YmtDUWt2TXQybmFfR196MzQ4QUZVV1JvN1MyWURvekZYVnVUV3BCM2lZV2lGQzZLU0lxYVdrQnE3TWNxeG9qRFI1UXh5UkxXZ0J2LXYzQ2ZvU0FsQzF2R1BBUnRPWVlvM2dDUUFtX2lrMzZrZk92QndRT1BSSk3SAXNBVV95cUxQZlZuYkIxM200S0p4U0FQYTlYYzByYzctNkJla1RGdmpZRTh0MGlVRUF2TVk0b3pfRldTZjRDUG5oT1hSUWNFM3BSUm51eHpacUxkVlZzekJHT1VNTDNoSGpJeURiTzRTY0R6MG9qZ2lsOVJr?oc=5",
+    "sourceUrl": "https://realty.chosun.com",
+    "excerpt": "",
+    "date": "2026-11-04"
    }
   ],
   "redev": [
-   {
-    "publisher": "아유경제",
-    "title": "[아유경제_부동산] 서울시 신속통합기획ㆍ도시정비사업 지원 기대감 ↑… 주요 사업 가속도",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBha3pUMmd0TE5jakdiTWR6MERFODljY0hwanpDeXp2ampmU2o2bm5RckZwMVZWbVZ0emtwdlVhdnhYdUdGQXdKS2ZYVlpLcFdUdDBUZ3JYajEycmVhOUlfdHk3ZEZibUxv?oc=5",
-    "sourceUrl": "http://www.areyou.co.kr",
-    "excerpt": "",
-    "date": "2026-10-06"
-   },
    {
     "publisher": "디벨로퍼뉴스",
     "title": "구로주공, ‘구일섬’ 판 바꾼다…최고 49층·3289세대 재건축 재공람 돌입",
@@ -228,6 +230,14 @@
     "sourceUrl": "https://www.dpnews.co.kr",
     "excerpt": "",
     "date": "2026-10-13"
+   },
+   {
+    "publisher": "머니투데이",
+    "title": "[챗집피티] 40년 된 송파 '알짜' 오금현대…1.6조에 삼성·포스코 경쟁 - 머니투데이",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9SWGEtczE0OE5tOGJ2UkdZT0NhU0lsT1dqSjR5X21rNzZwUklKY2RCM0NlRnZXbU5iMXRPalJMUGlReEhyc0JENnJjazl3MlplSjBSM3FORC1yTWdpNnM2amVuTVFrWHRDMGfSAW9BVV95cUxPakxrWmZ2bXJEZXRMcTFTd3U4aHpJd0dabDJrWnZsYTZibGJrXzZwRFBjY09DNWU0bUVadlFsVE5fMmN5LS1lVGxCdFc1ZS05cjRiREVycktFMmtCbVE5cjNoTF9WYXpBVzJNb2preEk?oc=5",
+    "sourceUrl": "https://www.mt.co.kr",
+    "excerpt": "",
+    "date": "2026-10-10"
    },
    {
     "publisher": "서울경제",
@@ -306,14 +316,6 @@
     "date": "2026-10-22"
    },
    {
-    "publisher": "매일일보",
-    "title": "[기획] 청약 경쟁률도 하락…지방 주택시장, 미분양 ‘비상’",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8zdHdianViYmtsczZQQ2d2RU1pUnlvSkZTUElLMXRwcXl1akc0VEpnRFlIdE15R0p3NFZXb1hUdnh6a3h0MDFub0hLNFVUbnotZTltWWhKWlluNVZYVWcxMC0xQmQ?oc=5",
-    "sourceUrl": "https://www.m-i.kr",
-    "excerpt": "",
-    "date": "2026-11-01"
-   },
-   {
     "publisher": "비즈워치",
     "title": "지방은 미분양 천지?…잘 팔린 아파트도 있다",
     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBYXzJfTU1xdUVUUkJLa1VKelJBTzQ1WHMyVXhGS0ZfbTFhWVNMZE9hTXEyYVladGVZZHcwbmJTcFFubTFaUExQb3VNY000eG95bW4yTXdGQU1kcU5sd2JJTmdWZkU3WmhPTWozVDV3bHM?oc=5",
@@ -322,20 +324,28 @@
     "date": "2026-11-19"
    },
    {
-    "publisher": "KB Think",
-    "title": "KB주택시장 리뷰 2026년 10월호 - 주택 분양",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1fczBDZGY5bkp6S3U3b0VRQlZTTnV2ZldQb2U2blVmWFhlbUd5RER5RS12Ni1TX1V0bG5BYU8zaGNwRi1UXzVQM3FrZTVIdFpOSjZ5Z0E5ZWhPNkkwT1JLcTJJejFjMmY5ekJ2dEI3bw?oc=5",
-    "sourceUrl": "https://kbthink.com",
+    "publisher": "매일일보",
+    "title": "[기획] 청약 경쟁률도 하락…지방 주택시장, 미분양 ‘비상’",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8zdHdianViYmtsczZQQ2d2RU1pUnlvSkZTUElLMXRwcXl1akc0VEpnRFlIdE15R0p3NFZXb1hUdnh6a3h0MDFub0hLNFVUbnotZTltWWhKWlluNVZYVWcxMC0xQmQ?oc=5",
+    "sourceUrl": "https://www.m-i.kr",
     "excerpt": "",
-    "date": "2026-10-15"
+    "date": "2026-11-01"
    },
    {
-    "publisher": "땅집고",
-    "title": "199가구 모집에 달랑 3명, 경산 '리첼 에듀포레', 청약 참패",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9sM1NMNlBJQVZRNTByTGk3a1NYUVdZR2lBV1djdkg0a212a1dKSVVoUVkxQjFWYjVJZUFnZ1FCc2NXekpJTWh1elF4amZqLWlmZW9lc3Y5anlqSnlqbTNDSXRURlg2SlM5SUU0UkQtSm9CZTI2UUxwT0dBVWJtN3fSAXNBVV95cUxQdUtzZmU1RERxUzBEdWliQUgxY0ZJcmg0aUR3eEVxbEJ4dElFZ29IS1RBZFVqXzNEd0p0MzF3dWJiUXpJZHM1ZXNEcmw4YXZJNlFzSC1taWdOTG9qZF9qa05kVk8xWTZVZnVCckhLV3ZJWElZ?oc=5",
-    "sourceUrl": "https://realty.chosun.com",
+    "publisher": "KB Think",
+    "title": "KB주택시장 리뷰 2026년 11월호 - 주택 분양",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1LdlFFN1dIOG9tVEZ0ZHNfUjFTR2Q2czNiY3YtRHRzZWpKX1FUaVhLVXExeGNsUGJzU055YUtCeTNMTzBiWkdkZkw3eWdWSThweUtWbEN0a2FOd3Rrb0Q0ZE16VFlRbUJ5Q2JPLTJIUQ?oc=5",
+    "sourceUrl": "https://kbthink.com",
     "excerpt": "",
-    "date": "2026-11-17"
+    "date": "2026-11-16"
+   },
+   {
+    "publisher": "파이낸셜뉴스",
+    "title": "미분양 나던 동네가 20억 '훌쩍'…청약 경쟁률 564대 1 가보니 [집 나와라 뚝딱!]",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5xb05pR2tuYVJtSTV5b0M5bjEyM1ladU0yU19HQk9TOXhnNklpMWJIaXBaYmgwTXkxLVB4aFNPNVpKeW95MTVrV01kSVZBMG13VFhoU2Jhdk0wZw?oc=5",
+    "sourceUrl": "https://www.fnnews.com",
+    "excerpt": "",
+    "date": "2026-10-09"
    }
   ],
   "gtx": [
@@ -348,20 +358,20 @@
     "date": "2026-10-11"
    },
    {
-    "publisher": "데일리환경",
-    "title": "대곡역 ‘펜타 역세권’ 수혜 품은 고양 능곡3구역, 1258가구 ‘아이파크’ 들어선다",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBtMjBrY3RMal9nV2VUdEhLTU5PaFJUY2lzSVFxWFJrN3VLM2dvSTduQ01UX2FpaUx1SElhbHhQQ0FCaGNqRGFDSElJZlBianR6UlRHOV8wYThGczkzREE?oc=5",
-    "sourceUrl": "https://www.dailyt.co.kr",
-    "excerpt": "",
-    "date": "2026-11-09"
-   },
-   {
     "publisher": "한국경제",
     "title": "\"강남까지 20분이면 간다\"…집값 들썩이는 '철도 도시' 반전 [철길옆집]",
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0xOEREMm1RQVdDY292MjdYa2tZZ05CandhM1otalBDSF9yZDdodGY3SGlZWTlYV0NNeVgzenNoSkV2b1ZNNGpIUWd1blM5bnA5RmcyWF9SbTV3Zw?oc=5",
     "sourceUrl": "https://www.hankyung.com",
     "excerpt": "",
     "date": "2026-10-25"
+   },
+   {
+    "publisher": "데일리환경",
+    "title": "대곡역 ‘펜타 역세권’ 수혜 품은 고양 능곡3구역, 1258가구 ‘아이파크’ 들어선다",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBtMjBrY3RMal9nV2VUdEhLTU5PaFJUY2lzSVFxWFJrN3VLM2dvSTduQ01UX2FpaUx1SElhbHhQQ0FCaGNqRGFDSElJZlBianR6UlRHOV8wYThGczkzREE?oc=5",
+    "sourceUrl": "https://www.dailyt.co.kr",
+    "excerpt": "",
+    "date": "2026-11-09"
    },
    {
     "publisher": "매일일보",
@@ -440,12 +450,12 @@
     "date": "2026-11-17"
    },
    {
-    "publisher": "파이낸셜뉴스",
-    "title": "8년 기다렸는데 분양가 40%↑…3기 신도시 청약, 지금도 기회일까 [집 나와라 뚝딱!]",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE81SE56Z3QzMDhmRGZET0x5WEdYeHFZWnJCZzIyWThWeUJ6UTdXcjZyMjVUQVJReFlRQ2FHSkFoWHo1MUo3VTduN2N1QnBQUWdEanEzOVp4ZGI5UQ?oc=5",
-    "sourceUrl": "https://www.fnnews.com",
+    "publisher": "남양주뉴스",
+    "title": "왕숙 A-2 분양 미계약 32호… 12일 마감",
+    "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9xYkxSMkVMUThjcTJ6Y2E3NVVRUW1mNGR3UDhsS2U0R2plMU1kLVYxTnRKWHdLM0NWVE10dnlIcjdwdw?oc=5",
+    "sourceUrl": "http://www.nyjnews.net",
     "excerpt": "",
-    "date": "2026-11-13"
+    "date": "2026-11-11"
    }
   ]
  }
