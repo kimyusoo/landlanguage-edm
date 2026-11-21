@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-20T20:17:21.790Z",
+ "generatedAt": "2026-11-21T07:05:39.362Z",
  "source": "Google News RSS",
  "topics": {
   "rate": [
@@ -148,20 +148,20 @@
     "date": "2026-11-19"
    },
    {
-    "publisher": "글로벌이코노믹",
-    "title": "서울 아파트 매매 실거래가 1년 새 15.5%↑… 거래량은 3천 건대 밑돌아 '위축'",
-    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQeVNOdkpsZnNvVUZHa3MwcmRsV2VtMzdxTFdTS1NDSjAwNWpyeE9ZQzZnQ21MLXB3TldqN2JSM1hMb1VGZVNITlpET2JqVFdqcFBKVC00azJsZmRsNHVsbFY2cXpTZHZHSWlEajRidi1YN25yQTdGQ1J4ci1NZ3dLbXZodlFzVThDamc?oc=5",
-    "sourceUrl": "https://www.g-enews.com",
-    "excerpt": "",
-    "date": "2026-10-22"
-   },
-   {
     "publisher": "JIBS제주방송",
     "title": "“서울 주요 지역 아파트값 놀라울 정도로 하락” 李대통령… 거래는 급감, 집값은?",
     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE83akZFQlF4dlg2TGpiQ0dTMjR2ZWZUcVk2U2RpRmZmSDh2OVh0QjlGRkRUbDh3Rkk4aHJfb3F0Z2s2aXVKaFlXYlAzUWttNXd0VHlMMWJMeWdXaW5tNk9pd2N3UTYzdWFCNHZTMmFWSHRVa2s?oc=5",
     "sourceUrl": "https://www.jibs.co.kr",
     "excerpt": "",
     "date": "2026-11-03"
+   },
+   {
+    "publisher": "글로벌이코노믹",
+    "title": "서울 아파트 매매 실거래가 1년 새 15.5%↑… 거래량은 3천 건대 밑돌아 '위축'",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQeVNOdkpsZnNvVUZHa3MwcmRsV2VtMzdxTFdTS1NDSjAwNWpyeE9ZQzZnQ21MLXB3TldqN2JSM1hMb1VGZVNITlpET2JqVFdqcFBKVC00azJsZmRsNHVsbFY2cXpTZHZHSWlEajRidi1YN25yQTdGQ1J4ci1NZ3dLbXZodlFzVThDamc?oc=5",
+    "sourceUrl": "https://www.g-enews.com",
+    "excerpt": "",
+    "date": "2026-10-22"
    },
    {
     "publisher": "https://www.seoulilbo.co.kr/",
@@ -232,20 +232,20 @@
     "date": "2026-10-13"
    },
    {
-    "publisher": "머니투데이",
-    "title": "[챗집피티] 40년 된 송파 '알짜' 오금현대…1.6조에 삼성·포스코 경쟁 - 머니투데이",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9SWGEtczE0OE5tOGJ2UkdZT0NhU0lsT1dqSjR5X21rNzZwUklKY2RCM0NlRnZXbU5iMXRPalJMUGlReEhyc0JENnJjazl3MlplSjBSM3FORC1yTWdpNnM2amVuTVFrWHRDMGfSAW9BVV95cUxPakxrWmZ2bXJEZXRMcTFTd3U4aHpJd0dabDJrWnZsYTZibGJrXzZwRFBjY09DNWU0bUVadlFsVE5fMmN5LS1lVGxCdFc1ZS05cjRiREVycktFMmtCbVE5cjNoTF9WYXpBVzJNb2preEk?oc=5",
-    "sourceUrl": "https://www.mt.co.kr",
-    "excerpt": "",
-    "date": "2026-10-10"
-   },
-   {
     "publisher": "서울경제",
     "title": "규제 완화에 리모델링 기지개…건설사도 시장 공략 속도[집슐랭]",
     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5vVEl4aGJCNXRGWDQ2VVUyc1I4QVYyU1RGQm9wWUJ6U04wZlJZdDNSQmVacl9KUXhWQWxmY2FKSVYxX2JicXhmN3ZiQ01XdE1nMGfSAVNBVV95cUxPN2gxMW5FNjNrZVBvQUpWQWVsUzNtQ0VnbXFWdkZST3NRZDNaREhQMzAtUlBJcTJxOUtJcDd2eG03WWh5dFhFeW85WF9uNVJDOFhCZw?oc=5",
     "sourceUrl": "https://www.sedaily.com",
     "excerpt": "",
     "date": "2026-10-26"
+   },
+   {
+    "publisher": "머니투데이",
+    "title": "[챗집피티] 40년 된 송파 '알짜' 오금현대…1.6조에 삼성·포스코 경쟁 - 머니투데이",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9SWGEtczE0OE5tOGJ2UkdZT0NhU0lsT1dqSjR5X21rNzZwUklKY2RCM0NlRnZXbU5iMXRPalJMUGlReEhyc0JENnJjazl3MlplSjBSM3FORC1yTWdpNnM2amVuTVFrWHRDMGfSAW9BVV95cUxPakxrWmZ2bXJEZXRMcTFTd3U4aHpJd0dabDJrWnZsYTZibGJrXzZwRFBjY09DNWU0bUVadlFsVE5fMmN5LS1lVGxCdFc1ZS05cjRiREVycktFMmtCbVE5cjNoTF9WYXpBVzJNb2preEk?oc=5",
+    "sourceUrl": "https://www.mt.co.kr",
+    "excerpt": "",
+    "date": "2026-10-10"
    },
    {
     "publisher": "땅집고",
@@ -256,12 +256,12 @@
     "date": "2026-10-26"
    },
    {
-    "publisher": "와이드경제",
-    "title": "\"막연한 초기 재개발보다 '가격 꺾인' 강남 재건축\"…재초환 털어낸 안전마진 주목",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE44amlHTFV6N25nNmtUbGVET04xbkNmRjZyVF9PS21Mbkp0anNSa1drRXc4N1JBdG92bXh4dEI5YTNreXhxYUJJWFh6SkhuVi1BdFpZdEdZZWhNOHR3ajVvV1ZCcHlzQkZJY3lhXw?oc=5",
-    "sourceUrl": "https://www.widedaily.com",
+    "publisher": "한국주택경제신문",
+    "title": "일원 가람아파트, 수서택지지구 첫 재건축 조합설립인가",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5Ka1RlZ3NrZ3YzaXZLNkxYZXR2d3owWmJUUEhleF9vSTVzb2Q3UGNPWUM2WXJhT2tHOTV2YldlX1BXekQ1ZXhpNmhLTFZSR3Fzbl8wSVk3aFFNOUE1STNIRHB5OVB1OXR0?oc=5",
+    "sourceUrl": "https://www.arunews.com",
     "excerpt": "",
-    "date": "2026-11-11"
+    "date": "2026-10-13"
    }
   ],
   "loan": [
@@ -358,20 +358,20 @@
     "date": "2026-10-11"
    },
    {
-    "publisher": "한국경제",
-    "title": "\"강남까지 20분이면 간다\"…집값 들썩이는 '철도 도시' 반전 [철길옆집]",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0xOEREMm1RQVdDY292MjdYa2tZZ05CandhM1otalBDSF9yZDdodGY3SGlZWTlYV0NNeVgzenNoSkV2b1ZNNGpIUWd1blM5bnA5RmcyWF9SbTV3Zw?oc=5",
-    "sourceUrl": "https://www.hankyung.com",
-    "excerpt": "",
-    "date": "2026-10-25"
-   },
-   {
     "publisher": "데일리환경",
     "title": "대곡역 ‘펜타 역세권’ 수혜 품은 고양 능곡3구역, 1258가구 ‘아이파크’ 들어선다",
     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBtMjBrY3RMal9nV2VUdEhLTU5PaFJUY2lzSVFxWFJrN3VLM2dvSTduQ01UX2FpaUx1SElhbHhQQ0FCaGNqRGFDSElJZlBianR6UlRHOV8wYThGczkzREE?oc=5",
     "sourceUrl": "https://www.dailyt.co.kr",
     "excerpt": "",
     "date": "2026-11-09"
+   },
+   {
+    "publisher": "한국경제",
+    "title": "\"강남까지 20분이면 간다\"…집값 들썩이는 '철도 도시' 반전 [철길옆집]",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0xOEREMm1RQVdDY292MjdYa2tZZ05CandhM1otalBDSF9yZDdodGY3SGlZWTlYV0NNeVgzenNoSkV2b1ZNNGpIUWd1blM5bnA5RmcyWF9SbTV3Zw?oc=5",
+    "sourceUrl": "https://www.hankyung.com",
+    "excerpt": "",
+    "date": "2026-10-25"
    },
    {
     "publisher": "매일일보",
@@ -382,12 +382,12 @@
     "date": "2026-10-11"
    },
    {
-    "publisher": "국토일보",
-    "title": "비규제지역 장점에 GTX-C 착공 호재…‘금정역 개성로니엘’ 27일 청약",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBkc1FYaWNLVkRpNmt6aFBxOXJfVUVaajBEaFNTWVhoRUV3dlUyUWJUNVRFclp6MlhNQkpGSXZoOXhGSWlLYUdNc0FXcUtOWGJpdlFTbk1adkV5RnZyZVpzZ29Yaw?oc=5",
-    "sourceUrl": "http://www.ikld.kr",
+    "publisher": "창원특례신문",
+    "title": "트리플 역세권 아파트, GTX-C에 주목받는 3곳은?",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB4SHVVRXVOY0RYS3hrMi1IWEJUSEFfRUx4X3FkUnphNjM4VUxPZ3JNV3BiYW8tbE5OZlNnemo4ZllDZllsVmlnMk91Y2lXMWhla3dTRXN2djRpQUdMNUcwZDRFNTY3eDDSAWtBVV95cUxNcW9FVUtxbEkwQ1hpQnZRMF84VlhXMVppaEdiZi1FV24wZEplOHh6dWlmNzFXWVdwNHFzbGZoMkVOV3cxM2N2TzNVeTVmdG5rcFJxSUhwMTctMGVKdVBVMGlZTS1RT1J5UXNJMA?oc=5",
+    "sourceUrl": "https://www.cwtr.co.kr",
     "excerpt": "",
-    "date": "2026-10-23"
+    "date": "2026-10-18"
    }
   ],
   "gap": [
@@ -450,12 +450,12 @@
     "date": "2026-11-17"
    },
    {
-    "publisher": "남양주뉴스",
-    "title": "왕숙 A-2 분양 미계약 32호… 12일 마감",
-    "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9xYkxSMkVMUThjcTJ6Y2E3NVVRUW1mNGR3UDhsS2U0R2plMU1kLVYxTnRKWHdLM0NWVE10dnlIcjdwdw?oc=5",
-    "sourceUrl": "http://www.nyjnews.net",
+    "publisher": "파이낸셜뉴스",
+    "title": "8년 기다렸는데 분양가 40%↑…3기 신도시 청약, 지금도 기회일까 [집 나와라 뚝딱!]",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE81SE56Z3QzMDhmRGZET0x5WEdYeHFZWnJCZzIyWThWeUJ6UTdXcjZyMjVUQVJReFlRQ2FHSkFoWHo1MUo3VTduN2N1QnBQUWdEanEzOVp4ZGI5UQ?oc=5",
+    "sourceUrl": "https://www.fnnews.com",
     "excerpt": "",
-    "date": "2026-11-11"
+    "date": "2026-11-13"
    }
   ]
  }
