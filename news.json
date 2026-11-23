@@ -1,8 +1,16 @@
 {
- "generatedAt": "2026-11-22T19:38:40.951Z",
+ "generatedAt": "2026-11-23T07:36:45.481Z",
  "source": "Google News RSS",
  "topics": {
   "rate": [
+   {
+    "publisher": "연합뉴스",
+    "title": "9월 가계대출 금리 5% 육박…주담대 14년 5개월 만에 최고",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5nSjhGQzNLOXRoZGpiZmZDOVBFOXZRbFhHT04yNU5mRXFSRHVxNXdDSjNXMFp5MDJxNWVyMlBOc3p5RWYtbk1WWVdwYU5JZEJfdWJxSEFDeWxrY1nSAWBBVV95cUxOcXB3aFhFNFVNOGpiRVhrUWxoeW43cFVqVEZRR1FHX2N1cDRXMWVibi1wdC1qNnNpQzUzZXYwMVFvUUJxQjlSUm9qdXdZYXFQRmJTRWJjUkJZR0p2MjY1Wjg?oc=5",
+    "sourceUrl": "https://www.yna.co.kr",
+    "excerpt": "",
+    "date": "2026-10-29"
+   },
    {
     "publisher": "경남신문",
     "title": "한은, 기준금리 동결… 경남 부동산시장 회복은 ‘글쎄’",
@@ -18,14 +26,6 @@
     "sourceUrl": "https://www.theguru.co.kr",
     "excerpt": "",
     "date": "2026-10-22"
-   },
-   {
-    "publisher": "연합뉴스",
-    "title": "9월 가계대출 금리 5% 육박…주담대 14년 5개월 만에 최고",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5nSjhGQzNLOXRoZGpiZmZDOVBFOXZRbFhHT04yNU5mRXFSRHVxNXdDSjNXMFp5MDJxNWVyMlBOc3p5RWYtbk1WWVdwYU5JZEJfdWJxSEFDeWxrY1nSAWBBVV95cUxOcXB3aFhFNFVNOGpiRVhrUWxoeW43cFVqVEZRR1FHX2N1cDRXMWVibi1wdC1qNnNpQzUzZXYwMVFvUUJxQjlSUm9qdXdZYXFQRmJTRWJjUkJZR0p2MjY1Wjg?oc=5",
-    "sourceUrl": "https://www.yna.co.kr",
-    "excerpt": "",
-    "date": "2026-10-29"
    },
    {
     "publisher": "용인신문",
@@ -114,6 +114,14 @@
     "date": "2026-11-04"
    },
    {
+    "publisher": "더메디컬",
+    "title": "[칼럼] 부동산은 살아 있다",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5WRW5iRnNOVXhzN1ZqV3NfZUhPbUFhaWk1ckxCN09mT3B5Z01Yc0hWdXVYWnZ0SFExczVRcnYzMGEzYTRoRHVkWHNoNEVIbGhJbUdqaWE4TXU1UXFHczhVdFZmVjBoVm9oaFHSAW5BVV95cUxNXzhIR0JDLXkzOXo1Tldob2FobG5HTFYybG9fNk5kd2JnLWIxQndtQlkxOU5EV0RIWkE3bG1hdVExSlVfNWdLSjlFVHluYURETjNwaDhtMUxXc1dJb0NPVWpMZlVpNUwxVnFSd01Sdw?oc=5",
+    "sourceUrl": "https://www.themedical.kr",
+    "excerpt": "",
+    "date": "2026-11-07"
+   },
+   {
     "publisher": "동아일보",
     "title": "국회 재경위 “종부세율 올리면 세입자에 稅부담 전가 가능성”",
     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1reVVjZ1JMajZHZkp1cE9vNEoxOG1DR3ZGQXE1ekJCUksyeU1PaF8wejZjVHB0VzZ2MDZXMVZmOGRTdlVRS1pZaHdIaGVXOXJjTE82LVFJeUxuS1prclhWSmVianh5bWRwRzlYWTFseE5Yb2ptZHfSAWZBVV95cUxOYU11T0V0NkJtU1BXM0twUVgxb2F6cGx1cGdnZlBRRUVkZy04aVYtLXZ5WU9QMVZwdnVDQTRPY1lMN1UtYzVremRSbmdEWUplc1RfU1E3RUREZ0NfMDgwdlhjajhTVmc?oc=5",
@@ -128,14 +136,6 @@
     "sourceUrl": "https://www.newsis.com",
     "excerpt": "",
     "date": "2026-11-03"
-   },
-   {
-    "publisher": "재경일보",
-    "title": "재경위 '종부세 인상시 임차인 세 부담 전가 우려' : 부동산",
-    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFAwZkdRTFlmQ2VyeU9WSFZpcXBRdXVyOERzOXNMWVdzaWdqWGdPMEpCbzJpUWZfN3ZhT1owckU4ODlWcGF0eDRoVXNKTQ?oc=5",
-    "sourceUrl": "https://news.jkn.co.kr",
-    "excerpt": "",
-    "date": "2026-10-26"
    }
   ],
   "stat": [
@@ -418,20 +418,20 @@
   ],
   "newtown": [
    {
-    "publisher": "뉴시스",
-    "title": "10만가구 공급 발표했지만…8년 걸린 3기신도시가 남긴 과제[주택공급의 조건①]",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1TWjFEZW5tYmFsQUpuZjdPU1lET3p2SGt5YnRfazVEdVM5WTM1LThnODhxR3FLT0NpTzhtRTNfWnNhSllqTkdzTWQwVk5nNEJUUnliUU1NbTVYaHFZVk01R9IBeEFVX3lxTE4wU3Z0R1JIczlHMGhNTlVpR2R4eDNIX3BxbVVFcUpvRURaVm10eDVYTHhVVTZkdUZkS0k0UklKbE1SSVFfY2lzWjJlNUgwWVExcmRyVURpLXhVWGZfbFk3U0xZdHNoX0hTRTJQckVKUThQR1FPV2JfUA?oc=5",
-    "sourceUrl": "https://www.newsis.com",
-    "excerpt": "",
-    "date": "2026-10-31"
-   },
-   {
     "publisher": "조선일보",
     "title": "‘공급 전격전’ 가로막는 3중벽… 3기 신도시도 첫 입주까지 8년 걸려",
     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPR2NsQzNkbmVFLW11alh5bGpDRDdlS2NVTXpVemxUWG14NXp4U0I0OGl3Y090NG80NWRIRkU0T3dVNEJtZ2VlYkpPSXpnTzQ2cnlNems2MUFxeV8tcDI0X2VubjVBVDBhZlZCQU5uUEVCUHQ1Zm1rUHVUWXptVTM1c0tpVDIxRHNZ?oc=5",
     "sourceUrl": "https://www.chosun.com",
     "excerpt": "",
     "date": "2026-10-21"
+   },
+   {
+    "publisher": "뉴시스",
+    "title": "10만가구 공급 발표했지만…8년 걸린 3기신도시가 남긴 과제[주택공급의 조건①]",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1TWjFEZW5tYmFsQUpuZjdPU1lET3p2SGt5YnRfazVEdVM5WTM1LThnODhxR3FLT0NpTzhtRTNfWnNhSllqTkdzTWQwVk5nNEJUUnliUU1NbTVYaHFZVk01R9IBeEFVX3lxTE4wU3Z0R1JIczlHMGhNTlVpR2R4eDNIX3BxbVVFcUpvRURaVm10eDVYTHhVVTZkdUZkS0k0UklKbE1SSVFfY2lzWjJlNUgwWVExcmRyVURpLXhVWGZfbFk3U0xZdHNoX0hTRTJQckVKUThQR1FPV2JfUA?oc=5",
+    "sourceUrl": "https://www.newsis.com",
+    "excerpt": "",
+    "date": "2026-10-31"
    },
    {
     "publisher": "네이버페이 머니스토리",
